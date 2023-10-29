@@ -1,0 +1,113 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: piau_im
+  name: 標音輸入
+  version: '0.1'
+  author:
+    - Alan Jui <AlanJui.1960@gmail.com>
+  description: |
+    輸入河洛話注音符號
+    
+    鍵盤對應：
+      ㄅ ㄉ ３ ２ ７ ５ ． ㄚ ㄞ ㄢ ｎ
+      ㄆ ㄊ ㄍ ㄐ ㆣ ㄗ ㄧ ㆦ ㆤ ㄣ
+      ㄇ ㄋ ㄎ ㄑ ㄫ ㄘ ㄨ ㄜ ㄠ ㄤ
+      ㆠ ㄌ ㄏ ㄒ Ｊ ㄙ ㆬ ㆰ ㆲ ㆭ
+
+switches:
+  - name: full_shape
+    states: [ 小寫, 大寫 ]
+
+engine:
+  processors:
+    - punctuator
+    - selector
+    - express_editor
+  segmentors:
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  half_shape: &symtable
+    "1" : ㄅ
+    "q" : ㄆ
+    "a" : ㄇ
+    "!" : ㆠ
+    "2" : ㄉ
+    "w" : ㄊ
+    "s" : ㄋ
+    "x" : ㄌ
+    "3" : ˪ 
+    "e" : ㄍ
+    "E" : ㆣ
+    "d" : ㄎ
+    "c" : ㄏ
+    "4" : ˋ 
+    "r" : ㄐ
+    "f" : ㄑ
+    "v" : ㄒ
+    "5" : ˫ 
+    "t" : ㆵ 
+    "g" : ㆻ
+    "b" : ㆴ
+    "6" : ˊ 
+    "y" : ㄗ
+    "h" : ㄘ
+    "n" : ㄙ
+    "7" :   
+    "u" : ㄧ
+    "U" : ㆪ
+    "j" : ㄨ
+    "J" : ㆫ
+    "m" : ㆬ
+    "8" : ㄚ
+    "*" : ㆩ
+    "i" : ㆦ
+    "I" : ㆧ 
+    "k" : ㄜ
+    "," : ㆰ
+    "9" : ㄞ
+    "(" : ㆮ
+    "o" : ㆤ
+    "O" : ㆥ
+    "l" : ㄠ
+    "L" : ㆯ
+    "." : ㆲ
+    "0" : ㄢ
+    "p" : ㄣ
+    ";" : ㄤ
+    "/" : ㄥ
+    "?" : ㆭ
+    "-" : ㆭ
+    # "[" : 
+    # "'" : 
+    # "=" : 
+    # "]" : 
+    # "\" : 
+    "@" : 2
+    "#" : 3
+    "$" : 4
+    "%" : 5
+    "^" : 6
+    "&" : 7
+    "!" : 8
+full_shape: 
+    "e" : ㆣ
+    "c" : ㆷ
+    "r" : ㆢ
+    "y" : ㆡ
+    "u" : ㆪ
+    "j" : ㆫ
+    "8" : ㆩ
+    "i" : ㆧ
+    "N" : ㆱ
+    "9" : ㆮ
+    "l" : ㆥ
+    "o" : ㆯ
+    "/" : ㆭ
+
+menu:
+  alternative_select_keys: "acegi"
