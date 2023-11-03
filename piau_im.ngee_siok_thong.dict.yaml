@@ -1,0 +1,10641 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: piau_im.ngee_siok_thong
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+...
+一	it4	
+丨	khun2	
+丶	tshu2	
+丿	phiat4	
+乀	hut4	
+乙	it4	
+亅	kuat8	
+𠂆	i7	
+𠃉	at4	
+𠄌	khuat4	
+丁	ting1	
+丂	kho2	
+七	tsit4	
+丩	khiat4	
+丩	kiu1	
+乂	gainn7	
+乃	lainn2	
+乜	bia2	
+乜	bia5	
+九	kiu2	
+九	kiu5	10%
+了	liau2	
+二	ji7	
+人	jin5	
+俾	pi7	1%
+入	jip8	
+八	pat4	
+几	ki2	
+刀	to1	
+刁	thiau1	
+刁	tiau1	
+力	lik8	
+勹	pau1	1%
+匕	pi2	
+十	sip8	
+卜	pok4	
+卩	tshiat4	
+厂	han2	
+厶	boo2	
+又	iu7	
+𠄞	siang7	1%
+𠄟	he7	1%
+𠤎	hua3	1%
+万	ban7	
+万	bik8	
+丈	tiang7	
+三	sam1	
+三	sam3	
+上	siang2	10%
+上	siang7	
+下	he7	
+丌	ki5	
+个	ko3	1%
+丫	a1	
+丸	uan5	
+久	kiu2	
+乇	tshik4	
+乇	thok4	
+么	iau1	
+乞	khit4	
+也	i2	1%
+也	ia2	
+也	ia7	10%
+亍	tsiok4	
+于	hi1	1%
+于	i1	
+于	i5	
+亡	bong5	
+亡	bu5	1%
+亼	tship8	1%
+亾	bong5	1%
+兀	gut8	
+凡	huan5	
+凡	huan7	10%
+刃	jim7	
+勺	tshiak4	
+千	tsian1	
+叉	tsa1	
+叉	tse1	
+口	khoo2	
+土	thoo2	
+土	too7	1%
+士	su7	
+夊	tshi2	
+夕	sik8	
+大	tai7	
+大	thai3	1%
+女	ji2	1%
+女	li2	
+女	linn7	10%
+子	tshu2	
+孑	khiat4	
+宀	bian5	
+寸	tsun3	
+小	siau2	
+尸	si1	
+山	san1	
+川	tsuan1	
+工	kong1	
+己	tshi7	10%
+己	ki2	
+已	tshiat4	1%
+已	i2	
+巾	kin1	
+干	kan1	
+幺	iau1	
+广	siam2	
+弋	ik8	
+弓	kiong1	
+彡	sam1	
+彳	tsik4	
+才	tsai5	1%
+才	tshai5	
+𠃔	un2	1%
+𠄑	kuat4	
+𠆣	tshua2	
+𠓛	jip8	
+𡕒	khua2	
+𡕒	khua3	
+㕛	iu2	
+㢧	kuan3	1%
+不	hiu1	10%
+不	hoo2	1%
+不	hu1	1%
+不	put4	
+与	i2	1%
+丏	bian2	
+丐	kai3	
+丑	thiu2	
+中	tiong1	
+中	tiong3	10%
+丮	kit4	
+丰	hong1	
+丹	tan1	
+之	tshi1	
+予	i2	
+予	i5	
+云	in5	
+互	hoo7	
+亓	ki5	1%
+五	gonn2	
+井	tshing2	
+亖	su3	1%
+亢	khong1	
+亢	khong3	
+什	sip8	
+仁	jin5	
+仂	lik8	
+仃	ting1	
+仄	tshik4	
+仅	hu3	1%
+仆	hiu3	
+仆	hu3	
+仇	kiu5	10%
+仇	siu5	
+仈	pat4	
+仉	tshiang2	
+今	kim1	
+介	kai3	
+仌	ping1	
+仍	jiong5	
+从	tshiong5	1%
+允	un2	
+元	guan5	
+內	lue7	
+公	kong1	
+六	liok8	
+兮	he5	
+冃	bo7	
+冄	jiam2	1%
+内	lap8	1%
+冗	jiong2	
+凶	hiong1	
+刅	tsong1	1%
+分	hun1	
+分	hun7	
+切	tsi3	
+切	tsiat4	
+刈	gainn7	
+勻	in5	
+勾	koo1	
+勿	but8	
+匀	in5	
+化	hua3	
+匹	phit4	
+卅	sap8	
+卆	tshut4	1%
+升	sing1	
+午	gonn2	
+卞	pian7	
+卬	gong5	
+厄	go2	
+厄	ik4	
+厹	jiu2	
+厹	kiu5	
+及	kip8	
+友	iu2	
+双	song1	1%
+反	huan2	
+圠	at4	
+壬	jim5	
+天	thian1	
+太	thai3	
+夫	hu1	
+夫	hu5	
+夬	kuai2	
+夭	iau1	
+夭	iau2	
+孔	khong2	
+尐	tiap4	
+少	siau2	
+少	siau3	
+尤	iu5	
+尹	in2	
+尺	tsik4	
+尺	tsiok4	
+屯	tshun1	
+屯	tun5	
+屯	tun7	
+巴	pa1	
+帀	tshap4	1%
+幻	huan3	
+幻	huan7	
+开	khian1	1%
+弌	it4	1%
+弔	tik4	
+弔	tiau3	1%
+引	in2	
+心	sim1	
+戈	ko1	
+戶	hoo7	
+手	siu2	
+支	tshi1	
+攴	phok4	
+文	bun5	
+斗	too2	
+斤	kin1	
+方	hong1	
+无	bu5	1%
+日	jit8	
+曰	uat8	
+月	guat8	
+月	jiok8	1%
+木	bok8	
+欠	khiam3	
+止	tshi2	
+歹	tai2	
+殳	su5	
+毋	bu5	
+比	pi2	
+比	pi7	
+毛	bonn5	
+氏	si7	
+气	khi3	1%
+水	sui2	
+火	honn2	
+爪	jiau2	
+父	hu2	
+父	hu7	
+爻	gaunn5	
+片	phian3	
+牙	ge5	
+牛	giunn5	
+犬	khian2	
+王	ong5	
+王	ong7	
+𠆦	tshe7	1%
+𡈼	thing2	
+𡗓	lip8	1%
+𡴭	uat4	
+㐰	sin3	1%
+㐱	tshin2	1%
+㐲	tai7	
+㐳	gut8	
+㓜	iu3	1%
+㘝	liap8	
+㘞	ho7	
+㞧	hue7	1%
+㠯	i2	1%
+㣔	ting1	1%
+且	tshoo1	
+且	tsi1	10%
+且	tsiann2	
+丕	phi1	
+世	si3	
+丗	si3	1%
+丘	khiu1	
+丙	ping2	
+丱	kuan3	
+主	tshu2	
+丼	tam2	
+丼	tam3	
+丼	tim2	
+乍	tshe7	
+乎	hoo7	
+乏	huat8	
+仔	tshu2	
+仕	su7	
+他	thann1	
+他	to5	
+仗	tiang2	
+仗	tiang7	
+付	hu3	
+仙	sian1	
+仚	hian1	
+仛	tse2	
+仛	thok4	
+仜	hong5	
+仝	tong5	1%
+仞	jim7	
+仟	tsian1	
+仠	han7	1%
+仡	git4	
+仡	gut8	
+仢	hiak8	
+代	tai7	
+令	ling5	
+令	ling7	
+以	i2	
+兄	hing1	
+充	tsiong1	
+冉	jiam2	
+冊	tsik4	
+冬	tong1	
+凸	tut8	
+凹	au1	1%
+凹	thap4	
+出	tsut4	
+刊	khan1	
+刋	tsian3	
+功	kong1	
+加	ke1	
+匃	kai3	1%
+匄	kai3	
+包	pau1	
+匆	tsong1	
+北	pok4	
+匜	i5	
+匝	tshap4	
+卉	hui7	
+半	puan3	
+占	tshiam1	10%
+占	tshiam3	
+卮	tshi1	
+卯	bau2	
+厈	gan7	
+厉	le7	1%
+厺	khi3	1%
+去	khi3	
+古	koo2	
+句	ki3	
+句	koo1	1%
+句	koo3	
+句	ku3	
+另	ling7	
+叨	tho1	
+叩	khoo3	
+只	tshi2	
+叫	kiau3	
+召	tiau7	
+叭	phuat4	
+叮	ting1	
+可	kho2	
+台	i5	10%
+台	thai1	
+叱	thik4	
+史	su2	
+右	iu7	
+叵	pho2	
+叶	hiap8	1%
+号	ho7	1%
+司	su1	
+囘	hue5	1%
+囙	in1	1%
+囚	siu5	
+囚	tip4	
+四	su3	
+圣	kuai3	
+外	gue7	
+夘	bau2	1%
+央	iang1	
+失	sit4	
+奴	lonn5	
+奴	loo5	
+奶	lainn2	
+孕	in7	
+宁	thi2	
+宂	jiang2	
+宂	jiong2	1%
+宄	kui2	
+尒	ji2	1%
+尔	ji2	1%
+尔	jinn2	1%
+尻	khau1	
+尼	linn5	
+尼	lit4	
+屴	lik8	
+左	tsho2	
+巧	khau2	
+巨	ki7	
+市	tsi7	
+布	poo3	
+平	ping5	
+平	pian5	10%
+幼	iu3	
+庀	phi2	
+弁	puan5	
+弍	ji7	1%
+弗	hut4	
+弘	hong5	
+必	pit4	
+忉	thiau1	
+忉	to1	
+戉	uat8	
+戊	boo7	
+戹	ik4	1%
+扐	lik8	
+扑	phok4	
+扒	puai3	
+扒	put4	
+打	tann2	
+斥	thik4	
+斥	thiok4	10%
+旦	tan3	
+未	bi7	
+末	buat8	
+本	pun2	
+札	tshap4	
+朮	tut8	
+正	tshing1	
+正	tshing3	
+母	bo2	
+母	boo2	
+氐	ti2	
+民	bin5	
+氷	ping1	
+永	ing2	
+氻	lik8	
+氾	huan3	
+氿	huan3	1%
+汀	thing1	
+汁	tshiap4	
+汃	phat4	
+犮	puat8	
+犯	huan7	
+玄	hian5	
+玉	giok8	
+瓜	kua1	
+瓦	ua2	
+甘	kam1	
+生	sing1	
+用	iong7	
+田	tian5	
+田	tian7	
+由	iu5	
+甲	kap4	
+申	sin1	
+疋	phit4	1%
+白	pik8	
+皮	phi5	
+皿	bing2	
+目	bok8	
+矛	baunn5	
+矢	si2	
+石	sik8	
+示	si7	
+禸	jiu2	1%
+禾	ho5	
+穴	hiat8	
+立	lip8	
+𠂔	tshi2	
+𠂔	tshu2	
+𠆩	huan3	
+𢎥	kuan3	1%
+㐁	thiam3	
+㐆	i1	
+㐹	git4	1%
+㐺	tshiong3	1%
+㐺	gim5	
+㕜	su2	1%
+㜽	tshu2	1%
+㣻	gainn7	
+㧇	bonnh4	
+㱙	hiu2	
+丞	sin5	
+丟	tiu1	
+丠	khiu1	1%
+丢	tiu1	1%
+乑	gim5	
+乑	phan1	1%
+乨	si2	1%
+乩	ki1	
+亘	suan1	
+亙	king3	
+交	kau1	
+亥	hai7	
+亦	ik8	
+仮	huan2	
+仯	biau2	
+仰	gang5	10%
+仰	giang2	
+仰	giang7	
+仱	khiam5	
+仲	tiong7	
+仳	pi2	
+仴	guat8	
+仵	gonn2	
+件	kian7	
+价	kai3	
+仸	iau2	
+仹	hong1	
+仺	tsong1	1%
+任	jim5	
+任	jim7	
+仼	ong5	
+份	pin1	1%
+仾	te1	1%
+仿	hong2	
+伀	thiong1	
+企	khi2	
+企	khi3	10%
+伂	phai3	1%
+伃	i5	
+伄	tiau3	
+伅	tun2	
+伆	bun2	
+伇	ik8	
+伈	sim2	
+伉	khong3	
+伉	kong1	
+伊	i1	
+伋	kip4	
+伌	ai3	
+伍	gonn2	
+伎	tshi3	1%
+伎	ki7	
+伏	hok8	
+伏	hu7	10%
+伏	pok8	
+伐	huat8	
+休	hiu1	
+伨	thin7	
+兆	tiau7	
+兇	hiong1	
+先	sian1	
+先	sian3	
+光	kong1	
+兊	tue5	1%
+全	tshuan5	
+共	kiong1	1%
+共	kiong2	10%
+共	kiong7	
+再	tshai3	
+冰	ping1	
+冲	tsiong1	1%
+决	kuat4	1%
+刎	bun2	
+刐	tan2	
+刑	hing5	
+刓	guan5	
+刔	kuat4	
+刖	guat8	
+列	liat8	
+劣	luat4	
+劦	hiap8	1%
+匈	hiong1	
+匠	tsiang7	
+匡	khong1	
+印	in3	
+危	gui5	
+吁	hi1	
+吃	git4	
+各	kok4	
+合	hap8	
+合	kap4	
+吉	kit4	
+吊	tiau3	
+同	tong5	
+名	bing5	
+后	hoo7	
+吏	li7	
+吐	thoo3	
+向	hiang3	
+吒	tsa3	
+吒	tse3	1%
+囝	kian2	
+回	hue5	
+囟	sin3	
+因	in1	
+在	tsai7	
+圬	u1	1%
+圭	kui1	
+圮	ki2	
+圯	i5	
+地	te7	
+圳	tshun3	
+夙	siok4	
+多	to1	
+夵	thui5	
+夷	i5	
+夸	khua1	
+奸	kan1	
+好	ho2	
+好	honn2	
+好	honn3	
+妁	tshiak4	
+如	ji5	
+妃	hui1	
+妃	phue3	1%
+妄	bong7	
+字	ju7	
+存	tshun5	
+宅	thik8	
+宇	i2	
+守	siu2	
+守	siu3	
+安	an1	
+寺	si7	
+尖	tsham1	
+尖	tshiam1	
+尽	tshin7	1%
+屹	git4	
+屼	gut8	
+州	tshiu1	
+巟	hong1	
+帆	huan5	
+帆	huan7	
+年	lian5	
+幵	khian1	
+并	ping3	
+庄	tshong1	
+廵	sun5	1%
+异	i7	1%
+弎	sam1	1%
+式	sit4	
+弛	si2	
+忖	tsun2	
+忙	bong5	
+戌	sut4	
+戍	sui3	
+戎	jiong5	
+成	sing5	
+托	thok4	
+扚	tik4	
+扛	kong1	
+扞	han7	1%
+扠	tse1	
+扢	kap4	
+扣	khoo3	
+扤	gut8	
+收	siu1	
+攷	kho2	
+旨	tshi2	
+早	tsho2	
+旬	sun5	
+旭	hiok4	
+曲	khiok4	
+曳	i7	
+有	iu2	
+有	iu7	
+朱	tshu1	
+朳	put4	
+朴	phok4	
+朵	to2	
+朶	to2	1%
+机	ki2	
+朽	hiu2	
+朿	tsi3	
+杀	sat4	
+次	tsu3	
+此	tsu2	
+死	si2	
+死	su2	
+氼	kik4	
+氽	thun2	
+汎	huan3	
+汏	that4	
+汐	sik8	
+汓	siu5	
+汔	git4	
+汕	san3	
+汗	han7	
+汙	u1	1%
+汛	sin3	
+汝	ji2	
+汝	li2	
+江	kang1	
+池	ti5	
+污	u1	
+污	u3	10%
+灮	kong1	1%
+灯	ting1	1%
+灰	hue1	
+灲	se3	
+牝	pin7	
+牟	boo5	
+犴	gan7	
+甪	lok4	
+甶	hut4	
+百	pik4	
+礼	le2	1%
+穵	uat4	
+竹	tiok4	
+米	bi2	
+糸	bik8	
+缶	hoo2	
+网	bong2	1%
+羊	iang5	
+羽	i2	
+老	lo2	
+考	kho2	
+而	ji5	
+耒	jue7	
+耳	ji2	
+聿	it8	
+肉	jiok8	
+肋	lik8	
+肎	khing2	
+臣	sin5	
+自	tshu7	
+至	tshi3	
+臼	kiu7	
+舌	siat8	
+舛	tsun2	
+舟	tshiu1	
+艮	kin3	
+色	sik4	
+艸	tso2	1%
+艾	gainn7	
+虫	hui2	
+虫	thiong5	1%
+血	hiat4	
+行	hing5	
+行	hing7	
+衣	i1	
+衣	i3	10%
+襾	ha3	
+西	se1	
+邖	san1	
+邙	bong5	
+邛	giong5	
+阡	tsian1	
+𠀘	thian1	1%
+𠂢	phai3	
+𠂤	tui1	
+𠆴	lau7	1%
+𠆵	ge5	
+𠆶	tam2	
+𠆷	kai3	1%
+𠆹	si1	1%
+𠦃	sap8	1%
+𡭙	kui3	1%
+𡭚	bonn2	
+𢁕	tiau2	
+𢖳	hi1	
+𢖸	khiong1	
+𢦐	gonn2	1%
+𣱵	ing2	1%
+㐖	hiat4	
+㑁	tut4	
+㑂	hong2	1%
+㑃	au3	1%
+㑄	bu2	1%
+㕳	hiong2	
+㘨	jue7	
+㚓	lai2	
+㝐	iong5	1%
+㞲	giong7	
+㤃	hong1	
+㧎	khe5	
+㽱	kiu1	
+丣	iu2	1%
+串	tsuan3	
+串	kuan3	1%
+乱	luan7	1%
+亨	hing1	
+亨	hiang2	1%
+亨	phing1	1%
+伭	hian5	
+伮	lonn5	
+伯	pa3	1%
+伯	pik4	
+估	koo2	
+伱	linn2	1%
+伲	linn2	1%
+伳	i7	
+伳	siat4	
+伴	phuan3	
+伴	phuan7	
+伶	ling5	
+伷	tiu7	
+伸	sin1	
+伹	tsi5	
+伺	su1	
+伻	ping1	
+似	su7	
+伽	khe1	
+伽	kia5	
+伾	phi1	
+伿	i3	
+伿	ia3	
+佀	su7	1%
+佁	tsi3	
+佂	tshing1	
+佃	tian5	
+佃	tian7	
+佄	ham1	1%
+佅	bainn7	
+但	tan7	
+佇	thi2	
+佈	poo3	
+佉	khe1	
+佉	khi1	1%
+佊	pi2	
+佋	siau5	
+佋	siau7	
+位	ui7	
+低	te1	
+住	tshi7	
+佐	tsho3	
+佑	iu2	
+佑	iu7	
+佒	iang3	
+体	pun7	
+体	the2	1%
+佔	tshiam1	
+佔	tshiam3	
+佔	tiam1	10%
+佔	tiam3	10%
+何	ho5	
+何	ho7	1%
+佖	pit8	
+佗	i5	1%
+佗	tho1	
+佗	to5	
+佘	sia5	
+余	i5	
+佚	it8	
+佚	tiat8	
+佛	hut4	
+佛	hut8	
+佛	pit8	1%
+作	tshok4	
+佝	khoo3	
+佞	ling7	
+佟	tong1	
+你	linn2	
+克	khik4	
+兌	tue5	
+免	bian2	
+兎	thoo3	1%
+児	ji5	1%
+兵	ping1	
+况	hong2	1%
+况	hong3	
+冶	ia2	
+冷	ling2	
+冸	phuan3	
+刡	bin2	
+刣	tshiong1	
+判	phuan3	
+別	piat4	
+別	piat8	
+刧	kiap4	1%
+刨	pau5	
+利	li7	
+刪	san1	
+助	tshoo7	
+努	lonn2	
+努	loo2	
+劫	kiap4	
+劬	khi1	
+劬	ki5	
+劭	siau7	
+医	i3	
+卣	iu2	
+卣	iu5	
+即	tshik4	
+却	khiak4	1%
+卵	luan2	
+厎	ti2	
+叓	su7	1%
+吚	i1	
+君	kun1	
+吝	lin7	
+吞	thun1	
+吟	gim5	
+吠	hui7	
+吠	pui7	
+否	hoo2	
+否	phi2	
+吧	pa1	
+吧	pha1	
+吨	tun5	
+吩	hun2	
+吩	phun3	
+吪	go5	1%
+含	ham5	
+听	gin2	
+听	gin5	
+吭	khong3	
+吮	un2	
+吳	goo5	
+吸	khip4	
+吹	tsui1	
+吻	bun2	
+吼	hoo2	
+吽	hong3	
+吾	goo5	
+呀	gia5	
+呁	kun2	
+呂	li7	
+呆	gai5	1%
+呈	ting5	
+告	khok4	
+告	ko3	
+呌	kiau3	1%
+囫	hut4	
+囬	bian7	1%
+囮	bue5	
+困	khun3	
+圻	ki5	
+圽	but8	
+址	tshi2	
+坂	huan2	
+坂	puan2	
+坅	khim2	
+均	kin1	
+坉	thun7	
+坊	hong1	
+坋	hun2	
+坌	hun2	1%
+坌	thun5	
+坎	kham2	
+坏	phi1	1%
+坏	phue1	1%
+坐	tsho7	
+坑	khing1	
+坔	lam3	
+壯	tshong3	
+声	khing3	1%
+夾	kiap4	
+妊	jim5	1%
+妊	jim7	
+妍	gian5	
+妒	too3	
+妓	ki5	
+妓	ki7	
+妖	iau1	
+妗	kim7	
+妙	biau7	
+妝	tshong1	
+妣	pi2	
+妤	i5	
+妥	tho2	
+妧	guan2	
+妨	hong5	
+孚	hu1	
+孛	put8	
+孜	tshu1	
+孝	hau3	
+宋	song3	
+完	uan5	
+宏	hong5	
+尨	bang5	
+尫	ong1	
+尬	kai3	
+尾	bi2	
+尿	jiau7	
+局	kiok8	
+屁	phi3	
+岄	guat8	
+岉	but8	
+岌	gip8	
+岍	gian5	
+岐	ki5	
+岑	gim5	
+巡	sun5	
+巫	bu5	
+巵	tshi1	
+帊	pha3	
+帋	tshi2	1%
+希	hi1	
+庇	pi3	
+床	tsong5	
+庍	pai3	
+庎	kai3	
+序	si7	
+廷	ting5	
+弃	khi3	1%
+弄	long7	
+弝	pa3	
+弟	te7	
+形	hing5	
+彤	tong5	
+彷	hong2	
+役	ik8	
+忌	ki7	
+忍	jim2	
+忍	lun2	
+忐	tham2	
+忑	thik4	
+忒	thik4	
+志	tshi3	
+忘	bong5	
+忡	tsiong1	
+忤	gonn2	
+快	khuai3	
+忬	i7	1%
+忭	pian7	
+忮	tshi3	
+忱	sim5	
+忸	liok4	
+忺	hiam1	
+忻	him1	
+忼	khong2	
+我	gonn2	
+戒	kai3	
+扭	liu2	
+扮	pan7	
+扱	tsap4	
+扳	phan1	
+扵	i1	1%
+扶	hu5	
+批	phe1	
+批	phi1	
+扼	ik4	
+扽	tun3	
+找	tshau7	
+技	ki5	
+技	ki7	
+抄	tsau1	1%
+抆	bun2	
+抉	kuat4	
+把	pa3	
+抌	tim3	
+抑	ik4	
+抒	thi2	
+抓	jiau2	
+抔	poo5	
+投	too5	
+抖	too2	
+抗	khong3	
+折	tshiat4	
+抛	phau1	1%
+攸	iu1	
+攸	iu5	
+改	kai2	
+攻	kong1	
+旰	han7	
+旱	han7	
+旴	hi1	
+更	king1	
+更	king3	
+杅	i5	
+杆	kan1	
+杇	u1	
+杈	tse1	
+杉	sam1	
+杊	sun5	
+杌	gut8	
+李	li2	
+杏	hing7	
+材	tshai5	
+村	tsun1	
+杓	tshiak4	
+杓	phiau1	
+杔	thok4	
+杕	te7	
+杖	tiang7	
+杙	ik8	
+杜	too7	
+杞	ki2	
+束	sok4	
+杠	kang1	
+步	poo7	
+每	bue2	
+毐	ai2	
+求	kiu5	
+汞	hong7	
+汦	ti5	
+汧	gian5	
+汩	kut8	
+汪	ong1	
+汭	jue7	
+汰	thai3	
+汲	khip4	
+汳	pian7	1%
+汴	pian7	
+汶	bun7	
+決	kuat4	
+汾	hun1	
+汾	hun5	
+沁	tsim3	
+沂	ki5	
+沃	ak4	
+沄	in5	
+沄	un5	
+沈	sim2	
+沈	tim5	
+沉	tiam5	
+沉	tim5	1%
+沌	tun7	
+沍	hoo7	
+沐	bok8	
+沒	but8	
+沔	bian2	
+沕	bit8	
+沖	tsiong1	
+沙	se1	
+沙	so1	
+沚	tshi2	
+沛	phai3	
+沟	koo1	
+没	but8	
+灵	ling5	
+灶	tsho3	1%
+灸	kiu3	
+灺	tsia2	
+灼	tshiak4	
+災	tshai1	
+灾	tshai1	1%
+牡	boo2	
+牢	lo5	
+牣	jim7	
+狁	un2	
+狂	kong5	
+狂	kong7	
+狃	liu2	
+狄	tik8	
+玔	tsuan3	
+玕	kan1	
+玖	kiu2	
+玗	i5	
+甫	hu2	
+甬	iong2	
+男	lam5	
+甸	tian7	
+甹	phing1	
+町	ting2	
+疔	ting1	
+疕	phi2	
+皁	tsho7	1%
+皂	tsho7	
+皃	baunn7	1%
+矣	i3	
+礽	jiong5	
+禿	thut4	
+秀	siu3	
+私	su1	
+究	kiu3	
+糺	kiu2	
+系	he7	
+罕	han2	
+肐	hit4	
+肓	bong5	
+肖	siau3	
+肚	too7	
+肝	kan1	
+肟	u1	
+育	iok8	
+良	liang5	
+芃	hong5	
+芄	uan5	
+芊	tsian1	
+芋	i5	
+芋	i7	
+芍	tshiak4	
+芎	khiong1	
+芑	khi2	
+芒	bong5	
+虬	khiu1	10%
+虬	kiu5	
+見	hian7	
+見	kian3	
+角	kak4	
+言	gan5	
+谷	kok4	
+豆	too7	
+豕	si2	
+豸	tshai7	
+豸	ti2	
+貝	pue3	
+赤	tsik4	
+走	tshoo2	
+足	tshiok4	
+足	tshu3	10%
+身	sin1	
+車	tsia1	
+車	ki1	
+辛	sin1	
+辰	sin5	
+辵	tsiak4	
+迁	tsian1	
+迂	u1	
+迄	git4	
+迅	sin3	
+迆	i2	
+邑	ip4	
+邠	pin1	
+邢	hing5	
+那	lann2	
+那	lann7	
+那	lonn5	
+那	lonn7	
+邦	pang1	
+邧	guan5	
+邨	tsun1	1%
+邪	ia5	1%
+邪	sia5	
+酉	iu2	
+里	li2	
+阨	ik4	
+阪	huan2	
+阪	puan2	
+阬	khing1	
+阮	guan2	
+阮	uan2	
+防	hong5	
+𠀡	thian1	1%
+𠂯	kuai1	
+𠄨	hing5	1%
+𠇘	tsiok4	
+𠑽	tsiong1	1%
+𠛒	hua1	
+𠯑	kok4	
+𠯗	tshap4	
+𡉘	hai7	
+𡭞	tsham1	
+𡭟	sa1	1%
+𡵜	giong7	
+𢎀	ik8	
+𢎁	bu2	1%
+𢎹	kuat4	
+𢓋	gong7	
+𢗁	liam7	1%
+𢪋	phong2	
+𣄮	tshu7	
+𣦸	su2	1%
+𤿆	tshing2	
+𥐚	phok4	
+𦉬	ting1	
+𦘶	hun3	
+𦥑	kiok4	
+㐨	si7	
+㐭	lim2	1%
+㑉	sok4	
+㑊	ik8	
+㑋	khiong3	
+㑌	ong1	1%
+㑍	lui2	
+㑎	lo2	
+㑏	thi2	1%
+㓤	khat4	
+㓤	khiat4	
+㞐	ki1	1%
+㡺	tan3	
+㣌	sam3	
+㤓	pun7	
+㤕	tut4	
+㤝	tsiong1	
+㧕	liu2	
+㩺	pit4	
+㫄	pong5	1%
+㭊	sik4	
+㰡	hai3	
+㹤	khiap4	1%
+㺲	liu2	
+䀔	jim7	
+䄪	tiau2	
+䊵	kiu5	
+䒜	giunn5	
+䒝	gaunn5	1%
+䒢	gong5	
+䘚	tshut4	1%
+並	ping7	
+丳	san2	
+丽	le7	1%
+乖	kuai1	
+乳	ji2	
+乳	jinn2	
+事	su7	
+些	sa1	
+些	se3	
+些	so1	
+亝	tshai1	1%
+亝	tshe5	1%
+亞	a1	
+亞	a3	
+亞	ok4	
+亞	oo3	
+享	hiang1	
+享	hiang2	
+享	hiang3	
+京	king1	
+佌	tsu2	
+佩	pue7	
+佪	hue5	
+佫	hok4	
+佫	kik8	
+佬	lau1	10%
+佬	liau5	10%
+佮	kap4	
+佯	iang5	
+佰	pik4	
+佱	huat4	1%
+佲	bing2	
+佳	ke1	
+佴	ji7	
+佴	lainn7	
+併	ping2	
+併	ping3	
+併	ping7	
+佶	kit4	
+佷	hing5	
+佷	hun2	
+佸	huat8	
+佸	kuat4	
+佹	kui1	
+佹	kui2	
+佺	tshuan5	
+佻	iau5	
+佻	thiau1	
+佻	tiau5	
+佼	kau2	
+佽	tsu3	
+佾	it8	
+使	su2	
+使	su3	
+侀	hing5	1%
+侁	sin1	
+侂	thok4	
+侃	khan2	
+侄	tshit4	
+侅	kai1	
+來	lai5	
+來	lai7	1%
+侇	i5	
+侈	tsi2	
+侉	khua1	1%
+侉	o3	
+侊	kong1	
+例	li7	
+侌	im1	1%
+侍	si7	
+侎	bi2	1%
+侏	tshu1	
+侐	hi3	
+侐	hok4	
+侑	iu7	
+侒	an1	
+侓	lut8	
+侔	boo5	
+侕	ji5	
+侖	lun5	
+侗	thong2	
+侗	tong5	
+侘	tsa3	
+侘	tse1	
+侙	thik4	
+侚	sun5	
+供	kiong1	
+供	kiong3	
+侜	tshiu1	
+依	i1	
+依	i2	
+侞	ji5	
+兒	ji5	
+兔	thoo3	
+兕	su7	
+兖	ian2	
+兩	liang2	
+兩	liang7	
+其	ki5	
+具	ki7	
+典	tian2	
+冐	bonn7	1%
+冽	liat8	
+凭	pin5	1%
+凮	hong1	
+函	ham5	
+凾	ham5	1%
+初	tse1	
+刮	kuat4	
+到	to3	
+刱	tsong3	1%
+刳	khua1	
+刴	to2	1%
+制	tshi3	
+刷	suat4	
+券	khuan3	
+券	kuan3	
+刺	tsik4	
+刺	tsi3	
+刻	khik4	
+剁	to2	
+劵	kuan7	1%
+効	hau7	1%
+劾	hik8	
+匊	kiok4	
+匋	to5	
+卑	pi1	
+卒	tshut4	
+卓	tok4	
+協	hiap8	
+单	tan1	1%
+卦	kua3	
+卧	go7	1%
+卷	kuan2	
+卷	kuan3	
+卸	sia3	
+卹	sut4	
+厓	gai5	
+厔	tshit4	
+叁	sam1	1%
+叔	siok4	
+取	tsi2	
+取	tsi3	1%
+受	siu7	
+呠	phun2	
+呢	linn5	
+呦	iu1	
+呧	ti2	
+周	tshiu1	
+呪	tshiu3	1%
+呱	ua5	
+味	bi7	
+呴	hi3	
+呵	ho1	
+呵	o1	
+呶	launn5	
+呷	hap4	
+呸	phi1	
+呺	hiau1	
+呻	sin1	
+呼	hoo1	
+命	ban7	1%
+命	bing7	
+呿	khe1	
+咀	tshoo2	
+咀	tshoo3	
+咄	tut4	
+咄	tut8	
+咆	pau5	
+咈	hut4	
+和	ho5	
+和	ho7	
+咎	kiu7	
+咏	ing7	1%
+咐	hu3	
+咐	hu5	
+咒	tshiu3	
+囷	khun1	
+囸	jit8	1%
+囹	ling5	
+固	koo3	
+坡	pho1	
+坢	phuan2	
+坣	tong5	1%
+坤	khun1	
+坦	than2	
+坪	phuan2	
+坫	tiam3	
+坯	phi1	
+坯	phue1	
+坰	king1	
+坱	ong2	
+坱	ong3	
+坲	hut8	
+坳	au1	
+坵	khiu1	
+坷	kho2	
+坻	ti5	
+坼	tsik4	
+壳	khak4	1%
+夌	ling5	
+夜	ia7	
+奄	iam1	
+奄	iam2	
+奇	ki1	
+奇	ki5	
+奈	lainn7	
+奉	hong7	
+奔	phun1	
+妬	sik8	
+妬	too3	1%
+妮	linn5	
+妯	thiu1	
+妯	tiok8	
+妲	tat4	
+妳	lainn2	1%
+妸	o2	
+妹	buenn3	
+妺	buat8	
+妻	tse1	
+妻	tse3	10%
+妾	tsiap4	
+姆	boo2	
+姊	tshi2	
+始	si2	
+姍	san1	
+姐	tshe2	
+姐	tshia2	
+姑	koo1	
+姒	su7	
+姓	sing3	
+委	ui2	
+孟	bing7	
+季	kui3	
+孤	koo1	
+宓	bit8	
+宕	tong7	
+宗	tshong1	
+官	kuan1	
+宙	tiu7	
+定	ting7	
+宛	uan2	
+宜	gi5	
+尀	pho2	1%
+尚	siang7	
+尩	ong1	1%
+屄	pi1	
+居	ki1	
+屆	kai3	
+屈	khut4	
+届	kai3	1%
+岝	thik8	
+岞	thik8	1%
+岡	kong1	
+岧	tiau5	
+岩	gam5	1%
+岩	giam5	1%
+岪	hut8	
+岫	siu7	
+岬	kap4	
+岭	ling5	
+岱	tai7	
+岳	gak8	
+岵	hoo2	
+岶	phik4	
+岷	bin5	
+岸	gan7	
+巶	tshiau1	1%
+帔	phi1	
+帕	pha3	
+帖	thiap4	
+帘	liam5	
+帚	tshiu2	
+帛	pik8	
+幷	ping3	
+幸	hing7	
+底	ti2	
+庖	pau5	
+店	tiam3	
+庙	biau7	1%
+庚	king1	
+府	hu2	
+庝	tong5	
+延	ian5	
+廸	tiok8	1%
+弢	tho1	
+弤	ti2	
+弥	bi5	1%
+弦	hian5	
+弧	hoo5	
+弨	thiau1	
+弩	loo7	
+彼	pi2	
+彿	hut4	
+往	ong2	
+征	tshing1	
+徂	tshoo1	
+徃	ong2	1%
+忝	thiam2	
+忞	bin5	
+忠	tiong1	
+忥	hi3	
+忩	tsong1	1%
+念	liam7	
+忽	hut4	
+忿	hun2	
+怍	tshok8	
+怏	iang3	
+怓	launn5	
+怕	pha3	
+怖	poo3	
+怙	koo7	
+怛	that4	
+怜	ling5	
+怡	i5	
+性	sing3	
+怩	linn5	
+怪	kuai3	
+怫	hut4	
+怭	pi3	
+怮	au3	
+怯	khiak4	
+怯	khiap4	
+怵	thut4	
+戔	tshian1	
+戕	tsiang5	
+或	hik8	
+戽	hoo3	
+戾	le7	
+房	pong5	
+所	se2	
+承	sin5	
+抧	tshi3	
+抪	poo3	
+披	phi1	
+抱	phau7	
+抵	ti2	
+抹	buat4	
+押	ap4	
+抽	thiu1	
+拁	ke5	
+拂	hut4	
+拄	tsu2	
+担	than2	
+拆	tsik4	
+拆	thik4	
+拇	bo2	
+拈	liam1	
+拈	liam5	
+拉	liap4	
+拊	hu2	
+拋	phau1	
+拌	phuan1	
+拍	phik4	
+拎	ling5	
+拐	kuai2	
+拑	khiam5	
+拒	ki7	
+拓	thok4	
+拔	puat8	
+拔	pue7	
+拕	to5	
+拖	tho1	
+拗	au2	
+拗	au3	
+拘	khi1	
+拙	tshuat4	
+拚	phuan1	
+拚	puan5	
+招	tshiau1	
+放	hong2	
+放	hong3	
+斧	hu2	
+於	i1	
+於	oo1	
+旹	si5	1%
+旺	ong7	
+旻	bun5	
+昁	pue3	
+昁	pue7	
+昂	gang5	
+昂	gong5	
+昃	tshik4	
+昄	pan2	
+昆	khun1	
+昇	sing1	
+昉	hong2	
+昊	ho7	
+昌	tsiang1	
+明	bing5	
+昏	hun1	
+昑	khim2	
+易	ik8	
+易	i7	
+昔	sik4	
+昕	him1	
+曶	hut4	
+朋	ping5	
+朌	hun5	
+服	hok8	
+杪	biau2	
+杭	hang5	
+杯	pue1	
+杰	kiat8	1%
+東	tong1	
+杲	ko2	
+杳	biau2	
+杴	hiam1	
+杵	tsi2	
+杷	pa3	1%
+杷	pa5	
+杼	thi2	
+松	siong5	
+板	pan2	
+枇	pi5	
+枉	ong2	
+枋	hong1	
+枌	hun5	
+枏	lam5	1%
+析	sik4	
+枓	too2	
+枕	tshim2	
+林	lim5	
+枘	jue7	
+枚	bue5	
+果	ko2	
+枝	tshi1	
+枝	ki5	
+欣	him1	
+欤	i5	1%
+武	bu2	
+歧	ki5	
+歩	poo7	
+殀	iau2	
+殁	but8	
+氓	bin5	
+氛	hun1	
+沓	tap8	
+沗	thiam1	1%
+沫	buat8	
+沬	buenn3	
+沮	tshi3	
+沮	tshoo2	
+沮	tsi1	10%
+沱	to5	
+河	ho5	
+沸	pui3	
+油	iu5	
+治	ti7	
+沼	tshiau2	
+沽	koo1	
+沾	tiam1	
+沿	ian5	
+況	hong2	
+況	hong3	
+泂	king2	
+泄	i7	
+泄	siat4	
+泅	siu5	
+泆	it8	
+泊	pok8	
+泌	pi3	
+泍	phun3	
+泒	phai3	1%
+泓	hong5	
+泔	kam1	
+法	huat4	
+泗	su3	
+泛	huan3	
+泝	soo3	
+泠	ling5	
+泡	phau1	
+波	pho1	
+泣	khip4	
+泥	linn5	
+泥	linn7	10%
+注	tshu3	
+泩	sing1	
+泪	lui7	
+泫	hian5	
+泬	hiat8	
+泮	phuan3	
+泯	bin2	
+泱	iang1	
+泱	iang3	
+泳	ing7	
+炁	khi3	1%
+炊	tsui1	
+炎	iam5	
+炐	phong3	
+炒	tsau2	
+炓	liau7	
+炙	tshia3	
+爬	pa5	
+爭	tshing1	
+爸	pa3	
+牀	tsong5	
+版	pan2	
+牧	bok8	
+牨	kang2	1%
+物	but8	
+狀	tshong7	
+狎	ap8	
+狐	hoo5	
+狒	hui3	
+狖	iu7	
+狗	koo2	
+狙	tsi1	
+玜	kong1	
+玞	hu1	
+玟	bin5	1%
+玠	kai3	
+玤	hong2	
+玦	kuat4	
+玩	guan2	
+玭	tsu5	
+画	hua7	1%
+甽	khian2	1%
+畀	pi3	
+畁	pi3	1%
+疚	kiu3	
+疝	san3	
+的	tik4	
+盂	u5	
+盱	hi1	
+盲	bing5	
+直	tit8	
+知	ti1	
+知	ti3	1%
+矸	kan1	
+矻	git4	
+矻	gut4	
+矼	kang1	
+矾	huan5	1%
+社	sia7	
+礿	iak8	
+祀	su7	
+祁	ki5	
+秄	tshu2	1%
+秉	ping2	
+秊	lian5	1%
+穸	sik8	
+穹	khiong1	
+空	khong1	
+空	khong2	
+空	khong3	
+竺	tiok4	
+糾	kiu2	
+罔	bong2	
+羌	kiang1	
+者	tshe2	
+者	tshia2	
+股	koo2	
+肢	tshi1	
+肥	hui5	
+肨	phong3	
+肩	kian1	
+肫	tshun1	
+肬	iu5	
+肯	khing2	
+肰	jian5	
+肱	king1	
+肴	gaunn5	
+肸	hit4	
+肹	hit4	1%
+肺	hi3	
+肺	phai3	
+臥	go7	
+臾	ji5	
+舍	sia2	1%
+舍	sia3	
+舎	sia3	1%
+舠	to1	
+芘	pi3	
+芙	hu5	
+芚	tun1	
+芝	tshi1	
+芟	san1	
+芡	khiam3	
+芣	hu5	
+芤	khoo5	
+芥	kai3	
+芨	khip4	
+芨	kip8	
+芩	khim5	
+芪	ki5	
+芬	hun1	
+芮	jue7	
+芯	sim1	
+芰	ki7	
+花	hua5	
+芲	hua5	1%
+芳	hong1	
+芴	but8	
+芷	tshi2	
+芸	in5	
+芹	khin5	
+芼	bonn5	
+芼	bonn7	
+芽	ge5	
+芾	hui3	
+虎	hoo2	
+虯	kiu5	
+虱	sik4	1%
+表	piau2	
+軋	uat4	
+迋	kong3	1%
+迍	tun1	
+迎	ging5	
+迎	ging7	
+近	kin7	
+返	huan2	
+迕	gonn2	
+邯	ham1	
+邰	thai1	
+邲	pit8	
+邳	phi1	
+邵	siau7	
+邶	pue7	
+邸	ti2	
+采	tsai2	
+采	pian7	
+金	kim1	
+長	tiang2	
+長	tiang5	
+長	tiang7	10%
+門	bun5	
+阜	hu7	
+阻	tshoo2	
+阼	tsoo3	
+阿	o1	
+陀	to5	
+陂	pi1	
+附	hu7	
+隹	tui1	
+雨	i2	
+雨	i3	10%
+青	tsing1	
+非	hui1	
+靣	bian7	1%
+𠀬	thiam3	1%
+𠈃	po2	1%
+𠈄	huan7	1%
+𠈅	siu1	
+𠈆	hui2	
+𠈇	siok4	1%
+𠈈	si2	
+𠈉	khan2	1%
+𠈊	lia2	
+𠈋	jiong5	
+𠈌	gi5	1%
+𠈢	uan3	1%
+𠛬	hing5	1%
+𠡒	tui2	
+𠰒	jia2	1%
+𠱥	phun2	
+𡊨	than5	1%
+𡗸	te2	
+𡧗	gua3	
+𡭥	sa1	
+𢂀	hut4	
+𢂁	ku5	1%
+𢇶	tian5	
+𢇸	i7	
+𢗍	tshi3	1%
+𢘆	hing5	1%
+𢦟	kham1	1%
+𢪵	si1	1%
+𣅡	kuat4	
+𣏕	phue3	
+𣢐	khin1	
+𣶒	ian1	1%
+𤰝	khian2	1%
+𤰞	pi1	1%
+𤰟	hong2	
+𤰠	tsik4	
+𥁄	u5	1%
+𦉷	tok8	
+𦉹	tik4	
+𦙍	in7	1%
+𦬞	thian1	
+𨚗	lam5	
+㑗	sin1	
+㑘	kai3	1%
+㑙	tsiap4	
+㑚	lonn5	
+㑛	siok4	
+㑜	tshiat4	
+㑜	i7	
+㑝	long7	
+㑞	hing7	
+㑟	phing2	
+㖅	sut4	
+㟅	giang5	
+㡄	sun5	
+㡾	long5	
+㡾	an7	
+㡿	tsik4	
+㣜	hing5	
+㧗	tse2	
+㪄	hut4	
+㪅	king1	1%
+㱟	phe1	
+㲒	pu7	
+㶯	liu2	
+㼉	tim3	
+㽘	kong1	
+㽸	thim5	
+㽸	tim5	
+㽹	pan2	
+㿫	phi2	
+㿫	pi3	
+䏢	tsoo1	1%
+䏣	tsi1	
+䒪	puan5	
+乹	khian5	1%
+亟	kik4	
+亟	khi3	
+亭	ting5	
+亮	liang7	
+亯	hiang2	1%
+侮	bu2	
+侯	hoo5	
+侰	kun2	1%
+侱	thing2	
+侲	tshin3	
+侳	tsho1	
+侳	tsho3	
+侴	tsiu2	
+侵	tsim1	
+侵	tsim2	
+侶	li7	
+侷	kiok8	
+侸	si7	1%
+侹	thing2	
+侺	sim7	
+侺	thim3	
+侻	thuat4	
+侼	put8	
+侽	lam5	1%
+侾	hau1	
+便	pian1	
+便	pian7	
+俀	thui2	
+俁	gi2	
+係	he7	
+促	tsiok4	
+俄	go5	
+俅	kiu5	
+俆	tsi5	
+俇	kong5	
+俈	khak4	1%
+俉	goo7	
+俊	tshun3	
+俋	ip4	
+俌	hu2	
+俍	liang5	
+俎	tshoo2	
+俏	tsiau3	
+俏	siau1	
+俏	siau3	
+俐	li7	
+俑	iong2	
+俑	thong1	
+俒	hun7	
+俓	king3	
+俔	hian2	
+俔	khian3	
+俕	sam3	
+俖	phue2	
+俗	siok8	
+俘	hu1	
+俙	hi1	
+俚	li2	
+俚	li5	
+俛	bian2	
+俛	hu2	1%
+俜	phing1	
+保	po2	
+俞	ji5	
+俟	ki5	
+俟	su7	
+俠	hiap8	
+俠	kiap4	
+信	sin1	1%
+信	sin3	
+兪	ji5	1%
+兹	tshu1	
+冑	tiu7	
+冒	bonn7	
+冠	kuan1	
+冠	kuan3	
+凂	bue2	1%
+剃	the3	
+剃	thi3	
+剄	king2	
+則	tshik4	
+剉	tso3	
+削	siak4	
+剋	khik4	
+剌	lat8	
+前	tshian5	
+剎	tsat4	
+勀	khik4	1%
+勁	king7	
+勃	put8	
+勅	thit4	1%
+勆	long5	
+勇	iong2	
+勉	bian2	
+匍	poo5	
+南	lam5	
+卻	khiak4	
+卼	gut8	
+卽	tshik4	1%
+厖	bang5	
+厘	li5	
+厚	hoo7	
+叙	si7	
+叛	puan7	
+咠	tsip4	
+咢	gok8	
+咤	tsa3	1%
+咤	tse3	
+咥	hi3	
+咦	i5	
+咨	tshu1	
+咫	tshi2	
+咬	gaunn2	
+咬	kau1	
+咮	tiu3	
+咱	tshe1	
+咲	tsiau3	1%
+咳	he1	
+咳	khai3	
+咸	ham5	
+咺	hian2	
+咺	suan1	
+咻	hiu1	
+咽	ian1	
+咽	ian3	1%
+咽	iat4	
+咾	lau2	
+咿	i1	
+哀	ai1	
+品	phin2	
+哂	sim2	
+哄	hong7	
+哆	tsia2	
+哇	ua5	
+哈	ap4	10%
+哉	tshai1	
+哋	tia7	
+囿	iu7	
+垂	sui5	
+型	hing5	
+垝	khui2	
+垠	gin5	
+垢	koo2	
+垣	huan5	
+垤	tiat8	
+城	sing5	
+奎	kui1	
+奏	tshoo3	
+奐	huan3	
+契	khe3	
+契	khi3	
+契	khiat4	
+契	siat4	
+奓	hai1	
+奕	ik8	
+姕	tsu2	1%
+姙	jim7	
+姚	iau5	
+姜	kiang1	
+姝	ti1	
+姞	kit4	
+姣	kau2	1%
+姤	koo3	
+姥	boo2	
+姦	kan1	
+姨	i5	
+姪	tit8	
+姭	hiam7	
+姮	hing5	
+姶	ap4	
+姻	ian1	
+姻	in1	
+姽	gui2	
+姿	tshu1	
+娀	jiong5	
+威	ui1	
+娃	ua5	
+孩	hai5	
+客	khik4	
+宣	suan1	
+室	sit4	
+宥	iu7	
+宦	huan7	
+封	hong1	
+屋	ok4	
+屍	si1	
+屎	hi1	10%
+屎	si2	
+屏	ping2	1%
+屏	pin5	
+峋	sun5	
+峌	tiat8	
+峒	tong5	
+峓	i5	
+峙	si7	
+巷	hang7	
+巹	kin2	
+帝	te3	
+帞	bik8	
+帟	ik8	
+帡	ping1	
+帥	sue3	
+帥	sui3	
+帥	sut4	
+幽	iu1	
+庠	siang5	
+庡	i2	
+庤	si7	
+庥	hiu1	
+度	tok8	
+度	too7	
+庰	ping2	
+建	kian3	
+廻	hue5	1%
+廼	lainn2	1%
+弇	iam2	
+弈	ik8	
+弭	bi2	
+彖	thuan3	
+彥	gan7	
+待	thai7	
+徇	sun5	
+很	hun2	
+徊	hue5	
+律	lut8	
+後	hoo7	
+怎	tshom2	
+怒	lonn7	
+思	su1	
+思	su3	
+怠	tai7	
+急	kip4	
+怨	uan3	
+怱	tsong1	1%
+恂	sun5	
+恃	si7	
+恆	hing5	
+恊	hiap8	1%
+恌	thiau1	1%
+恍	hong2	
+恒	hing5	1%
+恓	se1	
+恔	hau7	
+恟	hiong1	
+恠	kuai3	1%
+恢	khue1	
+恤	sut4	
+恨	hin7	
+恪	khak4	
+恫	tong7	
+恬	tiam5	
+恰	khap4	
+恲	ping3	
+扁	phian1	
+扁	pian2	
+扃	king1	
+拏	lann2	1%
+拜	pai3	
+括	kuat4	
+拭	sit4	
+拮	khiat4	
+拯	tshin2	
+拱	king2	
+拱	kiong2	
+拴	tsuan1	
+拵	tshun5	
+拶	suan2	
+拷	kho2	
+拼	phing3	
+拾	sip8	
+持	ti5	
+挂	khua3	1%
+挃	tshit4	
+指	tshi2	
+按	an3	
+按	at4	
+挑	thiau1	
+挑	thiau2	
+政	tshing3	
+故	koo3	
+斫	tshiak4	
+施	si1	
+施	si3	10%
+斾	pue7	
+斿	iu5	
+既	ki3	
+昜	iang5	1%
+星	sing1	
+映	iang3	
+昢	phut4	
+春	tsun1	
+昧	buenn3	
+昨	tshok8	
+昫	hi1	
+昬	hun1	1%
+昭	tshiau1	
+是	si7	
+昰	si7	1%
+昱	iok8	
+昴	bau2	
+昶	tsiang2	
+昶	tsiang3	
+曷	hat4	
+朏	phut4	
+枯	khoo1	
+枯	koo1	
+枰	ping5	
+枲	si2	
+枳	tshi2	
+枵	hiau1	
+架	ke3	
+枷	ke5	
+枸	koo2	
+枹	hu5	
+柄	ping3	
+柌	su5	
+柎	hu1	
+柏	pik4	
+某	bue5	1%
+某	boo2	
+柑	kam1	
+柒	tsit4	
+染	jiam2	
+柔	jiu5	
+柘	tshia3	
+柘	too3	
+柙	ap8	
+柚	iu5	10%
+柚	iu7	
+柚	tiok8	
+柝	thok4	
+柞	tshok8	
+柟	lam5	1%
+查	tsa5	
+查	tshe1	
+柩	kiu7	
+柬	kan2	
+柭	pue7	
+柯	kho1	
+柰	lainn7	
+柱	tshi2	
+柱	tshi7	
+柳	liu2	
+柵	sa1	
+柷	tshiok4	
+柸	pue1	1%
+柺	kuai2	
+柿	khi7	
+栂	boo2	
+栐	ing2	
+歪	uai1	
+殂	tshoo2	
+殃	iang1	
+殄	thian2	
+殆	tai7	
+段	tan7	
+毒	tok8	
+毖	pi3	
+毗	pi5	
+毡	tshian1	1%
+泉	tshuan5	
+泚	tse2	
+泚	tsu2	
+洂	ik8	1%
+洄	hue5	
+洊	tshian3	
+洋	iang5	
+洌	liat8	
+洎	ki7	
+洏	ji5	
+洒	se3	1%
+洒	sian2	
+洒	sua2	1%
+洓	sik4	
+洗	sian2	
+洘	kho2	
+洙	tshu1	
+洚	kang3	
+洛	lok8	
+洞	tong7	
+洢	i1	
+津	tshin1	
+洧	ui2	
+洩	i7	
+洩	siat4	1%
+洪	hong5	
+洫	hok4	
+洲	tshiu1	
+洳	ji5	
+洵	sun5	
+洶	hiong1	
+洸	kong1	
+活	huat8	
+活	kuat4	
+洼	ua5	
+洽	hiap8	
+派	phai3	
+洿	u1	
+流	liu5	
+炤	tshiau1	
+炤	tshiau3	1%
+炨	to7	
+炫	hian5	
+炬	ki7	
+炭	than3	
+炮	pau5	1%
+炮	phau3	
+炯	king2	
+炰	pau5	
+炳	ping2	
+炷	tshi7	
+炸	tshe3	
+為	ui5	1%
+為	ui7	1%
+爰	uan7	
+牯	koo2	
+牲	sing1	
+狊	kik4	
+狡	kau2	
+狥	sun5	1%
+狨	jiong5	
+狩	siu3	
+玅	biau7	1%
+玲	ling5	
+玳	tai7	
+玷	tiam3	
+玻	pho1	
+珀	phik4	
+珂	kho1	
+珇	tshoo2	
+珈	ke1	
+珉	bin5	
+珊	san1	
+珌	pit4	
+珍	tshin1	
+珍	tin1	
+珏	kak4	
+珫	tsiong1	
+瓮	ong3	1%
+甚	sim7	
+畆	boo2	1%
+畇	in5	
+畊	king1	
+畋	tian5	
+界	kai3	
+畎	khian2	
+畏	ui3	
+疢	thim3	
+疤	pa1	
+疥	kai3	
+疧	ki5	
+疨	ge5	
+疫	ik8	
+癸	kui3	
+癹	phuat4	
+皆	kai1	
+皇	hong5	
+皈	kui1	
+盃	pue1	
+盆	phun5	
+盈	ing5	
+盶	guan2	
+相	siang1	
+相	siang3	
+盻	ge2	
+盻	phan3	1%
+盼	phan3	
+盽	hong1	
+盾	tun2	
+眀	bing5	
+省	sing2	
+眅	phan2	
+眇	biau2	
+眈	tam1	
+眉	bi5	
+眊	bonn7	
+看	khan1	
+看	khan3	
+県	hiau1	1%
+矜	king1	
+矦	hoo5	1%
+矧	sin2	
+矨	ging2	
+砂	se1	
+砆	hu1	1%
+砊	khing1	
+砊	khong3	
+砌	tsi3	
+砍	kham2	
+砒	phi1	
+研	gian2	
+研	gian5	
+研	hian7	1%
+祅	iau1	
+祇	ki5	
+祈	ki5	
+祉	tshi2	
+祊	hong1	
+祊	ping1	
+祋	tut8	
+禹	i2	
+秋	tsiu1	
+种	tsiong1	
+秏	honn3	
+科	kho1	
+秒	biau2	
+秕	pi2	
+穼	som1	
+穽	tshing7	
+穾	iau2	
+穾	iau3	
+穿	tsuan1	
+穿	tsuan3	
+窀	tshun1	
+窀	tun1	
+突	tut8	
+窃	tsiap4	1%
+竒	ki5	1%
+竼	huan5	
+竽	i5	
+竿	kan1	
+籹	tshong1	
+紀	ki2	
+紂	tiu7	
+約	iak4	
+紅	hong5	
+紆	u1	
+紇	git4	
+紇	hut8	
+紈	uan5	
+紉	jim7	
+罘	hu1	
+罘	tik4	
+羍	that4	
+美	bi2	
+羑	iu2	
+羿	ge7	
+耇	koo2	
+耍	sua2	
+耐	lainn7	
+耑	tshuan1	
+耔	tshu2	
+耶	ia5	
+胃	ui7	
+胄	tiu7	
+胅	tiat8	
+胆	tam2	1%
+背	pue3	
+背	pue7	
+胎	thai1	
+胓	ping5	
+胓	phing1	
+胖	puan5	
+胗	tshin2	1%
+胛	kiap4	
+胜	sing1	
+胝	ti5	
+胞	pau1	
+胞	phau1	
+胟	bo2	1%
+胤	in7	
+胥	si1	
+脉	bik8	1%
+致	ti3	
+舡	tsuan5	1%
+芔	hui7	1%
+苐	te7	
+苑	uan2	
+苒	jiam2	
+苓	ling5	
+苔	thai1	
+苕	tiau5	
+苗	biau5	
+苙	lip8	
+苛	o1	
+苜	bok8	
+苞	pau5	
+苞	poo5	
+苟	koo2	
+苡	i2	
+苢	i2	1%
+若	je2	
+若	jiak8	
+苦	khoo2	
+苧	thi2	
+苫	tshiam1	
+苭	huan7	
+苮	sian1	
+英	ing1	
+苴	tsi1	
+苸	hoo1	
+苹	phing5	
+苻	hu5	
+苾	bit8	
+苾	pi3	
+茁	tshuat4	
+茂	boo7	
+范	huan7	
+茄	ke1	
+茅	baunn5	
+茆	bau2	
+茇	puat8	
+虐	giak8	
+虵	i5	1%
+虹	hong5	
+虺	hue1	
+虺	hui2	
+虺	ui2	
+衂	jiok8	
+衂	lok4	
+衍	ian2	
+衍	ian7	
+衎	khan2	
+衫	san1	
+要	iau1	
+要	iau3	
+觔	kin1	1%
+訂	ting3	
+訃	hu3	
+計	ke3	
+貞	tshing1	
+負	hu7	
+赳	kiu2	
+赴	hu3	
+軌	khui2	
+軍	kun1	
+迢	tiau5	
+迥	king2	
+迦	ke1	
+迦	kia1	
+迨	tai7	1%
+迩	ji2	1%
+迪	tik8	
+迪	tiok8	
+迫	pik4	
+迭	tiat8	
+迮	tshik4	
+迯	to5	1%
+述	sut8	
+邽	kui1	
+邾	ti1	
+郁	hiok4	
+郃	khap4	
+郅	tshit4	
+郇	sun5	
+郊	kau1	
+郎	long5	
+酊	ting2	
+酋	siu5	
+重	tiong5	
+重	tiong7	
+陋	loo7	
+陌	bik8	
+降	hang5	
+降	kang3	
+限	an7	
+面	bian7	
+革	kik4	
+韋	ui2	
+韭	kiu2	
+音	im1	
+頁	iap8	
+風	hong1	
+風	hong2	10%
+飛	hui1	
+食	sit8	
+食	su7	1%
+首	siu2	
+首	siu3	
+香	hiang1	
+𠁭	ki5	
+𠈭	lo5	
+𠈮	khi3	1%
+𠈯	ping1	1%
+𠈲	huat8	1%
+𠈴	tsi1	1%
+𠈵	bong2	
+𠈶	gip8	
+𠈸	thik4	
+𠈺	pi7	
+𠉔	ping1	1%
+𠜒	lik4	
+𠜓	thik4	
+𠜚	hing5	
+𠜛	kong1	1%
+𠡞	bok8	
+𡇛	tit8	1%
+𡜉	jiam7	
+𡧯	tshik8	1%
+𡬪	lainn7	1%
+𢂓	thong1	1%
+𢂔	hong5	
+𢈈	kham1	
+𢈉	tong5	
+𢓜	kik4	
+𢓟	tiu3	
+𢫫	lut8	
+𢼌	pau7	
+𣐈	khi7	1%
+𣐤	khing7	1%
+𣬼	phi1	
+𤰭	tshi1	
+𤿏	lam7	
+𥄉	hiau1	
+𥄔	pue3	
+𥄖	hit4	
+𦊕	tshia1	1%
+𦍒	that4	
+𦙭	tong5	
+𦙳	tshin2	1%
+𦬸	tshut8	
+𧴤	phok4	
+𨊠	huan7	1%
+𨒌	tshing1	
+㑣	lam5	
+㑥	i7	
+㑦	le7	
+㔞	khuai1	
+㖐	bi5	
+㖐	ui2	
+㛖	so1	
+㛖	sue2	
+㛘	phut4	
+㝗	long5	
+㝶	tik4	1%
+㟍	long5	
+㟏	ham1	
+㤳	pui2	
+㧘	tshu3	
+㧘	tsi1	
+㭜	jiong5	
+㱿	khak8	
+㳬	suan5	1%
+㽜	uan2	1%
+䍃	iau5	
+䏬	boo5	
+䒶	thian1	1%
+䡅	thun1	
+丵	tsiok4	
+乘	sing5	
+乘	sing7	
+亳	pok8	
+修	siu1	
+俯	hu2	
+俰	ho7	
+俱	ki1	
+俱	ki7	
+俲	hau7	1%
+俳	pai5	
+俳	pue5	
+俴	tshian2	
+俵	piau3	
+俶	siok4	
+俶	thik4	1%
+俷	hui2	
+俸	hong2	
+俸	hong7	
+俹	a1	
+俹	a3	
+俺	gan2	
+俺	iam3	
+俻	pi7	1%
+俼	iok8	1%
+俽	him1	
+俾	phi3	
+俾	pi7	
+俿	ti5	
+倀	tsing3	
+倀	tsiang1	
+倁	ti5	
+倂	ping3	
+倃	kiu2	
+倄	haunn5	
+倅	tshut4	
+倅	tsui3	
+倆	liang2	
+倇	uan2	
+倈	lai5	1%
+倉	tsong1	
+倉	tsong2	10%
+倊	tshong3	
+個	ko3	
+倌	kuan1	
+倍	pue2	10%
+倍	pue5	10%
+倍	pue7	
+倎	thian2	
+倐	sik4	1%
+倐	siok4	1%
+們	bun7	
+倒	to2	
+倓	tam5	
+倓	tam7	1%
+倔	kut8	
+倖	hing7	
+倗	ping5	
+倘	tsiang2	
+倘	thong2	
+候	hoo7	
+倚	ki1	
+倚	i2	
+倛	khi1	
+倜	thik4	
+倝	kan3	
+倞	kiang7	
+倞	liang7	
+借	tshik4	
+借	tshia3	
+倠	hui1	
+倡	tsiang1	
+倡	tsiang3	
+倢	tshiap8	
+倢	tshiat8	
+倣	hong2	1%
+倥	khong1	
+倥	khong2	
+倦	kuan7	
+倧	tshong1	
+倨	ki3	
+倩	tsing3	
+倩	tsian3	
+倪	ge2	1%
+倪	ge5	
+倫	lun5	
+倬	tok4	
+倭	o1	
+倭	ue1	
+倮	hua2	
+倯	siong1	
+倯	siong5	
+倰	ling7	
+倱	hun2	
+倲	tong1	
+倲	tong3	
+倳	tshu3	
+值	ti7	
+偖	tsia2	
+党	tong2	
+兼	kiam1	
+冓	koo2	
+冔	hoo2	
+冢	thiong2	
+冤	uan1	
+冥	bing5	
+凄	tse1	1%
+准	tshun2	
+凈	tshing7	1%
+凉	liang5	1%
+凊	tsing3	
+凋	tiau1	
+凌	ling5	
+凍	tong3	
+剒	tsok4	
+剓	li3	
+剔	thik4	
+剖	phoo2	
+剙	tsong3	1%
+剚	tshu3	
+剛	kong1	
+剜	uan1	
+剜	uan2	
+剝	pak4	
+剞	ki5	
+剟	tuat4	
+剡	siam2	
+勏	poo7	
+勑	thit4	1%
+匪	hui2	
+卿	khing1	
+厝	tsoo3	
+原	guan5	
+原	guan7	1%
+叞	ut4	1%
+叟	soo2	
+員	uan5	
+哢	long7	
+哤	bang5	
+哥	ko1	
+哦	go5	
+哨	sau3	
+哨	siau3	
+哩	li7	
+哪	lo5	
+哪	lo7	
+哪	lonn5	
+哪	lonn7	
+哫	tsiok4	
+哭	khok4	
+哮	hau1	
+哲	tiat4	
+哶	bi2	
+哺	poo7	
+哻	han7	
+哽	king2	
+哿	kho2	
+唁	gan7	
+唄	pue3	
+唆	so1	
+唇	tun5	1%
+唉	hai2	
+唉	ai1	
+唊	siap4	
+唐	tong5	
+圃	phoo2	
+圄	gi2	
+垻	pa3	1%
+埃	ai1	
+埆	khiak4	
+埋	bai5	
+埒	luat8	
+埔	poo1	
+堲	tshik4	
+夏	he7	
+套	tho3	
+奘	tshong7	
+奚	he5	
+姬	ki1	
+娉	phing1	
+娌	li2	
+娑	so1	
+娘	liang5	
+娛	gi5	
+娜	lonn2	
+娟	kuan1	
+娠	sin1	
+娣	te7	
+娥	go5	
+娩	bian2	
+娩	buan2	
+孫	sun1	
+孫	sun3	1%
+宧	i5	
+宭	kun5	
+宮	kiong1	
+宰	tshai2	
+害	hai7	
+宴	ian3	
+宵	siau1	
+家	ke1	
+宸	sin5	
+容	iong5	
+射	ik8	
+射	sik8	
+射	sia7	
+尅	khik4	1%
+屐	kik8	
+屑	siak4	
+展	tian2	
+峨	go5	
+峭	siau3	
+峮	khun1	
+峯	hong1	
+峰	hong1	1%
+峱	lonn5	
+峴	hian2	
+島	to2	
+峺	king7	
+峻	tshun3	
+峽	kiap4	
+峾	gin5	
+差	tse1	
+差	tsi1	10%
+帨	sue3	
+師	su1	
+帬	kun5	1%
+席	sik8	
+座	tsho7	
+庫	khoo3	
+庭	ting5	
+弰	sau1	
+弱	jiak8	
+彧	hiok4	
+徎	thing2	
+徐	tsi5	
+徑	king3	
+徒	too5	
+恁	jim2	
+恁	jin2	
+恐	khiong2	
+恕	si3	
+恙	iang7	
+恚	hui7	
+恝	khiat4	
+恣	tshu3	
+恥	thi2	
+恩	in1	
+恭	kiong1	
+息	sit4	
+悁	kuan1	
+悃	khun2	
+悄	tsiau2	
+悅	uat8	
+悋	lin7	
+悌	te7	
+悍	han2	
+悒	ip4	
+悔	hue3	
+悖	pue7	
+悚	siong2	
+悛	tsuan1	
+悝	khue1	
+悞	goo7	
+悟	goo7	
+扅	i5	
+扆	i2	
+扇	sian3	
+拳	khuan5	
+拿	lann2	
+挈	khiat4	
+挨	ai1	
+挫	tso3	
+挬	put8	
+振	tshin2	
+挱	so1	
+挹	ip4	
+挺	thing2	
+挽	buan2	
+挾	hiap8	
+捃	khun2	
+捄	kiu3	1%
+捄	kiu5	
+捆	khun2	
+捉	tsiok4	
+捋	luat8	
+捌	pat4	
+捍	han7	
+捎	sau1	
+捏	liap4	
+捐	kuan1	
+捔	kak4	
+捕	poo5	
+捕	poo7	
+捘	tsun7	
+效	hau7	
+敉	bi2	
+料	liau7	
+斚	ke2	1%
+旁	pong5	
+旂	ki5	1%
+旃	tshian1	
+旄	bonn5	
+旅	li2	
+晁	tiau7	1%
+時	si5	
+晃	hong2	
+晃	long2	
+晅	suan1	
+晉	tshin3	
+晋	tshin3	1%
+晏	an3	
+晒	sai3	1%
+晟	sing7	
+書	si1	
+朔	sok4	
+朕	tim7	
+朗	long2	
+柴	tsai5	
+栖	se1	1%
+栗	lik4	
+栝	thiam3	1%
+栟	ping1	
+校	hau7	
+校	kau3	
+栢	pik4	1%
+栩	hi2	
+栩	phun2	
+株	ti1	
+栯	iu7	
+栰	huat8	
+栱	king2	
+栱	kiong2	
+栲	kho2	
+栳	lo2	
+栴	tshian1	
+栵	li7	
+核	hik8	
+核	hut8	
+根	kin1	
+栻	sik4	
+格	kik4	
+栽	tshai1	
+桀	kiat8	
+桁	hang5	
+桁	hing5	
+桂	kui3	
+桃	tho5	
+桅	ui5	
+框	khong1	
+案	an3	
+桊	kuan3	
+桌	tok4	
+桍	khua5	
+桎	tshit4	
+桐	tong5	
+桑	song1	
+桓	huan5	
+桔	kiat4	1%
+桔	kit4	
+梳	se1	
+梳	soo1	
+欬	khai3	
+歬	tshian5	1%
+殉	sun5	
+殊	su5	
+殷	in1	
+殷	in2	
+毨	sian2	
+氣	khi3	
+氤	in1	
+泰	thai3	
+浘	bue2	
+浙	tshiat4	
+浚	tshun3	
+浞	tsiok4	
+浡	put8	
+浣	uan2	
+浥	ip4	
+浦	phoo2	
+浩	ho7	
+浪	long5	
+浪	long7	
+浮	hu5	
+浯	goo5	
+浰	li7	
+浲	hong5	
+浴	iok8	
+海	hai2	
+浸	tshim3	
+浹	tshap4	
+浼	bue2	
+浽	sui1	
+涂	too5	
+涅	liap4	
+涆	han7	
+涇	king1	
+消	siau1	
+涉	siap8	
+涌	iong2	1%
+涒	thun1	
+涓	kuan1	
+涔	gim5	
+涕	the3	
+涖	li7	1%
+涖	linn7	1%
+涘	su7	
+烈	liat8	
+烊	iang5	
+烋	hau1	
+烋	hiu1	
+烏	oo1	
+烕	biat8	1%
+烘	hong1	
+烙	lok8	
+烜	hui2	
+烜	suan1	
+烞	pok4	
+烟	hun1	
+烟	ian1	1%
+烢	tsia2	1%
+爹	tia1	
+牂	tshong1	
+牷	tshuan5	
+牸	ju7	
+特	tik8	
+狴	pi2	
+狷	kuan3	
+狸	li5	
+狹	hiap8	
+狺	gin5	
+狻	tshun3	
+狼	long5	
+狽	pue7	
+玼	tsu2	
+珓	kau3	
+珙	kiong2	
+珞	lok8	
+珠	tshu1	
+珢	gin5	
+珣	sun5	
+珥	ji7	
+珩	hing5	
+珪	kui1	1%
+班	pan1	
+珮	pue7	
+琉	liu5	
+瓞	tiat8	
+瓵	i5	
+甡	sin1	
+畔	puan7	
+畕	kang1	
+畗	hok4	
+留	liu5	
+畚	pun2	
+畛	tshin2	
+畜	hiok4	
+畝	boo2	
+畟	tshik4	
+疱	phau3	
+疲	phi5	
+疳	kam1	
+疴	o1	
+疶	siat4	
+疸	than2	
+疹	tshin2	
+疼	tong5	
+疽	tsi1	
+疾	tshit8	
+疿	pui3	
+痀	khi1	
+痁	siam1	
+病	ping7	
+症	tshin3	
+皋	ko1	
+皰	phau3	
+益	ik4	
+益	iok4	10%
+盌	uan2	1%
+盍	ap8	
+盎	iang3	
+眐	tshing1	
+眖	hong3	
+眘	sin7	1%
+眚	sing2	
+真	tshin1	
+眠	bian5	
+眧	tsiau2	
+眩	hian5	
+眪	ping2	
+矩	ki2	
+砠	tsi1	
+砥	ti2	
+砧	tshim1	
+砭	pian2	
+砰	phing1	
+砲	phau3	
+破	pho3	
+砵	puat4	
+祐	iu7	1%
+祑	tiat8	
+祒	thiau1	
+祓	hut4	
+祕	pi3	
+祖	tshoo2	
+祗	ki5	
+祗	ti2	
+祘	suan3	1%
+祚	tshoo3	
+祚	tshoo7	
+祚	tsoo3	
+祛	khi1	
+祜	hoo7	
+祝	tshiok4	
+神	sin5	
+祟	sui3	
+祠	su5	
+秘	pi3	1%
+租	tshoo1	
+秠	phi1	
+秣	buat4	
+秤	tsing3	
+秤	tsin3	1%
+秦	tshin5	
+秧	iang1	
+秩	tiat8	
+秫	tshut8	
+秫	tut8	
+称	tsing1	1%
+窄	tshik4	
+窅	biau2	
+窆	pian3	
+窈	iau2	
+窊	ua5	
+窋	tshut4	
+窌	kau3	1%
+站	tsham7	
+竚	thi2	1%
+竝	ping7	1%
+笄	ke1	
+笆	pa1	
+笈	khip4	
+笊	tsau3	
+笋	sun2	1%
+笏	hut4	
+笑	tsiau3	
+笑	siau3	
+笔	pit4	1%
+粃	pi2	
+粉	hun2	
+紊	bun7	
+紋	bun5	
+納	lap8	
+紐	liu2	
+紑	hu5	
+紓	si1	
+純	sun5	
+紕	phe1	
+紕	phe3	
+紕	pi7	
+紖	in2	
+紗	se1	
+紘	hong5	
+紙	tshi2	
+級	kip4	
+紛	hun1	
+紜	in5	
+紞	tam2	
+紟	khim1	
+素	soo3	
+紡	hong2	
+索	sik4	
+缺	khuat4	
+罛	koo1	
+罝	tshia1	
+罞	bong5	
+罟	koo2	
+罡	kong1	
+羓	pa1	
+羔	ko1	
+羖	koo2	
+羗	kiang1	1%
+翁	ong1	
+翅	tsi3	
+翅	thi3	10%
+耄	bonn7	
+耆	ki5	
+耊	tiat8	1%
+耕	king1	
+耗	honn3	
+耘	in5	
+耻	thi2	1%
+耼	tam1	1%
+耽	tam1	
+耿	king2	
+胭	ian1	
+胮	phong1	
+胯	khua1	
+胱	kong1	
+胳	kok4	
+胷	hiong1	1%
+胸	hing1	
+胸	hiong1	
+胹	ji5	
+胼	pian5	
+能	ling5	
+脂	tshi1	
+脅	hiap8	
+脆	tsui3	
+脈	bik8	
+脊	tshit4	
+臬	giat8	
+臭	tsiu3	
+舀	iau2	
+舐	tshi7	
+舨	pan2	
+舨	puan2	
+航	hong5	
+舫	hong2	
+般	puan1	
+般	puan2	
+般	puan5	
+般	puat4	
+芻	tshoo1	
+茈	tsu2	
+茈	tsu5	
+茗	bing2	
+茘	le7	1%
+茜	tsian3	
+茨	tshu1	
+茨	tshu5	
+茫	bong5	
+茭	kau1	
+茯	hok8	
+茱	tshu1	
+茲	tshu1	1%
+茲	si1	
+茴	hue5	
+茵	in1	
+茶	te5	
+茸	jiong2	
+茸	jiong5	
+茹	ji2	
+茹	ji5	
+荀	sun5	
+荅	tap4	1%
+荇	hing7	
+荈	tsun2	
+草	tso2	
+荍	kiau5	
+荏	jim2	
+荐	tshian3	
+荒	hong1	
+荔	le7	
+荖	lau2	
+虒	ti5	
+虓	hau1	
+虔	khian5	
+蚉	bun2	1%
+蚊	bun2	
+蚋	jue7	
+蚌	pang7	
+蚑	ki5	
+蚓	in2	
+蚕	thian2	
+蚣	kong1	
+蚤	tsho2	
+蚨	hu5	
+蚩	tsi1	
+蚪	too2	
+衰	sue1	
+衲	lap8	
+衵	jit8	
+衷	thiong1	
+衺	sia5	1%
+衽	jim2	
+衾	khim1	
+衿	khim1	
+袁	uan5	
+訊	sin3	
+討	tho2	
+訏	hi1	
+訏	hi2	
+訐	khiat4	
+訑	ti5	
+訒	jim7	
+訓	hun3	
+訕	san3	
+訖	git4	
+託	thok4	
+記	ki3	
+豈	khai2	1%
+豈	khi2	
+豺	tsai5	
+財	tshai5	
+貢	khong3	
+貢	kong3	
+起	khi2	
+趶	u1	
+躬	kiong1	
+軏	guat8	
+軒	hian1	
+軓	huan7	
+軔	jim7	
+辱	jiok8	
+迴	hue5	1%
+迷	be5	
+迸	ping2	
+迹	tshik4	
+追	tui1	
+退	thue3	
+送	song3	
+适	kuat4	
+逃	to5	
+逅	hoo7	
+逆	gik8	
+邕	iong1	
+郗	hi1	
+郝	hik4	
+郟	kiap4	
+郡	kun7	
+郢	thing2	
+郣	put8	
+酌	tshiak4	
+配	phue3	
+酎	tiu7	
+酏	i5	
+酒	tshiu2	
+釖	to1	
+釗	tshiau1	
+釘	ting1	
+釘	ting3	
+釜	hu2	
+針	tshiam1	
+針	tshim1	
+釞	tip4	
+閃	siam2	
+陛	pi7	
+陝	siam2	
+陞	sing1	
+陟	thik4	
+陡	too2	
+院	ian7	
+陣	tin7	
+除	ti5	
+隻	tshik4	
+隼	tshun2	
+飢	ki1	1%
+馬	bann2	
+馬	be2	
+骨	kut4	
+高	ko1	
+髟	piu1	
+鬥	too3	
+鬯	thiang3	
+鬲	kik4	
+鬼	kui2	
+𠂹	sui5	
+𠅗	tia3	
+𠅞	sing7	1%
+𠈰	tan7	
+𠉣	hun1	
+𠉤	tap8	
+𠉦	siok4	1%
+𠉧	tshi7	
+𠉨	kiap4	1%
+𠉩	tok8	
+𠉪	tsiap4	
+𠉫	kong3	
+𠜳	phiang1	
+𠜻	ik8	1%
+𠝑	ut4	
+𠱐	gi7	
+𠲿	siok4	
+𠳝	phue2	
+𡋯	put8	
+𡜮	go2	
+𡨀	the1	
+𡱥	tshui5	
+𡴘	hing7	1%
+𡷟	long7	
+𡷡	uan5	
+𡷢	bong5	
+𢂽	kun5	1%
+𢈚	li7	
+𢈜	tshong1	
+𢈭	siau1	1%
+𢙄	kiong1	1%
+𢚁	ki7	
+𢚺	thun2	
+𢫶	pai3	1%
+𢬳	thut4	
+𢭀	suan5	1%
+𢭀	suan7	
+𣭡	sian2	1%
+𣴪	pi3	1%
+𤔌	in2	1%
+𤱌	tshoo2	
+𤿗	buat4	
+𥑑	au3	
+𥾬	tshi2	1%
+𥾯	tiau3	
+𦊓	ling2	
+𦚢	e1	
+𦤃	hong5	1%
+𦮯	tshian5	1%
+𩠐	siu2	1%
+㑤	baunn7	
+㑮	hun5	
+㑯	si2	
+㑰	hui3	
+㓭	siat8	
+㓵	gok8	
+㖠	lonn7	1%
+㖤	ham5	
+㖥	kun7	
+㛨	khiang2	
+㝛	siok4	1%
+㝞	e1	
+㝠	bing5	1%
+㟙	thik8	
+㤻	lun2	
+㤻	lun3	
+㥃	bun2	
+㥄	ling5	
+㥍	ki7	1%
+㧳	phai2	
+㧿	tshing1	
+㫰	long7	
+㭨	ia5	1%
+㭪	poo1	
+㭮	suan2	
+㰯	thoo2	
+㱣	lue2	
+㴉	tshe3	1%
+㸔	khan3	1%
+㽝	li7	
+㾌	sian2	
+㾏	gai5	
+䇢	khoo2	
+䓊	goo5	
+䖏	tsi2	1%
+䝆	hut4	
+乾	kan1	
+乾	khian5	
+乿	ti5	
+乿	ti7	1%
+倏	sik4	
+倏	siok4	
+倕	sui5	
+偀	ing1	
+偁	tsing1	
+偂	tshian1	
+偃	ian2	
+偄	luan7	
+偅	tshiong3	
+偅	tsiong1	
+偆	tshong3	
+偆	tsun2	
+假	he5	1%
+假	ke1	
+假	ke2	
+假	ke3	
+假	kik4	
+偈	ki7	
+偈	kiat4	
+偉	ui2	
+偊	i2	
+偋	ping2	
+偋	ping7	
+偌	jia7	
+偍	te5	
+偎	ue1	
+偏	phian1	
+偐	gan7	1%
+偑	hong1	
+偒	thong2	
+偓	ak4	
+偔	gok8	
+偕	kai1	
+偗	sing2	
+偘	khan2	1%
+偙	te3	
+做	tsho3	
+做	tshoo3	
+偛	tsap4	
+停	thing5	
+偝	pue7	
+偞	tsiap4	
+偞	iap8	
+偟	hong5	
+偠	iau2	
+偡	tam2	
+偢	tsiau3	
+偣	iam1	
+偤	iu5	
+健	kian2	
+健	kian7	
+偦	si1	
+偧	tshe1	
+偩	hu2	
+偪	pik4	
+偫	ti7	
+偬	tshong2	
+偭	bian7	
+偮	tsip4	
+偯	i2	
+偰	siat4	
+偱	sun5	
+偱	tun7	
+偲	tsai1	
+偲	su1	
+偳	tuan1	
+側	tsik4	
+偵	tshing1	
+偶	gonn2	
+偷	thoo1	
+偽	go5	1%
+偽	gui7	1%
+兜	tau1	
+冕	bian2	
+减	kiam2	1%
+凰	hong5	
+剨	ik8	
+剪	tshian2	
+剮	ue1	
+副	hu3	
+勒	lik8	
+動	tong7	
+勗	hiok4	
+勘	kham3	
+務	bu7	
+匏	pau5	
+匐	pok8	
+匙	si5	
+匭	khui2	
+匾	pian2	
+匿	lik8	
+區	khi1	
+卨	siat4	
+厠	tse3	
+參	tsam1	
+參	som1	1%
+唌	ian5	
+唪	hong2	
+唫	gim5	1%
+售	siu5	
+唯	ui2	
+唯	ui5	
+唱	tsiang3	
+唲	ai1	
+唳	lui7	
+唴	khiang3	
+唵	an3	
+唸	liam7	
+唻	lai2	
+唻	lai5	
+唼	ap4	
+唽	sik4	
+唿	hut4	
+啀	gai5	
+啁	tshiu1	
+啄	tok4	
+啅	tok4	
+商	siang1	
+啇	tik4	
+啈	hing3	
+啉	lam5	
+啊	o3	
+啋	tsai1	
+啋	gik4	
+啍	tshun1	
+問	bun7	
+啐	tsui3	
+啓	khe2	
+啖	tam2	
+啗	tam2	1%
+啚	phi2	1%
+啚	too5	
+啜	tsuat4	
+啜	tuat4	
+啞	a1	
+啞	e2	
+啞	ik4	
+啟	khe2	
+圇	lun5	
+圈	khuan5	
+圉	gi2	
+圊	tsing1	
+國	kok4	
+埜	ia2	1%
+域	hik8	
+埠	poo7	
+埡	oo2	
+埤	pi1	
+埤	pi5	
+埤	pi7	
+埦	uan2	1%
+埭	te7	
+埰	tsai3	
+執	tship4	
+培	pue5	
+基	ki1	
+埽	so3	1%
+堀	khut4	
+堂	tong5	
+堅	kian1	
+堆	tui1	
+堇	kin2	
+堊	ok4	
+堵	too2	
+夠	koo3	
+奢	tsia1	
+娬	bu2	1%
+娶	tsi3	
+娼	tsiang1	
+娿	o2	
+婁	loo5	
+婆	po5	
+婉	uan2	
+婊	piau2	
+婐	o2	
+婕	tshiat8	
+婘	kuan5	
+婚	hun1	
+婢	pi7	
+婣	ian1	
+婣	in1	1%
+婦	hu7	
+婪	lam1	
+婬	im5	
+婭	a3	
+媎	tshia2	
+孰	siok8	
+宿	siok4	
+宿	siu3	
+寀	tsai2	
+寁	tshiat8	
+寂	tshik8	
+寄	ki3	
+寅	in5	
+密	bit8	
+寇	khoo3	
+將	tshiang1	
+將	tshiang3	
+將	tsiang1	1%
+專	tshuan1	
+尉	ui3	
+屙	o1	
+屛	ping2	
+屠	too5	
+崆	khong1	
+崇	tshong5	
+崈	tshong5	
+崋	hua5	1%
+崍	lai5	
+崎	ki5	
+崑	khun1	
+崒	tshui7	
+崒	tshut8	
+崒	tsui3	
+崔	tsui1	
+崖	gai5	
+崗	kong1	1%
+崘	lun5	1%
+崘	lun7	
+崙	lun5	
+崙	lun7	
+崛	kut8	
+崞	kok4	
+崢	tshing1	
+崤	gaunn5	
+崧	siong5	
+崩	ping1	
+巢	tshau5	
+巢	tshau7	10%
+帳	tiang3	
+帶	tai3	
+帷	ui5	
+常	siang5	
+庲	lai5	
+庳	pi7	
+庵	am1	
+庶	si3	
+康	khong1	
+庸	iong5	
+庾	ji2	
+張	tiang1	
+強	kiang2	
+強	kiang5	
+強	kiang7	10%
+彗	hui7	
+彩	tsai2	
+彪	piu1	
+彫	tiau1	
+彬	pin1	
+得	tik4	
+徘	pai5	
+徙	si2	
+從	tshiong5	
+從	tshiong7	
+從	tsiong1	
+從	tsiong3	1%
+徠	lai5	1%
+徠	lai7	
+御	ge7	1%
+御	gi2	
+御	gi7	
+悉	sit4	
+悠	iu1	
+患	huan7	
+悤	tsong1	
+您	lin2	
+悰	tshong1	
+悱	hui2	
+悴	tshui7	
+悵	tiang3	
+悸	khui3	
+悸	kui3	
+悻	hing2	
+悼	to7	
+悽	tse1	
+悾	khong1	
+情	tshing5	
+惆	tiu5	
+惇	tshun1	
+惇	sun5	
+惈	ko2	
+惍	kim1	
+惏	lam1	1%
+惓	khuan5	
+惓	kuan7	
+惔	tam5	
+惔	tam7	
+惕	thik4	
+惘	bong2	
+惙	tuat4	
+惚	hut4	
+惛	hun1	
+惜	sik4	
+惟	ui5	
+惧	ki7	1%
+戚	tsik4	
+戛	khat4	
+扈	hoo7	
+捧	hong2	
+捨	sia2	
+捩	liat8	
+捫	bun2	
+捫	bun5	
+据	ki3	
+捰	o2	
+捱	gai5	
+捲	kuan2	
+捷	tshiat8	
+捺	lat8	
+捻	liam3	
+捽	tshut4	
+捾	uat4	
+捿	se1	1%
+掀	hian1	
+掃	so3	
+掄	lun5	
+掅	tsing3	
+掇	tuat4	
+授	siu7	
+掉	thiau2	
+掊	pue5	
+掋	ti2	1%
+掎	i2	
+掐	khip8	
+排	pai5	
+掖	ik8	
+掗	ua2	
+掘	kut8	
+掛	khua3	
+掞	iam3	
+掞	siam2	
+掟	ting7	
+掠	liak8	
+採	tsai2	
+探	tham1	
+探	tham3	
+接	tshiap4	
+掦	thik4	
+控	khong3	
+推	tsui1	
+推	thui1	
+掩	iam2	
+措	tsoo3	
+掬	kiok4	
+敎	kau3	1%
+敏	bin2	
+救	kiu3	
+敔	gi2	
+敕	thit4	
+敖	go5	
+敗	pai7	
+教	kau3	
+敝	pi7	
+斛	hak8	
+斜	sia5	
+斬	tsham2	
+旋	suan5	
+旌	tshing1	
+旎	linn5	
+族	tshok8	
+晚	buan2	
+晝	tiu3	
+晞	hi1	
+晡	poo1	
+晢	tshiat4	
+晤	goo7	
+晦	hue3	
+晨	sin5	
+曹	tsho5	
+曼	ban5	
+曼	ban7	
+望	bong5	
+望	bong7	
+桮	pue1	1%
+桱	king3	
+桴	hu1	
+桶	thong2	
+桷	kak4	
+桺	liu2	1%
+桼	tsip4	
+梁	liang5	
+梃	thing2	
+梅	bue5	
+梆	pang1	
+梌	too5	
+梏	khok4	
+梓	tshu2	
+梗	king7	
+梘	king2	
+梘	kian2	
+梜	kiap4	1%
+條	tiau5	
+梟	hiau1	
+梠	li7	
+梢	sau1	
+梤	hun1	
+梦	bong7	1%
+梧	goo5	
+梨	lai5	
+梩	li5	
+梫	tsim2	
+梭	so1	
+梯	the1	
+械	hai7	
+梱	khun2	
+梲	tshuat4	
+梵	huan7	
+棄	khi3	
+欲	iok8	
+欵	khuan2	
+欷	hi1	
+欸	ai1	
+欸	ai2	
+欸	o3	
+殍	piau2	
+殺	sai3	
+殺	sat4	
+毫	ho5	
+毬	kiu5	
+涎	ian5	
+涪	hu5	
+涬	that8	
+涯	gai5	
+涰	tuat4	
+液	ik8	
+涵	ham5	
+涸	hok4	
+涺	ki1	
+涼	liang5	
+涿	tok4	
+淂	tik4	
+淄	tshu1	
+淅	sik4	
+淆	gaunn5	
+淇	ki5	
+淈	khut8	
+淈	tut8	
+淊	am2	
+淋	lim5	
+淑	siok4	
+淒	tse1	
+淖	tshau7	
+淘	to5	
+淙	tshong1	
+淚	lui7	
+淛	tshiat4	1%
+淝	hui5	
+淞	siong5	
+淠	pi3	
+淡	tam7	
+淢	hik8	
+淤	i1	
+淨	tshing7	
+淩	ling5	
+淪	lun5	
+淫	im5	
+淬	sui3	
+淮	huai5	
+深	tsim1	
+淳	sun5	
+淵	ian1	
+混	hun7	
+淹	iam1	
+淹	iam3	
+淺	tsian2	
+添	thiam1	
+清	tsing1	
+渚	tshi2	
+烱	king2	
+烴	king7	
+烹	phing1	
+烺	long2	
+烺	long7	
+烼	tshin1	
+烽	hong1	
+焁	hi1	
+焄	hun1	
+焇	siau1	
+焇	siok8	
+焉	ian1	
+爽	song2	
+牽	khian1	
+牽	khian3	
+牿	khok4	
+猇	gaunn5	
+猊	ge5	
+猖	tsiang1	
+猗	i1	
+猗	o1	
+猛	bing2	
+猜	tsai1	
+率	sut4	
+珴	go5	
+珸	goo5	
+現	hian7	
+球	kiu5	
+琅	long5	
+理	li2	
+琇	siu3	
+琈	hu1	
+琊	ia5	
+瓠	hoo5	
+瓶	pin5	
+瓷	tshu5	
+甛	tiam5	1%
+甜	tiam5	
+產	san2	
+畢	pit4	
+畣	tap4	1%
+畤	si7	
+畤	ti7	
+略	liak8	
+畦	he5	
+畧	liak8	1%
+異	i7	
+疏	soo1	
+疏	soo3	
+疵	tsu5	
+痊	tsuan1	
+痍	i5	
+痐	hue5	
+痒	iang5	
+痔	ti7	
+痕	hun5	
+皎	kiau2	
+皐	ko1	1%
+盒	ap8	
+盔	khue1	
+盖	kai3	1%
+盗	to7	1%
+盛	sing5	
+盛	sing7	
+眦	tse2	
+眭	he2	
+眯	bi2	
+眶	khong1	
+眷	kuan3	
+眸	boo5	
+眺	thiau3	
+眼	gan2	
+着	tshiak8	
+砦	tshe7	
+硃	tshu1	
+硎	hing5	
+硏	gian2	1%
+硫	liu5	
+祣	li2	
+祥	siang5	
+祧	thiau1	
+票	phiau3	
+祭	tshe3	
+离	li5	
+移	i5	
+窑	iau5	1%
+窒	tshit4	
+窒	lit4	
+窓	tsong1	1%
+窔	biau2	
+窕	thiau2	
+竟	king2	
+章	tshiang1	
+笘	tsiam1	
+笙	sing1	
+笝	lap8	
+笞	thi1	
+笠	lip8	
+笡	tsiann1	
+笣	pau1	
+笤	tiau5	
+笥	su1	10%
+符	hu5	
+笨	pun7	
+笩	pue7	
+笫	tshi2	
+第	te7	
+笮	tshe3	
+笮	tik4	
+笱	koo2	
+笳	ke1	
+粒	liap8	
+粒	lip8	
+粕	phok4	
+粗	tsoo1	
+粘	liam5	1%
+粚	thi1	
+紩	tiat8	
+紬	thiu1	
+紬	tiu5	
+累	lui2	
+累	lui5	
+累	lui7	
+細	se3	
+紱	hut4	
+紲	siat4	
+紳	sin1	
+紵	thi2	
+紹	siau7	
+紺	kham3	
+紼	hut4	
+紾	tshin2	
+終	tshiong1	
+絃	hian5	
+組	tshoo2	
+絅	king2	
+絆	puan3	
+絇	ku5	
+統	thong2	
+罣	khua3	1%
+羚	ling5	
+羜	thi2	
+羝	te1	
+羞	siu1	
+翊	ik8	
+翌	ik8	
+習	sip8	
+耜	su7	
+聃	tam1	
+聆	ling5	
+聊	liau5	
+脗	bun2	
+脚	kiak4	1%
+脛	king7	
+脞	tso3	
+脢	bue5	
+脣	tun5	
+脩	siu1	
+脫	thuat4	
+脯	hu2	
+脰	too7	
+脱	thue3	1%
+舂	tshiong1	
+舲	ling5	
+舵	to7	
+舶	pik8	
+舷	hian5	
+舸	kho2	
+船	tsuan5	
+艴	hut4	
+艴	put8	
+茝	tshi2	1%
+荰	too7	
+荳	too7	
+荵	jim2	
+荷	ho5	
+荷	ho7	
+荸	phut8	
+荻	tik8	
+荼	too5	
+荽	sui1	
+莅	li7	
+莅	linn7	
+莆	hu2	
+莆	poo5	
+莈	but8	
+莉	li5	
+莊	tshong1	1%
+莎	so1	
+莒	ki2	
+莓	bue5	
+莖	king1	
+莘	sin1	
+莝	tso3	
+莞	uan2	
+莞	uan5	
+莟	ham5	
+莠	iu2	
+莢	kiap4	
+莧	hian7	
+莩	piau2	
+莪	go5	
+莫	bok8	
+莫	boo7	1%
+莮	lam5	
+莽	bong2	
+處	tsi2	
+處	tsi3	
+虙	hok8	
+蚯	khiu1	
+蚳	ti5	
+蚶	ham1	
+蚽	phi1	
+蚿	hian5	
+蛀	tshu3	
+蛄	koo1	
+蛆	tsi1	
+蛇	i5	10%
+蛇	sia5	
+蛈	tiat8	
+蛉	ling5	
+蛋	tan7	
+衒	hian5	
+術	sut8	
+袈	kia1	
+袋	tai7	
+袍	pau5	
+袒	tan7	
+袖	siu7	
+袗	tshin2	
+袚	hut4	
+袚	puat8	
+袜	biat8	1%
+袜	buat8	1%
+袝	hu7	
+袞	kun2	
+袟	tiat8	
+袠	tiat8	
+袪	khi1	
+被	phi7	
+被	pi7	
+規	kui1	
+覓	bik8	
+覔	bik8	1%
+觖	khuat4	
+訛	go5	
+訝	ge7	
+訟	siong7	
+訢	him1	
+訣	kuat4	
+訥	lut8	
+訧	iu5	
+訪	hong2	
+設	siat4	
+訮	gian2	
+許	hi2	
+豘	tun5	
+豚	thun5	
+豚	tun5	
+豛	ik8	
+豛	tok4	
+豜	kian1	
+豝	pa1	
+貦	guan2	1%
+貧	pin5	
+貨	hue3	
+貨	honn3	
+販	huan3	
+貪	tham1	
+貫	kuan3	
+責	tshik4	
+赦	sia3	
+赧	lan2	
+赽	kuat4	
+赾	tsia3	
+赾	khin2	
+趺	hu1	
+趾	tshi2	
+跂	khi3	
+跂	ki5	
+躭	tam1	
+軘	tun5	
+軛	ik4	
+軟	juan2	
+軟	luan2	
+逋	poo5	
+逌	iu5	
+逍	siau1	
+逎	lainn2	1%
+透	thoo3	
+逐	tiok8	
+逑	kiu5	
+逓	te7	1%
+途	too5	
+逕	king3	
+逖	thik4	
+逗	too7	
+這	tshe2	
+通	thong1	
+逝	si7	
+逞	thing2	
+速	sok4	
+造	tsho7	
+造	tso3	
+逡	tshun3	
+逡	tshun5	
+逢	hong5	
+連	lian5	
+部	poo7	
+郭	kok4	
+郯	tam5	
+郲	lai5	
+都	too1	
+酕	bonn5	
+酖	tam1	
+酗	hi3	
+野	ia2	
+釣	tiau3	
+釤	sam3	
+釦	khoo3	
+釧	tsuan3	
+釬	han7	
+釵	tsai1	
+閆	iam5	
+閈	han7	
+閉	pi3	
+陪	pue5	
+陬	tshoo1	
+陰	im1	
+陳	tin5	
+陳	tin7	1%
+陴	pi5	
+陵	ling5	
+陶	iau5	
+陶	to5	
+陷	ham7	
+陸	liok8	
+雀	tsiak4	
+雩	i5	
+雪	suat4	
+雫	luann2	
+頂	ting2	
+頃	khing2	
+頄	kui5	
+飡	tsan1	1%
+飦	tshian1	1%
+馗	kui5	
+魚	gi5	
+鳥	liaunn2	
+鹵	loo2	
+鹿	lok8	
+麥	bik8	
+麻	bann5	
+𠁁	too2	
+𠊨	tshun1	1%
+𠊪	si7	1%
+𠊫	sun3	
+𠊫	sun5	1%
+𠊬	khik4	
+𠊭	khiam2	
+𠊮	boo7	
+𠊰	kuann2	
+𠊲	tut8	
+𠊳	pian7	1%
+𠊴	thok4	
+𠊵	to1	
+𠊶	in7	1%
+𠊷	ti7	
+𠊾	kui7	
+𠋢	soo2	
+𠋫	hoo7	1%
+𠌰	kai3	
+𠝞	tsap4	
+𠴭	sik4	
+𠴮	phun3	1%
+𠴲	tap4	
+𠴳	gaunn5	
+𠴺	ainn1	
+𠶬	lang7	
+𡱽	hut4	
+𡱿	ik8	1%
+𡸕	khiong1	
+𢁁	tok4	
+𢈴	king1	
+𢈿	hik8	
+𢛅	koo7	
+𢜥	khiu1	
+𣆶	buan2	1%
+𣆷	tiau7	1%
+𣒂	tiam7	
+𣒃	hik8	
+𣵾	e1	
+𣶇	se3	1%
+𣶉	hoo3	1%
+𤕢	hau5	
+𤟎	gut4	
+𤭁	tong5	
+𤵺	siat4	1%
+𤵼	hiang7	
+𤶀	kau2	
+𦊫	kong1	
+𦍩	koo2	1%
+𦨡	hut8	
+𦮷	pue3	
+𦯁	tun2	
+𦯊	kuat4	
+𦰗	hua5	1%
+𧉟	tai5	
+𧙄	puat8	1%
+𧥸	im7	
+𧰮	hut4	1%
+㑳	tsiu3	
+㑴	tsim1	1%
+㑵	tshit8	1%
+㑷	thai3	1%
+㓻	kong1	1%
+㖹	phun5	
+㖺	tsun2	
+㗆	kik4	
+㗊	tsip4	
+㝢	i2	1%
+㝷	sim5	1%
+㟧	gok8	
+㥁	tik4	1%
+㥈	tiap8	
+㥋	i1	
+㨎	juan5	
+㨗	tshiat8	1%
+㫺	sik4	1%
+㫻	khun3	
+㭰	tshui2	1%
+㭾	khut8	
+㮀	ham5	
+㮁	gaunn5	
+㮄	pong2	1%
+㮇	thiam3	
+㹂	khian2	
+㺃	koo2	1%
+㼧	tong5	
+㾓	kuan1	1%
+㾙	hin2	
+㾝	tsia3	
+㾠	kong5	
+㿱	suat8	
+䇭	lo2	
+䊃	pue7	
+䊅	bing5	
+䋙	ji2	
+䑪	kap4	
+䓗	tsong1	1%
+䖑	bik8	
+䖳	tshe7	
+䛏	linn2	
+䛏	linn5	
+䝬	tshu3	
+䟦	puat8	
+䟬	khiu3	
+䢜	kui1	1%
+䣱	hi3	1%
+偨	tse1	
+偨	tsi2	
+傀	khui2	
+傀	kue1	
+傀	kui1	
+傁	soo2	
+傂	ti2	
+傃	soo3	
+傄	hat4	
+傅	hu1	
+傅	hu7	
+傅	poo3	
+傆	guan7	
+傇	jiong2	
+傈	lik4	
+傉	lok8	
+傊	un2	
+傋	kang2	
+傌	bann7	
+傍	ping1	
+傍	pong5	
+傍	pong7	
+傎	tian1	
+傏	tong5	
+傐	ho2	
+傑	kiat8	
+傒	he5	
+傓	sian3	
+傕	khak4	
+傖	sing5	
+傖	song5	
+傗	tsiok4	
+傘	san2	
+備	pi7	
+傚	hau7	
+傛	iong5	
+傜	iau5	
+傝	thap4	
+傞	so1	
+傟	ang2	1%
+兠	tau1	1%
+凖	tshun2	1%
+凱	khai2	
+剩	sin7	
+割	kat4	
+創	tsong1	
+創	tsong3	
+勛	hun1	1%
+勝	sin1	
+勝	sin3	
+勞	lo5	
+勞	lo7	
+博	phok4	
+厥	khuat4	
+厨	tu5	1%
+叅	tsam1	1%
+唾	tho3	
+啙	tsu2	
+啻	the3	
+啼	the5	
+啽	gam5	
+啾	tshiu1	
+喂	ue1	
+喃	lam1	
+喃	lam5	
+善	sian7	
+喅	iok8	
+喆	tiat4	1%
+喈	kai1	
+喉	hoo5	
+喊	ham2	
+喊	hiam3	10%
+喋	tiap8	
+喌	tshiok4	
+喌	tshu5	
+喏	jia2	
+喑	im1	
+喒	tsham1	
+喒	tshan2	
+喒	oo2	1%
+喓	iau1	
+喔	ak4	
+喘	tsun2	
+喙	hui7	
+喚	huan3	
+喜	hi2	
+喝	hat4	
+喟	hui2	
+喢	tsap4	
+喤	hong5	
+喦	gam5	1%
+喧	suan1	
+喪	song1	
+喪	song3	
+喫	khe3	
+喫	khik4	
+喬	kiau5	
+單	sian5	
+單	sian7	
+單	tan1	
+喯	phun3	
+喻	ji7	
+圍	ui5	
+埵	to2	
+堞	tiap8	
+堡	po2	
+堤	te1	
+堦	kai1	1%
+堪	kham1	
+堯	giau5	
+堰	ian2	
+報	po3	
+堳	bi5	
+場	tsiang5	
+塇	suan1	
+塈	khai3	
+壹	it4	
+壺	hoo5	
+壻	se3	1%
+奠	tian7	
+奡	go7	
+奥	o3	
+婷	ting5	
+婺	bu7	
+婿	sai3	
+婿	se3	
+媆	jun7	
+媆	juan2	
+媊	tshian5	
+媍	hu7	1%
+媒	bue5	
+媓	hong5	
+媖	ing1	
+媚	binn7	
+媛	uan7	
+媟	siat4	
+媢	bonn7	
+媧	ua5	
+媪	au2	1%
+媮	thoo1	
+孱	tsan1	
+孳	tshu1	
+富	hu3	
+寐	bi7	
+寒	han5	
+寓	gi7	
+寔	sit8	1%
+尊	tshun1	
+尋	sim5	
+就	tshiu7	
+属	siok8	1%
+崱	tshik8	
+崲	hong5	
+崵	tong7	
+崽	tshai2	
+崿	gok8	
+嵁	kham1	
+嵂	lut8	
+嵇	ke1	
+嵋	bi5	
+嵌	kham1	
+嵌	kham3	
+嵎	gi5	
+嵏	tshong1	
+嵐	lam5	
+嵓	gam5	1%
+嵗	sue3	1%
+巽	sun3	
+帽	bo7	
+幃	ui5	
+幄	ak4	
+幅	hok4	
+幇	pang1	1%
+幾	ki1	
+幾	ki2	
+庽	gi7	1%
+廂	siang1	
+廊	long5	
+强	kiang2	1%
+强	kiang5	1%
+强	kiang7	1%
+弻	pit8	1%
+弼	pit8	
+彘	ti7	
+彭	phing5	
+徧	pian3	1%
+徨	hong5	
+復	hiu7	10%
+復	hok4	
+復	hok8	
+循	sun5	
+悲	pi1	
+悳	tik4	1%
+悶	bun7	
+惄	lik4	
+惎	ki7	
+惑	hik8	
+惠	hui7	
+惡	ok4	
+惡	oo1	
+惡	oo3	
+惰	to7	
+惱	lo2	
+惲	hun2	
+惴	tsui2	
+惶	hong5	
+惸	king5	
+惺	sing1	
+惻	tsik4	
+惼	phian2	
+惽	hun1	
+愀	tsiau2	
+愀	tsiau3	
+愉	i5	
+愊	pik4	
+愎	pit8	
+愒	khi3	1%
+愔	im1	
+愕	gok8	
+愘	khe1	
+愘	khe3	
+愜	kiap4	
+慨	khai3	
+戞	khat4	
+戟	kik4	
+扉	hui1	
+扊	iam2	
+掌	tshiang2	
+掾	ian7	
+揀	lian7	
+揃	tshian2	1%
+揄	ji5	
+揆	kui5	
+揇	lam2	
+揈	hong1	
+揉	jiu2	
+揉	jiu5	
+揎	suan1	
+描	biau5	
+提	si5	10%
+提	the5	
+插	tsap4	
+揓	si3	
+揖	ip4	
+揚	iang5	
+換	huan3	
+揜	iam2	1%
+揟	si1	
+揠	at4	
+握	ak4	
+揣	tsui2	
+揥	te3	
+揦	lat8	
+揩	khai1	
+揩	khai3	
+揪	tsiu1	
+揬	tut8	
+揭	khi3	10%
+揭	kiat4	
+揭	kiat8	
+揮	hui1	
+揲	siap8	
+援	uan7	
+揵	kian7	
+摒	ping2	
+撝	hui1	
+敞	tsiang2	
+敢	kam2	
+散	san2	
+散	san3	
+敥	ia7	
+敦	tun1	
+敧	khi1	
+斌	pin1	1%
+斐	hui2	
+斑	pan1	
+斝	ke2	
+斮	sik4	
+斯	su1	
+旐	tiau7	
+旑	i1	1%
+旒	liu5	
+晬	sue3	
+普	phoo2	
+景	king2	
+景	ing2	
+晰	tshiat4	
+晳	sik4	
+晴	tshing5	
+晶	tshing1	
+晷	khui2	
+晹	sik4	
+智	ti3	
+暑	si2	
+曾	tshing1	
+替	the3	
+最	tshue3	
+朁	tsam2	
+朝	tiau1	
+朝	tiau5	
+朞	ki1	1%
+期	ki1	
+期	ki5	
+梴	ian5	
+棃	lai5	1%
+棉	bian5	
+棊	ki5	1%
+棋	ki5	
+棍	kun3	
+棎	tsiam5	
+棐	hui2	
+棑	pai5	
+棒	pang7	
+棖	ting5	
+棗	tsho2	
+棘	kik4	
+棚	ping5	
+棟	tong3	
+棠	tong5	
+棣	te7	
+棧	tshan7	
+棧	tshian2	
+棧	tsian2	
+棫	hik8	
+棬	kuan1	
+森	som1	
+棱	ling5	
+棲	se1	
+棸	tshoo1	
+棹	tshau7	
+棺	kuan1	
+棼	hun1	
+椀	uan2	1%
+椁	kok4	1%
+椅	i1	
+椅	i2	
+椆	tiau5	
+椈	kiok4	
+椉	sing7	1%
+椊	tshut8	
+植	sit8	
+椎	tshui1	
+椐	ki1	
+椒	tshiau1	
+椓	tok4	
+椔	tshu1	
+楮	tshi2	
+楰	ji5	
+欹	i1	
+欺	khi1	
+欽	khim1	
+款	khuan2	
+欿	kham2	
+殖	sit8	
+殘	tshan5	
+殙	hun1	
+殼	khak4	
+殽	gaunn5	
+毯	tham2	
+毳	tsui3	
+淼	biau2	
+渘	jiu5	
+渙	huan3	
+減	kiam2	
+渝	ji5	
+渝	si1	
+渟	ting5	
+渠	ki5	
+渡	too7	
+渢	huan3	
+渢	hong1	
+渣	tshe1	
+渣	tshe7	
+渤	put8	
+渥	ak4	
+渧	te3	
+温	un1	
+渫	tiap8	
+測	tsik4	
+渭	ui7	
+港	kang2	
+渰	iam2	
+渴	khat4	
+游	iu5	
+渺	biau2	
+渼	bue2	
+渾	hun5	
+渾	hun7	
+湃	phai3	
+湄	bi5	
+湊	tshoo3	
+湍	tsuan1	
+湍	thuan1	
+湎	bian2	
+湎	bian7	
+湏	si1	1%
+湑	ji2	
+湑	si1	
+湒	tsip4	
+湓	phun5	
+湖	hoo5	
+湘	siang1	
+湛	tam1	
+湜	sit8	
+湝	kai1	
+湟	hong5	
+湣	bin2	
+湦	sing1	
+湧	iong2	
+湫	tsiu1	
+湮	ian1	
+湯	siang1	
+湯	thong1	
+湯	tong7	
+湲	uan7	
+湼	liap4	1%
+溈	kui1	
+溉	khai3	
+滋	tshu1	
+焙	pue7	
+焚	hun5	
+焜	khun1	
+焞	sun5	
+焞	thue1	
+焞	thun1	
+焟	sik4	
+焠	tsui3	
+無	bu5	
+焦	tshiau1	
+焫	siat4	1%
+焮	him3	
+焰	iam7	
+焱	iam7	1%
+焵	kong3	
+然	jian5	
+焸	ing1	
+煮	tshi2	
+爲	ui5	
+爲	ui7	
+牋	tshian1	1%
+牌	pai5	
+牚	thing1	
+犀	sai1	
+犀	se1	
+犂	le5	
+犄	khi1	
+犅	kang2	
+犇	phun1	1%
+犉	sun5	
+猋	phiau1	
+猒	iam1	1%
+猢	hoo5	
+猥	ue1	
+猩	sing1	
+猪	ti1	1%
+猫	biau5	1%
+猱	jiu5	10%
+猱	lo5	
+猱	lonn5	
+猲	hiat4	
+猴	hoo5	
+猶	iu5	
+珷	bu2	1%
+琖	tshan2	1%
+琚	ki1	
+琛	thim1	
+琠	thian2	
+琢	tok4	
+琦	ki5	
+琨	khun1	
+琪	ki5	
+琫	pong2	
+琬	uan2	
+琮	tshong1	
+琯	kuan2	
+琰	iam2	
+琰	ian2	
+琱	tiau1	
+琲	phue2	
+琳	lim5	
+琴	khim5	
+琵	pi5	
+琶	pa5	
+瓻	tsi1	
+甥	sing1	
+甦	soo1	
+甯	bing7	
+番	huan1	
+畫	hua7	
+畫	ik8	
+畬	i5	
+畭	i5	1%
+畯	tshun3	
+畲	sia5	
+疎	soo1	1%
+痗	hue3	
+痘	too7	
+痚	hau1	
+痛	thong3	
+痜	thut4	
+痞	phi2	
+痟	siau1	
+痠	suan1	
+痡	hu1	
+痢	li7	
+痣	tshi3	
+登	ting1	
+發	huat4	
+皓	ho7	
+皴	tsin1	
+盙	hu2	1%
+盜	to7	
+睂	bi5	1%
+睃	tshun3	
+睊	kuan3	
+睌	ban2	
+睍	hian2	
+睍	hian7	
+睏	khun3	
+矟	sok4	
+短	tuan2	
+硜	king1	
+硝	siau1	
+硨	tsia1	
+硪	gonn2	
+硬	ging7	
+硭	bong5	
+确	khak4	
+硯	hian7	
+祲	tsim1	
+秿	phoo1	
+稀	hi1	
+稂	long5	
+稃	hu1	
+稅	sue3	
+稅	thuat4	
+稇	khun2	
+稈	kan2	
+稉	king1	
+程	ting5	
+稍	siau1	
+窖	kau3	
+窗	tsong1	
+窘	khun2	
+窙	hau1	
+竢	su7	
+竣	tshun3	
+童	tong5	
+竦	siong2	
+筀	kui3	
+筅	sian2	1%
+筆	pit4	
+筇	giong5	
+等	ting2	
+筊	kau3	
+筋	kin1	
+筌	tsuan1	
+筍	sun2	
+筏	huat8	
+筐	khong1	
+筑	tiok4	
+筒	tong5	
+答	tap4	
+策	tsik4	
+筬	sing5	
+粟	siok4	
+粢	tshu1	
+粥	tshiok4	
+粦	lin5	
+粦	lin7	
+粧	tshong1	1%
+粬	khiok4	1%
+紪	tse2	
+紫	tshi2	
+絏	siat4	1%
+結	kiat4	
+絔	bik8	
+絕	tshuat8	
+絜	hiat8	
+絞	kau2	
+絡	lok8	
+絢	hian3	
+絣	ping1	
+給	kip4	
+絨	jiong5	
+絫	lui2	
+絭	huan7	
+絭	kuan3	
+絮	si3	
+絰	tiat8	
+絲	si1	
+絳	kang3	
+缾	pin5	1%
+罥	kian2	
+罦	hu1	1%
+羡	suan7	1%
+翔	siang5	
+翕	hip4	
+翗	ko5	
+耋	tiat8	
+聒	kuat4	
+肅	siok4	
+胾	tshu3	
+脹	tiang3	
+脺	tsui3	
+脽	sui5	
+脾	pi5	
+腀	lun5	
+腃	kuan3	1%
+腆	thian2	
+腉	lainn5	
+腊	sik4	
+腋	ik8	
+腌	am1	
+腎	sin7	
+腑	hu2	
+腓	hui5	
+腔	khiang1	
+腕	uan2	
+腴	ji5	
+舄	sik4	
+舒	si1	
+舜	sun3	
+荆	king1	
+莾	bong2	1%
+莿	tsi3	
+菀	ut4	
+菁	tsing1	
+菁	tshing1	
+菂	tik4	
+菆	tshoo1	
+菉	liok8	
+菊	kiok4	
+菌	khun1	
+菑	tshai1	1%
+菑	tshu1	
+菓	ko2	1%
+菖	tsiang1	
+菘	siong5	
+菜	tsai3	
+菟	thoo3	
+菠	po1	
+菩	phoo1	
+菩	phoo5	
+華	hua5	
+菰	koo1	
+菱	ling5	
+菲	hui1	
+菲	hui2	
+菴	am1	1%
+菶	pong2	
+菸	ian1	
+菹	tsi1	
+菼	tam7	
+菼	tham2	
+菽	siok4	
+萁	ki5	
+萃	tshui7	
+萄	to5	
+萅	tsun1	1%
+萇	tiang5	
+萊	lai5	
+萋	tse1	
+萋	se1	
+萌	bing5	
+萍	phing5	
+萏	tam2	
+萑	uan5	
+萸	ji5	
+著	tshiak8	1%
+著	ti3	
+虛	hi1	
+蛙	ua5	
+蛛	tu1	
+蛟	kau1	
+蛣	kit4	
+蛤	kap4	
+蛦	i5	
+蛩	khiong1	
+衆	tshiong3	
+衕	tong5	
+街	ke1	
+袱	hok8	
+袴	khoo3	
+袵	jim2	1%
+袷	khap4	
+袷	kiap4	
+袺	kiat4	
+袻	ji5	
+袼	kok4	
+袽	ji5	
+裁	tshai5	
+裂	liat8	
+覃	sim5	
+覃	tham5	
+視	si7	
+覘	tshiam1	1%
+覘	tiam3	10%
+觚	koo1	
+觝	ti2	
+訴	soo3	
+訶	ho1	
+訶	ho5	
+訶	honn1	
+訶	o1	
+診	tshin2	
+註	tshu3	
+証	tshin3	1%
+詁	koo2	
+詁	koo7	
+詆	ti2	
+詈	li7	
+詎	ki7	
+詐	tshe3	
+詒	i5	
+詔	tshiau3	
+評	phing5	
+詖	phi5	
+詘	khut4	
+詛	tshoo2	
+詞	su5	
+詠	ing7	
+豞	hok4	
+豟	ik4	
+象	siang7	
+豾	phi1	
+貂	tiau1	
+貯	thi2	
+貰	si3	
+貱	pi3	
+貳	ji7	
+貴	kui3	
+貶	pian2	
+買	bainn2	
+貸	tai7	
+貹	sing3	
+貺	hong2	
+費	hui3	
+費	pi3	
+貼	thiap4	
+貽	i5	
+貿	boo7	
+賀	ho7	
+賁	phun1	
+賁	pi3	
+趁	thin3	
+趃	tiat8	
+趄	tshoo1	
+趄	tsi1	
+超	thiau1	
+趇	jip4	
+越	uat8	
+跋	puat8	
+跌	tiat8	
+跎	to5	
+跏	ke1	
+跏	kia1	
+跑	pau5	
+跓	tshi7	
+跕	tsiat8	
+跖	tshik4	1%
+跚	san1	
+跛	pho2	
+軧	ti2	
+軫	tshin2	
+軰	pue3	1%
+軷	puat8	
+軸	tiok8	
+軹	tshi2	
+軻	kho1	
+軼	it8	
+軼	tiat8	
+辜	koo1	
+逩	phun3	
+逫	tuat4	
+逭	kuan2	
+逮	tai7	
+逯	liok8	
+週	tshiu1	
+進	tshin3	
+逵	kui5	
+逶	ui1	
+逷	thik4	1%
+逸	it8	
+郵	iu5	
+郿	bi5	
+鄂	gok8	
+鄅	i2	
+鄆	un7	
+鄉	hiang1	
+鄉	hiang3	
+鄬	ui7	
+酡	to5	
+酢	tshok8	
+酣	ham1	
+酤	koo1	
+酥	soo1	
+量	liang5	
+量	liang7	
+釾	ia5	
+鈀	pa1	
+鈅	guat8	
+鈇	hu1	
+鈍	tun1	
+鈍	tun7	
+鈎	koo1	1%
+鈐	khiam5	1%
+鈔	tsau1	
+鈕	liu2	
+鈞	kin1	
+開	khai1	
+閎	hong5	
+閏	jun7	
+閑	han5	
+閒	han5	
+閒	kan1	1%
+閒	kan3	
+間	kan1	
+閔	bin2	
+陲	sui5	
+陽	iang5	
+陾	jiong5	
+隄	te1	
+隅	gi5	
+隆	liong5	
+隈	ue1	
+隊	tui7	
+隍	hong5	
+階	kai1	
+雁	gan7	
+雄	hiong5	
+雅	genn2	
+集	tship8	
+雇	koo3	
+雯	bun5	
+雰	hun1	
+雲	hun5	
+雲	in5	
+項	hang7	
+順	sun7	
+頇	han1	
+須	si1	
+飧	sun1	
+飩	thun3	
+飪	jim2	
+飫	i3	
+飭	thit4	
+飯	huan2	
+飯	huan7	
+飲	im2	
+馭	gi7	
+馮	ping5	
+馮	pong5	
+鳦	it4	
+黃	hong5	
+黍	si2	
+黑	hik4	
+𠅩	siok8	1%
+𠋱	siat4	1%
+𠋲	sik4	
+𠋴	tam5	1%
+𠋵	khian3	
+𠋶	bing2	
+𠋷	tsian3	
+𠋺	so1	
+𠋻	tshik4	
+𠞁	tsik4	1%
+𠞉	lik4	
+𠨃	gue7	1%
+𠶸	khik4	
+𠶾	ho7	
+𡍨	too7	
+𡙈	po3	1%
+𡨿	ut4	
+𡩄	buan2	
+𡹪	kik4	
+𡹸	tsong1	
+𢁅	sun3	1%
+𢃲	gik8	
+𢉝	ue3	
+𢉟	ping7	
+𢔠	tsik4	
+𢔤	tsing3	
+𢜤	ai3	1%
+𢜲	la7	
+𢝌	bonn7	
+𢯩	tsik4	
+𢯫	thuan3	
+𢯰	lut8	
+𢰍	an5	
+𢽝	tsham1	
+𣇬	khiong3	
+𣥼	te2	
+𣨙	ue1	
+𣮈	khut8	
+𣸄	tam5	
+𣸎	huai3	
+𣹇	kho3	
+𣹇	khua3	
+𤶕	thun3	
+𤿩	khiak4	
+𤿫	thuat4	
+𥒳	khong7	
+𥙭	sia7	1%
+𥥻	khing3	1%
+𥩾	phut4	
+𥬫	tsun2	
+𥬯	kho2	
+𥹚	huan1	
+𥹜	kau1	
+𦊽	bong5	
+𦓱	kik4	
+𦜆	ham5	
+𦜇	khut4	
+𦜍	phong3	
+𦜒	ham3	
+𦨯	huat8	
+𦨴	tong5	
+𦰳	bia2	
+𦱂	hik8	
+𧊗	ji7	1%
+𧣗	koo1	
+𧦞	poo3	
+𧰸	gai2	
+𧵊	ham3	
+𧺺	puat8	1%
+𧺾	phuan2	
+𧻁	khiu3	
+𧿹	bo2	
+𨋐	phat4	
+𨓱	to5	1%
+𨓵	song3	1%
+𨥓	gun7	
+𨱥	ai2	
+𨱫	kiam5	
+𨾚	kui1	
+𩈅	han7	
+𪔂	ting2	1%
+㑼	liak8	
+㑽	tong5	1%
+㑾	iau5	
+㒀	tshe2	
+㒀	tik4	
+㒁	gi2	1%
+㓖	pit4	
+㟵	kong1	1%
+㡛	bong5	
+㨍	pang1	1%
+㪛	thim2	
+㬄	tsan2	
+㬉	luan2	1%
+㮓	khing7	
+㮚	lik4	1%
+㮣	khai3	1%
+㱪	hun1	1%
+㴭	biau2	
+㽡	pi1	
+㽣	hik8	
+㽤	kiok4	
+䄍	tshe7	
+䄍	tsoo3	
+䅔	tshu1	
+䇼	ip4	
+䋠	poo2	1%
+䎹	bun5	1%
+䐓	jiu5	
+䑰	po1	
+䛗	tshi2	
+䝰	ti7	
+䞨	khui2	
+䟽	soo1	1%
+䣴	hi3	1%
+䪳	un2	
+䪴	tshim2	
+亂	luan7	
+亄	i3	
+亶	tshian1	
+亶	than2	
+傪	tsam1	
+傫	lui2	
+催	tsui1	
+傭	tsiong1	
+傭	iong5	
+傮	tsho1	
+傯	tshong2	1%
+傰	ping5	
+傱	siong2	
+傲	go7	
+傳	thuan5	
+傳	tuan7	
+傴	i2	
+債	tshai3	
+債	tshik4	
+傶	tsok4	
+傷	siang1	
+傸	tsiang2	
+傺	tsi3	
+傻	se2	
+傼	han3	
+傽	tshiang1	
+傾	khing1	
+傾	khing2	
+傿	ian3	
+僀	te3	
+僁	siat4	
+僂	loo5	
+僂	loo7	
+僄	phiau3	
+僅	kin7	
+僆	lian2	
+僆	lian7	
+僇	liok8	
+僈	ban7	
+僉	tsiam1	
+僊	sian1	1%
+僋	tham3	
+凗	tsui2	
+剹	lok8	
+剻	phing2	
+剽	phiau2	
+剽	phiau3	
+剿	tshau5	
+募	boo7	
+勡	phiau1	
+勡	phiau3	
+勢	si3	
+勣	tshik4	
+勤	khin5	
+勦	tsau1	
+匯	hue7	
+厩	kiu3	
+叠	tiap8	1%
+嗀	khak8	
+嗃	hok4	
+嗄	tse3	
+嗅	hiu3	
+嗇	sik4	
+嗈	iong1	
+嗌	ik4	
+嗑	ap8	
+嗔	thian5	
+嗚	oo1	
+嗛	khiam2	
+嗜	si7	
+嗝	kik4	
+嗟	tshia1	
+嗣	su5	
+嗣	su7	
+嗤	tsi1	
+嗥	ho5	
+園	uan5	
+圓	uan5	
+塉	tshit4	
+塊	khuai3	
+塊	thok4	
+塋	ing5	
+塌	thap4	
+塏	khai2	
+塑	soo3	
+塒	si5	
+塓	bik8	
+塔	thap4	
+塕	ong3	1%
+塗	too5	
+塘	tong5	
+塚	thiong2	
+塞	sai3	
+塞	sik4	
+塟	tshong3	1%
+塢	oo2	
+塤	hun1	
+塩	iam5	1%
+填	thian5	
+壼	khun2	
+夣	bong7	1%
+奧	hiok4	
+媳	sit4	
+媵	in7	
+媸	tsi1	
+媺	bi2	1%
+媻	puan5	
+媼	au2	
+媽	bann2	
+媾	koo1	
+媾	koo3	
+媿	khui3	1%
+嫁	ke3	
+嫂	so2	
+嫄	guan5	
+嫉	tshit8	
+嫋	hiau1	
+嫋	liau2	
+嫌	hiam5	
+嫐	hiau5	
+嫐	lo2	
+寖	tshim3	
+寗	bing7	1%
+寘	ti3	
+寙	ji2	
+寚	po2	1%
+尠	sian2	
+嵠	khe1	1%
+嵡	ong2	
+嵤	ing5	
+嵨	oo2	
+嵩	siong1	
+嵬	gui5	
+嵯	tsi1	
+嵯	tso1	
+幊	kong1	
+幌	hong2	
+幍	tho1	
+幎	bik8	
+幐	ting5	
+幹	kan3	
+廈	he7	
+廉	liam5	
+廋	soo1	
+廌	tshai7	
+弒	si3	
+彀	koo3	
+彙	lui7	
+徬	pong5	
+徭	iau5	
+微	bi5	
+徯	he5	
+想	siang2	
+惹	je2	
+惹	jia2	
+愆	khian1	
+愈	ji2	
+愍	bin2	
+意	i3	
+愚	gi5	
+愛	ai3	
+感	kam2	
+愧	khui3	
+愪	un2	
+愫	soo3	
+愲	kut8	
+愴	tsong2	
+愶	hiap8	
+愷	khai2	
+愾	hi3	
+愾	khai3	
+慃	ang2	
+慄	lik4	
+慅	so1	
+慆	tho1	
+慈	tshu5	
+慉	hiok4	
+慊	khiam2	
+慊	khiam3	
+慍	un3	
+慎	sin7	
+戡	kham1	
+戡	kham3	
+戡	tim2	
+戢	tsip4	
+戥	ting2	
+搆	koo3	
+搇	khim3	
+損	sun2	
+搏	phok4	
+搔	so1	
+搕	khap4	
+搖	iau5	
+搗	to2	
+搜	soo1	
+搝	khiu2	
+搡	song2	
+搢	tshin3	
+搤	ik4	
+搥	tui5	
+搦	lik8	
+搧	iat8	
+搧	sian3	
+搬	puan1	
+搭	tap4	
+搲	ua3	
+搵	un3	
+搶	tsiang2	
+携	he5	1%
+敬	king3	
+斒	pan1	
+斟	tshim1	
+新	sin1	
+晸	tshing2	
+暄	suan1	
+暇	he7	
+暈	un7	
+暉	hui1	
+暌	khui1	
+暍	ai2	
+暒	tshing5	
+暖	luan2	
+暗	am3	
+暘	iang5	
+會	hue7	
+會	kue3	10%
+棰	sui5	
+椰	ia5	
+椲	ui5	
+椵	ke2	
+椶	tshong1	
+椹	tshim1	
+椽	ian5	
+椽	thuan5	
+椿	thun1	
+楀	i2	
+楂	tshe1	
+楈	si1	
+楊	iang5	
+楓	hong1	
+楚	tsoo2	
+楛	hoo7	
+楝	lian7	
+楞	ling5	
+楠	lam5	
+楣	bi5	
+楤	tsong1	
+楥	hian3	
+楦	hian3	1%
+楧	ing1	
+楨	tshing1	
+楪	iap8	
+楫	tsip4	
+業	giap8	
+楯	tun2	1%
+極	kik8	
+楷	khai2	
+楸	tsiu1	
+楹	ing5	
+概	khai3	
+榆	ji5	
+榔	long5	
+歂	tsuan2	
+歃	tsap4	
+歆	him1	
+歇	hiat4	
+歈	ji5	
+歲	sue3	
+殛	kik4	
+殿	tian7	
+毀	hui2	
+毁	hui2	1%
+毓	iok8	
+毹	ji5	
+源	guan5	
+準	tshun2	
+溛	ua3	
+溜	liu2	
+溜	liu3	
+溞	so1	
+溟	bing5	
+溢	it8	
+溣	lun3	
+溥	phoo2	
+溦	bi5	
+溦	bui1	
+溩	oo2	
+溪	khe1	
+溫	un1	1%
+溫	un3	
+溯	soo2	
+溯	soo3	
+溱	tshin1	
+溲	soo1	
+溶	iong5	
+溷	hun7	
+溺	jiak8	
+溺	jiau7	1%
+溺	lik8	
+溼	sip4	
+溽	jiok8	
+滁	ti5	
+滂	pong5	
+滅	biat8	
+滈	o1	
+滑	kut8	
+滓	tshai2	
+滔	tho1	
+煁	sim5	
+煅	thuan3	
+煇	hui1	
+煇	hun1	
+煉	lian7	
+煌	hong5	
+煎	tshian1	
+煏	pik4	
+煒	ui2	
+煖	luan2	
+煗	luan2	1%
+煙	ian1	
+煜	iok8	
+煞	sat4	
+煢	king5	1%
+煣	jiu2	
+煤	bue5	
+煥	huan3	
+煦	hi2	
+照	tshiau3	
+煨	ue1	
+煩	huan5	
+煬	iang5	
+煰	kho3	
+爺	ia5	
+牒	tiap8	
+犍	kian1	
+献	hian3	1%
+猻	sun1	
+猾	kut8	
+猿	uan5	
+獅	su1	
+瑀	i2	
+瑁	pue7	
+瑄	suan1	
+瑅	the5	
+瑇	tai7	1%
+瑊	tshim1	
+瑋	ui2	
+瑍	huan3	
+瑒	iang5	
+瑕	he5	
+瑗	uan7	
+瑙	lo2	
+瑚	hoo5	
+瑛	ing1	
+瑜	ji5	
+瑝	hong5	
+瑞	sui7	
+瑟	sik4	
+瑯	long5	
+甞	siang5	1%
+畵	hua7	1%
+當	tong1	
+當	tong3	
+畸	ki5	
+畹	uan2	
+畹	uan5	
+痯	kuan2	
+痰	tham5	
+痳	bann5	
+痳	lim5	
+痴	tsi1	1%
+痵	khui3	
+痹	pi3	
+痻	bin5	
+痻	hun1	
+痼	koo3	
+痿	ue1	
+瘀	i3	
+瘁	tshui7	
+瘂	e2	1%
+瘃	tshiok4	
+瘏	too5	
+瘐	ji2	
+皵	tsiak4	
+盞	tshan2	
+盞	tsian2	
+盟	bing5	
+睘	king5	
+睚	gai5	
+睛	tshing1	
+睜	tshing7	
+睞	lai7	
+睟	sui3	
+睠	kuan3	
+睢	tsi1	
+督	tok4	
+睥	phi3	
+睦	bok8	
+睨	ge2	
+睫	tshiap4	
+睫	tshiat8	
+睬	tsai2	
+睹	too2	
+矮	ai2	
+硺	tok4	
+硿	khong1	
+碁	ki5	1%
+碌	lok8	
+碍	gai7	1%
+碎	tsui3	
+碏	tsiak4	
+碑	pi1	
+碒	gim5	
+碓	tui3	
+碔	bu2	
+碕	ki5	
+碖	lun2	
+碗	uan2	
+碡	tok8	
+祺	ki5	
+祼	kuan3	
+祿	lok8	
+禀	lim2	1%
+禀	pin2	1%
+禁	kim1	
+禁	kim3	
+禽	khim5	
+稐	lun2	
+稔	jim2	
+稗	pai7	
+稚	ti7	
+稜	ling5	
+稟	pin2	
+稠	tiu5	
+窞	tam2	
+窟	khut4	
+窠	kho1	
+窢	hik8	
+窣	sut4	
+竪	si7	1%
+筠	kin1	
+筢	pa5	
+筤	long5	
+筥	ki2	
+筦	kuan2	
+筧	kian2	
+筩	iong2	
+筩	tong5	
+筭	suan3	1%
+筮	si7	
+筯	ti7	1%
+筲	soo1	
+筴	kiap4	
+節	tshiat4	
+粮	liang5	
+粯	hian2	
+粱	liang5	
+粲	tsan3	
+粵	uat8	
+絛	tho1	
+絹	kuan3	
+絺	thi1	
+絿	kiu5	
+綁	pang2	
+綂	thong2	1%
+綃	siau1	
+綆	king7	
+綉	siu3	1%
+綋	hong5	
+綌	khik4	
+綍	hut4	
+綏	sui1	
+綑	khun2	
+經	king1	
+罧	sam3	
+罨	iam2	
+罪	tshue7	
+罭	hik8	
+置	ti3	
+署	si7	
+羣	kun5	
+群	kun5	1%
+羨	ian7	
+羨	suan7	
+義	gi7	
+翛	siau1	
+聖	sing3	
+聘	phing3	
+肄	i7	
+肆	su3	
+腄	lui1	
+腢	gi5	
+腤	am1	
+腥	sing1	
+腦	lo2	
+腫	tshiong2	
+腮	sai1	
+腮	su1	
+腯	thun2	
+腯	tun7	
+腰	iau1	
+腱	kian7	
+腱	kin7	
+腳	kiak4	
+腸	tsiang5	
+腹	hok4	
+舅	kiu7	
+舝	hat4	
+艇	thing2	
+菙	sui5	
+萬	ban7	
+萱	suan1	
+萵	o1	
+萼	gok8	
+落	lok8	
+葆	po2	
+葉	iap8	
+葊	am1	1%
+葐	phun5	
+葑	hong1	
+葒	hong5	
+葓	hong5	1%
+葚	sim5	
+葛	kat4	
+葡	poo5	
+葢	kai3	1%
+董	tong2	
+葦	ui2	
+葨	ue1	
+葩	pha1	
+葬	tshong3	
+葭	he5	
+葭	ke1	
+葱	tsong1	1%
+葳	ui1	
+葵	kui5	
+葷	hun1	
+葸	si2	
+葺	tsip4	
+葽	iau1	
+蒂	te3	
+蒍	ui2	
+虜	loo2	
+虞	gi5	
+號	ho5	
+號	ho7	
+蛸	sau1	
+蛸	siau1	
+蛺	kiap4	
+蛻	thue3	
+蛾	go5	
+蜀	siok8	
+蜂	hong1	
+蜃	in2	
+蜃	sin2	
+蜅	phu2	
+蜆	hian2	
+蜇	tshiat4	
+蜈	goo5	
+蜉	hu5	
+蜊	li5	
+蜍	si5	
+蝍	tshik4	
+衙	ge5	
+裋	ji7	
+裍	khun2	
+裎	ting5	
+裏	li2	
+裒	poo5	
+裔	i7	
+裕	ji7	
+裘	kiu5	
+裙	kun5	
+裛	ip4	
+補	poo2	
+裝	tshong1	
+裟	se1	
+裡	li2	1%
+觟	hua2	
+解	hai7	
+解	kai2	
+解	kai3	
+觥	kong1	
+觧	kai2	1%
+訾	tsu2	
+訿	tsu2	1%
+詡	hi2	
+詢	sun5	
+詣	ge2	
+試	tsi3	
+試	si3	
+詧	tsat4	
+詩	si1	
+詫	tsa3	
+詫	tse3	
+詬	koo3	
+詭	guai5	
+詭	khui2	
+詮	tshuan7	
+詮	tsuan1	
+詰	khiat4	
+話	hua7	
+該	kai1	
+詳	siang5	
+詵	sin1	
+詶	siu5	
+詹	tshiam1	
+詼	khue1	
+詾	hiong1	
+誂	thiau2	
+誄	lui2	
+誅	ti1	
+誆	khong3	
+誇	khua1	
+誠	sing5	
+豊	le2	1%
+豋	ting1	1%
+豢	huan7	
+豤	khun2	
+貅	hiu1	
+貉	bik8	1%
+貊	bik8	
+貲	tshu1	
+賂	loo7	
+賃	jim7	
+賄	iu7	
+資	tshu1	
+賈	ke2	
+賈	ke3	
+賈	koo2	
+賉	sut4	1%
+賊	tshik8	
+趏	kuat4	
+跟	kin1	
+跠	i5	
+跡	tshik4	
+跣	sian2	
+跨	khua1	
+跨	khua3	
+跪	kui7	
+跫	khiong1	
+跬	khui2	
+路	loo7	
+跲	khap4	
+跳	thiau3	
+躲	to2	
+較	kau3	
+輅	loo7	
+輈	tshiu1	
+載	tshai3	
+載	tshai7	
+輊	tshi3	
+辟	phik4	
+辟	phi3	1%
+辟	pi7	1%
+辟	pit8	1%
+辠	tshue7	1%
+農	long5	
+逼	pik4	
+逾	ji5	
+遁	tun7	
+遂	sui7	
+遄	tsui2	
+遇	gi7	
+遊	iu5	
+運	un7	
+遍	pian3	
+過	ko1	
+過	ko3	
+遏	at4	
+遐	he5	
+遑	hong5	
+遒	siu5	
+道	to7	
+達	tat8	
+違	ui5	
+鄏	jiok8	
+鄒	tshe1	
+鄒	tshoo1	
+鄔	oo1	
+鄔	oo2	
+鄔	u2	
+酧	siu5	1%
+酩	bing2	
+酪	lok8	
+酬	siu5	
+鈴	ling5	
+鈸	puat8	
+鈺	giok8	
+鈿	tian5	
+鈿	tian7	
+鉄	thiat4	1%
+鉄	tiat8	1%
+鉅	ki7	
+鉆	khiam5	1%
+鉉	hian5	
+鉋	pau7	
+鉏	tshoo1	
+鉗	khiam5	
+鉛	ian5	
+鉞	uat8	
+鉢	puat4	
+鉤	koo1	
+鉦	tshing1	
+鉧	bong2	
+銃	tsiong3	
+閟	pi3	
+隔	kik4	
+隕	un2	
+隖	oo2	1%
+隗	gui2	
+隗	gui5	
+隘	ai3	
+雉	ti7	
+雊	koo3	
+雋	tshun3	1%
+雍	iong1	
+雎	tsi1	
+零	ling5	
+雷	lui5	
+雺	bong5	
+電	tian7	
+靖	tshing7	
+靳	kin7	
+靴	hia1	
+靷	in2	
+靸	sap4	
+韵	un7	1%
+頊	hiok4	
+頌	siong7	
+頍	khui2	
+頎	tsiok4	
+頎	ki5	
+頏	khong3	
+預	i7	
+頑	guan5	
+頒	hun5	1%
+頒	pan1	
+頓	tun3	
+颫	hu5	
+颬	ha1	
+颬	he1	
+飱	sun1	
+飴	i5	
+飶	pi3	
+飼	su7	
+飽	pau2	
+飾	sik4	
+飿	tut4	
+馚	hun1	
+馲	lok8	
+馳	ti5	
+馴	hun3	
+馴	sun5	
+馵	tshu3	
+骭	han7	
+髡	khun1	
+髢	te7	
+髢	the3	
+鬽	tim1	
+魛	to1	
+鳧	hu5	
+鳨	lik8	
+鳩	khiu1	
+鳪	pok4	
+鳭	tiau1	
+麀	iu1	
+麁	tsoo1	1%
+麂	ki2	
+黽	bin2	
+鼎	ting2	
+鼓	koo2	
+鼔	koo2	1%
+鼠	tsi2	
+𠌫	pit4	1%
+𠌭	sut4	
+𠌮	tshia1	
+𠌯	le7	
+𠌱	sui1	
+𠌲	tshiam1	
+𠌳	ke5	
+𠌵	tiau2	
+𠌶	hua5	1%
+𠌷	tship4	
+𠍵	iang7	
+𠞦	tsik4	1%
+𠞩	sut4	
+𠞯	suat4	
+𠸺	gik8	
+𡏌	jiok8	
+𡙇	khuat4	1%
+𡩥	ong2	
+𡲰	tshi1	
+𡺺	kiong5	
+𡻑	thiong2	
+𢄐	bong5	
+𢱟	tsian2	
+𢱢	sik4	
+𢾐	sau2	
+𣈤	tsun1	1%
+𣈥	thoo1	
+𣔳	khok4	
+𣔳	thok4	
+𣣱	i1	1%
+𤊷	pue7	1%
+𤭛	kong1	
+𤲓	lai5	
+𤲖	thiam2	
+𤲘	thiang3	1%
+𤲙	pun2	1%
+𤷄	khuan5	
+𤿳	khim2	
+𤿵	tsuat4	
+𥇒	tshiap4	1%
+𥟕	hiam1	
+𥦜	ping3	
+𥭒	pun7	
+𥹵	tsik4	
+𥹸	phut8	
+𦋆	koo1	
+𦐸	phau2	
+𦕷	hong7	
+𦝬	thun2	
+𧗴	iong2	
+𧧏	jia2	1%
+𧧏	jia7	
+𧧔	tshiu1	
+𧵦	hong3	
+𧵩	tshik4	1%
+𧻒	hiam3	
+𨥥	kong2	
+𩉪	jiong7	
+𩐁	kiu2	
+𩑥	bun5	
+𩑦	ut4	
+𩙲	hui1	
+𩰫	o1	1%
+𩾒	tiau1	
+𩾕	tsik4	
+㒃	ji7	1%
+㒄	sian2	
+㒅	khe2	
+㒆	hip4	
+㒇	bu2	1%
+㒈	ham3	
+㒉	thing3	
+㒉	thong2	
+㒋	su1	1%
+㓗	kiat4	1%
+㓾	ti5	
+㔄	sok4	
+㔅	tsiau3	
+㔆	tsiam5	
+㔢	hiat4	
+㕢	khai3	
+㗥	kok4	
+㗧	tshit4	
+㗨	hai1	
+㗩	sip8	
+㜛	juan2	1%
+㝩	khong1	
+㝪	tiam3	
+㟽	piau1	
+㟽	piau2	
+㟿	bong2	
+㨰	kun2	
+㨾	iang7	
+㬎	gap8	
+㬏	lik8	
+㮮	kiat4	
+㮯	hun5	
+㮰	phi5	
+㮱	sing1	
+㷟	thue1	
+㷟	thui1	
+㷠	lin5	1%
+㾪	sing2	
+㾭	liau1	
+㾰	khoo5	
+䅢	tiu7	
+䆪	hong1	
+䈄	am5	
+䋰	kiok4	
+䍟	tshong1	
+䔀	jui5	
+䔇	khi2	
+䗂	hoo2	
+䛤	tsiok4	
+䝳	tshan5	
+䢤	sut8	1%
+䦘	an7	
+䪶	tsi1	
+䭯	phut4	
+䭹	gong5	
+䭺	gong2	
+䭾	to5	
+䯉	uat4	
+䲧	too7	
+僎	tshian2	
+僎	tshun1	
+像	siang7	
+僐	sian7	
+僑	kiau5	
+僒	khun2	
+僒	kun2	
+僓	tue5	
+僔	tshun2	
+僕	pok8	
+僖	hi1	
+僗	lo5	1%
+僗	lo7	
+僘	tsiang2	
+僙	kong1	
+僚	liau5	
+僛	khi1	
+僜	tsing1	
+僜	ting7	
+僞	gui7	
+僟	ki1	
+僠	huan1	
+僠	po1	
+僡	hui7	1%
+僢	tsuan3	
+僢	tsun2	1%
+僣	tsiam3	1%
+僣	thiat4	
+僤	sian2	
+僤	tan3	
+僥	giau5	
+僥	kiau1	
+僥	iau5	
+僦	tshiu7	
+僧	tshing1	
+僨	hun2	
+僨	hun3	
+僩	han2	
+僪	kut8	
+僫	ok4	
+僫	oo3	
+僬	tshiau1	
+僬	tshiau3	
+僭	tshom3	
+僭	tsiam3	
+僭	tsim1	
+僮	tong5	
+僯	lin2	
+僯	lin5	
+僰	pok8	
+僱	koo3	
+兢	king1	
+凘	su1	
+凴	pin5	1%
+劁	tshiau5	
+劂	khuat4	
+劃	ik8	
+劄	tshap4	
+勩	i7	
+匱	kui7	
+厭	ap4	10%
+厭	iam1	10%
+厭	iam3	
+厮	su1	
+嗶	pit4	
+嗷	go5	
+嗹	lian5	
+嗻	tshe3	
+嗽	sok4	
+嗽	soo3	
+嗿	ham2	
+嘄	kiau1	
+嘅	khai3	
+嘅	ko2	
+嘆	than3	1%
+嘈	tsho5	
+嘉	ke1	
+嘊	gai5	
+嘌	phiau3	
+嘏	ke2	
+嘐	hau1	
+嘐	kau1	
+嘑	ha3	
+嘑	hoo1	
+嘒	hui7	
+嘔	oo2	
+嘖	tshik4	
+嘗	siang5	
+圖	too5	
+團	tuan5	
+塲	tsiang5	1%
+塵	tin5	
+塹	tsham7	
+塾	siok8	
+塿	loo2	
+墁	ban5	
+境	king2	
+墅	si7	
+墈	kham3	
+墉	iong5	
+墊	tiam3	
+墐	kin7	
+墓	boo7	
+墖	thap4	1%
+墭	tsing7	
+壽	siu7	
+夐	king2	
+夢	bong7	
+夤	in5	
+夥	honn2	
+奩	liam5	
+奪	tuat8	
+嫖	phiau3	
+嫖	phiau5	
+嫗	oo2	
+嫚	ban7	
+嫜	tshiang1	
+嫠	li5	
+嫡	tik4	
+嫣	ian1	
+嫦	siong5	
+嫪	lo5	
+嫪	lo7	
+嫫	boo5	
+嫰	jun7	1%
+寞	bok8	
+察	tsat4	
+寡	kuann2	
+寢	tsim2	
+寤	goo7	
+寥	liau5	
+實	sit8	
+寧	ling5	
+寨	tshe7	
+對	tui3	
+屢	li2	
+屣	si2	
+嵸	siong2	
+嵻	khong1	
+嵿	ting2	
+嶂	tshiang3	
+嶃	tsam7	1%
+嶄	tsam7	
+嶇	khi1	
+幔	ban7	
+幕	boo7	
+幗	kok4	
+幘	tshik4	
+幙	boo7	1%
+幣	pi7	
+廏	kiu3	1%
+廒	go5	
+廓	khok4	
+廕	im3	
+廖	liau7	
+弊	pi7	
+彰	tshiang1	
+徶	piat8	
+徹	thiat4	
+徹	tiat8	
+愨	khak4	
+愬	soo3	
+愳	ki7	1%
+愸	tshing2	1%
+愿	guan7	1%
+慁	hun7	
+慇	in1	
+態	thai3	
+慓	phiau1	
+慘	tsam2	
+慚	tsam5	
+慟	tong7	
+慢	ban7	
+慣	kuan3	
+慥	tso3	
+慱	tuan5	
+慲	buan5	
+慳	kian1	
+慴	liap4	
+慵	iong5	
+慷	khong2	
+慽	tsik4	1%
+憀	liau5	
+戩	tshian2	
+截	tshiat8	
+搫	puan1	1%
+搴	khian1	
+摏	tshiong1	
+摖	tsat4	
+摘	tik4	
+摙	lian2	
+摟	loo5	
+摟	soo2	
+摣	tshe1	
+摧	tsue5	
+摧	tshui1	
+摭	tshit4	
+摳	khi1	
+摶	tuan5	
+摸	boo5	
+摺	liap4	
+摻	sam2	
+摻	siam1	
+摼	khian3	
+摽	phiau1	
+摽	piau2	
+撇	phiat4	
+撤	thiat4	
+敲	khau1	
+敲	khiak4	
+斡	uat4	
+旖	i1	
+旗	ki5	
+暝	bing5	
+暡	ong2	
+暢	thiang3	
+暨	khai3	
+朅	khiat4	
+榑	hu5	
+榕	iong5	
+榛	tshin1	
+榜	pong2	
+榥	hong2	
+榦	kan3	
+榫	sun2	
+榭	sia7	
+榮	ing5	
+榱	sue1	
+榴	liu5	
+榷	kak4	
+榻	thap4	
+榼	khap4	
+榾	kut4	
+槀	ko2	1%
+槁	ko2	
+槂	sun1	
+槃	puan5	
+槅	kik4	
+槆	sun5	
+槊	sok4	
+構	koo1	
+構	koo3	
+槌	thui5	
+槍	tsiang1	
+槎	tshe1	
+槏	khiam2	
+槐	huai5	
+槔	ko1	
+歉	khiam2	
+歌	ko1	
+殞	un2	
+殟	ut4	
+毃	khiak4	1%
+氳	un1	
+滌	tik8	
+滎	ing5	
+滮	piu1	
+滯	ti7	
+滲	tsam1	
+滴	tik4	
+滷	loo7	
+滸	hoo2	
+滹	hoo1	
+滺	iu1	
+滾	kun2	
+滿	buan2	
+漁	gi5	
+漂	phiau1	
+漂	phiau3	
+漅	tshau5	
+漆	tsat4	
+漆	tsip4	
+漈	tshe3	
+漈	tshia3	
+漉	lok8	
+漊	soo2	
+漏	loo7	
+漓	li5	
+演	ian2	
+漕	tsho5	
+漕	tsho7	
+漘	tun5	
+漙	tuan5	
+漚	oo1	
+漚	oo2	
+漠	bok8	
+漠	boo5	
+漢	han3	
+漣	lian5	
+漥	ua5	1%
+漩	suan5	
+漪	i1	
+漫	ban5	
+漫	ban7	
+漬	tshu3	
+漭	bong2	
+漯	lat4	
+漰	phing1	
+漱	soo2	
+漱	soo3	
+漲	tiang3	
+漳	tshiang1	
+漸	tshiam7	
+漹	ian1	
+漼	tshue5	
+漾	iang7	
+潄	soo3	1%
+澈	thiat4	
+煽	sian3	
+熁	tsiap4	
+熅	un1	
+熇	hok4	
+熊	him5	
+熏	hun1	
+熒	ing5	
+熙	hi1	
+爾	ji2	
+爾	jinn2	
+牓	pong2	
+犒	kho3	
+犖	lok8	
+犗	kai3	
+獃	gai5	
+獄	giok8	
+獐	tshiang1	
+獓	boo7	
+瑠	liu5	1%
+瑢	iong5	
+瑣	so2	
+瑤	iau5	
+瑦	oo2	
+瑨	tshin3	
+瑪	be2	
+瑬	liu5	
+瑰	kui1	
+瑱	thian3	
+瑲	tsong1	
+瑳	tso1	
+甃	tsiu3	
+甄	tshin1	
+甄	ian1	
+畼	thiang3	
+畽	thuan2	1%
+疐	thi3	
+疑	gi5	
+瘇	tshiong2	
+瘉	ji2	
+瘉	ji5	
+瘋	hong1	
+瘍	ik8	
+瘎	thim5	
+瘒	hun5	
+瘔	khoo5	
+瘖	im1	
+瘧	giak8	
+皷	koo2	1%
+皸	kin1	
+盡	tshin7	
+監	kam1	
+監	kam3	
+睡	sui3	
+睿	jue7	
+瞀	bu7	
+碞	gam5	1%
+碢	o1	
+碣	kiat8	
+碦	khik4	
+碧	phik4	
+碨	ue1	
+碩	sik8	
+碪	tshim1	1%
+碫	thuan3	
+碭	tong7	
+磁	tshu5	
+禇	tshi2	
+禊	he7	
+禋	in1	
+禍	ho7	
+禎	tshing1	
+福	hok4	
+禖	bue5	
+禘	te3	
+禘	te7	
+稨	pian2	
+稬	lonn5	1%
+種	tshiong2	
+種	tshiong3	
+稱	tsing1	
+稱	tsing3	
+稱	tsin3	
+穊	ki3	
+窩	o1	
+窪	ua5	
+窬	ji5	
+竭	kiat8	
+端	tuan1	
+筵	ian5	
+箄	pin2	
+箆	pin3	1%
+箇	ko3	1%
+箋	tshian1	
+箍	khoo1	
+箎	ti5	1%
+箏	tshing1	
+箑	tshiat8	
+箔	pok8	
+箕	ki1	
+算	suan3	
+箜	khong1	
+箝	khiam5	
+管	kuan2	
+箸	ti7	
+粹	sui3	
+粺	pai7	
+粼	lin5	
+粽	tshong3	
+精	tshing1	
+粿	ko2	
+綜	tshong3	
+綠	liok8	
+綢	tiu5	
+綣	khuan2	
+綦	ki5	
+綨	ki5	1%
+綫	tshian1	
+綫	sian3	1%
+綬	siu7	
+維	ui5	
+綮	khe2	
+綯	to5	
+綰	kuan2	
+綱	kong1	
+網	bong2	
+綴	tshue3	
+綴	tuat4	
+綵	tsai2	
+綸	lun5	
+綺	khi2	
+綻	tsan3	
+綽	tsiak4	
+綾	ling5	
+綿	bian5	
+緂	than2	
+緄	hun5	
+緄	kun2	
+緅	tshoo1	
+緆	sik4	
+緇	tshu1	
+緈	hing2	
+緊	kin2	
+緋	hui1	
+緌	jue5	
+緍	bin5	1%
+緍	hun1	
+緎	hik8	
+総	tshong2	1%
+緒	si7	
+罁	kong1	1%
+罰	huat8	
+罳	su1	
+翟	tik8	
+翠	tsui3	
+翡	hui2	
+翥	tshu3	
+耣	lun2	
+聚	tshi7	
+聝	hik8	
+聞	bun5	
+聞	bun7	10%
+肇	tiau7	
+肈	tiau7	1%
+腐	hu2	
+腐	hu7	
+腿	thui2	
+膀	pong5	
+膁	liam2	
+膂	li2	
+膈	kik4	
+膊	phok4	
+膋	liau5	
+膏	ko1	
+膏	ko7	
+臧	tshong1	
+臺	tai5	
+與	i2	
+與	i5	1%
+舞	bu2	
+艋	bing2	
+蒐	soo1	
+蒔	si5	
+蒔	si7	
+蒕	un1	
+蒙	bong5	
+蒜	suan3	
+蒞	linn7	1%
+蒨	tsian3	
+蒭	tshoo1	
+蒯	kuai2	
+蒲	poo5	
+蒸	tshin1	
+蒹	kiam1	
+蒺	tshit8	
+蒻	jiak8	
+蒼	tsong1	
+蒿	ho1	
+蒿	o1	10%
+蓀	sun1	
+蓁	tshin1	
+蓂	bing5	
+蓄	hiok4	
+蓆	sik8	
+蓉	iong5	
+蓊	ong1	
+蓋	kai3	
+蓋	khap4	
+蓍	si1	
+蓏	lo2	
+蓐	jiok8	
+蓑	so1	
+蓑	sui1	
+蓒	hian1	
+蜘	ti1	
+蜚	hui1	
+蜚	hui2	
+蜜	bit8	
+蜞	ki5	
+蜡	tsoo3	
+蜢	bing2	
+蜣	khiong1	
+蜣	kiang1	
+蜩	tshiu2	
+蜩	tiau5	
+蜫	khun1	
+蜮	hik8	
+蜰	hui2	
+蜴	ik8	
+蜻	tshing1	
+蜾	ko2	
+蝀	tong3	
+蝃	te3	
+蝕	sit8	
+裨	pi1	
+裨	pi5	
+裩	kun1	1%
+裬	ling5	
+裯	tiu5	
+裰	tuat4	
+裱	piau3	
+裳	siang5	
+裴	pue5	
+裸	ko2	
+裹	ko2	
+裼	thik4	
+製	tshi3	
+裾	ki1	
+覡	hik8	
+觩	kiu5	
+觫	sok4	
+誌	tshi3	
+認	jin7	
+誐	go5	
+誑	kong3	
+誓	si7	
+誖	pue7	
+誘	iu2	
+誚	sau1	
+誚	siau3	
+語	gi2	
+語	gi7	10%
+誡	kai3	
+誢	hian2	
+誣	bu5	
+誤	goo7	
+誥	kho3	
+誦	siong7	
+誨	hue3	
+說	uat8	1%
+說	suat4	
+說	sue3	
+說	thuat4	
+豪	ho5	
+貌	baunn7	
+貍	li5	1%
+賏	ing1	
+賑	tshin2	
+賒	sia1	
+賓	pin1	
+賕	kiu5	
+赫	hik4	
+趕	kan2	
+趖	so1	
+趙	tiau7	
+跼	kiok8	
+跽	ki7	
+踀	tsiok4	
+踃	siau1	
+踅	tshiat4	
+踊	iong2	
+躳	kiong1	1%
+輐	luan2	
+輑	gun5	
+輑	lun2	
+輒	tiap4	
+輓	buan2	
+輔	hu7	
+輕	khing1	
+辢	lat8	1%
+辣	lat8	
+辣	luat8	
+遘	koo1	
+遘	koo3	
+遙	iau5	
+遛	liu5	
+遜	sun3	
+遝	tap8	
+遞	te7	
+遠	uan2	
+遠	uan7	
+遡	soo2	1%
+遢	thap4	
+遣	khian2	
+鄘	iong5	
+鄙	phi2	
+鄢	ian1	
+酲	ting5	
+酴	too5	
+酶	bue5	
+酷	khok4	
+酸	suan1	
+酹	lui7	
+酺	poo5	
+鉶	hing5	
+銀	gin5	
+銅	tong5	
+銇	lui7	
+銌	tshun7	
+銍	tshit4	
+銎	khiong1	
+銑	sian2	
+銓	tsuan1	
+銕	thiat4	1%
+銖	tshu1	
+銖	su5	
+銘	bing5	
+銚	tiau7	
+銛	siam1	
+銜	ham5	
+閣	kok4	
+閤	khap4	
+閥	huat8	
+閦	tsiok4	
+閨	kui1	
+閩	ban5	
+隙	khik4	
+際	tshe3	
+障	tshiang3	
+雌	tsi1	
+雒	lok8	
+需	si1	
+鞅	iang3	
+韍	hut4	1%
+韶	siau5	
+頗	pho1	
+頗	pho2	
+領	ling2	
+颭	tshiam2	
+颯	sap4	
+颰	hut4	1%
+餂	thiam2	
+餅	ping2	
+餉	hiang3	
+餌	ji7	
+馹	jit8	
+馿	li5	1%
+駁	pak4	
+駃	khuai3	
+駃	kuat4	
+骯	khong3	
+骰	too5	
+髣	hong2	
+髦	bonn5	
+髧	tam2	
+鬦	too3	
+魁	khue1	
+魂	hun5	
+鳲	si1	
+鳳	hong7	
+鳴	bing5	
+鳶	ian1	
+麼	bonnh4	
+鼻	pit8	
+齊	tshe5	
+𠄅	giap8	
+𠌬	ti5	
+𠍮	sui5	1%
+𠍱	tsip4	
+𠍲	ki5	
+𠍳	ik4	1%
+𠍶	ji5	1%
+𠍷	kik4	
+𠍹	tap4	
+𠟃	tshun2	
+𠟄	lik8	1%
+𠟋	giau7	
+𠢤	khuat4	
+𠻤	ian2	
+𠻥	tshau7	
+𠻩	thiau2	1%
+𡙭	tshui1	
+𡚁	pi7	1%
+𡻙	khok4	
+𡻚	khong2	
+𡻟	bik8	
+𡻤	bonnh4	1%
+𡻨	khun3	
+𡻪	liau5	
+𢄌	tshai2	
+𢄟	thong1	
+𢇌	si2	1%
+𢊖	tsim3	
+𢟢	li5	
+𢟧	loo2	
+𢟨	bong3	
+𢱯	lam2	1%
+𢲸	loo2	
+𢳍	tsian1	
+𣣶	hainn3	
+𣻢	thong1	
+𤌊	tshai2	
+𤔢	so1	
+𤨏	so2	1%
+𤸄	kuan1	1%
+𤸅	bin5	1%
+𥔲	gok8	
+𦁐	khut4	
+𦓼	kun2	
+𦓾	khun2	
+𦞜	sit4	
+𦞣	so1	1%
+𦞨	kiong1	
+𦞩	in7	1%
+𦫢	tsiau3	
+𧌉	liok8	
+𧱍	tshong3	
+𧱕	ik8	
+𧶈	so3	
+𨂢	tshat8	
+𨕢	hiok4	
+𨕤	kip8	1%
+𨻶	khik4	1%
+𨿁	gak8	
+𩈎	tsau2	
+𩈏	iau2	
+𩖴	liu2	
+𩖼	hut4	
+𩛎	bam2	
+𩠾	hiang1	
+𩨜	pa3	
+𩨡	sian2	
+𩰮	o1	1%
+𩾞	huan5	
+𩾢	ik8	
+㒑	hue7	
+㒒	pok8	1%
+㒓	that4	
+㒔	siok8	
+㒕	iang1	
+㓄	tim3	
+㗶	phuat4	
+㙨	ki1	1%
+㠅	hok8	
+㠈	jun7	
+㠉	tong5	
+㠊	hi1	
+㠮	phong1	
+㬒	bong2	
+㬓	phiau3	
+㯋	ing2	
+㱃	im2	1%
+㻫	pit4	
+㽐	hiam1	
+㿶	pang1	1%
+䃒	hik8	
+䈖	kho1	
+䈗	so2	
+䈡	song2	
+䋸	sun5	
+䔚	tun3	
+䔛	khing2	
+䙅	iau1	
+䛫	tshiang1	
+䛭	hing3	
+䛭	hing7	
+䝶	liang5	
+䝷	ti3	
+䝻	ki1	
+䞵	tuat4	
+䟾	tuat4	
+䠈	thut4	
+䢦	sut4	
+䤬	se1	
+䲳	hong5	
+僵	kiang1	
+僶	bin2	
+僸	kim3	
+價	ke3	
+僺	tsiau2	
+僻	phik4	
+僽	tshiu3	
+僾	ai3	
+儀	gi5	
+儁	tshun3	1%
+儂	long5	
+儃	sian5	
+億	ik4	
+儅	tong3	
+儆	king2	
+儇	huan5	
+儈	kue3	
+儉	khiam7	
+儋	tam1	1%
+儋	tam3	
+儌	hiau1	
+儌	kiau2	
+凚	khim2	
+凛	lim2	
+劇	kiak8	
+劈	phik4	
+劉	liu5	
+劊	kue3	
+劌	ue3	
+劍	kiam3	
+勰	hiap8	1%
+厲	le7	
+嘬	tshue3	
+嘯	tshiau3	
+嘱	tshiok4	1%
+嘲	sau1	1%
+嘴	tshui2	
+嘵	hiau1	
+嘶	su1	
+嘹	liau5	
+嘺	khiau1	
+嘻	hi1	
+嘽	than1	
+嘿	bik8	
+噀	sun3	
+噂	tshun1	
+噂	tshun2	
+噆	sop4	
+噉	ham2	
+噉	tam2	1%
+噋	tun1	
+噍	tshiau7	
+噎	iat4	
+噏	hip4	
+噐	khi3	1%
+噓	hi1	
+噴	phun1	
+噴	phun3	
+墀	ti5	
+墜	tui7	
+墝	khau1	
+增	tshing1	
+墟	hi1	
+墠	sian7	
+墡	sian7	
+墣	phok4	
+墤	tue5	1%
+墦	huan1	
+墦	huan5	
+墨	bik8	
+墩	tun1	
+墳	hun5	
+奭	sik4	
+嫴	koo1	
+嫵	bu2	
+嫺	han5	
+嫽	liau2	
+嬈	jiau5	
+嬉	hi1	
+嬋	sian5	
+嬌	kiau1	
+審	sim2	
+寫	sia2	
+寬	khuan1	
+寮	liau5	
+尵	tue5	
+層	tshing5	
+履	li2	
+屧	siat4	
+嶏	phai1	
+嶒	tshing5	
+嶓	po1	
+嶕	tshiau1	
+嶙	lin5	
+嶛	liau5	
+嶝	ting3	
+嶟	tshun1	
+嶠	khiau1	1%
+嶠	kiau5	
+嶢	giau5	
+嶢	iau5	
+嶤	gau5	
+幝	tsian2	
+幞	pok8	
+幟	tshi3	
+幡	huan1	
+幩	hun5	
+廚	tu5	
+廛	tian5	
+廟	biau7	
+廠	tsiang2	
+廡	bu2	
+廢	hui3	
+廣	kong2	
+彇	siau1	
+彈	tan7	
+彈	than5	
+影	ing2	
+徵	tin1	
+德	tik4	
+慕	boo7	
+慙	tsam5	1%
+慝	thik4	
+慤	khak4	1%
+慧	hui7	
+慮	li7	
+慰	ui3	
+慶	khing3	
+慼	tsik4	
+慾	iok8	
+憂	iu1	
+憃	tshiong1	
+憇	khi3	1%
+憍	kiau1	
+憎	tshing1	
+憐	lin5	
+憒	hue7	
+憔	tshiau5	
+憚	tan7	
+憞	tun1	
+憤	hun2	
+憦	lo7	
+憫	bin2	
+憬	king2	
+憭	liau2	
+憮	bu2	
+憯	tsam2	1%
+戮	liok8	
+戯	hi3	1%
+戯	hoo1	1%
+摩	bonn5	
+摯	tshi3	
+摹	boo5	
+撅	khuat4	
+撆	phiat4	1%
+撈	lo5	
+撈	lo7	
+撋	juan5	
+撐	thing1	
+撐	thing3	
+撑	thing3	1%
+撒	sat4	
+撓	lau2	
+撓	launn2	
+撓	launn5	
+撙	tshun2	
+撚	lian2	
+撞	tong7	
+撥	puat4	
+撩	liau2	
+撩	liau5	
+撪	phun2	
+撫	hu2	
+撬	khiau1	
+播	po3	
+撮	tsuat4	
+撰	tshuan7	
+撲	phok4	
+敵	tik8	
+敷	hu1	
+數	tsiok4	
+數	sok4	
+數	soo3	
+敺	khi1	1%
+敺	au2	
+斲	tok4	
+暫	tshiam7	
+暮	boo7	
+暯	bok8	
+暴	phok8	
+暴	po7	
+暵	han2	
+暵	han3	
+槧	tsiam2	
+槨	kok4	
+槫	tshuan1	
+槮	sam3	1%
+槱	iu2	
+槳	tshiang2	
+槴	hoo7	
+槵	huan7	
+槽	tsho5	
+槿	kin7	
+樁	tshong1	
+樂	gak8	
+樂	gaunn7	10%
+樂	lok8	
+樊	huan5	
+樑	liang5	1%
+樓	loo5	
+樔	tsau1	
+樕	sok4	
+樗	thi1	
+標	piau1	
+樛	khiu1	
+樜	tshia3	1%
+樞	thi1	
+樟	tshiang1	
+模	boo5	
+樢	oo1	
+樣	iang7	
+横	hing5	
+歎	than3	
+歐	oo2	
+歒	tik8	
+殤	siang1	
+毅	gi7	
+毅	he7	
+毿	sam3	
+滕	ting5	
+漦	li5	
+漿	tshiang1	
+潁	ing2	
+潑	phuat4	
+潔	kiat4	
+潗	tship8	
+潘	huan1	
+潘	phuan1	
+潚	siau1	
+潛	tshiam5	
+潜	tshiam5	1%
+潝	hip4	
+潠	sun3	
+潢	hong5	
+潤	jun7	
+潦	lo2	
+潭	tham5	
+潮	tiau5	
+潯	sim5	
+潰	hue7	
+潸	san1	
+潺	tsan1	
+潼	tong5	
+潾	lin5	
+澁	siap4	1%
+澄	ting5	
+澆	jiau5	
+澇	lo5	
+澇	lo7	
+澍	tshu3	
+澐	in5	
+澐	un5	
+澑	liu2	1%
+澒	hong2	
+澓	hok8	
+澗	kan3	
+濆	hun5	
+熚	pit4	
+熛	phiau1	
+熟	siok8	
+熠	ip4	
+熨	ut4	
+熬	go5	
+熯	sian7	
+熱	jiat8	
+熲	king2	
+牕	tsong1	1%
+牖	iu2	
+犚	gun5	
+獎	tshiang2	
+獠	liau5	
+瑩	ing5	
+瑾	kin2	
+瑾	kin7	
+璀	tsui2	
+璃	li5	
+璇	suan5	
+璉	lian2	
+璋	tshiang1	
+畿	ki1	
+瘚	khuat4	
+瘝	kuan1	
+瘞	i3	
+瘟	un1	
+瘠	tshit4	
+瘡	tsong1	
+瘢	puan5	
+瘤	liu5	
+瘥	tsai3	
+瘥	tse3	
+瘥	tsho5	
+瘦	soo2	
+瘨	thian5	
+瘨	tian1	1%
+皛	biau2	
+皜	ko2	
+皞	ho7	
+皺	jiau3	
+皺	jiau5	
+盤	puan5	
+瞈	ong3	
+瞋	tshin1	
+瞌	khap4	
+瞍	soo2	
+瞎	hat4	
+瞑	bing5	
+瞑	bing7	
+確	khak4	
+碼	bann2	
+碽	kong1	
+碾	lian2	
+磂	liu5	1%
+磄	tong5	
+磅	phong1	
+磆	kut8	
+磈	khui2	
+磉	song2	
+磊	lui2	
+磋	tso1	
+磎	khe1	1%
+磐	puan5	
+磑	ui7	
+磒	un2	
+磓	tui1	
+磔	kiat8	
+磕	khap8	
+禜	ing7	
+禠	thi2	
+禡	bann7	
+稷	tshik4	
+稺	ti7	1%
+稻	to7	
+稼	ke3	
+稽	ke1	
+稿	ko2	
+穀	kok4	
+窮	kiong5	
+窯	iau5	
+窰	iau5	1%
+窲	tshau5	
+窳	ji2	
+箬	jiak8	
+箭	tshian3	
+箱	long2	
+箱	siang1	
+箲	sian2	
+箴	tshom1	
+篁	hong5	
+範	huan7	
+篆	tuan7	
+篇	phian1	
+篋	kiap4	
+篌	hoo5	
+糅	jiu2	
+糇	hoo5	
+糈	si1	
+糉	tshong3	1%
+糊	koo5	
+緗	siang1	
+緘	kiam1	
+線	san3	
+線	sian3	
+緜	bian5	1%
+緝	tsip4	
+緞	tuan7	
+締	te3	
+緡	bian5	
+緡	bin5	
+緣	ian5	
+緣	ian7	
+緦	su1	
+編	pian1	
+緩	uan7	
+緫	tshong2	1%
+緬	bian2	
+緮	hok8	
+緯	hui7	
+緲	biau2	
+練	lian7	
+緵	tshong1	
+緶	pian5	
+緶	pian7	
+緷	un7	
+緻	ti3	
+罵	bann7	
+罶	liu2	
+罷	pa7	
+罷	phi5	
+羯	kiat4	
+翦	tshian2	
+翩	phian1	
+翫	guan2	1%
+翬	hui1	
+耦	gonn2	
+膚	hu1	
+膜	boo5	
+膝	tsip4	
+膟	lut8	
+膠	kau1	
+舖	phoo3	1%
+艎	hong5	
+艐	tshong1	
+艑	phian1	
+蓩	bonn2	
+蓫	tiok8	
+蓬	hong5	
+蓮	lian5	
+蓯	tsiong1	
+蓰	si2	
+蓴	tshuan1	
+蓷	tsui1	
+蓺	ge7	1%
+蓻	tship4	
+蓼	liau2	
+蓼	liok8	
+蓿	siok4	
+蔌	sok4	
+蔎	siat4	
+蔑	biat8	
+蔓	ban7	
+蔕	tai3	
+蔗	tshia3	
+蔘	som1	
+蔚	ui3	
+蔞	li5	
+蔞	loo5	
+蔡	tsai3	
+蔣	tshiang2	
+蔥	tsong1	
+蔦	liaunn2	
+蔪	ki5	
+蔬	soo1	
+蔭	im3	
+蔻	khoo3	
+蔽	pe3	
+虢	khik4	
+蝌	kho1	
+蝗	hong5	
+蝙	pian2	
+蝟	ui7	
+蝠	hok4	
+蝣	iu5	
+蝤	iu5	1%
+蝥	baunn5	
+蝦	he5	
+蝨	sik4	
+蝱	bing5	
+蝴	hoo5	
+蝶	tiap8	
+蝸	o1	
+螂	long5	
+衛	ue7	
+衝	tsiong1	
+褅	te3	
+褆	the5	
+複	hok4	
+褊	pian2	
+褌	kun1	
+褎	iu7	
+褐	hat4	
+褑	uan7	
+褒	po1	
+褓	po2	
+褕	ji5	
+褘	ui2	
+褙	pue3	
+覥	thian2	
+覩	too2	1%
+誕	tan7	
+誰	sui5	
+誱	tshiat8	
+課	kho3	
+誶	tshut8	
+誶	sui3	
+誹	hui2	
+誼	gi7	
+誾	gin5	
+調	tiau5	
+諂	thiam2	
+諄	tshun1	
+諄	tun1	
+談	tam5	
+諉	ui2	
+諉	ui7	
+請	tsing2	
+諍	tshing7	
+諏	tshoo1	
+諐	khian1	
+諒	liang7	
+諓	tsian5	
+論	lun5	
+論	lun7	
+諗	sim2	
+諛	ji5	
+諸	tshi1	
+諸	tshu1	
+豎	si7	
+豬	ti1	
+賙	tshiu1	
+賚	lai7	
+賛	tshan3	
+賜	su3	
+賞	siang2	
+賠	pue5	
+賡	king1	
+賢	hian5	
+賣	bainn7	
+賤	tshian7	
+賦	hu3	
+賧	tam7	
+賨	tshong5	
+賩	tshong5	
+質	tshi3	
+質	tshit4	
+賬	tiang3	
+賭	too2	
+赭	tshia2	
+趛	gim2	
+趛	sim3	
+趣	tsi3	
+踏	tap8	
+踐	tshian2	
+踘	kiok4	
+踝	hua2	
+踞	ki3	
+踟	ti5	
+踢	thik4	
+踢	tong7	
+踣	hu3	
+踦	ki5	
+踧	siok4	
+躶	ko2	1%
+輗	ge5	
+輙	tiap4	1%
+輛	liang7	
+輜	tshu1	
+輝	hui1	
+輞	bong2	
+輟	tuat4	
+輦	lian2	
+輨	kuan2	
+輩	pue3	
+輪	lun5	
+遨	go5	
+適	sik4	
+適	tik4	
+遫	thit4	
+遬	siok4	
+遬	sok4	
+遭	tsho1	
+遮	tshe1	
+遮	tshia1	
+遯	tun7	
+遷	tsian1	
+鄧	ting7	
+鄭	ting7	
+鄰	lin5	
+鄲	tan1	
+醁	liok8	
+醃	iam1	
+醅	pue5	
+醇	sun5	
+醈	tam7	
+醉	tshui3	
+醋	tsoo3	
+銲	han7	1%
+銳	jue7	
+銶	kiu5	
+銷	siau1	
+銹	siu3	1%
+銼	tso3	1%
+鋂	bue5	
+鋃	long5	
+鋄	kiam2	
+鋈	ak4	
+鋉	sok4	
+鋍	put8	
+鋏	kiap4	
+鋑	tshun3	
+鋒	hong1	
+鋟	tsim2	
+鋤	thi5	
+鋩	bong5	
+鋪	phoo1	
+鋪	phoo3	
+閫	khun2	1%
+閬	long5	
+閬	long7	
+閭	li5	
+閱	uat8	
+隣	lin5	1%
+隤	tue5	
+霂	bok8	
+霄	siau1	
+霅	sap4	
+霆	ting5	
+震	tshin3	
+霈	phai3	
+霉	bue5	1%
+靚	tshing7	
+靠	kho3	
+鞋	hai5	
+鞍	an1	
+鞏	khiong1	
+鞏	kiong2	
+韐	khap4	
+頞	at4	
+頟	gik8	
+頠	gui2	
+頡	khiat4	
+頫	thiau3	
+餈	tshu5	
+養	iang2	
+養	iang7	10%
+餑	phut8	
+餒	lue2	
+餓	go7	
+餔	poo5	
+餔	poo7	
+餕	tshun3	
+餗	sok4	
+餘	i5	
+餙	sik4	1%
+駉	king1	
+駐	tshi7	
+駑	lonn5	
+駒	khi1	
+駓	phi1	
+駕	ke3	
+駘	thai1	
+駘	thai7	
+駙	hu7	
+駛	su2	
+駜	pi3	
+駝	to5	
+駟	su3	
+骷	koo1	
+髫	tiau5	
+髮	huat4	
+髲	pi7	
+髴	hut4	
+鬧	lau7	
+魃	puat8	
+魄	phik4	
+魄	thok4	
+魨	tun5	
+魩	but4	
+魯	loo2	
+魴	hong5	
+鳷	tshi1	
+鴂	kuat4	
+鴃	kuat4	1%
+鴆	thim3	
+鴇	po2	
+鴈	gan7	1%
+鴉	a1	
+麃	phiau1	
+麄	tsoo1	1%
+麩	hu1	
+麪	bian7	
+麾	hui1	
+黎	le5	
+黎	li5	
+黓	ik8	
+鼐	lainn7	
+齒	tsi2	
+𠍰	ti7	
+𠎷	sap4	
+𠎸	sik4	
+𠎼	phiau3	1%
+𠎽	king5	
+𠎾	kian2	1%
+𠎿	kai2	
+𠏀	kho1	
+𠟨	ling7	
+𠟩	sik4	
+𠟭	tshik4	1%
+𠢱	kim3	
+𠽣	top4	
+𠾅	hiau1	
+𡦗	ji5	1%
+𡮦	tsho1	
+𡮦	tsho5	
+𡳞	lin7	
+𡼍	tong7	
+𡼑	gok8	
+𡼕	tshun3	
+𡼖	tun1	
+𡼘	gut4	
+𢄶	hik8	
+𢧶	hoo1	
+𢴤	thing1	1%
+𣘤	tsat4	
+𣘤	tshe3	
+𣽤	sik4	
+𤎅	go5	1%
+𤲷	sik4	1%
+𤸲	tshin1	
+𥉐	he1	
+𥠳	kut4	
+𥧔	phi3	1%
+𥯛	lok8	
+𥯞	iu5	
+𥻅	pik4	
+𥻊	linn7	
+𥻓	tshu5	
+𦋟	bong2	1%
+𦩞	ji5	
+𦫨	gan5	1%
+𧍝	te3	
+𧎌	tsun2	
+𧶜	siang1	1%
+𧶟	sia1	1%
+𩊓	khoo3	
+𩨭	khe1	
+𩾱	gong7	
+𪐞	too3	
+㒊	sap4	
+㒊	sip4	
+㒚	in2	
+㒚	in3	
+㒛	tiau2	
+㒜	i2	
+㗾	ho1	
+㙳	kham2	1%
+㡣	liong5	1%
+㦗	kim7	
+㬜	tshin3	1%
+㯘	khuan2	
+㵠	khut4	
+㹓	iau3	
+㿃	ti7	
+䄜	li5	
+䈬	poo1	
+䐶	tsham1	
+䑼	tshoo1	
+䔱	tsip4	
+䕀	khuan2	
+䗝	thian2	1%
+䛺	kai3	1%
+䛻	iu2	
+䛼	hui2	
+䜼	bok8	
+䝍	thun5	
+䞀	hoo7	
+䞁	ian3	
+䞄	piau3	
+䤴	ham5	
+䫉	baunn7	1%
+䳇	bu2	1%
+儐	pin3	
+儑	gam1	
+儒	ji5	
+儓	tai5	
+儔	tiu5	
+儕	tshe1	
+儕	se5	
+儖	lam5	
+儗	gi2	
+儘	tshin2	
+儚	bing5	
+儜	ling5	
+冀	ki3	
+凝	ging5	
+劑	tshe1	
+劓	gi7	
+劔	kiam3	1%
+勳	hun1	
+叡	jue7	1%
+噠	tat4	
+噢	i2	
+噤	khim2	
+噤	kim3	
+噦	ue3	
+器	khi3	
+噩	gok8	
+噪	tso3	
+噫	hi1	
+噫	ai7	1%
+噫	i3	
+噬	si7	
+噭	hiau1	
+噭	kiau2	
+噯	ai7	
+噲	khuai3	
+噲	kue3	
+圜	huan5	
+墻	tsiang5	1%
+墾	khun2	
+壁	pik4	
+壁	phik4	
+壅	iong1	
+壅	iong3	
+壆	khiak8	
+壇	than5	
+奮	hun3	
+嬕	sik4	
+嬖	pi3	
+嬗	sian7	
+嬙	tsiang5	
+嬴	ing5	
+學	hak8	
+寰	huan5	
+導	to7	
+嶧	ik8	
+幦	bik8	
+幨	tsiam1	
+廨	kai3	
+廪	lim2	
+彊	kiang2	1%
+彊	kiang5	1%
+彊	kiang7	1%
+徼	hiau1	
+徼	khiau3	
+憊	pai7	
+憑	pin5	
+憗	gin7	
+憝	tui7	
+憨	ham1	
+憩	khi3	
+憲	hian3	
+憶	ik4	
+憸	siam1	
+憺	tam7	
+憾	ham7	
+憿	hiau1	1%
+懀	kue3	
+懆	tso2	
+懈	hai7	
+懊	o3	
+懌	ik8	
+懎	sik4	
+懏	tshun3	
+懐	huai5	1%
+戰	tshian3	
+撻	that4	
+撼	ham2	
+撾	tsua1	
+撿	kiam2	
+擁	iong3	
+擂	lui5	
+擄	loo2	
+擅	sian7	
+擇	tik8	
+操	tso1	
+操	tso3	
+擐	huan5	
+擒	khim5	
+擔	tam1	
+擔	tam3	
+擗	phik4	
+擗	pit8	
+據	ki3	
+整	tshing2	
+暹	siam7	
+暾	thun1	
+曀	i3	
+曄	iap4	
+曆	lik8	
+曇	tham5	
+曈	tong5	
+曉	hiau2	
+曌	tshiau3	1%
+曏	hiang3	
+朣	tong5	
+樨	se1	
+樲	ji7	
+樲	tik8	
+樵	tshiau5	
+樸	phok4	
+樹	si7	
+樽	tshun1	
+樾	uat8	
+橄	kam2	
+橇	khiau1	
+橈	jiau5	
+橉	lin2	
+橋	kiau5	
+橐	thok4	
+橒	in5	
+橓	sun3	
+橕	thing1	
+橗	bing5	
+橘	kit4	
+橙	ting5	
+橛	khuat4	
+橛	kuat8	
+橜	khuat4	1%
+橜	kuat8	1%
+橞	hui7	
+機	ki1	
+橪	jian2	
+歔	hi1	
+歕	phun1	
+歕	pun5	
+歗	tsiau3	1%
+歘	hut4	
+歙	hip4	
+歷	lik8	
+殪	i3	
+殫	tsian2	
+殫	tan1	
+氄	jiong5	
+氅	tsiang2	
+潞	loo7	
+澠	tshin5	
+澡	tsho2	
+澢	tong1	
+澤	tik8	
+澦	i7	
+澧	le2	
+澪	ling5	
+澬	tshu1	
+澮	kue3	
+澳	o3	
+澹	tam7	
+澼	phik4	
+激	kik4	
+濁	tsok8	
+濂	liam5	
+濃	long5	
+濈	tsip4	
+濊	ue3	
+濋	tsoo2	
+濎	thing3	
+熹	hi1	
+熺	hi1	1%
+熾	tsi3	
+燀	tsian1	
+燀	sian7	
+燁	iap4	
+燃	jian5	
+燄	iam7	1%
+燈	ting1	
+燉	tun1	
+燎	liau5	
+燎	liau7	
+燐	lin5	
+燒	siau1	
+燔	huan1	
+燔	huan5	
+燕	ian1	
+燕	ian3	
+燖	tshiam5	
+燖	sim5	
+燖	tim7	
+燘	hue3	
+燙	tong7	
+犝	tong5	
+獥	hiau1	
+獧	kuan3	1%
+獨	tok8	
+獪	kue3	
+獫	hiam2	
+獬	hai7	
+璘	lin5	
+璜	hong5	
+璞	phok4	
+璟	king2	
+璠	huan1	
+璠	huan5	
+璡	tshin1	
+璣	ki1	
+瓢	phiau5	
+甌	oo2	
+甍	bing5	
+甎	tshuan1	1%
+瘬	tiang3	1%
+瘯	tshok8	
+瘰	lui2	
+瘳	thiu1	
+瘴	tshiang3	
+瘵	tshe3	
+瘶	soo3	1%
+瘸	ke5	
+瘹	tiau3	
+瘺	loo7	
+瘻	li5	
+瘻	loo5	
+瘼	bok8	
+皡	ho7	1%
+盥	kuan2	
+盥	kuan3	
+盧	loo5	
+瞖	i3	
+瞘	au1	1%
+瞚	sun3	
+瞞	buan5	
+瞞	bun2	
+瞟	phiau1	
+瞠	thing1	
+瞢	bing7	
+瞥	phiat4	
+瞥	piat4	
+磚	tshuan1	
+磛	tsam5	
+磜	tsi3	
+磞	phing1	
+磟	liok8	
+磡	kham3	
+磣	tsam2	
+磧	tshik4	
+磨	bo7	
+磨	bonn5	
+磬	khing3	
+磭	gin2	
+禦	gi2	
+禩	su7	1%
+穆	bok8	
+穈	bun5	
+穋	liok8	
+穌	soo1	
+積	tshik4	
+穎	ing2	
+窵	tiau3	
+窺	kui1	
+窻	tsong1	1%
+築	tiok4	
+篙	ko1	
+篚	hui2	
+篡	tsuan3	
+篢	kam2	
+篤	tok4	
+篥	lik4	
+篦	pin3	
+篨	ti5	
+篩	sai1	
+篪	ti5	
+簑	so1	1%
+糒	pi7	
+糓	kok4	
+糔	siu2	
+糕	ko1	
+糖	thong5	
+糗	hiu3	
+縈	ing5	
+縉	tshin3	
+縊	ai3	
+縋	tui7	
+縐	jiau3	
+縑	kiam1	
+縕	un3	
+縗	sue1	
+縚	tho1	
+縛	pok8	
+縜	un5	
+縝	tshin2	
+縞	ko2	
+縟	jiok8	
+縠	kok4	
+縢	ting5	
+縣	hian5	
+縣	hian7	
+罹	li5	
+罹	lo5	
+羲	hi1	
+翮	kik4	
+翰	han7	
+翱	ko1	
+耨	lonn7	
+膩	ji7	
+膰	huan1	
+膰	huan5	
+膲	tshiau1	
+膴	bu2	
+膷	hiang1	
+臲	giat8	
+臻	tshin1	
+興	hing3	
+興	hin1	
+興	hin3	
+舘	kuan2	1%
+艘	soo1	
+艘	soo2	
+蔾	le5	
+蕃	huan5	
+蕉	tshiau1	
+蕊	lui2	
+蕋	lui2	1%
+蕑	kan1	
+蕖	ki5	
+蕘	giau5	
+蕙	hui7	
+蕚	gok8	
+蕝	tshue3	
+蕞	tshui7	
+蕞	tsuat4	
+蕡	hun5	
+蕢	kui7	
+蕣	sun3	
+蕤	jue5	
+蕨	khuat4	
+蕩	tong7	
+蕪	bu5	
+蕭	siau1	
+薌	hiang1	1%
+虣	po7	1%
+螃	pong5	
+螄	su1	
+螈	guan5	
+螉	ong1	
+融	iong5	
+螓	tshin5	
+螗	tong5	
+螟	bing5	
+螢	ing5	
+衟	to7	1%
+衡	hing5	
+褡	tap4	
+褥	jiok8	
+褧	king2	
+褪	thun3	
+褰	khian1	
+褰	kian2	
+褱	huai5	
+褲	khoo3	
+覦	ji5	
+覧	lam2	
+親	tsin1	
+觱	pit4	
+諜	tiap8	
+諝	si1	
+諝	si2	
+諟	si7	
+諠	suan1	
+諡	si7	1%
+諤	gok8	
+諦	te3	
+諧	hai5	
+諪	ting5	
+諫	kan3	
+諭	ji7	
+諮	tshu1	
+諱	hui3	
+諳	am1	
+諴	ham5	
+諵	lam5	
+諶	sim5	
+諷	hong2	
+諹	iang5	
+諺	gan7	
+諼	suan1	
+諾	lok8	
+謀	boo5	
+謁	iat4	
+謂	ui7	
+謔	hiak4	
+豫	i7	
+豭	he5	
+豭	ik8	
+貓	biau5	
+賮	tshin2	1%
+賯	king5	
+賰	tsun2	
+賱	un2	
+賲	po2	
+賳	tshai1	
+賴	lainn7	
+賵	hong3	
+趦	tshu1	
+踰	ji5	
+踵	tshiong2	
+踸	tsim2	
+踹	thuan2	
+踽	hi2	
+蹀	tiap8	
+蹁	phian1	
+蹂	jiu2	
+蹄	te5	
+輭	juan2	1%
+輯	tsip4	
+輳	tshoo3	
+輶	iu5	
+輸	si1	
+輻	hok4	
+辦	pian7	
+辧	pian7	1%
+辨	pian7	
+遲	ti5	
+遴	lin7	
+遵	tshun1	
+遶	jiau2	1%
+選	suan2	
+遹	it8	
+遺	kui7	
+遺	ui5	
+遼	liau5	
+鄴	giap8	
+鄶	kue3	
+醑	ji2	
+醒	sing1	
+醒	sing2	
+醓	ham2	
+鋸	ki3	
+鋼	kong1	
+錄	liok8	
+錐	tshui1	
+錙	tshu1	
+錠	ting7	
+錡	ki5	
+錢	tshian5	
+錣	tuat4	
+錤	ki1	
+錦	kim2	
+錧	kuan2	
+錫	sik4	
+錮	koo3	
+錯	tsok4	
+錯	tsoo3	
+錽	kiam2	1%
+鍁	hiam1	
+閶	tsiang1	
+閹	iam1	
+閻	iam5	
+閽	hun1	
+閾	hik8	
+闍	se1	
+闍	too1	
+隧	sui7	
+隧	tui7	
+隨	sui5	
+隩	o3	
+險	hiam2	
+雕	tiau1	
+霍	hok4	
+霎	siap4	
+霏	hui1	
+霑	tiam1	
+霓	ge5	
+霖	lim5	
+靛	tan7	
+靛	tian7	
+靜	tshing7	
+靦	thian2	
+鞓	thing2	
+鞗	tiau5	
+鞘	tsiau3	
+鞘	sau1	
+頤	i5	
+頭	thoo5	
+頰	kiap4	
+頱	luat8	
+頲	thing2	
+頳	tsing1	
+頴	ing2	1%
+頷	am7	
+頸	king7	
+頹	thut4	
+頹	tue5	
+頻	pin5	
+餐	tsan1	
+餚	gaunn5	
+餛	hun5	
+餜	ko2	
+餞	tshian2	
+餡	ham7	
+餤	tam5	
+餧	lue2	1%
+館	kuan2	
+馞	put8	
+駡	bann7	1%
+駢	pian5	
+駣	tiau7	
+駪	sin1	
+駬	ji2	
+駭	hai2	
+駰	in1	
+駱	lok8	
+骸	hai5	
+骿	pian5	
+髭	tshu1	
+髻	ke3	
+鮀	to5	
+鮎	tshiam1	
+鮐	thai1	
+鮒	hu7	
+鮓	tshe2	1%
+鮓	te2	
+鮕	koo1	
+鴒	ling5	
+鴛	uan1	
+鴝	ki5	
+鴞	hiau1	
+鴟	tsi1	
+鴣	koo1	
+鴦	iang1	
+鴨	ap4	
+麈	tshi2	
+麬	phoo1	
+黔	khiam5	
+黗	thun2	
+黗	thun5	
+默	bik8	
+黺	hun2	
+鼒	tshu1	
+鼽	kiu5	
+龍	liong5	
+龜	kui1	
+𠏫	thing2	
+𠏬	phing1	
+𠏰	tshai2	
+𠟻	tshik4	1%
+𠿕	khiau3	
+𡭊	tui3	1%
+𡼿	khut4	
+𡼿	tut8	
+𡽐	liau5	
+𢅏	liam5	
+𢋆	him3	
+𢍰	ik8	
+𢡂	tong7	
+𢢝	sui7	
+𢶀	tshuai1	
+𢶃	huan5	
+𢶉	piak8	
+𢶍	sap4	
+𢶚	pin5	1%
+𢿣	khiau1	
+𣚎	lui5	
+𣿅	tong2	
+𤎤	lo5	
+𤎭	lim7	
+𤹝	pi7	
+𤹥	ing3	
+𥀖	tshu1	
+𥂕	tshiu1	
+𥂙	hun3	1%
+𥕏	khok4	
+𥕑	tsiann1	
+𥡥	tshong2	
+𥰝	sit4	
+𥻥	tse3	
+𥻨	sik4	
+𦑹	phu7	
+𦺔	gaunn5	
+𧎡	kiong1	
+𧎮	tsho2	1%
+𧩲	lat8	
+𧯷	kin2	1%
+𧯸	kok4	
+𧳩	thuan2	
+𧶱	ti7	1%
+𧶴	too2	1%
+𧶵	tsap4	
+𧶷	thik8	
+𧶸	tsing3	
+𨼮	thiam7	
+𩗓	put8	
+𩜈	i3	
+𩜖	piong1	
+𩨽	tui1	
+𪎶	thun1	
+㘆	thai2	
+㠓	bong5	
+㠙	ho5	
+㣷	ling7	
+㦘	kik4	
+㪺	ki1	
+㬡	ling5	1%
+㯭	loo2	1%
+㱆	hi1	
+㱇	sik4	
+㱈	him3	
+㵲	bu2	
+㹕	huan5	
+䁱	au1	
+䃦	tun2	
+䈼	biat8	
+䊜	tuan5	
+䊞	thik4	
+䊟	buan5	
+䌍	kin2	
+䍢	bu5	
+䑀	phik4	
+䗡	ian1	
+䗣	ham5	
+䜂	ho7	
+䞅	i5	
+䫋	tue5	1%
+䫐	lim3	
+䬍	hut4	
+䭈	kian1	
+償	tsiang5	
+儠	lap8	
+儠	liap4	
+儡	lui2	
+儣	khong2	
+儥	iok8	1%
+儦	phiau1	
+優	iu1	
+儲	ti5	
+勵	le7	
+匵	tok8	
+噽	phi2	1%
+嚀	ling5	
+嚅	ji5	
+嚇	ha3	
+嚇	hik4	
+嚉	tut8	1%
+嚌	tse7	
+嚌	tshe1	
+嚌	tshe7	
+嚏	thi3	
+壎	hun1	1%
+壑	hok4	
+壓	ap4	
+壕	ho5	
+嬪	pin7	
+嬭	lainn2	1%
+嬰	ing1	
+嬲	siau2	
+嬷	bo2	
+孺	ji5	
+孻	lainn5	
+尶	lam5	
+嶷	gi5	
+嶸	ing5	
+嶺	ling2	
+嶻	tshiat8	
+嶼	si7	
+嶽	gak8	
+幪	bong5	
+幫	pang1	
+幬	to2	
+彌	bi2	1%
+彌	bi5	
+彌	binn1	
+徽	hui1	
+徾	i5	
+憵	phik4	
+憼	king2	
+懂	tong2	
+懃	khin5	
+懇	khun2	
+應	ing1	
+應	ing3	
+懋	boo7	
+懛	tai1	
+懜	bong7	
+懡	bonn2	
+懥	thi3	
+懦	lonn5	
+戲	hi3	
+戲	hoo1	
+戴	tai3	
+戴	te3	
+擊	kik4	
+擎	king5	
+擘	pik4	
+擠	tshe1	
+擡	thai1	
+擢	tshok8	
+擣	to2	1%
+擤	tsing3	
+擦	tsat4	
+擬	gi2	
+擯	pin3	
+斁	ik8	
+斁	too3	
+斂	liam2	
+斃	pi7	
+斵	tok4	
+斶	tsiok4	
+曎	ik8	
+曐	sing1	
+曒	kiau2	
+曔	king3	
+曙	si7	
+橿	kiang1	
+檀	than5	
+檄	hik8	
+檉	tsing1	
+檋	kiok4	
+檎	khim5	
+檐	iam5	
+檑	lui5	
+檔	tong3	
+檖	sui7	
+檗	pik4	
+檜	kue3	
+檟	ke2	
+檠	king5	
+檢	kiam2	
+檣	tshiang5	
+檥	gi2	
+櫛	tshiat4	
+歛	liam2	1%
+殭	kiang1	1%
+殮	liam7	
+毚	tsam5	
+氈	tshian1	
+氊	tshian1	1%
+澀	siap4	
+濕	sip4	
+濗	bik8	
+濘	ling2	
+濘	ling7	
+濙	ing5	
+濚	ing5	1%
+濛	bong5	
+濞	pi7	
+濟	tshe2	
+濟	tshe3	
+濠	ho5	
+濡	ji5	
+濡	si1	
+濤	to5	
+濩	hoo7	
+濪	tsin3	
+濫	lam7	
+濬	tshun3	
+濮	phok4	
+濯	tshok8	
+濰	ui5	
+濱	pin1	
+濶	khuat4	1%
+營	ing5	
+燠	hiok4	
+燥	so3	
+燦	tsan3	
+燧	sui7	
+燬	hui2	
+燭	tshiok4	
+燮	siat4	
+爵	tshiak4	
+牆	tsiang5	
+獮	bi5	
+獮	sian2	
+獯	hun1	
+獱	pin1	
+獲	hik8	
+獳	lonn5	
+璐	loo7	
+璨	tsan3	
+璩	ki5	
+璫	tong1	
+環	huan5	
+璲	sui7	
+甑	tshing7	
+疃	thuan2	
+癀	hong5	
+療	liau7	
+癃	liong5	
+癉	tan1	
+皤	pho1	
+盪	thong3	
+盪	tong7	1%
+瞧	tshiau1	
+瞧	tshiau5	
+瞬	tsun2	
+瞬	sun3	
+瞭	liau2	
+瞯	han2	
+瞰	kham3	
+瞲	hit4	
+瞳	tong5	
+瞶	hue7	
+矯	kiau2	
+矰	tshing1	
+磯	ki1	
+磰	sian7	
+磲	ki5	
+磴	ting3	
+磷	lin5	
+磷	lin7	
+磻	huan1	
+磻	huan5	
+磽	khau1	
+禧	hi1	
+禪	sian5	
+禪	sian7	
+穉	ti7	1%
+穗	sui7	
+穜	tong5	
+窾	khuan2	
+窿	liong5	
+篠	siau2	
+篰	poo7	
+篱	le7	
+篱	li5	
+篲	hui7	
+篳	pit4	
+篴	tiok8	
+篷	phong5	
+篾	biat8	
+簀	tshik4	
+簇	tshoo3	
+簇	tsok4	
+簋	khui2	
+簏	lok8	
+糙	tso3	
+糚	tshong1	1%
+糜	bi5	
+糝	sam2	
+糞	hun3	
+糟	tsho1	
+糠	khong1	
+縩	tshe3	
+縫	hong5	
+縭	li5	
+縮	siok4	
+縱	tshong1	
+縱	tsiong3	
+縲	lui5	
+縵	ban7	
+縶	tship4	
+縷	li2	
+縷	loo5	
+縹	phiau1	
+縻	bi5	
+總	tshong2	
+績	tshik4	
+繁	huan5	
+繂	lut8	
+繄	i1	
+繅	tsau1	
+繆	biu5	
+繆	biu7	
+繆	bok8	
+繆	kiu1	
+繇	iu5	1%
+繇	tiu7	
+繈	kiang2	
+罄	khing3	
+罅	ha3	
+罾	tshing1	
+罿	tong5	
+翲	phiau1	
+翳	i3	
+翼	ik8	
+聯	bian5	
+聰	tsong1	
+聲	sing1	
+聳	siong2	
+膺	ing1	
+膽	tam2	
+膾	kue3	
+膿	long5	
+臀	tun5	
+臁	liam5	
+臂	pi3	
+臄	kiak8	
+臅	tsiok4	
+臆	ik4	
+臇	tshian2	
+臈	lap8	1%
+臉	liam2	
+臊	tso1	
+臊	so1	
+臨	lim5	
+舉	ki2	
+艚	tsho5	
+艱	kan1	
+蕗	loo7	
+蕸	he5	
+蕾	lui2	
+薀	un1	
+薁	hiok4	
+薄	pok8	
+薅	ho1	
+薅	honn1	
+薇	bi5	
+薈	kue3	
+薉	ue3	
+薊	ki3	
+薍	guan7	
+薍	luan7	
+薏	i3	
+薐	ling5	
+薑	kiang1	
+薔	tsiang5	
+薘	tat8	
+薙	ti7	
+薛	pi7	
+薛	siat4	
+薝	tam2	
+薤	hai7	
+薦	tshian3	
+薧	ko2	
+薨	ing1	
+薪	sin1	
+薯	tshi5	
+虧	khui1	
+螫	sik4	
+螬	tsho5	
+螭	li5	
+螯	go5	
+螳	tong5	
+螵	phiau1	
+螺	lo5	
+螻	loo5	
+螼	khin2	
+螽	tshiong1	
+螾	in2	1%
+螿	tshiang1	
+蟀	sut4	
+蟄	tit8	
+蟊	baunn5	
+蟊	boo5	
+蟋	sit4	
+蟒	bong2	
+褵	li5	
+褸	li2	
+褻	siat4	
+襁	kiang2	
+襄	siang1	
+覫	phong2	
+覬	khai2	
+覯	koo1	
+覯	koo3	
+謄	thing5	
+謄	thian5	10%
+謅	tsau2	
+謇	kian2	
+謊	hong2	
+謎	binn7	
+謗	pong3	
+謙	khiam1	
+謙	khiam2	1%
+謚	si7	
+講	kang2	
+謝	sia7	
+謠	iau5	
+谿	khe1	1%
+豁	hat4	
+豏	ham7	1%
+豱	un1	
+豳	pin1	
+貔	pi5	
+賶	tsong3	
+賷	tshe1	
+賸	sin7	1%
+賹	ai3	
+賺	tshiam7	
+賻	hong3	
+賻	hu7	
+購	koo1	
+購	koo3	
+賽	sai3	
+趨	tsi1	
+蹆	thui2	1%
+蹇	kian2	
+蹈	to7	
+蹉	tso1	
+蹉	tso3	
+蹊	he5	
+蹋	tap8	1%
+蹐	tshik4	
+輾	lian2	
+輾	tian2	
+輿	i5	
+輿	i7	
+轂	kok4	
+轄	hat4	
+轅	uan5	
+遽	ki3	
+避	pi7	
+邀	hiau1	
+邁	bainn7	
+邂	hai7	
+還	huan5	
+邅	tshian1	
+鄹	tshoo1	
+醜	tsiu2	
+醞	un3	
+醡	tshe3	1%
+醢	hai2	
+醢	he1	
+錘	sui5	
+鍊	lian7	
+鍋	o1	
+鍍	too7	
+鍛	thuan3	
+鍠	hong5	
+鍡	ue1	
+鍤	tsap4	
+鍪	baunn5	
+鍫	tsiau1	
+鍬	tsiau1	
+鍭	hoo5	
+鍵	kian7	
+鍼	tshim1	
+鍾	tshiong1	
+鎏	liu5	
+鎡	tshu1	
+闃	khik4	
+闆	phan2	
+闇	am2	
+闇	am3	
+闈	ui5	
+闉	ian1	
+闉	in1	
+闊	khuat4	
+闋	khuat4	
+闌	lan5	
+隮	tshe1	
+隰	sip4	
+隱	in2	
+隸	le7	
+雖	sui1	
+霛	ling5	1%
+霜	song1	
+霞	he5	
+鞚	khong3	
+鞛	pong2	
+鞞	ping2	
+鞟	kok4	
+鞠	kiok4	
+韓	han5	
+韔	tiang3	
+韱	siam1	
+顆	kho3	
+顇	tshui7	
+顉	gim7	
+颶	ki7	
+餪	luan2	
+餬	hoo5	
+餱	hoo5	
+餲	ai2	
+餳	tsing1	
+馘	hik8	
+駵	liu5	
+駾	tui7	
+駿	tshun3	
+騁	phing3	
+騂	sin1	
+騃	gai2	
+骾	king2	
+髼	hong5	
+髽	tsua1	
+鬴	hu2	1%
+魈	siau1	
+鮝	siang2	
+鮡	thiau5	
+鮦	tong5	
+鮪	ui2	
+鮫	kau1	
+鮭	hai5	
+鮭	ke5	
+鮮	sian1	
+鮮	sian2	
+鴶	khiat4	
+鴻	hong5	
+鴿	kap4	
+鵁	kau1	
+鵂	hiu1	
+麋	bi5	
+麯	khiok4	1%
+麰	boo5	
+黈	thoo2	
+黏	liam5	
+黚	khiam5	
+黛	tai7	
+黜	thut4	
+點	tiam2	
+黻	hut4	
+黿	guan5	
+鼾	han2	
+齋	tshai1	
+龠	iak8	
+𠐈	pian1	
+𠐊	si7	1%
+𡁉	tship4	
+𡾻	tshong5	
+𢡆	khun2	1%
+𢡉	siap4	
+𢩠	suan1	
+𢷋	piau2	1%
+𣀂	le2	
+𤛰	huan5	1%
+𤺅	tshue3	1%
+𥕲	khuat4	
+𥱼	pai5	
+𥲄	tam7	
+𥼁	lut8	
+𥼃	tshik4	
+𦒐	phiat8	
+𦗖	lo7	
+𦡂	tong2	
+𦡃	lia1	
+𦡃	lonn5	
+𦽅	honn3	
+𧐎	bik8	
+𧐒	sok4	
+𧡿	tsin1	1%
+𧷍	pi3	
+𧽒	hiong3	
+𨗦	tsiam2	
+𨨰	juan7	
+𨵬	an7	
+𩈫	kainn2	
+𩶭	goo5	
+𪀦	thit4	
+𪓔	khiu1	1%
+㒟	liaunn2	
+㙻	tian5	1%
+䆅	tshu1	
+䊤	tham2	
+䊥	siau3	
+䊩	huan5	
+䊩	phun1	
+䎘	siok4	
+䜇	kun2	
+䜈	tsau1	
+䜊	tsho7	
+䝏	loo5	
+儭	tsin3	
+儮	lik8	
+儯	thing5	
+儱	long2	
+叢	tshong5	
+嚚	gin5	
+嚞	tiat4	1%
+嚮	hiang3	
+壘	lui2	
+壙	khong3	
+奰	pi7	
+嬸	tshim2	
+嬸	sim2	
+嬻	tok8	
+屩	kak4	
+屪	liau5	
+幭	bik8	1%
+彝	i5	
+懕	iam1	
+懘	thi3	
+懟	tui7	
+懣	buan2	
+懮	iu2	
+懰	liu5	
+擥	lam2	1%
+擲	tik8	
+擴	khok4	
+擷	khiat4	
+擸	lap8	
+擺	pai2	
+擾	jiau2	
+攂	lui7	
+攄	thi1	
+斷	tuan3	
+斷	tuan7	
+旛	huan1	
+曚	bong5	
+曛	hun1	
+曜	iau7	
+朦	bong5	
+檮	to5	
+檯	tai5	
+檳	pin1	
+檵	ke3	
+檻	lam7	
+檽	lonn7	
+檾	khing2	
+檿	iam3	
+櫁	bit8	
+櫂	tshau7	1%
+櫃	kui7	
+櫇	phau1	
+櫡	tshiak4	
+歟	i5	
+歸	kui1	
+殯	pin3	
+毉	i1	1%
+濺	tshian3	
+濾	li7	
+瀁	iang2	
+瀅	ing7	
+瀆	tok8	
+瀉	sia3	
+瀋	sim2	
+瀌	phiau1	
+瀏	liu5	
+瀑	phok8	
+瀦	tshi1	
+燹	sian2	
+燻	hun1	
+燼	sin7	
+燿	iau7	1%
+獵	lap8	
+璧	phik4	
+璵	i5	
+璿	suan5	1%
+甕	ong3	
+癖	phik4	
+癗	lui5	
+癘	le7	
+癙	tsi2	
+皦	kiau2	
+盬	koo2	
+瞹	ai3	
+瞻	tshiam1	
+瞽	koo2	
+瞾	tshiau3	1%
+瞿	ki3	1%
+瞿	ki5	
+礉	khau3	
+礎	tsoo2	
+礐	hak8	
+禮	le2	
+穟	sui7	
+穠	long5	
+穡	sik4	
+穢	ue3	
+竄	tsuan3	
+竅	khiau3	
+竵	huai1	
+簞	tan1	
+簟	tiam7	
+簠	hu2	
+簡	kan2	
+簣	kui7	
+簥	kiau1	
+簦	ting1	
+簧	hong5	
+簨	sun2	
+簪	tsham1	
+簪	tshom1	
+簫	siau1	
+簮	tshom1	1%
+糦	tsi3	
+糧	liang5	
+繒	tshing1	
+繓	tsuat4	
+織	tshit4	
+繕	sian7	
+繚	liau2	
+繚	liau5	
+繜	tshun2	
+繞	jiau2	
+繡	siu3	
+繢	hue7	1%
+繦	kiang2	1%
+罇	tshun1	
+罈	tham5	
+羴	sian1	1%
+羵	hun5	
+翸	phun2	
+翹	kiau5	
+翻	huan1	
+聵	hue7	
+聶	liap4	
+職	tshit4	
+臍	tshai5	
+臍	tshe1	
+臍	tshe5	
+臎	tshui1	
+臏	pin2	
+臏	pin7	
+臐	hun1	
+舊	kiu7	
+艟	tong5	
+薩	sat4	
+薰	hun1	
+薳	ui2	1%
+薸	phiau5	
+薺	tshe1	
+薾	tshi2	
+薿	gi2	
+藂	tsham7	
+藂	tshong5	
+藇	si7	
+藉	tshik8	
+藉	tshia7	
+藊	pian2	
+藍	lam5	
+藎	tshin7	
+藏	tshong5	
+藏	tshong7	
+藐	biau2	
+虩	hik4	
+蟚	phing5	
+蟟	liau5	
+蟠	huan5	
+蟢	hi2	
+蟣	ki2	
+蟪	hui7	
+蟫	im5	
+蟬	sian5	
+蟯	jiau5	
+蟲	thiong5	
+蟳	sim5	
+襆	pok8	1%
+襉	kan2	
+襊	tsuat4	
+襌	tan1	
+襍	tshap8	
+覆	hok4	
+覆	hu3	10%
+覲	kin7	
+觴	siang1	
+謨	boo5	
+謫	tik4	
+謬	biu7	
+謭	tshian2	
+謳	oo1	
+謴	gun7	
+謹	kin2	
+謽	kiang7	
+謾	ban7	
+豐	hong1	
+賾	tshik4	
+贀	i3	
+贁	pai7	1%
+贂	tsim2	
+贄	tshi3	
+贅	tshue3	
+趩	tsik8	
+蹕	pit4	
+蹘	liau5	
+蹙	tsiok4	
+蹜	siok4	
+蹝	si2	1%
+蹟	tshik4	
+蹠	tshik4	
+蹢	tik4	
+蹣	buan5	
+蹣	puan5	
+蹤	tshong1	
+蹩	phiat4	
+軀	khi1	
+轆	lok8	
+轉	tshuan2	
+轍	tiat8	
+邃	sui3	
+邇	ji2	
+邈	biau2	
+醨	li5	
+醪	lo5	
+醫	i1	
+醬	tshiang3	
+釐	li5	
+鎔	iong5	
+鎖	so2	
+鎗	tsiang1	
+鎚	thui5	
+鎛	phok4	
+鎜	puan5	1%
+鎞	pe1	
+鎣	ing7	
+鎧	khai2	
+鎬	ko2	
+鎮	tin3	
+鎰	it8	
+鎻	so2	1%
+闐	thian5	
+闑	giat8	
+闔	khap4	
+闕	khuat4	
+闖	tham3	
+隳	hue1	
+雙	sang1	
+雙	song1	
+雛	tsi1	
+雜	tshap8	
+雝	iong1	
+雞	ke1	
+離	li5	
+離	li7	
+霡	bik8	
+霤	liu2	
+靝	thian1	1%
+鞢	siat8	
+鞦	tsiu1	
+鞫	kiok4	
+鞬	kian1	
+鞭	pian1	
+韘	tiap8	
+韙	ui2	
+顋	sai1	1%
+顋	su1	
+題	te5	
+額	gik8	
+顏	gan5	
+顒	giong5	
+顓	tshuan1	
+顕	hian2	1%
+颸	su1	
+颺	iang5	
+餮	thiat4	
+餹	thong5	
+餼	hi3	
+饁	iap4	
+騅	tui1	
+騋	lai5	
+騌	tshong1	
+騍	kho3	
+騎	khi5	
+騏	ki5	
+騐	giam3	1%
+騑	hui1	
+髜	khiau2	
+鬃	tshong1	
+鬆	song1	
+鬈	kuan5	
+鬩	ge2	
+鬵	sim5	
+魋	tue5	
+魍	bong2	
+魎	liang2	
+魏	gui7	
+鮸	bian2	
+鮻	so1	
+鮾	lue2	
+鯀	kun2	
+鯁	king2	
+鯃	goo5	
+鯈	siu5	
+鯉	li2	
+鯊	se1	
+鯽	tshik4	
+鯽	tshit4	
+鵑	kuan1	
+鵒	iok8	
+鵓	put8	
+鵙	kuat4	1%
+鵜	the5	
+鵝	go5	
+鵠	gok8	
+麌	gi2	
+麐	lin5	1%
+麱	phoo1	
+黠	hat4	
+鼂	tiau7	
+鼕	tong5	
+鼦	tiau1	
+鼪	sing1	
+鼬	iu7	
+齕	hik8	
+𠐥	ik4	1%
+𠐦	kue1	1%
+𠐧	bing5	
+𠠝	lik8	
+𡮻	lan5	
+𡽞	thik8	1%
+𡾆	gik8	
+𡾇	khong3	
+𣀒	tsiong3	
+𣝕	tshian1	
+𤁩	tshun1	
+𤻄	sui7	
+𥀣	hak8	
+𥢶	kue3	
+𥼜	phok4	
+𦏆	tong5	
+𦡱	iau7	
+𦡴	tiu7	
+𦡶	ham7	
+𦪧	kam2	
+𦾹	suan1	
+𧇾	khui1	1%
+𧝓	tam7	
+𧝘	poo5	
+𧢍	piat4	1%
+𧫝	sua2	
+𧫡	tshit4	
+𧷞	siang1	1%
+𧷟	phin1	
+𧷡	loo5	
+𨄅	khi1	
+𨎊	kun2	
+𨐱	pian7	
+𨪈	kui7	
+𩝥	soo3	
+𩰿	sim5	1%
+𪁧	sin5	
+䊪	lainn7	1%
+䌜	giap8	
+䌟	phik4	
+䌠	kam1	
+䌡	le2	
+䑆	iang2	
+䑈	phok4	
+䕢	tua2	
+䚑	bainn5	
+䜍	liau5	
+䜎	lo5	
+䨮	suat4	1%
+䰄	sai1	
+䰄	su1	
+䰅	si1	1%
+䱨	tsi3	
+䳢	ki5	
+䶕	pa1	
+儳	sam5	
+儳	sam7	
+劖	tsham7	
+勷	siang1	
+嚥	ian3	
+嚬	pin5	
+嚭	phi2	
+壚	loo5	
+壜	tham5	1%
+壝	ui7	
+壞	huai7	
+壟	liong2	
+壟	long2	
+壠	long2	
+壡	hat4	
+嬹	hing3	
+嬾	lan2	1%
+嬿	ian3	
+寳	po2	1%
+寵	thiong2	
+廬	li5	
+懲	ting5	
+懶	lan2	
+懷	huai5	
+攀	phan1	
+曝	phok8	
+曠	khong3	
+櫋	bian5	
+櫏	tsian1	
+櫓	loo2	
+櫜	ko1	
+櫝	tok8	
+櫟	lik8	
+櫟	lok8	
+歠	tsuat4	
+瀕	pin5	
+瀘	loo5	
+瀚	han7	
+瀛	ing5	
+瀝	lik8	
+瀠	ing5	
+瀨	lainn7	
+爆	phok8	
+爇	siat4	
+爉	lap8	
+爍	siak4	
+爕	siat4	1%
+牘	tok8	
+犢	tok8	
+獸	siu3	
+獺	that4	
+璽	ji2	
+瓈	le5	
+瓊	king5	
+瓣	pian7	
+疆	kiang1	
+疇	tiu5	
+癠	se7	
+癡	tsi1	
+矄	hun1	
+矇	bong5	
+矱	hoo7	
+礙	gai7	
+礚	khap4	
+禰	ji2	
+禰	jinn2	
+禱	to2	
+穤	lonn5	1%
+穧	tshe1	
+穩	un2	
+穪	tsing1	1%
+穫	hoo7	
+竆	kiong5	1%
+簷	liam5	
+簸	po3	
+簽	tsiam1	
+簾	liam5	
+簿	phoo7	
+簿	pok8	
+籀	tiu7	
+糫	huan5	
+繩	tshin5	
+繪	hue7	
+繫	he7	
+繭	kan2	
+繮	kiang1	
+繰	tsau1	1%
+繲	kai3	
+繳	tshiak4	10%
+繳	kiau2	
+繶	ik4	
+繸	sui7	
+繹	ik8	
+羃	bik8	
+羅	lo5	
+羆	phi5	
+羶	tshian1	
+羶	sian1	
+羸	lue5	
+羹	king1	
+翽	hui3	
+翽	ue3	
+臔	hian2	
+臕	piau1	
+臖	hing3	
+臘	lap8	
+艡	tong1	
+艤	gi2	
+藕	gaunn7	
+藘	li5	
+藜	le5	
+藝	ge7	
+藞	lua2	
+藟	lui2	
+藤	ting5	
+藤	tin5	
+藥	iak8	
+藩	huan5	
+藭	kiong5	
+藲	oo1	
+蟶	tsing1	
+蟹	hai7	
+蟻	gi2	
+蟾	siam5	
+蠃	lo2	
+蠆	ban7	
+蠆	tsai3	
+蠍	iat4	
+襖	o2	
+襛	jiong5	
+襜	tsiam1	
+襟	khim1	
+襠	tong1	
+襢	tan7	1%
+覇	pa3	1%
+覈	hik8	
+覵	han2	1%
+覶	lo1	
+覷	hi3	
+觶	ti3	
+譀	ham3	
+譁	hua5	
+譆	hi1	
+證	tshin3	
+譋	ho7	
+譌	go5	1%
+譎	kuat4	
+譏	ki1	
+譓	hui7	
+譔	tshuan7	1%
+譕	bu5	
+譖	tshom3	
+識	sit4	
+譙	tshiau5	
+譚	tam5	1%
+譜	phoo2	
+豷	i3	
+贈	tshing7	
+贊	tshan3	
+贋	gan7	
+蹨	jian2	
+蹨	jian5	
+蹨	lian2	
+蹮	tsian1	
+蹯	huan5	
+蹰	tu5	
+蹲	tshun1	
+蹴	tsiok4	
+蹵	tsiok4	1%
+蹶	khuat4	
+蹷	khuat4	1%
+蹺	khiau1	
+蹻	khiau1	
+蹻	kiau2	
+躇	ti5	
+轎	kiau7	
+轔	lin5	
+辭	su5	
+邊	pian1	
+醮	tshiau7	
+鎩	sat4	
+鏁	so2	1%
+鏆	kuan3	
+鏇	tshian7	
+鏇	tshuan7	
+鏊	go7	
+鏌	bok8	
+鏑	tik4	
+鏕	lok8	
+鏖	o1	
+鏗	khian1	
+鏘	tsiang1	
+鏙	sui1	
+鏜	thong1	
+鏞	iong5	
+鏟	san2	
+鏡	king3	
+鏢	phiau1	1%
+鏤	loo5	
+鏥	siu3	1%
+鏨	tsham7	
+闚	kui1	
+關	kuan1	
+難	lan5	
+難	lan7	
+霧	bu7	
+霪	im5	
+霫	sip4	
+靡	bi2	
+鞵	hai5	1%
+鞶	puan5	
+韜	tho1	
+韞	un3	
+韻	un7	
+顖	sin3	1%
+願	guan7	
+顙	song2	
+顛	tian1	
+類	lui7	
+颻	iau5	
+颼	soo1	
+颾	so1	
+饅	ban5	
+饈	siu1	
+饉	kin7	
+馧	un1	
+騖	bu7	
+騙	phian3	
+騙	phiat4	
+騙	pian2	
+騤	kui5	
+騧	ua5	
+鬍	hoo5	
+鯖	tsing1	
+鯤	khun1	
+鯧	tsiang1	
+鯪	ling5	
+鯫	tshoo1	
+鵡	bu2	
+鵪	an1	
+鵬	phing5	
+鵲	tsiak4	
+鵻	tshui1	
+鵻	tui1	1%
+鵾	khun1	
+鶂	giat8	1%
+鶃	giat8	
+鶄	tshing1	
+鶉	sun5	
+鶊	king1	
+麑	ge5	
+麒	ki5	
+麓	lok8	
+麕	khun1	
+麗	le7	
+麗	li5	10%
+麴	khiok4	
+黼	hu2	
+鼃	ua5	1%
+鼄	tu1	1%
+鼗	to5	
+齗	gin5	
+龐	bang5	
+𠐻	kian2	
+𠐼	lin7	
+𠠢	ling5	
+𡾙	gok8	
+𡾛	ping2	
+𢅭	lai2	
+𢤭	lim2	1%
+𣞙	song2	
+𣟉	huai3	
+𤂿	suan2	
+𥨪	kiong5	1%
+𥴩	kik4	
+𥼶	sik4	
+𦅼	tam1	
+𦆀	tsian3	
+𦆃	kam1	
+𦌭	ki1	1%
+𦢌	thok8	
+𧀬	tsip4	
+𧬂	ho7	
+𧬈	hip4	
+𧽽	liau5	
+𨅒	tu5	
+𨅘	piang7	
+𨎰	han7	1%
+𨣃	lo5	1%
+𨲮	lo3	
+𨶶	se1	
+𩈸	khiu2	
+𩔨	sin3	1%
+𩙷	giu7	
+𩞆	tsong5	
+𩮀	tshong2	
+𩮅	ga7	
+𪉧	tam7	
+㒦	lui2	1%
+㒦	lui7	
+㰖	lam2	
+㶎	huan5	
+㶑	liam2	1%
+䑉	ing5	
+䕯	phiau5	1%
+䞉	in7	1%
+䞉	sing7	
+䥛	kiat4	
+䨇	song1	1%
+䵪	kun3	
+勸	khuan3	
+匶	kiu7	1%
+嚳	khak4	
+嚴	giam5	
+嚶	ing1	
+嚷	jiang2	
+嚼	tshiak4	
+壤	jiang2	
+孀	song1	
+孃	liang5	1%
+孽	giat8	
+孾	ing1	
+寶	po2	
+巆	ing5	1%
+巇	hi1	
+巉	tsam5	
+巊	ing2	
+懸	hian5	
+懺	tsam3	
+攔	lan5	
+攖	ing1	
+攘	jiang2	
+攘	jiang5	
+攙	tsam1	
+斅	hau7	
+旟	i5	
+曦	hi1	
+朧	liong5	
+櫪	lik8	
+櫬	tsin3	
+櫯	soo1	
+櫱	giat8	
+櫳	liong5	
+瀯	ing5	
+瀰	bi5	
+瀲	liam2	
+瀹	iak8	
+瀼	jiang5	
+瀾	lan5	
+瀾	lan7	
+瀿	huan5	
+爋	hun3	
+爏	lok8	
+爐	loo5	
+犨	siu5	
+獻	hian3	
+瓍	sui5	
+瓏	long5	
+癢	iang7	
+癥	tshin3	1%
+皫	phiau2	
+矍	kiak8	
+礦	kong2	
+礧	lui2	
+礧	lui7	
+礪	le7	
+礬	huan5	
+禲	le7	
+穮	phiau1	
+竇	too7	
+競	king7	
+籃	lam5	
+籄	kui7	
+籉	tai5	
+籊	tik8	
+籌	tiu5	
+籍	tshik8	
+糯	lonn5	
+繼	ke3	
+繽	phin1	
+繾	khian2	
+纁	hun1	
+纂	tsuan3	
+罌	ing1	
+耀	iau7	
+臙	ian1	1%
+臚	loo5	
+艦	lam7	
+艨	bong5	
+藹	ai2	
+藺	lin7	
+藻	tsho2	
+藾	lainn7	
+蘀	thok4	
+蘂	lui2	1%
+蘅	hing5	
+蘆	loo5	
+蘇	soo1	
+蘈	tue5	
+蘊	un3	
+蘋	pin5	
+蘢	liong5	
+蠐	tshe5	
+蠓	bong5	
+蠔	ho5	
+蠖	hoo7	
+蠘	tshiat8	
+襣	pit8	
+襤	lam5	
+襦	ji5	
+覺	kak4	
+觸	tsiok4	
+譍	ing3	
+譡	tong3	
+警	king2	
+譩	i1	
+譬	phi3	
+譮	hai7	
+譯	ik8	
+議	gi7	
+贍	siam7	
+贏	ing5	
+躁	so3	
+躂	that4	
+躃	phik4	
+躅	tok8	
+轗	kham2	1%
+辮	pian7	
+醴	le2	
+釋	sik4	
+鏵	hua5	
+鏷	phok4	
+鏺	phuat4	
+鏽	siu3	
+鐃	launn5	
+鐄	hong5	
+鐕	tsiam2	
+鐘	tshiong1	
+鐙	ting3	
+闞	ham2	
+闞	kham3	
+闡	tsian2	
+霰	san3	
+韠	pit4	
+顡	guai7	
+顢	buan5	
+顣	tsiok4	
+飃	phiau1	1%
+飄	phiau1	
+饋	kui7	
+饌	tshuan7	
+饎	tsi3	
+饐	i3	
+饑	ki1	
+饒	jiau5	
+馨	hing1	
+騫	khian1	
+騭	tshit4	
+騮	liu5	
+騰	thing5	
+騲	tso2	
+騵	guan5	
+騶	tshoo1	
+騷	so1	
+騸	sian3	
+髆	phok4	
+鬒	tshin2	
+鬪	too3	
+鯹	sing1	
+鯻	lat8	
+鰂	tshik8	
+鰇	jiu5	
+鰋	ian2	
+鰌	tsiu1	
+鰍	tsiu1	
+鰐	gok8	
+鰓	sai1	
+鰕	he5	
+鶖	tsiu1	
+鶗	the5	
+鶘	hoo5	
+鶚	gok8	
+鶠	ian2	
+鶡	hat4	
+鶩	bu7	
+鹹	ham5	
+麵	bian7	1%
+黥	king5	
+黨	tong2	
+鼯	goo5	
+齟	tshoo5	
+齠	tiau5	
+齡	ling5	
+齣	tsut4	
+𡄕	siat4	
+𣟌	li7	
+𤃶	thing3	
+𥵪	tsing7	
+𦢨	ian5	
+𧂁	tshian3	
+𧗗	lok4	
+𧬩	tshap8	
+𧬪	kun3	
+𧬮	kua3	
+𩌦	si2	1%
+𩘱	sut4	
+𩥒	hong1	
+𪃏	bue5	
+𪍒	koo5	1%
+𪑒	thun3	
+𪑕	hun2	
+𪑖	pun1	
+𪗋	tshu1	
+㠦	hong1	
+㶓	tshong5	
+䉪	lui2	
+䚔	phin3	
+䜚	tap8	
+䫬	tshim2	
+䱹	tshe2	
+儷	le7	
+儹	tshan2	
+儺	lonn5	
+劘	bi5	
+嚾	huan1	
+囀	tshuan2	
+囁	liap4	
+囂	go5	
+囂	hiau1	
+夔	kui5	
+屬	tshiok4	
+屬	siok8	
+巍	gui5	
+巐	thiau2	
+廱	iong1	
+懼	ki3	
+懼	ki7	
+懽	huan1	1%
+懾	liap4	
+攜	he5	
+攝	liap4	
+攝	siap4	
+斕	lan5	
+曩	long2	
+櫺	ling5	
+櫻	ing1	
+欃	tsam1	
+欄	lan5	
+殲	tsiam1	
+灃	hong1	
+灉	iong1	
+灋	huat4	1%
+灌	kuan3	
+爛	lan7	
+爝	tshiak4	
+犧	hi1	
+瓔	ing1	
+甗	hian3	
+癧	lik8	
+癨	hok4	
+癩	lainn7	
+礮	phau3	1%
+礱	liong5	
+竈	tsho3	
+籐	ting5	
+籓	huan5	
+糲	lainn7	
+糲	le7	
+纈	khiat4	
+纊	khong3	
+續	siok8	
+纏	tian5	
+罍	lui5	
+耰	iu1	
+艪	loo2	
+蘖	giat8	
+蘚	sian2	
+蘝	liam2	1%
+蘞	liam2	
+蘞	liam5	
+蘡	ing1	
+蘧	ki3	
+蘧	ki5	
+蘩	huan5	
+蘪	bi5	
+蘭	lan5	
+蠟	lap8	
+蠠	bit8	
+蠡	le2	
+蠢	tsun2	
+蠣	lainn7	
+蠩	si5	1%
+衊	biat8	
+襪	biat8	
+襪	buat8	
+襫	sik4	
+襭	khiat4	
+襮	phok8	
+覽	lam2	
+譴	khian3	
+譶	tap8	
+護	hoo7	
+譸	tshiu1	
+譽	i5	
+譽	i7	
+贐	tshin2	
+贐	tshin7	
+贒	hian5	1%
+贓	tshong1	
+贔	pi7	
+躊	tiu5	
+躋	tshe1	
+躍	iak8	
+轝	i5	
+轞	lam7	
+轟	ing1	
+辯	pian7	
+酆	hong1	
+醹	ji5	
+醺	hun1	
+醻	siu5	1%
+鐮	liam5	
+鐱	kiam7	
+鐲	tok8	
+鐵	thiat4	
+鐶	huan5	
+鐸	tok8	
+鐺	thing1	
+鐺	tong1	
+闢	pit8	
+闣	tong3	
+闤	huan5	
+闥	that4	
+露	loo7	
+霸	pa3	
+霹	phik4	
+靧	hue3	
+鞾	hia1	1%
+韡	ui2	
+響	hiang2	
+顥	ho7	
+顦	tshiau5	
+顧	koo3	
+飆	phiau1	
+飇	phiau1	1%
+饏	ham2	
+饖	ue3	
+饗	hiang2	
+饘	tshian1	
+騾	lo5	
+驀	bik8	
+驁	go5	
+驂	tsam1	
+驃	phiau3	
+驄	tsong1	
+驅	khi1	
+髏	loo5	
+鬖	sam3	
+魑	li5	
+魒	phiau1	
+魔	bonn5	
+鰣	si5	
+鰥	kuan1	
+鰭	ki5	
+鰮	un1	
+鶬	tsong1	
+鶯	ing1	
+鶴	hok8	
+鶹	liu5	
+鶺	tshit4	
+鶻	kut8	
+鶼	kiam1	
+鶽	tshun2	
+鷀	tshu5	
+鷂	iau7	
+鷃	an3	
+鷄	ke1	1%
+鷊	gik8	
+麝	sia7	
+麞	tshiang1	
+黯	am2	
+鼙	pi5	
+鼛	ko1	
+齎	tshe1	
+齧	giat4	
+齩	gaunn2	1%
+龝	tsiu1	1%
+龡	tsui1	1%
+𠑍	lue5	
+𠑙	tsiong3	
+𠠪	luan5	
+𡄱	tshiok4	
+𡄸	iong1	1%
+𡮿	tsam1	
+𢒸	sik4	1%
+𣟴	suan1	
+𣟵	hia1	
+𤄓	tshong5	
+𤄫	huan1	
+𤫐	huan5	1%
+𤬛	loo5	
+𧸦	lam7	
+𧸧	ki3	
+𧾜	phun1	
+𨆱	pin7	
+𩘺	tue5	
+𩪍	khi1	1%
+𩮰	tshong2	
+𩺀	tshik4	1%
+𩺀	tshit4	1%
+䕺	tshong5	
+䙭	kian2	1%
+䲅	kuai1	
+亹	bi2	
+亹	bun5	
+儻	thong2	
+儼	giam2	
+囉	lo5	
+囊	long5	
+孌	luan5	
+巒	luan5	
+巔	tian1	
+彎	uan1	
+懿	i3	
+攢	tshuan3	1%
+攤	than1	
+權	kuan5	
+歡	huan1	
+氍	ki5	
+灑	le7	
+灑	se3	
+灑	sua2	
+灘	than1	
+爞	thiong5	
+爟	huan1	
+瓘	kuan3	
+瓤	jiang5	
+疊	tiap8	
+癬	sian2	
+癭	ing1	
+禳	jiang5	
+禴	iak8	1%
+穰	jiang5	
+籗	hok4	
+籙	liok8	
+籛	tshian3	
+籜	thok4	
+籟	lainn7	
+籠	long5	
+糴	tik8	
+纑	loo5	
+罎	tham5	1%
+羇	ki3	1%
+聽	thing1	
+聽	thing3	
+聾	long5	
+臞	ki5	
+臟	tshong3	
+臟	tshong7	
+蠥	giat8	
+襯	tsing3	
+襯	tsin3	
+襱	liong5	
+襲	sit8	
+覿	tok8	
+觼	khuat4	
+讀	thok8	
+讀	too7	
+讁	tik4	
+讄	lui2	
+贖	siok8	
+躐	lap8	
+躑	tik8	
+躓	tshi3	
+躔	tian5	
+躚	tsian1	
+轡	pi3	
+酇	tshan3	
+鑄	tshu3	
+鑊	hoo7	
+鑌	pin1	
+鑑	kam3	
+鑒	kam3	1%
+霽	tshe3	
+霾	bai5	
+韁	kiang1	1%
+韃	that4	
+顫	tshian3	
+饔	iong1	
+饕	ho1	
+驈	it8	
+驊	hua5	
+驌	siok4	
+驍	hiau1	
+驎	lin5	
+驕	kiau1	
+鬚	si1	
+鬛	liap4	
+鬻	iok8	
+鰱	lian5	
+鰲	go5	
+鰳	lik8	
+鰴	hui1	
+鰷	tiau5	
+鰻	ban5	
+鱄	tshuan1	
+鱆	tshiang1	
+鱉	piat4	1%
+鷓	tshia3	
+鷕	iau2	
+鷖	i1	
+鷗	oo1	
+鷙	tshi3	
+鷟	tshok8	
+齪	tsiok4	
+齪	tsok4	
+龔	kiong1	
+龕	kham1	
+龢	ho5	1%
+𢺑	lo7	
+𣠜	tshau1	
+𤄷	lo5	
+𧃰	kui5	1%
+𧭷	loo2	
+𪄯	kui1	
+𪘑	suan1	
+㒿	li5	
+䕻	le7	
+䞋	tsing3	
+䥰	bing5	
+儽	lui2	
+巖	gam5	
+巖	giam5	
+巗	gam5	1%
+巘	hian3	
+戀	luan5	
+戀	luan7	
+戁	lan2	
+戃	thong2	
+攣	luan5	
+攪	kiau2	
+攫	khok4	
+曫	luan5	
+曬	sai3	
+欒	luan5	
+灓	luan5	
+灚	kiau2	
+玁	hiam2	
+瓚	tshan3	
+癯	ki5	
+癰	ing1	
+癰	iong1	
+礶	kuan3	1%
+竊	tsiap4	
+籞	gi2	
+籤	tsiam1	
+籥	iak8	
+籧	ki3	
+纓	ing1	
+纔	tsai5	
+纖	siam1	
+臢	tsham1	
+蘸	tsham3	
+蘺	li5	
+蘼	bi5	
+蘿	lo5	
+蠭	hong1	1%
+蠮	iat4	
+蠱	koo2	
+蠱	too2	
+蠲	kuan1	
+襶	tai3	
+變	pian3	
+讌	ian3	
+讎	siu5	
+轣	lik8	
+轤	loo5	
+邏	lo7	
+邐	li2	
+鑠	siak4	
+鑢	li7	
+鑣	phiau1	
+靨	iam2	
+顯	hian2	
+饜	iam1	10%
+饜	iam3	
+驖	thiat4	
+驗	giam3	
+驘	lo5	1%
+驚	king1	
+驛	ik8	
+髑	tok8	
+髓	tsui2	
+體	the2	
+鬟	huan5	
+鱒	tshun1	
+鱒	tshun2	
+鱒	tshun3	
+鱓	sian7	1%
+鱔	sian7	
+鱗	lin5	
+鱙	jiau5	
+鷥	si1	
+鷦	tshiau5	
+鷫	siok4	
+鷮	kiau5	
+鷯	liau5	
+鷲	tshiu7	
+鷳	han5	
+鷸	it8	
+麟	lin5	
+黴	bue5	
+齏	tshe1	
+齱	tsiok4	1%
+𠑪	hiau1	
+𦣍	hing5	
+𩦢	gi5	
+䥶	lik8	
+䴇	ling5	
+儾	long7	
+囑	tshiok4	
+壩	pa3	
+屭	hi3	
+攬	lam2	
+曭	thong2	
+灝	ho7	
+灞	pa3	
+灟	tshiok4	
+灠	lam7	
+癲	tian1	
+矗	tsiok4	
+罐	kuan3	
+羈	ki1	
+羈	ki3	
+艭	song1	
+艷	iam7	
+蠶	tsan5	
+蠹	too3	
+衢	ki5	
+讒	tsam5	
+讒	tsham5	
+讓	jiang7	
+讖	tsam3	
+贛	khong3	
+醿	bi5	
+釀	jiang5	
+靂	lik8	
+靄	ai2	
+靆	tai7	
+靈	ling5	
+韆	tsian1	
+韈	biat8	1%
+韈	buat8	1%
+顰	pin5	
+驟	tshoo7	
+鬢	pin3	
+魗	siu5	
+魘	iam2	
+魙	tsham2	
+魙	tshik4	
+鱟	hau7	
+鱠	kue3	
+鱣	tshian1	
+鷹	ing1	
+鷺	loo7	
+鷾	i3	
+鸂	ke1	
+鸇	tshian1	
+鹽	iam5	
+鼇	go5	
+齅	hiu3	
+齴	gian2	
+齷	ak4	
+𢺞	pa3	
+𧮈	kian2	1%
+䵳	uai3	
+廳	thing1	
+戅	gong7	
+斸	tiok4	
+欝	ut4	1%
+灣	uan1	
+矘	thong2	
+矙	kham3	1%
+籩	pian1	
+籬	li5	
+籭	sai1	1%
+籮	lo5	
+糶	thiau3	
+纘	tshan3	
+纛	tok8	
+虆	lui5	
+蠻	ban5	
+襻	phan3	
+觀	kuan1	
+觀	kuan3	
+讙	huan1	
+贜	tshong1	1%
+躡	liap4	
+釁	hin3	
+鑰	iak8	
+鑱	tsam1	
+鑲	siang1	
+靉	ai2	
+顱	loo5	
+饞	tsam5	
+鬭	too3	
+鱮	si7	
+鸎	ing1	
+鸑	gak8	
+黌	hong5	
+鼈	piat4	
+鼉	go5	
+𡿝	long7	
+𩧅	huan5	
+𩯲	tsang3	
+𪒰	pun1	1%
+㔶	kam2	
+㲲	tiap8	
+䭳	gui7	
+讚	tshan3	
+趲	tshan2	
+釃	su1	
+鑵	kuan3	1%
+鑹	tsuan3	
+驢	li5	
+驥	ki3	
+鬮	khau1	
+鱱	le7	
+黶	iam2	
+𧅺	long5	
+䌵	tshiok4	
+䮿	kian2	
+䶐	uai3	
+灧	iam7	
+灨	kam3	
+纜	lam7	
+讜	tong2	
+讞	hian3	
+躩	khiak4	
+釅	giam5	
+鑼	lo5	
+鑽	tshuan3	
+鑽	suan7	
+鑾	luan5	
+顳	jiap8	
+驤	siang1	
+鱸	loo5	
+鸕	loo5	
+黷	thok8	
+黷	tok8	
+𩽏	lik8	
+戇	gong7	
+豔	iam7	
+鑿	tsok8	
+钁	khok4	
+雧	tship8	1%
+驩	huan1	
+鸚	ing1	
+𣌟	ling5	
+𣡶	iam5	
+𩰪	ut4	
+䶑	thi3	1%
+爨	tsuan3	
+讟	tok8	
+驪	li5	
+鬱	ut4	
+鸛	kuan3	
+鸜	ki5	
+鸝	li5	
+鸞	luan5	
+𥸡	kam2	
+龖	biau2	
+𢺴	ut4	
+爩	ut4	
+鱻	sian1	
+麤	tsoo1	
+龘	biau2	
+亐	i5	1%
+処	tsi2	1%
+寉	hok8	
+懔	lim2	
+搃	tshong2	1%
+桚	suan2	
+檩	lim2	
+砙	phue1	
+砛	gim5	
+竞	king7	1%
+胁	hiap8	1%
+艍	ku1	
+芈	bi2	
+莸	iu5	
+观	kuan1	1%
+贤	hian5	1%
+酿	long5	
+飤	su7	1%
+㒘	si7	
+㖮	lun5	
+㘃	jia2	1%
+𠁼	i1	1%
+𠃊	in2	1%
+𠇗	khua1	
+𠊕	phik4	1%
+𠌖	kiong5	
+𠌸	ping2	
+𠏆	pi7	1%
+𠏹	hut8	1%
+𠑣	sian1	1%
+𠙼	kua2	
+𠲒	ham5	1%
+𠶹	hut8	
+𠼫	ham5	1%
+𡃂	sia3	1%
+𡊪	giau5	1%
+𡧧	gi5	1%
+𡧾	ling5	
+𡩖	khuan1	1%
+𡽢	tik8	
+𡿵	khoo2	1%
+𢄙	uan5	
+𢓡	i5	
+𢗏	ki7	1%
+𢝻	hut4	
+𢠢	ui3	1%
+𢪱	but8	
+𢼹	poo2	1%
+𢼹	poo5	
+𢿱	san3	
+𣄭	tsu3	1%
+𣑦	kiong5	
+𣢥	tian3	
+𤉌	biam5	
+𤍽	jiat8	1%
+𤜘	bam5	
+𤧛	te3	
+𤻼	loo2	
+𥟵	ke1	1%
+𥲃	khoo3	
+𥻘	lin5	1%
+𦅗	tsian3	1%
+𦘚	hua7	1%
+𦮶	bun2	
+𧌂	poo7	
+𧱧	tok4	1%
+𨓆	thue3	1%
+𨡞	bian7	1%
+𨬡	ku5	
+𨱯	biu2	
+𨶑	khik4	1%
+𩰻	ue1	
+𩹝	tat8	
+𪔴	liong5	
+𪜱	too5	
+𪤀	bong7	1%
+𪨫	gong7	
+𪵏	he7	
+𪺋	tsiu1	1%
+𫒑	khua2	
+𬮽	in2	1%
+𬺼	tia2	
+𬽃	ing2	1%
+𬽓	tia2	
+𮚶	thin3	

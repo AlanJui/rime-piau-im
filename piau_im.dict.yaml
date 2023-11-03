@@ -10,14 +10,12 @@ version: "20231102"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - gua_e_han_ji_khoo
+  - piau_im.ngee_siok_thong
+  - piau_im.su
+  - piau_im.ka_ki
 ...
 ##	a/ah
-讒	tsham5
-檣	tshiong5
-暉	hui1
 銜	ham5
-霪	im5
 阿	a1	10
 鴉	a1
 亞	a1
