@@ -6,74 +6,177 @@ name: piau_im_bopomo
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
-import_tables:
-  - piau_im
 ...
-ㄅ	p
-ㄆ	ph
+# 方音符號
+## 聲母
+ㄅ	b	90%
+ㄆ	ph	90%
 ㄇ	m
-ㆠ	b
-ㄉ	t
-ㄊ	th
+ㆠ	bb	90%
+
+ㄉ	d
+ㄊ	t	90%
 ㄋ	n
-ㄌ	l
-ㄍ	k
-ㄎ	kh
+ㄌ	l	90%
+
+ㄍ	g	90%
+ㄎ	k	90%
 ㄏ	h
-ㆣ	g
-ㄫ	ng
-ㄗ	ts
-ㄘ	tsh
-ㄙ	s
-ㆡ	j
-ㄐ	tsi
-ㄑ	tshi
-ㄒ	si
-ㆢ	ji
-ㄚ	a
-ㆤ	e
-ㄜ	o
-ㆦ	oo
-ㄧ	1
-ㄨ	1
-ㄞ	ai
-ㄠ	au
-ㆩ	ann
-ㆥ	enn
-ㆧ	onn
-ㆪ	inn
-ㆫ	unn
-ㆮ	ainn
-ㆯ	aunn
-ㆰ	am
-ㆱ	om
-ㄢ	an
-ㄣ	n
-ㄤ	ang
-ㆲ	ong
-ㄥ	ng
-ㆬ	m
-ㆭ	G1
-ㄚㆷ	a4
-ㆤㆷ	e4
-ㄜㆷ	ø4
-ㆦㆷ	o4
-ㄧㆷ	i4
-ㄨㆷ	u4
-ㄞㆷ	I4
-ㄠㆷ	U4
-ㆩㆷ	Na4
-ㆥㆷ	Ne4
-ㆧㆷ	No4
-ㆪㆷ	Ni4
-ㆫㆷ	Nu4
-ㆮㆷ	NI4
-ㆯㆷ	NU4
-ㄚㆴ	aB4
-ㆦㆴ	oB4
-ㄚㆵ	aD4
-ㄚㆻ	aG4
-ㆦㆻ	oG4
-ㄜㆻ	øG4
-ㆬㆷ	B4
-ㆭㆷ	G4
+ㆣ	gg	90%
+ㄫ	ng	90%
+
+ㄗ	z	90%
+ㄘ	c	90%
+ㄙ	s	90%
+ㆡ	j	90%
+#============
+ㄗ	ts	80%
+ㄗ	ch	70%
+ㄘ	tsh	80%
+ㄘ	chh	70%
+ㆡ	r	80%
+
+ㄐ	zi	90%
+ㄑ	ci	90%
+ㄒ	si	90%
+ㆢ	ji	90%
+#============
+ㄐ	tsi	80%
+ㄑ	tshi	80%
+ㄐ	chi	70%
+ㄑ	chhi	70%
+ㆢ	ri	80%
+
+# 介母和韻母
+ㄚ	a	90%
+ㆩ	aa	90%
+ㆩ	ann	90%
+ㆦ	oo	90%
+ㆧ	oooo	90%
+ㆧ	oonn	90%
+ㆧ	onn	80%
+ㄜ	o	90%
+ㆤ	e	90%
+ㆥ	ee	90%
+ㆥ	enn	90%
+ㄞ	ai	90%
+ㆮ	ainn	90%
+ㄠ	au	90%
+ㆯ	aunn	90%
+ㆰ	am	90%
+ㆱ	om	90%
+ㆬ	m	90%
+ㄢ	an	90%
+ㄣ	-n	90%
+ㄤ	ang	90%
+ㆲ	ong	90%
+ㄥ	ng	90%
+ㆭ	-ng	90%
+ㄧ	i	90%
+ㆪ	ii	90%
+ㆪ	inn	90%
+ㆳ	inn 85%
+ㄨ	u	90%
+ㆫ	uu	90%
+ㆫ	unn	90%
+
+# 組合韻母
+# 介母和韻母
+ㄧㄚㄉ	iat
+丨ㄚㄉ	iat	95%
+ㄧㄍ	ik
+丨ㄍ	ik	95%
+
+# 入聲韻母
+ㆷ	;	90%
+ㆴ	;	80%
+ㆵ	;	70%
+ㆻ 	;	60%
+
+## 音調標記
+ˉ	1	100%
+ˊ	2	90%
+ˇ	3	80%
+ˋ	4	70%
+˙	5	60%
+˪	6	50%
+˫	7	40%
+̇	8	30%
+
+ˉ	/	100%
+ˊ	/	90%
+ˇ	/	80%
+ˋ	/	70%
+˙	/	60%
+˪	/	50%
+˫	/	40%
+̇	/	30%
+
+# ㄅ	p
+# ㄆ	ph
+# ㄇ	m
+# ㆠ	b
+# ㄉ	t
+# ㄊ	th
+# ㄋ	n
+# ㄌ	l
+# ㄍ	k
+# ㄎ	kh
+# ㄏ	h
+# ㆣ	g
+# ㄫ	ng
+# ㄗ	ts
+# ㄘ	tsh
+# ㄙ	s
+# ㆡ	j
+# ㄐ	tsi
+# ㄑ	tshi
+# ㄒ	si
+# ㆢ	ji
+# ㄚ	a
+# ㆤ	e
+# ㄜ	o
+# ㆦ	oo
+# ㄧ	1
+# ㄨ	1
+# ㄞ	ai
+# ㄠ	au
+# ㆩ	ann
+# ㆥ	enn
+# ㆧ	onn
+# ㆪ	inn
+# ㆫ	unn
+# ㆮ	ainn
+# ㆯ	aunn
+# ㆰ	am
+# ㆱ	om
+# ㄢ	an
+# ㄣ	n
+# ㄤ	ang
+# ㆲ	ong
+# ㄥ	ng
+# ㆬ	m
+# ㆭ	G1
+# ㄚㆷ	a4
+# ㆤㆷ	e4
+# ㄜㆷ	ø4
+# ㆦㆷ	o4
+# ㄧㆷ	i4
+# ㄨㆷ	u4
+# ㄞㆷ	I4
+# ㄠㆷ	U4
+# ㆩㆷ	Na4
+# ㆥㆷ	Ne4
+# ㆧㆷ	No4
+# ㆪㆷ	Ni4
+# ㆫㆷ	Nu4
+# ㆮㆷ	NI4
+# ㆯㆷ	NU4
+# ㄚㆴ	aB4
+# ㆦㆴ	oB4
+# ㄚㆵ	aD4
+# ㄚㆻ	aG4
+# ㆦㆻ	oG4
+# ㄜㆻ	øG4
+# ㆬㆷ	B4
+# ㆭㆷ	G4
