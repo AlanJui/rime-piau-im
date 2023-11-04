@@ -19,7 +19,7 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 台文, ABC ]
+    states: [ 標音, ABC ]
   - name: full_shape
     reset: 0
     states: [ 半形, 全形 ]
@@ -33,7 +33,8 @@ engine:
     - punctuator
     - selector
     - navigator
-    - fluency_editor
+    # - fluency_editor
+    - express_editor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -42,8 +43,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@custom_phrase
-    - script_translator
+    # - script_translator
+    - r10n_translator
   filters:
     - uniquifier
 
@@ -51,171 +52,98 @@ menu:
   alternative_select_labels: [ Ａ, Ｂ, Ｃ, Ｄ, Ｅ, Ｆ, Ｇ, Ｈ, Ｉ, Ｊ ]
   alternative_select_keys: 'ABCDEFGHIJ'
 
+# speller:
+#   alphabet: 'abcdefghijklmnopqrstuvwxyz/'
+#   delimiter: " '"
+#   algebra: []
+
 speller:
-  alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
-  initials: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-7'
-  finals: ' 43567'
+  alphabet: '1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657'
+  initials: '1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ43btgz657'
+  finals: " 43657"
   delimiter: "'"
   use_space: true
   algebra:
-    # 變調
-    - derive/1/7/  # 第一調 → 第七調
-    - derive/2/1/  # 第二調 → 第一調
-    - derive/3/2/  # 第三調 → 第二調
-    - derive/7/3/  # 第七調 → 第三調
-    - derive/5/7/  # 第五調 → 第七調
-    - derive/5/3/  # 第五調 → 第三調
-    - derive/(?<![BDG])4/2/  # -ㆷ 第四調 → 第二調
-    - derive/(?<![BDG])8/3/  # -ㆷ 第八調 → 第三調
-    - xform/[48]/0/  # 入聲調（第四調、第八調）合併
-    # # 音變
-    # - derive/z/d/         # ㆡ、ㆢ → ㄌ
-    # - derive/z(N?i)/g$1/  # ㆢ → ㆣ
-    # - derive/iaD/ieD/  # ㄧㄢ、ㄧㄚㆵ → ㄧㄢ、ㄧㆤㆵ
-    # - derive/ieD/eD/   # ㄧㄢ、ㄧㆤㆵ → ㆤㄣ、ㆤㆵ
-    # # 方言差
-    # - derive/Ne/Ni/    # ㆥ → ㆪ
-    # - derive/Niu/Nio/  # ㄧㆫ → ㄧㆧ
-    # # 方音符號會分 ㆢㄐㄑㄒ 和 ㆡㄗㄘㄙ
-    # #- xform/z(N?i)/Z$1/  # 毋過咱共 ㆢ 和 ㆡ 合併矣
-    # - xform/c(N?i)/j$1/  # ㄐㄧ
-    # - xform/C(N?i)/J$1/  # ㄑㄧ
-    # - xform/s(N?i)/S$1/  # ㄒㄧ
-    # # 方音符號會分 ㄇㄋㄫ 和 ㆠㄌㆣ
-    # - derive/bN/m/  # ㄇ
-    # - derive/dN/n/  # ㄋ
-    # - derive/gN/q/  # ㄫ
-    # - derive/bG/mG/  # ㄇㆭ
-    # - derive/dG/nG/  # ㄋㆭ
-    # # 鼻音
-    # - xform/N([iu]?[iuaoeIU])/$1N/  # 鼻音拍佇後壁
-    # - derive/([iuaoeIU])N/$1$1/     # 拍兩擺韻母來拍鼻音
-    # # 注音
-    # - derive/øG/G/  # 用 ㄧㆭ 來拍 ㄧㄥ（併入）
-    # - derive/(?<!i)oG/uG/  # 用 ㄨㆭ（注音的 ㄨㄥ）來拍 ㆲ
-    # - derive/ioG/BG/       # 用 ㆬㆭ（注音的 ㄩㄥ）來拍 ㄧㆲ
-    # # 入聲調
-    # - derive/([iao])B0/$1p0/   # 用 ㄚㄅ． 來拍 ㄚㆴ
-    # - derive/([iuae])D0/$1t0/  # 用 ㄚㄉ． 來拍 ㄚㆵ
-    # - derive/([iaoø])G0/$1k0/  # 用 ㄚㄍ． 來拍 ㄚㆻ
-    # # 方音韻母
-    # - derive/oB/aB/  # ㆦㆬ、ㆰ（併入）
-    # - derive/aB/M/   # ㄚㆬ、ㆰ
-    # - xform/aD/L/    # ㄢ
-    # - xform/aG/Q/    # ㄤ
-    # - derive/oG/Y/   # ㆦㆭ、ㆲ
-    # # 簡拼
-    # - abbrev/[iu]?[iuaoeIU]N/N/  # 用 ｎ 代表所有的鼻音母音
-    # - abbrev/[iuaoøeIUMLQYBDG]+0/0/  # 用 ． 代表所有的入聲韻母
-    # - abbrev/^([pPbmtTdnkKgqcCzsjJSh]).+$/$1/  # 會當干焦拍聲母
-    # - abbrev/^(\D+)([123579])$/$1/  # 除了第四調、第八調，調號會當免拍
-    # - abbrev/^([pPbmtTdnkKgqcCzsjJSh]).+(\d)$/$1$2/  # 會當干焦拍子音+調號
-    # - xlit|pPmbtTndkKhjJSgqzcCsiuBaoøMIeUYLDQGN123570|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657|
+    # 台羅拼寫轉換成注音輸入之規則
+    #### 對於需要兩個或更多拉丁字母來標註的注音，要把他們在字典檔 (.dict.yaml) 中的拼寫轉換成單字母，才能建立鍵盤對應表。
+    #### 因為 RIME 會逐行執行以下步驟，所以這裡的順序很重要，例如轉換 ㄑ/ㄘ 的規則必須要放在 ㄐ/ㄗ 前面，才不會讓所有 ㄑ/ㄘ 變成 ㄐ/ㄗ。
+    - xform/tsh(?=i)/C/      # ㄑ -- tsh 後面接 i 時，tsh 為 ㄑ
+    - xform/tsh/c/           # ㄘ
+    - xform/ts(?=i)/Z/       # ㄐ -- ts 後面接 i 時，ts 為 ㄐ
+    - xform/ts/z/            # ㄗ
+    - xform/ph/P/            # ㄆ
+    - xform/th/T/            # ㄊ
+    - xform/kh/K/            # ㄎ
+    - xform/s(?=i)/S/        # ㄒ -- s 後面接 i 時，s 為 ㄒ
+    - xform/j(?=i)/J/        # ㆢ -- j 後面接 i 時，j 為 ㆢ
+    - xform/ainn/Y/          # ㆮ
+    - xform/aunn/X/          # ㆯ
+    - xform/ann/A/           # ㆩ
+    - xform/onn/Q/           # ㆧ
+    - xform/enn/E/           # ㆥ
+    - xform/inn/I/           # ㆪ
+    - xform/unn/U/           # ㆫ
+    - xform/ang/[/           # ㄤ
+    - xform/ong/]/           # ㆲ
+    - xform/(?<=i)ng/R/      # ㄥ (1) -- ng 前面是 i 的時候，ng 為 ㄥ
+    - xform/^ng11$/R1/       # ㄥ (2) -- 比對 "ng11" (注音ㄥ在 extended.dict.yaml 中有著特殊拼法 "ng11" 以避免衝突，此規則專門用來打注音ㄥ)
+    - xform/ng(?![1-9])/G/   # ㄫ -- ng 後面不接調號 (也就是說 ng 後面會有一個母音) 時，ng 為 ㄫ
+    - xform/ng/r/            # ㆭ -- 除了 ㄤ、ㆲ、ㄥ、ㄫ以外出現 ng 的情況
+    - xform/ai/y/            # ㄞ
+    - xform/au/x/            # ㄠ
+    - xform/oo/O/            # ㆦ (1)
+    - xform/o(?=[kpt])/O/    # ㆦ (2) -- o 後面接 k, p 或 t 時，o 為 ㆦ (注意 -oh 對應到 ㄜㆷ)
+    - xform/am/{/            # ㆰ
+    - xform/om/}/            # ㆱ
+    - xform/(?<=[eiu])m/M/   # ㆬ (1) -- m 前面接 e, i 或 u 時，m 為ㆬ
+    - xform/^m(?=[1-9])/M/   # ㆬ (2) -- 比對單 m 接聲調符號
+    - xform/an/0/            # ㄢ
+    - xform/(?<=[iu])n/N/    # ㄣ (1) -- n 前面接 i 或 u 時，n 為ㄣ
+    - xform/^n(?=[1-9])/N/   # ㄣ (2) -- 比對單 n 接聲調符號 (打注音ㄣ專用)
+    - xform/p4/91/           # ㆴ (1) -- 比對第四聲 (p4 轉換為 ㆴ+ 空白鍵)
+    - xform/p(?=8)/9/        # ㆴ (2) -- 比對第八聲 (p 轉換為 ㆴ，8 會在其他規則中轉換為輕聲鍵)
+    - xform/t4/>1/           # ㆵ (1) -- 以下規則請參考ㆴ的註解
+    - xform/t(?=8)/>/        # ㆵ (2)
+    - xform/k4/<1/           # ㆻ (1) 
+    - xform/k(?=8)/</        # ㆻ (2)
+    - xform/h4/41/           # ㆷ (1) 
+    - xform/h(?=8)/4/        # ㆷ (2)
+    #### 簡化拼法表述式
+    #### 這裡的規則描述在不使用完整的注音拼法下，什麼字會被搜尋到 (例如只打「ㄅ」的情況下輸出「ㄅㆭ˫」的候選字「飯」)
+    # ==== 免打聲調 ====
+    #### "49><" 對應的是四聲或八聲使用的 ㆷㆴㆵㆻ (見上方規則)
+    #### "12357" 對應的是其他五個聲調的調號 ((無調號) ˋ ˪ ˊ ˫)
+    - abbrev/^(.+[49><])[18]$/$1/        # 只要打 ㆷㆴㆵㆻ 就會搜尋到四聲與八聲的音 (1)
+    - abbrev/^(.+)[49><].$/$1/           # 只要打聲母與韻母，就會顯示四聲與八聲的音 (2)
+    - abbrev/^(.+)[12357]$/$1/           # 只要打聲母與韻母，就會顯示一二三五七聲的音 (部分規則與 #1 重疊)
+    # ==== 免打注音 ====
+    - abbrev/^(.)(.)[12357]$/$1/         # 對於具有聲母 + 韻母拼法且為一二三五七聲的音，只要打聲母就能夠搜尋 (部分跟 #2 重疊) (3)
+    - abbrev/^(.)(.)(.)[12357]$/$1$2/    # 對於具有聲母 + 介音 + 韻母拼法且為一二三五七聲的音，只要打聲母 + 介音就能夠搜尋 (部分跟 #3 重疊)
+    - abbrev/^(.)(.)(.)[12357]$/$1/      # 對於具有聲母 + 介音 + 韻母拼法且為一二三五七聲的音，只要打聲母就能夠搜尋 (4)
+    - abbrev/^(.)(.)[49><][18]$/$1/      # 對於具有聲母 + 韻母拼法且為四或八聲的音，只要打聲母就能夠搜尋 (部分與 #4 重疊)
+    - abbrev/^(.)(.)(.)[49><][18]$/$1$2/ # 對於具有聲母 + 介音 + 韻母拼法且為四或八聲的音，只要打聲母 + 介音就能夠搜尋
+    - abbrev/^(.)(.)(.)[49><][18]$/$1/   # 對於具有聲母 + 介音 + 韻母拼法且為四或八聲的音，只要打聲母就能夠搜尋
+    #### 單字母拼寫轉換成ㄅㄆㄇ對應的按鍵
+    - 'xlit|pbPmtTnlkgKGhZJCSzjcsaAOQoeEyYxX{}M0N[]RriIuU1239><4578|1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657|'
+    #### ㄅㄆㄇ對應的按鍵轉換成螢幕顯示的符號
+    - "xlit|1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657|ㄅㆠㄆㄇㄉㄊㄋㄌㄍㆣㄎㄫㄏㄐㆢㄑㄒㄗㆡㄘㄙㄚㆩㆦㆧㄜㆤㆥㄞㆮㄠㆯㆰㆱㆬㄢㄣㄤㆲㄥㆭㄧㆪㄨㆫ ˋ˪ㆴㆵㆻㆷˊ˫˙|"
 
 translator:
-  # dictionary: taigi_yu
-  # dictionary: piau_im
-  dictionary: piau_im_bopomo
-  prism: taigi_tps
-  spelling_hints: 3
-  comment_format:
-    - xform/^/\t→ /
-    - xform/'/ /
-    - xlit|pPbtTdkKgcCzshiuaoøeIUBDGN|ㄅㄆㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
-    # 方音符號會分 ㆢㄐㄑㄒ 和 ㆡㄗㄘㄙ
-    - xform/ㄗ((ｎ)?ㄧ)/ㄐ$1/
-    - xform/ㄘ((ｎ)?ㄧ)/ㄑ$1/
-    - xform/ㆡ((ｎ)?ㄧ)/ㆢ$1/
-    - xform/ㄙ((ｎ)?ㄧ)/ㄒ$1/
-    # 方音符號會分 ㄇㄋㄫ 和 ㆠㄌㆣ
-    - xform/ㆠｎ/ㄇ/
-    - xform/ㄌｎ/ㄋ/
-    - xform/ㆣｎ/ㄫ/
-    - xform/ㆠㆭ/ㄇㆭ/
-    - xform/ㄌㆭ/ㄋㆭ/
-    # 入聲調
-    - xform/(?<=ㄧ|ㄚ|ㆦ)ㆬ([48])/ㆴ$1/
-    - xform/(?<=ㄧ|ㄨ|ㄚ)ㄣ([48])/ㆵ$1/
-    - xform/(?<=ㄚ|ㆦ|ㄜ)ㆭ([48])/ㆻ$1/
-    - xform/(?<!ㆴ|ㆵ|ㆻ)([48])/ㆷ$1/
-    # 鼻音
-    - xform/ｎ((ㄧ|ㄨ)?(ㄧ|ㄨ|ㄚ|ㆦ|ㆤ|ㄞ|ㄠ))/$1ｎ/
-    - xform/ㄧｎ/ㆪ/
-    - xform/ㄨｎ/ㆫ/
-    - xform/ㄚｎ/ㆩ/
-    - xform/ㆦｎ/ㆧ/
-    - xform/ㆤｎ/ㆥ/
-    - xform/ㄞｎ/ㆮ/
-    - xform/ㄠｎ/ㆯ/
-    # 韻母
-    - xform/ㄚㆬ/ㆰ/
-    - xform/ㆦㆬ/ㆱ/
-    - xform/ㄚㄣ/ㄢ/
-    - xform/ㄚㆭ/ㄤ/
-    - xform/ㆦㆭ/ㆲ/
-    - xform/ㄜㆭ/ㄥ/
-    # 聲調
-    - xlit|12357|ˉˋ˪ˊ˫|
-    - xform/4//
-    - xform/8/˙/
+  # dictionary: piau_im_bopomo
+  dictionary: piau_im
+  # prism: piau_im_bopomo
+  spelling_hints: 5
+  enable_user_dict: false
   preedit_format:
-    - xform/ /ˉ/
-    - xform/'/ /
-    - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．|
-    # 拆韻母
-    - xform/ㆰ/ㄚㆬ/
-    - xform/ㄢ/ㄚㄣ/
-    - xform/ㄤ/ㄚㆭ/
-    - xform/ㆲ/ㆦㆭ/
-    - xform/ㄨㆭ/ㆦㆭ/
-    - xform/ㆬㆭ/ㄧㆦㆭ/
-    - xform/ㄧㆭ/ㄧㄜㆭ/
-    # 咱共 ㆢ 和 ㆡ 合併
-    - xform/ㆡㄧ/ㆢㄧ/
-    # 鼻音
-    - xform/ㄧ(ㄧ|ｎ)/ㆪ/
-    - xform/ㄨ(ㄨ|ｎ)/ㆫ/
-    - xform/ㄚ(ㄚ|ｎ)/ㆩ/
-    - xform/ㆦ(ㆦ|ｎ)/ㆧ/
-    - xform/ㆤ(ㆤ|ｎ)/ㆥ/
-    - xform/ㄞ(ㄞ|ｎ)/ㆮ/
-    - xform/ㄠ(ㄠ|ｎ)/ㆯ/
-    # 入聲調
-    - xform/(ㄧ|ㄚ|ㆦ)(ㄅ|ㆬ)．/$1ㆴ/
-    - xform/(ㄧ|ㄨ|ㄚ|ㆤ)(ㄉ|ㄣ)．/$1ㆵ/
-    - xform/(ㄚ|ㆦ|ㄜ)(ㄍ|ㆭ)．/$1ㆻ/
-    - xform/(ㄧ|ㄨ|ㄚ|ㆦ|ㄜ|ㆤ|ㄞ|ㄠ|ㆬ|ㆭ)．/$1ㆷ/
-    # 合韻母
-    - xform/ㄚㆬ/ㆰ/
-    - xform/ㆦㆬ/ㆱ/
-    - xform/ㄚㄣ/ㄢ/
-    - xform/ㄚㆭ/ㄤ/
-    - xform/ㆦㆭ/ㆲ/
-    - xform/ㄜㆭ/ㄥ/
-
-custom_phrase:
-  dictionary: ''
-  user_dict: custom_phrase
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
+    - "xlit|1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657|ㄅㆠㄆㄇㄉㄊㄋㄌㄍㆣㄎㄫㄏㄐㆢㄑㄒㄗㆡㄘㄙㄚㆩㆦㆧㄜㆤㆥㄞㆮㄠㆯㆰㆱㆬㄢㄣㄤㆲㄥㆭㄧㆪㄨㆫ ˋ˪ㆴㆵㆻㆷˊ˫˙|"
 
 punctuator:
-  import_preset: symbols_yu_alpha
+  import_preset: default
 
 key_binder:
   import_preset: default
-  bindings:
-    - { when: has_menu, accept: comma, send: comma }      # ㆤ
-    - { when: has_menu, accept: period, send: period }    # ㆲ
-    - { when: has_menu, accept: minus, send: minus }      # ｎ
-    - { when: paging, accept: minus, send: Page_Up }
-    - { when: has_menu, accept: equal, send: Page_Down }
 
 recognizer:
+  import_preset: default
   patterns:
-    email: ^[a-z][-_.0-9a-z]*@.*$
-    uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
-    url: ^(www[.]|https?:|ftp:|mailto:).*$
-    punct: '`[^\s]$'
+    reverse_lookup: "`[a-z]*'?$"

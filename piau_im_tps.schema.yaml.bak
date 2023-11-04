@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: piau_im_bopomo
-  name: 方音標音
+  schema_id: piau_im_tps
+  name: 河洛注音符號
   version: '0.1'
   author:
     - Alan Jui <AlanJui.1960@gmail.com>
@@ -16,11 +16,10 @@ schema:
       ㄇ ㄋ ㄎ ㄑ ㄫ ㄘ ㄨ ㄜ ㄠ ㄤ
       ㆠ ㄌ ㄏ ㄒ Ｊ ㄙ ㆬ ㆰ ㆲ ㆭ
 
-
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 漢文, ABC ]
+    states: [ 標音, ABC ]
   - name: full_shape
     reset: 0
     states: [ 半形, 全形 ]
@@ -34,8 +33,8 @@ engine:
     - punctuator
     - selector
     - navigator
-    - fluency_editor
-    # - express_editor
+    # - fluency_editor
+    - express_editor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -44,6 +43,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    # - script_translator
     - r10n_translator
   filters:
     - uniquifier
@@ -53,17 +53,14 @@ menu:
   alternative_select_keys: 'ABCDEFGHIJ'
 
 speller:
-  alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
-  # alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
-  # initials: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-7'
-  # finals: ' 43567'
+  alphabet: 'abcdefghijklmnopqrstuvwxyz/'
   delimiter: " '"
   algebra: []
 
 translator:
-  dictionary: piau_im.bopomo
+  dictionary: piau_im_bopomo
   prism: piau_im_bopomo
-  spelling_hints: 10
+  spelling_hints: 5
   enable_user_dict: false
 
 punctuator:
@@ -76,6 +73,3 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
-    email: ^[a-z][-_.0-9a-z]*@.*$
-    uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
-    url: ^(www[.]|https?:|ftp:|mailto:).*$

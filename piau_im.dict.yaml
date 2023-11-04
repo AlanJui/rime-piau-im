@@ -10,6 +10,7 @@ version: "20231102"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
+  - piau_im.tps
   - piau_im.ngee_siok_thong
   - piau_im.su
   - piau_im.ka_ki
