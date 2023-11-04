@@ -16,7 +16,6 @@ schema:
       ㄇ ㄋ ㄎ ㄑ ㄫ ㄘ ㄨ ㄜ ㄠ ㄤ
       ㆠ ㄌ ㄏ ㄒ Ｊ ㄙ ㆬ ㆰ ㆲ ㆭ
 
-
 switches:
   - name: ascii_mode
     reset: 0
@@ -53,18 +52,26 @@ menu:
   alternative_select_keys: 'ABCDEFGHIJ'
 
 speller:
-  alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
   # alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
+  alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
   # initials: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-7'
   # finals: ' 43567'
   delimiter: " '"
   algebra: []
+  # algebra:
+  #   #### 單字母拼寫轉換成ㄅㄆㄇ對應的按鍵
+  #   - 'xlit|pbPmtTnlkgKGhZJCSzjcsaAOQoeEyYxX{}M0N[]RriIuU1239><4578|1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657|'
+  #   #### ㄅㄆㄇ對應的按鍵轉換成螢幕顯示的符號
+  #   - "xlit|1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657|ㄅㆠㄆㄇㄉㄊㄋㄌㄍㆣㄎㄫㄏㄐㆢㄑㄒㄗㆡㄘㄙㄚㆩㆦㆧㄜㆤㆥㄞㆮㄠㆯㆰㆱㆬㄢㄣㄤㆲㄥㆭㄧㆪㄨㆫ ˋ˪ㆴㆵㆻㆷˊ˫˙|"
 
 translator:
+  # dictionary: piau_im
   dictionary: piau_im.bopomo
   prism: piau_im_bopomo
   spelling_hints: 10
   enable_user_dict: false
+  # preedit_format:
+  #   - "xlit|1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657|ㄅㆠㄆㄇㄉㄊㄋㄌㄍㆣㄎㄫㄏㄐㆢㄑㄒㄗㆡㄘㄙㄚㆩㆦㆧㄜㆤㆥㄞㆮㄠㆯㆰㆱㆬㄢㄣㄤㆲㄥㆭㄧㆪㄨㆫ ˋ˪ㆴㆵㆻㆷˊ˫˙|"
 
 punctuator:
   import_preset: default
