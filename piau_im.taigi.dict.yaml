@@ -8,8 +8,6 @@ name: piau_im.taigi
 version: "0.3"
 sort: by_weight
 use_preset_vocabulary: false
-import_tables:
-  - piau_im.tps
 ...
 一	tsit8	44439
 一	it4	16762

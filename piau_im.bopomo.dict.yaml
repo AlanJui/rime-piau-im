@@ -6,11 +6,13 @@ name: piau_im.bopomo
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
+import_tables:
+  - piau_im
 ...
 # 方音符號
 ## 聲母
 ㄅ	b	90%
-ㄆ	ph	90%
+ㄆ	p	90%
 ㄇ	m
 ㆠ	bb	90%
 
