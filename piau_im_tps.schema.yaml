@@ -128,7 +128,7 @@ speller:
 translator:
   # dictionary: taigi_yu
   dictionary: piau_im.tps
-  prism: piau_im_tl
+  prism: piau_im_tps
   spelling_hints: 10
   # spelling_hints: 3
   enable_user_dict: false
