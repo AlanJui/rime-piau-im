@@ -1,0 +1,79 @@
+# Rime dictionary
+# encoding: utf-8
+#
+---
+name: piau_im.moe
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - piau_im
+...
+ㄅ	po1
+ㄆ	pho1
+ㆠ	bo1
+ㄇ	mo1
+ㄉ	to1
+ㄊ	tho1
+ㄌ	lo1
+ㄋ	no1
+ㄍ	ko1
+ㄎ	kho1
+ㆣ	go1
+ㄫ	ngo1
+ㄐ	tsi1
+ㄑ	tshi1
+ㆢ	ji1
+ㄒ	si1
+ㄗ	tso1
+ㄘ	tsho1
+ㆡ	jo1
+ㄙ	so1
+ㄏ	ho1
+ㄚ	a1
+ㆤ	e1
+ㄜ	o1
+ㆦ	o1
+ㄧ	i1
+ㄨ	u1
+ㄞ	I1
+ㄠ	U1
+ㆩ	ann1
+ㆥ	enn1
+ㆧ	onn1
+ㆪ	inn1
+ㆫ	unn1
+ㆮ	ainn1
+ㆯ	aunn1
+ㆰ	am1
+ㆱ	om1
+ㄢ	an1
+ㄣ	n1
+ㄤ	ang1
+ㆲ	ong1
+ㄥ	ing1
+ㆬ	m1
+ㆭ	ng1
+ㄚㆷ	a4
+ㆤㆷ	e4
+ㄜㆷ	o4
+ㆦㆷ	o4
+ㄧㆷ	i4
+ㄨㆷ	u4
+ㄞㆷ	I4
+ㄠㆷ	U4
+ㆩㆷ	ann4
+ㆥㆷ	enn4
+ㆧㆷ	onn4
+ㆪㆷ	inn4
+ㆫㆷ	unn4
+ㆮㆷ	ainn4
+ㆯㆷ	aunn4
+ㄚㆴ	ap4
+ㆦㆴ	oop4
+ㄚㆵ	at4
+ㄚㆻ	ak4
+ㆦㆻ	ok4
+ㆬㆷ	mh4
+ㆭㆷ	ngh4
+# ㄜㆻ	ok4

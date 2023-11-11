@@ -6,14 +6,15 @@ name: piau_im.bopomo
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
-import_tables:
-  - piau_im
+# import_tables:
+#   - piau_im
 ...
 # 方音符號
 ## 聲母
 ㄅ	b	90%
 ㄆ	p	90%
 ㄇ	m
+ㆠ	B	99%
 ㆠ	bb	90%
 
 ㄉ	d
@@ -31,23 +32,28 @@ import_tables:
 ㄘ	c	90%
 ㄙ	s	90%
 ㆡ	j	90%
-#============
-ㄗ	ts	80%
-ㄗ	ch	70%
-ㄘ	tsh	80%
-ㄘ	chh	70%
-ㆡ	r	80%
 
-ㄐ	zi	90%
-ㄑ	ci	90%
-ㄒ	si	90%
-ㆢ	ji	90%
-#============
-ㄐ	tsi	80%
-ㄑ	tshi	80%
-ㄐ	chi	70%
-ㄑ	chhi	70%
-ㆢ	ri	80%
+ㄐ	Z	95%
+ㄑ	C	95%
+ㄒ	S	95%
+ㆢ	J	95%
+
+ㄐㄧ	zi	95%
+ㄑㄧ	ci	95%
+ㄒㄧ	si	95%
+ㆢㄧ	ji	95%
+
+# ㄗ	ts	80%
+# ㄗ	ch	70%
+# ㄘ	tsh	80%
+# ㄘ	chh	70%
+# ㆡ	r	80%
+
+# ㄐ	tsi	80%
+# ㄑ	tshi	80%
+# ㄐ	chi	70%
+# ㄑ	chhi	70%
+# ㆢ	ri	80%
 
 # 介母和韻母
 ㄚ	a	90%
@@ -69,7 +75,7 @@ import_tables:
 ㆱ	om	90%
 ㆬ	m	90%
 ㄢ	an	90%
-ㄣ	-n	90%
+ㄣ	on	90%
 ㄤ	ang	90%
 ㆲ	ong	90%
 ㄥ	ng	90%
@@ -84,10 +90,13 @@ import_tables:
 
 # 組合韻母
 # 介母和韻母
+# 丨ㄚㄉ	iat	95%
+# 丨ㄍ	ik	95%
+ㄧㄥ	ing	95%
+ㄧㄍ	ik	95%
+ㄧㆬ	im	95%
+ㄧㄣ	in	95%
 ㄧㄚㄉ	iat
-丨ㄚㄉ	iat	95%
-ㄧㄍ	ik
-丨ㄍ	ik	95%
 
 # 入聲韻母
 ㆷ	;	90%
@@ -95,15 +104,15 @@ import_tables:
 ㆵ	;	70%
 ㆻ 	;	60%
 
-# ㆷ	h4	90%
-# ㆴ	b4	80%
-# ㆵ	d4	70%
-# ㆻ 	g4	60%
-#
-# ㆷ̇	h8	90%
-# ㆴ̇	b8	80%
-# ㆵ̇	d8	70%
-# ㆻ̇ 	g8	60%
+ㆷ	h4	90%
+ㆴ	b4	80%
+ㆵ	d4	70%
+ㆻ 	g4	60%
+
+ㆷ̇	h8	90%
+ㆴ̇	b8	80%
+ㆵ̇	d8	70%
+ㆻ̇ 	g8	60%
 
 ## 音調標記
 ˉ	1	90%

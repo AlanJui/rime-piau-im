@@ -4,7 +4,7 @@
 
 schema:
   schema_id: piau_im_taigi
-  name: 萌台語標音
+  name: TLPA+標音
   version: "v0.0.0.1"
   author: 居正中
   description: 標音用漢字庫
