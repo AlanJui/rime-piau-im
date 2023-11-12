@@ -22,11 +22,11 @@ use_preset_vocabulary: false
 ㄋ	n
 ㄌ	l	90%
 
-ㄍ	g	90%
-ㄎ	k	90%
-ㄏ	h
-ㆣ	gg	90%
-ㄫ	ng	90%
+# ㄍ	k	90%
+# ㄎ	kh	90%
+# ㄏ	h
+# ㆣ	g	90%
+# ㄫ	ng	90%
 
 ㄗ	z	90%
 ㄘ	c	90%
@@ -79,7 +79,7 @@ use_preset_vocabulary: false
 ㄤ	ang	90%
 ㆲ	ong	90%
 ㄥ	ng	90%
-ㆭ	-ng	90%
+ㆭ	ng	90%
 ㄧ	i	90%
 ㆪ	ii	90%
 ㆪ	inn	90%
@@ -87,6 +87,8 @@ use_preset_vocabulary: false
 ㄨ	u	90%
 ㆫ	uu	90%
 ㆫ	unn	90%
+
+光	kng1
 
 # 組合韻母
 # 介母和韻母
@@ -115,17 +117,30 @@ use_preset_vocabulary: false
 ㆻ̇ 	g8	60%
 
 ## 音調標記
-ˉ	1	90%
-ˋ	2	80%
-˪	3	70%
-ˊ	5	60%
-˫	7	50%
-̇	8	40%
+# ˉ	1	90%
+# ˋ	2	80%
+# ˪	3	70%
+# ˊ	5	60%
+# ˫	7	50%
+# ̇	8	40%
 
-ˉ	/	90%
-ˋ	/	80%
-˪	/	70%
-ˊ	/	60%
-˫	/	50%
-˙	/	40%
+ˉ	]	90%
+ˋ	]	80%
+˪	]	70%
+ˊ	]	60%
+˫	]	50%
+˙	]	40%
 
+雅	nga2
+俗	siok8
+通	thong1
+情	tsing5
+
+方	hong1
+音	im1
+標	piau
+注	tsu3
+
+月	gueh8
+庭	ting5
+停	thing5

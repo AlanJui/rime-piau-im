@@ -47,16 +47,55 @@ engine:
     - uniquifier
 
 menu:
-  # alternative_select_labels: [ Ａ, Ｂ, Ｃ, Ｄ, Ｅ, Ｆ, Ｇ, Ｈ, Ｉ, Ｊ ]
   alternative_select_keys: 'ABCDEFGHIJ'
 
 speller:
-  alphabet: '1!qazZ2wsxedcEyhnbrfvBtgujm8ik,9ol.0p;/- 43657'
-  delimiter: " '"
+  alphabet: '1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.- 34567'
+  # delimiter: " '"
   algebra:
     # 拼音編碼與鍵盤按鈕對映
-    # - xlit|pPmbtTndkKhjJSgqzcCsiuBaøoMIeUYLDQGN123570|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657|
-    - xlit|bpmBdtnlgkhGqzcsjZCSJiu|1qa!2wsxedcQyhsYuj|
+    - xform/^ts(?!h)/z/   # ㄗ
+    - xform/^tsh/c/       # ㄘ
+
+    - xform/c(?=i)/C$1/
+    - xform/z(?=i)/Z$1/
+    - xform/s(?=i)/S$1/
+    - xform/j(?=i)/J$1/
+
+    - xform/^b/B/         # ㆠ
+    - xform/^p(?!h)/b/    # ㄅ
+
+    - xform/^t(?!h)/d/    # ㄉ
+    - xform/^th/t/        # ㄊ
+
+    - xform/^ng/w/        # ㄫ
+    - xform/^g/G/         # ㆣ
+    - xform/^k(?!h)/g/    # ㄉ
+    - xform/^kh/k/        # ㄊ
+
+    - xform/oo/O/         # ㆦ
+    - xform/ai/I/         # ㄞ
+    - xform/au/U/         # ㄠ
+
+    - xform/am/Y/         # ㆰ
+    - xform/an/L/         # ㄢ
+    - xform/ang/K/        # ㄤ
+
+    - xform/om/F/         # ㆱ
+    - xform/ong/H/        # ㆲ
+
+    - xform/ing/iV/       # ㄧㄥ
+    - xform/in/iQ/        # ㄧㄣ
+    - xform/un/uQ/        # ㄨㄣ
+
+    - xform/^m/M/         # ㄇ
+    # - xform/m$/m/         # ㆬ
+
+    - xform/n$/Q/         # ㄣ
+    - xform/^ng/w/        # ㄫ
+    - xform/ng$/W/        # ㆭ
+
+    - xlit|bpMBdtnlgkhGwzcsjZCSJiuaOoemWIUYFLQKVHN|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|
 
 translator:
   dictionary: piau_im.bopomo
@@ -66,13 +105,11 @@ translator:
   comment_format:
     - xform/^/\t→ /
     - xform/'/ /
-    # - xlit|bpmBtTdkKgcCzshiuaøoeIUBDGN|ㄅㄆㄇㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
-    - xlit|bpmBdtnlgkhGqzcsjZCSJiuCaøoeIUMDGN|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
+    - xlit|bpMBdtnlgkhGwzcsjZCSJiuaOoemWIUYFLQKVHN|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㆬㆭㄞㄠㆰㆱㄢㄣㄤㄥㆲｎ|
   preedit_format:
     - xform/ /ˉ/
     - xform/'/ /
-    # - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．|
-    - xlit|1qa!z2wsxedcEyhnbrfvBtguj8mik,9ol.0p;/-43657|ㄅㄆㄇㆠㆷㄉㄊㄋㄌㄍㄎㄏㆣㄗㄘㄙㆡㄐㄑㄒㆢㄫㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．|
+    - xlit|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㆬㆭㄞㄠㆰㆱㄢㄣㄤㄥㆲｎ|
 
 punctuator:
   import_preset: default
