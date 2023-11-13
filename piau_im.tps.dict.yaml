@@ -9,7 +9,7 @@ version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - taigi_yu
+  - piau_im.hanji
 ...
 ㄅ	po1
 ㄆ	Po1
@@ -31,11 +31,6 @@ import_tables:
 ㄘ	Co1
 ㄙ	so1
 ㆡ	zo1
-
-ㄐ	ci1
-ㄑ	Ci1
-# ㄒㄧ	si1
-ㆢ	zi1
 
 ㄚ	a1
 ㆦ	ø1

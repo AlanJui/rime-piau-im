@@ -1,0 +1,127 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: piau_im_tlpa
+  name: TLPA+標音
+  version: "v0.0.0.1"
+  author: 居正中
+  description: 標音用漢字庫
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    # - r10n_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+menu:
+  # alternative_select_labels: [ Ａ, Ｂ, Ｃ, Ｄ, Ｅ ]
+  alternative_select_keys: 'ABCDE'
+
+speller:
+  alphabet: '1!qa2wsxeEdDcrRfvyYhn8*iIkoO9(lL,<m0p;:/-uUjJ 43btgz657'
+  delimiter: " '"
+  algebra:
+    # ㄐㄑㄒㆢ 和 ㄗㄘㄙㆡ
+    #- xform/z(N?i)/Z$1/  # 毋過咱共 ㆢ 和 ㆡ 合併矣
+    # - xform/c(N?i)/j$1/  # ㄐㄧ
+    # - xform/C(N?i)/J$1/  # ㄑㄧ
+    # - xform/s(N?i)/S$1/  # ㄒㄧ
+
+translator:
+  dictionary: piau_im.tlpa
+  prism: piau_im_tlpa
+  spelling_hints: 5
+  comment_format:
+    - xform/^/\t→ /
+    - xform/'/ /
+    - xlit|pPbtTdkKgcCzshiuaoøeIUBDGN2357|ㄅㄆㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎˋ˪ˊ˫|
+    # 拆韻母
+    - xform/ㆰ/ㄚㆬ/
+    - xform/ㄢ/ㄚㄣ/
+    - xform/ㄤ/ㄚㆭ/
+    - xform/ㆲ/ㆦㆭ/
+    - xform/ㄨㆭ/ㆦㆭ/
+    - xform/ㆬㆭ/ㄧㆦㆭ/
+    - xform/ㄧㆭ/ㄧㄜㆭ/
+    # 鼻音
+    - xform/ㄧ(ㄧ|ｎ)/ㆪ/
+    - xform/ㄨ(ㄨ|ｎ)/ㆫ/
+    - xform/ㄚ(ㄚ|ｎ)/ㆩ/
+    - xform/ㆦ(ㆦ|ｎ)/ㆧ/
+    - xform/ㆤ(ㆤ|ｎ)/ㆥ/
+    - xform/ㄞ(ㄞ|ｎ)/ㆮ/
+    - xform/ㄠ(ㄠ|ｎ)/ㆯ/
+    # 入聲調
+    - xform/(ㄧ|ㄚ|ㆦ)(ㄅ|ㆬ)．/$1ㆴ/
+    - xform/(ㄧ|ㄨ|ㄚ|ㆤ)(ㄉ|ㄣ)．/$1ㆵ/
+    - xform/(ㄚ|ㆦ|ㄜ)(ㄍ|ㆭ)．/$1ㆻ/
+    - xform/(ㄧ|ㄨ|ㄚ|ㆦ|ㄜ|ㆤ|ㄞ|ㄠ|ㆬ|ㆭ)．/$1ㆷ/
+    # 合韻母
+    - xform/ㄚㆬ/ㆰ/
+    - xform/ㆦㆬ/ㆱ/
+    - xform/ㄚㄣ/ㄢ/
+    - xform/ㄚㆭ/ㄤ/
+    - xform/ㆦㆭ/ㆲ/
+    - xform/ㄜㆭ/ㄥ/
+    # ㄗ ㄘ ㄙ ㆡ 轉 ㄐ ㄑ ㄒ ㆢ
+    - xform/ㄗㄧ/ㄐㄧ/
+    - xform/ㄘㄧ/ㄑㄧ/
+    - xform/ㄙㄧ/ㄒㄧ/
+    - xform/ㆡㄧ/ㆢㄧ/
+    # 入聲
+    - xform/ㄏ4/ㆷ/
+    - xform/ㄅ4/ㆴ/
+    - xform/ㄉ4/ㆵ/
+    - xform/ㄍ4/ㆻ/
+
+    - xform/ㄏ8/ㆷ̇/
+    - xform/ㄅ8/ㆴ̇/
+    - xform/ㄉ8/ㆵ̇/
+    - xform/ㄍ8/ㆻ̇
+
+  preedit_format:
+  - xform/ /ˉ/
+  - xform/'/ /
+  # - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．|
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  patterns:
+    email: ^[a-z][-_.0-9a-z]*@.*$
+    uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
+    url: ^(www[.]|https?:|ftp:|mailto:).*$
+    punct: '`[^\s]$'

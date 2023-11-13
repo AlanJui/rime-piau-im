@@ -3,26 +3,21 @@
 
 schema:
   schema_id: piau_im_bopomo
-  name: 台羅拼音標ㄅㄆㄇ
+  name: ㄅㄆㄇ標音
   version: '0.1'
-  author:
-    - Alan Jui <AlanJui.1960@gmail.com>
   description: |
-    輸入河洛話注音符號
-    
-    鍵盤對應：
-      ㄅ ㄉ ３ ２ ７ ５ ． ㄚ ㄞ ㄢ ｎ
-      ㄆ ㄊ ㄍ ㄐ ㆣ ㄗ ㄧ ㆦ ㆤ ㄣ
-      ㄇ ㄋ ㄎ ㄑ ㄫ ㄘ ㄨ ㄜ ㄠ ㄤ
-      ㆠ ㄌ ㄏ ㄒ Ｊ ㄙ ㆬ ㆰ ㆲ ㆭ
+    注音符號及臺灣方音符號輸入
+    注音符號以漢語拼音輸入爲主
+    方音符號以白話字、台羅拼音輸入爲主
+    重疊部分按漢語拼音、白話字、台羅拼音的優先級排序
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 漢文, ABC ]
-  - name: full_shape
+    states: [注音, 西文]
+  - name: half_shape
     reset: 0
-    states: [ 半形, 全形 ]
+    states: [半角, 全角]
 
 engine:
   processors:
@@ -46,82 +41,39 @@ engine:
   filters:
     - uniquifier
 
-menu:
-  alternative_select_keys: 'ABCDEFGHIJ'
-
 speller:
-  alphabet: '1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.- 34567'
-  # delimiter: " '"
-  algebra:
-    # 拼音編碼與鍵盤按鈕對映
-    - xform/^ts(?!h)/z/   # ㄗ
-    - xform/^tsh/c/       # ㄘ
-
-    - xform/c(?=i)/C$1/
-    - xform/z(?=i)/Z$1/
-    - xform/s(?=i)/S$1/
-    - xform/j(?=i)/J$1/
-
-    - xform/^b/B/         # ㆠ
-    - xform/^p(?!h)/b/    # ㄅ
-
-    - xform/^t(?!h)/d/    # ㄉ
-    - xform/^th/t/        # ㄊ
-
-    - xform/^ng/w/        # ㄫ
-    - xform/^g/G/         # ㆣ
-    - xform/^k(?!h)/g/    # ㄉ
-    - xform/^kh/k/        # ㄊ
-
-    - xform/oo/O/         # ㆦ
-    - xform/ai/I/         # ㄞ
-    - xform/au/U/         # ㄠ
-
-    - xform/am/Y/         # ㆰ
-    - xform/an/L/         # ㄢ
-    - xform/ang/K/        # ㄤ
-
-    - xform/om/F/         # ㆱ
-    - xform/ong/H/        # ㆲ
-
-    - xform/ing/iV/       # ㄧㄥ
-    - xform/in/iQ/        # ㄧㄣ
-    - xform/un/uQ/        # ㄨㄣ
-
-    - xform/^m/M/         # ㄇ
-    # - xform/m$/m/         # ㆬ
-
-    - xform/n$/Q/         # ㄣ
-    - xform/^ng/w/        # ㄫ
-    - xform/ng$/W/        # ㆭ
-
-    - xlit|bpMBdtnlgkhGwzcsjZCSJiuaOoemWIUYFLQKVHN|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|
+  alphabet: 'abcdefghijklmnopqrstuvwxyz/12345678'
+  delimiter: " '"
+  use_space: false
+  algebra: []
+  # algebra:
+  #   # ㄐㄑㄒㆢ 和 ㄗㄘㄙㆡ
+  #   - xform/z(N?i)/j$1/  # ㄐㄧ
+  #   - xform/c(N?i)/q$1/  # ㄑㄧ
+  #   - xform/s(N?i)/x$1/  # ㄒㄧ
 
 translator:
   dictionary: piau_im.bopomo
+  spelling_hints: 5
   prism: piau_im_bopomo
-  spelling_hints: 10
   enable_user_dict: false
-  comment_format:
-    - xform/^/\t→ /
-    - xform/'/ /
-    - xlit|bpMBdtnlgkhGwzcsjZCSJiuaOoemWIUYFLQKVHN|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㆬㆭㄞㄠㆰㆱㄢㄣㄤㄥㆲｎ|
-  preedit_format:
-    - xform/ /ˉ/
-    - xform/'/ /
-    - xlit|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㆬㆭㄞㄠㆰㆱㄢㄣㄤㄥㆲｎ|
+
+menu:
+  alternative_select_keys: 'ABCDE'
 
 punctuator:
   import_preset: default
 
 key_binder:
   import_preset: default
+  bindings:
+    - { when: has_menu, accept: comma, send: comma }      # ㆤ
+    - { when: has_menu, accept: period, send: period }    # ㆲ
+    - { when: has_menu, accept: minus, send: minus }      # ｎ
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
 
 recognizer:
-  # import_preset: default
+  import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
-    email: ^[a-z][-_.0-9a-z]*@.*$
-    uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
-    url: ^(www[.]|https?:|ftp:|mailto:).*$
-    punct: '`[^\s]$'
