@@ -6,7 +6,7 @@ version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - piau_im.hanji
+  - taigi_yu.han     # 使用 taigi_yu 編碼
 ...
 ㄅ	pø1
 ㄆ	Pø1

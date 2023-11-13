@@ -1,92 +1,89 @@
 # Rime dictionary
 # encoding: utf-8
-#
-# 在萌典 API 收錄詞條外加入的詞彙表。
-
 ---
 name: piau_im.tps
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - piau_im.hanji
+  # - piau_im.hanji    # 使用台羅拚音編碼
 ...
-ㄅ	po1
-ㄆ	Po1
-ㄇ	bNo1
-ㆠ	bo1
+ㄅ	bø1
+ㄆ	pø1
+ㆠ	Bø1
+ㄇ	mø1
+ㄇ	bNø1
 
-ㄉ	to1
-ㄊ	To1
-ㄋ	dNo1
-ㄌ	do1
+ㄉ	dø1
+ㄊ	tø1
+ㄋ	nø1
+ㄌ	lø1
+ㄋ	dNø1
 
-ㄍ	ko1
-ㄎ	Ko1
-ㄏ	ho1
-ㆣ	go1
-ㄫ	gNo1
+ㄍ	gø1
+ㄎ	kø1
+ㄏ	hø1
+ㆣ	Gø1
+ㄫ	gNø1
 
-ㄗ	co1
-ㄘ	Co1
-ㄙ	so1
-ㆡ	zo1
+ㄗ	zø1
+ㄘ	cø1
+ㄙ	sø1
+ㆡ	jø1
+
+ㄐ	Zø1
+ㄑ	Cø1
+ㄒ	Sø1
+ㆢ	Jø1
 
 ㄚ	a1
-ㆦ	ø1
-ㄜ	o1
+ㆦ	o1
+ㄜ	ø1
 ㆤ	e1
 ㄧ	i1
 ㄨ	u1
 
 ㆩ	Na1
-ㆧ	No1
 ㆥ	Ne1
+ㆧ	No1
 ㆪ	Ni1
 ㆫ	Nu1
+ㆪㆷ	Ni4
+ㆫㆷ	Nu4
 
 ㄞ	I1
 ㄠ	U1
-ㆰ	aB1
-ㆱ	oB1
-ㄢ	aD1
-ㄣ	D1
-ㄤ	aG1
-ㆲ	oG1
-ㄥ	oG1
 
 ㆮ	NI1
 ㆯ	NU1
-ㆬ	B1
-ㆭ	G1
 
-ㄚㆷ	a4
-ㆤㆷ	e4
-ㄜㆷ	o4
-ㆦㆷ	o4
-ㄧㆷ	i4
-ㄨㆷ	u4
+ㆰ	Y1
+ㆱ	F1
+ㄢ	L1
+ㄣ	Q1
+ㄤ	K1
+ㆲ	H1
+ㄥ	V1
+
+ㆬ	m1
+
+ㆭ	W1
+
 ㄞㆷ	I4
 ㄠㆷ	U4
 ㆩㆷ	Na4
 ㆥㆷ	Ne4
 ㆧㆷ	No4
-ㆪㆷ	Ni4
-ㆫㆷ	Nu4
 ㆮㆷ	NI4
 ㆯㆷ	NU4
-#
-# ㄚㆴ	aB4
-# ㆦㆴ	oB4
-#
-# ㄚㆵ	aD4
-#
-# ㄚㆻ	aG4
-# ㆦㆻ	oG4
-# ㄜㆻ	oG4
-#
-# ㆬㆷ	B4
-# ㆭㆷ	G4
+ㄚㆴ	aB4
+ㆦㆴ	oB4
+ㄚㆵ	aD4
+ㄚㆻ	aG4
+ㆦㆻ	oG4
+ㄜㆻ	øG4
+ㆬㆷ	m4
+ㆭㆷ	W4
 
 # 春	tshun1
 # 春	CuD1
