@@ -49,72 +49,66 @@ engine:
     - uniquifier
   
 speller:
+  # alphabet: zyxwvutsrqponmlkjihgfedcba
   alphabet: zyxwvutsrqponmlkjihgfedcbaBGE
   delimiter: " '"
   algebra:
-    #   去掉聲調
+    # 去掉聲調
     - derive/[1-8]//
-    #   零聲母處理
+    # 零聲母處理
     - derive/q//
-    #   通配
-    #- derive/c/ts/
-    - derive/ou/oo/
+    # 通配
+    - derive/c/ts/
+    # - derive/ou/oo/
     - derive/e(ng|k)/i$1/
     - derive/ei/e/
-    #   鼻化韻處理
+    # 鼻化韻處理
     - derive/([^u])enn/$1eenn/
     - xform/b(.+)nn/m$1/
     - xform/l(.+)nn/n$1/
     - xform/g(.+)nn/ng$1/
     - derive/([^blg])(.+)nn/$1$2/
-    #   類閩拼轉換
-    #- xform/^j/r/
-    # - derive/j/r/
-    # - xform/^b/bb/
-    # - xform/^g/gg/
-    - xform/^p(?!h)/b/
-    - xform/^t(?!h)/d/
-    - xform/^k(?!h)/g/
-    - xform/^c(?!h)/z/
-    - xform/^([ptkc])(h)/$1/
-    - derive/au/ao/
-    # #   簡碼
-    # - derive/ng/f/
-    # - derive/gg/G/
-    # - derive/bb/B/
-    # - derive/ee/E/
-    #   聲母簡拼
-    - abbrev/^([lbgkdptzrjsqchmn])([^bg]).+$/$1/
-    #- abbrev/^([lpktcjsqbghBGmn])([^hsg]).+$/$1/
-    #- abbrev/^(ph).+$/$1/
-    #- abbrev/^(th).+$/$1/
-    #- abbrev/^(kh).+$/$1/
+    # ===========================================
+    # 我的變更
+    # ===========================================
+    - xform/tsh/ch/
+    - xform/ts/c/
+    # - xform/ou/oo/
+    # - abbrev/^(c).+$/$1/
+    # - abbrev/^(ch).+$/$1/
+    # - abbrev/^(ts).+$/$1/
+    # - abbrev/^(tsh).+$/$1/
+    # 聲母簡拼
+    - abbrev/^([lpktcjsqbghmn])([^hsg]).+$/$1/
+    - abbrev/^(ph).+$/$1/
+    - abbrev/^(th).+$/$1/
+    - abbrev/^(kh).+$/$1/
     - abbrev/^(ng).+$/$1/
-    - abbrev/^(b).+$/$1/
-    - abbrev/^(g).+$/$1/
-    # - abbrev/^(bb).+$/$1/
-    # - abbrev/^(gg).+$/$1/
-    #- abbrev/^(ch).+$/$1/
+    - abbrev/^(ch).+$/$1/
     - abbrev/^(ts).+$/$1/
     - abbrev/^(tsh).+$/$1/
     
 translator:
+  # dictionary: ngsth_bun
   dictionary: piau_im
   spelling_hints: 5
   preedit_format:
   comment_format:
-    - xform/^([a-z]+\d)$/$1;$1/
+    # - derive/^([aeiou])/q$1/
+    - derive/^([aeiou])/ø$1/
+    - xform/^([a-zø]+\d)$/$1;$1/
     - xform/;l/\[柳;/
     - xform/;p(?!h)/\[邊;/
     - xform/;k(?!h)/\[求;/
-    - xform/;kh/\[氣;/
+    - xform/;kh/\[去;/
     - xform/;t(?!h)/\[地;/
     - xform/;ph/\[頗;/
     - xform/;th/\[他;/
     - xform/;c(?!h)/\[曾;/
     - xform/;j/\[入;/
     - xform/;s/\[時;/
-    - xform/;q/\[英;/
+    # - xform/;q/\[英;/
+    - xform/;ø/\[英;/
     - xform/;b/\[文;/
     - xform/;g/\[語;/
     - xform/;ch/\[出;/    
@@ -128,8 +122,10 @@ translator:
     - xform/;o(ng|k)/公;/
     - xform/;uai(h?)/乖;$2/
     - xform/;e(ng|k)/經;/
+    - xform/;i(ng|k)/經;/
     - xform/;ua(n|t)(\d)/觀;$2/
     - xform/;ou(h?)(\d)/沽;$2/
+    - xform/;oo(h?)(\d)/沽;$2/
     - xform/;iau(h?)(\d)/嬌;$2/
     - xform/;ei/稽;/
     - xform/;io(ng|k)/恭;/
@@ -155,20 +151,38 @@ translator:
     - xform/;uann/官;/
     - xform/;e(h?)(\d)/伽;$2/
     - xform/;ainn(h?)/閒;/
-    - xform/;ounn/姑;/
+    # - xform/;ounn/姑;/
+    - xform/;onn/姑;/
     - xform/;uenn/糜;/
     - xform/;iaunn(h?)/嘄;/
     - xform/;o(m|p)/箴;/
     - xform/;aunn/爻;/
     - xform/;onn(h?)/扛;/
     - xform/;iunn/牛;/
-    - xform/;1/上平\]/
-    - xform/;2/上上\]/
-    - xform/;3/上去\]/
-    - xform/;4/上入\]/
-    - xform/;5/下平\]/
-    - xform/;7/下去\]/
-    - xform/;8/下入\]/
+    # - xform/;1/上平\]/
+    # - xform/;2/上上\]/
+    # - xform/;3/上去\]/
+    # - xform/;4/上入\]/
+    # - xform/;5/下平\]/
+    # - xform/;6/下上\]/
+    # - xform/;7/下去\]/
+    # - xform/;8/下入\]/
+    # - xform/;1/一(陰平)\]/
+    # - xform/;2/二(陰上)\]/
+    # - xform/;3/三(陰去)\]/
+    # - xform/;4/四(陰入)\]/
+    # - xform/;5/五(陽平)\]/
+    # - xform/;6/六(陽上)\]/
+    # - xform/;7/七(陽去)\]/
+    # - xform/;8/八(陽入)\]/
+    - xform/;1/一\]/
+    - xform/;2/二\]/
+    - xform/;3/三\]/
+    - xform/;4/四\]/
+    - xform/;5/五\]/
+    - xform/;6/六\]/
+    - xform/;7/七\]/
+    - xform/;8/八\]/
     #   以下爲羅馬字轉寫
     # - xform/q//
     - xform/c/ts/
