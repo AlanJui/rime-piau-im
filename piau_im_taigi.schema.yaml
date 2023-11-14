@@ -4,17 +4,18 @@
 
 schema:
   schema_id: piau_im_taigi
-  name: TaiGi標音
+  name: TaiGi方音符號標音
   version: "v0.0.0.1"
   author: 居正中
-  description: 標音用漢字庫
+  description: |
+    使用 taigi_yu 漢字典及方音符號標音。
 
 switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [ 半形, 全形 ]
 
 engine:
   processors:

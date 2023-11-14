@@ -7,7 +7,9 @@ schema:
   name: TLPA+標音
   version: "v0.0.0.1"
   author: 居正中
-  description: 標音用漢字庫
+  description: |
+    使用萌台語漢字庫（台羅拚音編碼）
+    以 TLPA 改良版拚音字母輸入 
 
 switches:
   - name: ascii_mode
@@ -35,7 +37,6 @@ engine:
   translators:
     - echo_translator
     - punct_translator
-    # - r10n_translator
     - script_translator
     - reverse_lookup_translator
   filters:
@@ -108,9 +109,9 @@ translator:
     - xform/ㄉ8/ㆵ̇/
     - xform/ㄍ8/ㆻ̇
 
-  preedit_format:
-  - xform/ /ˉ/
-  - xform/'/ /
+  # preedit_format:
+  # - xform/ /ˉ/
+  # - xform/'/ /
   # - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．|
 
 punctuator:

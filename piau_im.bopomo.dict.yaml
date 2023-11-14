@@ -25,18 +25,18 @@ use_preset_vocabulary: false
 ㄎ	k
 ㄏ	h
 
-ㄐ	j
-ㄑ	q
-ㄒ	x
-
 ㄓ	zh
 ㄔ	ch
 ㄕ	sh
 ㄖ	r
 
-ㄗ	z
-ㄘ	c
-ㄙ	s
+ㄗ	z	50%
+ㄘ	c	50%
+ㄙ	s	50%
+
+ㄐ	j
+ㄑ	q
+ㄒ	x
 
 ## 介音
 ㄧ	i
@@ -46,8 +46,9 @@ use_preset_vocabulary: false
 
 ## 韻母
 ㄚ	a
-ㄛ	o
-ㄜ	e
+ㆦ	o	99%
+ㄛ	o	50%
+ㄜ	e	50%
 ㄧㄝ	ie
 丨ㄝ	ie	95%
 
@@ -123,19 +124,22 @@ use_preset_vocabulary: false
 ㄫ	ng	90%
 # ㄏ
 
-ㄐ	chi	90%
-ㄐ	tsi	80%
-ㆢ	ji	90%
-ㄑ	chhi	90%
-ㄑ	tshi	80%
-ㄒ	si	90%
+#ㄗ	z
+#ㄘ	c
+#ㄙ	s
+ㆡ	j	99%
+ㆡ	r	90%
 
-ㄗ	ch	90%
+ㄐㄧ	zi	99%
+ㄑㄧ	ci	99%
+ㄒㄧ	si	99%
+ㆢㄧ	ji	99%
+ㆢㄧ	ri	99%
+
 ㄗ	ts	80%
-ㆡ	j	90%
-ㄘ	chh	90%
 ㄘ	tsh	80%
-# ㄙ
+ㄐㄧ	tsi	80%
+ㄑㄧ	tshi	80%
 
 # 介母和韻母
 # ㄧ	i	90%
@@ -145,9 +149,10 @@ use_preset_vocabulary: false
 ㆫ	unn	90%
 # ㄚ	a	90%
 ㆩ	e	90%
-ㆦ	oo	90%
-ㆧ	oon	90%
-# ㄜ	o	90%
+ㆦ	o	99%
+ㆦ	oo	99%
+ㆧ	onn	90%
+ㄜ	o	99%
 ㆤ	e	90%
 ㆥ	enn	90%
 
@@ -173,15 +178,23 @@ use_preset_vocabulary: false
 丨ㄍ	ik	95%
 
 # 入聲
+ㆴ	p4
+ㆵ	t4
+ㆻ	k4
+
+ㆴ̇	p8
+ㆵ̇	t8
+ㆻ̇	k8
+
 ㆷ	h4
 ㆴ	b4
 ㆵ	d4
-ㆻ	k4
+ㆻ	g4
 
 ㆷ̇	h8
 ㆴ̇	b8
 ㆵ̇	d8
-ㆻ̇	k8
+ㆻ̇	g8
 
 ## 音調標記
 ˉ	/	100%
