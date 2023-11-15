@@ -58,8 +58,8 @@ speller:
     # 零聲母處理
     - derive/q//
     # 通配
-    - derive/c/ts/
-    # - derive/ou/oo/
+    # - derive/c/ts/
+    - derive/ou/oo/
     - derive/e(ng|k)/i$1/
     - derive/ei/e/
     # 鼻化韻處理
@@ -68,16 +68,6 @@ speller:
     - xform/l(.+)nn/n$1/
     - xform/g(.+)nn/ng$1/
     - derive/([^blg])(.+)nn/$1$2/
-    # ===========================================
-    # 我的變更
-    # ===========================================
-    - xform/tsh/ch/
-    - xform/ts/c/
-    # - xform/ou/oo/
-    # - abbrev/^(c).+$/$1/
-    # - abbrev/^(ch).+$/$1/
-    # - abbrev/^(ts).+$/$1/
-    # - abbrev/^(tsh).+$/$1/
     # 聲母簡拼
     - abbrev/^([lpktcjsqbghmn])([^hsg]).+$/$1/
     - abbrev/^(ph).+$/$1/
@@ -87,9 +77,24 @@ speller:
     - abbrev/^(ch).+$/$1/
     - abbrev/^(ts).+$/$1/
     - abbrev/^(tsh).+$/$1/
+    # ===========================================
+    # 我增加的變更
+    # ===========================================
+    - derive/tsh/c/
+    - derive/ts/z/
+    - derive/tsh/chh/
+    - derive/ts/ch/
+   
+    - abbrev/^(ts).+$/$1/
+    - abbrev/^(tsh).+$/$1/
+    - abbrev/^(z).+$/$1/
+    - abbrev/^(c).+$/$1/
+    - abbrev/^(ch).+$/$1/
+    - abbrev/^(chh).+$/$1/
     
 translator:
   # dictionary: ngsth_bun
+  # dictionary: piau_im.hanji
   dictionary: piau_im
   spelling_hints: 5
   preedit_format:
@@ -97,6 +102,11 @@ translator:
     # - derive/^([aeiou])/q$1/
     - derive/^([aeiou])/ø$1/
     - xform/^([a-zø]+\d)$/$1;$1/
+
+    #======================================
+    - xform/;ts(?!h)/\[曾;/
+    - xform/;tsh/\[出;/
+    #======================================
     - xform/;l/\[柳;/
     - xform/;p(?!h)/\[邊;/
     - xform/;k(?!h)/\[求;/
@@ -104,14 +114,14 @@ translator:
     - xform/;t(?!h)/\[地;/
     - xform/;ph/\[頗;/
     - xform/;th/\[他;/
-    - xform/;c(?!h)/\[曾;/
+    # - xform/;c(?!h)/\[曾;/
     - xform/;j/\[入;/
     - xform/;s/\[時;/
     # - xform/;q/\[英;/
     - xform/;ø/\[英;/
     - xform/;b/\[文;/
     - xform/;g/\[語;/
-    - xform/;ch/\[出;/    
+    # - xform/;ch/\[出;/    
     - xform/;h/\[喜;/
     - xform/;u(n|t)(\d)/君;$2/
     - xform/;ia(n|t)(\d)/堅;$2/
@@ -124,12 +134,11 @@ translator:
     - xform/;e(ng|k)/經;/
     - xform/;i(ng|k)/經;/
     - xform/;ua(n|t)(\d)/觀;$2/
-    - xform/;ou(h?)(\d)/沽;$2/
-    - xform/;oo(h?)(\d)/沽;$2/
+    # - xform/;ou(h?)(\d)/沽;$2/
     - xform/;iau(h?)(\d)/嬌;$2/
     - xform/;ei/稽;/
     - xform/;io(ng|k)/恭;/
-    - xform/;o(h?)(\d)/高;$2/
+    # - xform/;o(h?)(\d)/高;$2/
     - xform/;ai(\d)/皆;$1/
     - xform/;i(n|t)(\d)/巾;$2/
     - xform/;ia(ng|k)/姜;/
@@ -152,13 +161,19 @@ translator:
     - xform/;e(h?)(\d)/伽;$2/
     - xform/;ainn(h?)/閒;/
     # - xform/;ounn/姑;/
-    - xform/;onn/姑;/
     - xform/;uenn/糜;/
     - xform/;iaunn(h?)/嘄;/
     - xform/;o(m|p)/箴;/
     - xform/;aunn/爻;/
-    - xform/;onn(h?)/扛;/
+    # - xform/;onn(h?)/扛;/
     - xform/;iunn/牛;/
+    #======================================
+    - xform/;oo(h?)(\d)/沽;$2/
+    - xform/;o(h?)(\d)/高;$2/
+    # - xform/;oonn/姑;/
+    - xform/;ounn/姑;/
+    - xform/;onn(h?)/扛;/
+    #======================================
     # - xform/;1/上平\]/
     # - xform/;2/上上\]/
     # - xform/;3/上去\]/
