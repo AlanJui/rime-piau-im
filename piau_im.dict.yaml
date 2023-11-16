@@ -13,18 +13,16 @@ version: 0.0.0.2
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  # - ngsth_bun
   # 漳州文讀音
-  # - piau_im.ngee_siok_thong
   - piau_im.ngsth
   # 辭彙漢字庫
   - piau_im.su
   # 個人用漢字庫
   - piau_im.ka_ki
   # BoPoMo注音符號
-  - piau_im.bopomo
+  # - piau_im.bopomo
   # 方音符號
-  - piau_im.tps
+  # - piau_im.tps
 ...
 ##	a/ah
 銜	ham5
@@ -164,28 +162,28 @@ import_tables:
 夏	ha7
 合	hah8
 箬	hah8
-查	ca1
-楂	ca1
-臢	ca1
-喳	ca1
-諸	ca1	1%
-早	ca2	10
-炸	ca3
-榨	ca3
-詐	ca3
-蚱	ca3
-扎	cah4
-昨	ca7
-乍	ca7
-閘	cah8
-鍘	cah8
-差	cha1
-叉	cha1
-吵	cha2
-炒	cha2
-插	chah4
-查	cha5
-柴	cha5
+查	tsa1
+楂	tsa1
+臢	tsa1
+喳	tsa1
+諸	tsa1	1%
+早	tsa2	10
+炸	tsa3
+榨	tsa3
+詐	tsa3
+蚱	tsa3
+扎	tsah4
+昨	tsa7
+乍	tsa7
+閘	tsah8
+鍘	tsah8
+差	tsha1
+叉	tsha1
+吵	tsha2
+炒	tsha2
+插	tshah4
+查	tsha5
+柴	tsha5
 捎	sa1
 沙	sa1	5%
 紗	sa1	5%
@@ -326,39 +324,39 @@ import_tables:
 害	hai7	10
 械	hai7
 邂	hai7
-知	cai1	10
-栽	cai1
-災	cai1
-哉	cai1
-齋	cai1
-宰	cai2
-載	cai2
-再	cai3	10
-載	cai3
-債	cai3	0%
-財	cai5
-才	cai5
-材	cai5
-臍	cai5
-儕	cai5
-豺	cai5
-在	cai6	10
-寨	cai7
-差	chai1
-猜	chai1
-釵	chai1
-彩	chai2
-採	chai2
-采	chai2
-綵	chai2
-踩	chai2
-菜	chai3	10
-蔡	chai3	0%
-裁	chai5
-柴	chai5
-纔	chai5
-𫞼	chai7
-祀	chai7
+知	tsai1	10
+栽	tsai1
+災	tsai1
+哉	tsai1
+齋	tsai1
+宰	tsai2
+載	tsai2
+再	tsai3	10
+載	tsai3
+債	tsai3	0%
+財	tsai5
+才	tsai5
+材	tsai5
+臍	tsai5
+儕	tsai5
+豺	tsai5
+在	tsai6	10
+寨	tsai7
+差	tshai1
+猜	tshai1
+釵	tshai1
+彩	tshai2
+採	tshai2
+采	tshai2
+綵	tshai2
+踩	tshai2
+菜	tshai3	10
+蔡	tshai3	0%
+裁	tshai5
+柴	tshai5
+纔	tshai5
+𫞼	tshai7
+祀	tshai7
 獅	sai1
 師	sai1
 西	sai1	10
@@ -494,25 +492,25 @@ import_tables:
 鱟	hau7
 候	hau7
 效	hau7
-糟	cau1
-蹧	cau1
-走	cau2	10
-蚤	cau2
-爪	cau2	0%
-灶	cau3
-奏	cau3
-巢	cau5
-剿	cau5
-找	cau6	10
-抄	chau1
-操	chau1
-臊	chau1
-鈔	chau1
-草	chau2	10
-炒	chau2	0%
-吵	chau2	0%
-臭	chau3	10
-嘈	chauh8	1%
+糟	tsau1
+蹧	tsau1
+走	tsau2	10
+蚤	tsau2
+爪	tsau2	0%
+灶	tsau3
+奏	tsau3
+巢	tsau5
+剿	tsau5
+找	tsau6	10
+抄	tshau1
+操	tshau1
+臊	tshau1
+鈔	tshau1
+草	tshau2	10
+炒	tshau2	0%
+吵	tshau2	0%
+臭	tshau3	10
+嘈	tshauh8	1%
 梢	sau1
 捎	sau1
 鞘	sau1
@@ -580,9 +578,9 @@ import_tables:
 熁	hannh4
 唅	hannh4
 唅	hann5
-斬	cann2
-㨻	cann7
-錚	chann3
+斬	tsann2
+㨻	tsann7
+錚	tshann3
 三	sann1
 相	sann1
 衫	sann1
@@ -602,8 +600,8 @@ import_tables:
 耐	nai7
 哼	hainn1
 嗐	hainnh4
-指	cainn2
-怎	cainn2
+指	tsainn2
+怎	tsainn2
 ##	ing/ingh
 閒	ing5
 反	ping2
@@ -622,10 +620,10 @@ import_tables:
 還	hing5
 貺	hing7
 莧	hing7
-指	cing2	5%
-前	cing5
-千	ching1
-筅	ching2
+指	tsing2	5%
+前	tsing5
+千	tshing1
+筅	tshing2
 先	sing1
 ##	aunn/aunnh
 茅	mau5
@@ -765,25 +763,25 @@ import_tables:
 洽	hap8	0%
 匣	hap8
 盒	hap8	0%
-簪	cam1
-臢	cam1
-斬	cam2
-嶄	cam2
-蹔	cam3
-眨	cap4
-站	cam6	10
-鏨	cam6
-十	cap8
-雜	cap8
-摻	cham1
-參	cham1
-攙	cham1
-慘	cham2
-懺	cham3
-插	chap4
-蠶	cham5
-慚	cham5
-㴙	chap8
+簪	tsam1
+臢	tsam1
+斬	tsam2
+嶄	tsam2
+蹔	tsam3
+眨	tsap4
+站	tsam6	10
+鏨	tsam6
+十	tsap8
+雜	tsap8
+摻	tsham1
+參	tsham1
+攙	tsham1
+慘	tsham2
+懺	tsham3
+插	tshap4
+蠶	tsham5
+慚	tsham5
+㴙	tshap8
 三	sam1
 衫	sam1	5%
 杉	sam1
@@ -958,36 +956,36 @@ import_tables:
 轄	hat8
 乏	hat8
 黠	hat8
-曾	can1	5%
-罾	can1
-齻	can1
-盞	can2
-讚	can2
-贊	can3	10
-讚	can3	10
-棧	can3
-節	cat4
-紮	cat4
-札	cat4
-扎	cat4
-層	can5
-殘	can5
-實	cat8
-賊	cat8	1%
-呻	chan1	5%
-餐	chan1	10
-潺	chan1
-孱	chan1
-鏟	chan2
-襯	chan3
-燦	chan3
-璨	chan3
-擦	chat4
-察	chat4
-漆	chat4
-田	chan5	10
-田	chan5	10
-賊	chat8
+曾	tsan1	5%
+罾	tsan1
+齻	tsan1
+盞	tsan2
+讚	tsan2
+贊	tsan3	10
+讚	tsan3	10
+棧	tsan3
+節	tsat4
+紮	tsat4
+札	tsat4
+扎	tsat4
+層	tsan5
+殘	tsan5
+實	tsat8
+賊	tsat8	1%
+呻	tshan1	5%
+餐	tshan1	10
+潺	tshan1
+孱	tshan1
+鏟	tshan2
+襯	tshan3
+燦	tshan3
+璨	tshan3
+擦	tshat4
+察	tshat4
+漆	tshat4
+田	tshan5	10
+田	tshan5	10
+賊	tshat8
 刪	san1
 山	san1
 珊	san1
@@ -1152,19 +1150,19 @@ import_tables:
 巷	hang7	10
 學	hak8
 礐	hak8
-鬃	cang1
-棕	cang1
-摠	cang2
-粽	cang3
-齪	cak4
-欉	cang5	10
-灇	cang5
-嗾	cak8
-蔥	chang1
-氅	chang2
-藏	chang3
-聳	chang3
-鑿	chak8
+鬃	tsang1
+棕	tsang1
+摠	tsang2
+粽	tsang3
+齪	tsak4
+欉	tsang5	10
+灇	tsang5
+嗾	tsak8
+蔥	tshang1
+氅	tshang2
+藏	tshang3
+聳	tshang3
+鑿	tshak8
 鬆	sang1
 送	sang3	10
 捒	sak4
@@ -1233,34 +1231,34 @@ import_tables:
 蟻	hia6
 瓦	hia6
 額	hiah8
-遮	cia1
-遮	cua1
-嗟	cia1
-者	cia2
-姐	cia2
-蔗	cia3
-嗻	cia3
-借	cia3	0%
-鷓	cia3
-炙	cia3
-遮	ciah4	10
-遮	cuah4	10
-隻	ciah4
-跡	ciah4
-則	ciah4	10
-脊	ciah4
-睫	ciah4
-誰	cia5	5%
-謝	cia7	1%
-食	ciah8	10
-車	chia1
-捙	chia1
-奢	chia1
-扯	chia2	0%
-笡	chia3
-赤	chiah4
-刺	chiah4
-斜	chia5
+遮	tsia1
+遮	tsua1
+嗟	tsia1
+者	tsia2
+姐	tsia2
+蔗	tsia3
+嗻	tsia3
+借	tsia3	0%
+鷓	tsia3
+炙	tsia3
+遮	tsiah4	10
+遮	tsuah4	10
+隻	tsiah4
+跡	tsiah4
+則	tsiah4	10
+脊	tsiah4
+睫	tsiah4
+誰	tsia5	5%
+謝	tsia7	1%
+食	tsiah8	10
+車	tshia1
+捙	tshia1
+奢	tshia1
+扯	tshia2	0%
+笡	tshia3
+赤	tshiah4
+刺	tshiah4
+斜	tshia5
 遮	jia1
 惹	jia2
 若	jia2	1%
@@ -1407,32 +1405,32 @@ import_tables:
 驍	hiau1
 曉	hiau2
 嬈	hiau5
-招	ciau1	5%
-蕉	ciau1	5%
-焦	ciau1
-昭	ciau1
-礁	ciau1
-椒	ciau1	0%
-釗	ciau1
-鳥	ciau2	10
-沼	ciau2
-照	ciau3	10
-詔	ciau3
-醮	ciau3
-褿	ciau5
-褿	cau5	#泉
-樵	ciau5
-嶕	ciau5
-憔	ciau5
-瞧	ciau5
-超	chiau1
-搜	chiau1
-鍬	chiau1
-悄	chiau2
-峭	chiau3
-俏	chiau3
-撨	chiau5
-撨	chau5	#泉
+招	tsiau1	5%
+蕉	tsiau1	5%
+焦	tsiau1
+昭	tsiau1
+礁	tsiau1
+椒	tsiau1	0%
+釗	tsiau1
+鳥	tsiau2	10
+沼	tsiau2
+照	tsiau3	10
+詔	tsiau3
+醮	tsiau3
+褿	tsiau5
+褿	tsau5	#泉
+樵	tsiau5
+嶕	tsiau5
+憔	tsiau5
+瞧	tsiau5
+超	tshiau1
+搜	tshiau1
+鍬	tshiau1
+悄	tshiau2
+峭	tshiau3
+俏	tshiau3
+撨	tshiau5
+撨	tshau5	#泉
 擾	jiau2
 爪	jiau2
 繞	jiau2
@@ -1519,18 +1517,18 @@ import_tables:
 燃	nia5	#异
 惶	hiann5	1%
 艾	hiann7
-精	ciann1	1%
-正	ciann1
-䭕	ciann2
-正	ciann3	10
-誠	ciann5	10
-情	ciann5	1%
-成	ciann5
-請	chiann2
-且	chiann2
-倩	chiann3
-晟	chiann5
-成	chiann5
+精	tsiann1	1%
+正	tsiann1
+䭕	tsiann2
+正	tsiann3	10
+誠	tsiann5	10
+情	tsiann5	1%
+成	tsiann5
+請	tshiann2
+且	tshiann2
+倩	tshiann3
+晟	tshiann5
+成	tshiann5
 聲	siann1
 啥	siann2	10
 聖	siann3	5%
@@ -1655,33 +1653,33 @@ import_tables:
 洽	hiap8
 勰	hiap8
 挾	hiap8
-尖	ciam1	10
-針	ciam1
-針	cam1	#泉
-瞻	ciam1
-占	ciam1
-簪	ciam1
-佔	ciam3
-接	ciap4
-汁	ciap4
-汁	cap4	#泉
-睫	ciap4	0%
-潛	ciam5
-漸	ciam6	10
-暫	ciam7	10
-捷	ciap8
-婕	ciap8
-簽	chiam1
-籤	chiam1
-纖	chiam1
-殲	chiam1
-攕	chiam2
-塹	chiam3
-僭	chiam3
-妾	chiap4
-竊	chiap4
-橙	chiam5
-橙	chiang5	#异
+尖	tsiam1	10
+針	tsiam1
+針	tsam1	#泉
+瞻	tsiam1
+占	tsiam1
+簪	tsiam1
+佔	tsiam3
+接	tsiap4
+汁	tsiap4
+汁	tsap4	#泉
+睫	tsiap4	0%
+潛	tsiam5
+漸	tsiam6	10
+暫	tsiam7	10
+捷	tsiap8
+婕	tsiap8
+簽	tshiam1
+籤	tshiam1
+纖	tshiam1
+殲	tshiam1
+攕	tshiam2
+塹	tshiam3
+僭	tshiam3
+妾	tshiap4
+竊	tshiap4
+橙	tshiam5
+橙	tshiang5	#异
 橙	siam5	#懒
 染	jiam2
 冉	jiam2
@@ -1897,36 +1895,36 @@ import_tables:
 鉉	hian7
 穴	hiat8
 頁	hiat8
-煎	cian1	10
-箋	cian1
-氈	cian1
-剪	cian2	10
-戰	cian3	10
-箭	cian3	5%
-薦	cian3
-節	ciat4
-浙	ciat4
-折	ciat4
-前	cian5	10
-錢	cian5	5%
-賤	cian7
-踐	cian7
-餞	cian7
-荐	cian7
-截	ciat8
-千	chian1
-遷	chian1
-韆	chian1
-芊	chian1
-阡	chian1
-淺	chian2
-闡	chian2
-茜	chian3
-倩	chian3
-蒨	chian3
-切	chiat4
-掣	chiat4
-延	chian5
+煎	tsian1	10
+箋	tsian1
+氈	tsian1
+剪	tsian2	10
+戰	tsian3	10
+箭	tsian3	5%
+薦	tsian3
+節	tsiat4
+浙	tsiat4
+折	tsiat4
+前	tsian5	10
+錢	tsian5	5%
+賤	tsian7
+踐	tsian7
+餞	tsian7
+荐	tsian7
+截	tsiat8
+千	tshian1
+遷	tshian1
+韆	tshian1
+芊	tshian1
+阡	tshian1
+淺	tshian2
+闡	tshian2
+茜	tshian3
+倩	tshian3
+蒨	tshian3
+切	tshiat4
+掣	tshiat4
+延	tshian5
 剪	jian2
 然	jian5
 燃	jian5
@@ -1965,7 +1963,7 @@ import_tables:
 ##	iang/iak
 偝	iang7
 偝	iannh8	#泉
-偝	ciann1	#泉
+偝	tsiann1	#泉
 偝	ing7	#漳
 嘣	piang1
 迸	piang3
@@ -1983,10 +1981,10 @@ import_tables:
 毃	khiak8
 鈃	giang1
 齴	giang3
-漳	ciang1	10
-蹌	chiang2
-唱	chiang3
-沖	chiang5
+漳	tsiang1	10
+蹌	tshiang2
+唱	tshiang3
+沖	tshiang5
 雙	siang1
 雙	sang1	#泉
 誰	siang5	1%
@@ -2069,32 +2067,32 @@ import_tables:
 餉	hiong2
 向	hiong3
 嚮	hiong3
-將	ciong1	10
-章	ciong1	10
-彰	ciong1
-漳	ciong1	10
-障	ciong1
-樟	ciong1
-漿	ciong1
-獎	ciong2
-掌	ciong2	10
-將	ciong3
-爵	ciok4
-狀	ciong7
-嚼	ciok8
-昌	chiong1
-娼	chiong1
-猖	chiong1
-搶	chiong2	0%
-惝	chiong2
-唱	chiong3
-倡	chiong3
-雀	chiok4
-鵲	chiok4
-綽	chiok4
-牆	chiong5
-嬙	chiong5
-踔	chiok8
+將	tsiong1	10
+章	tsiong1	10
+彰	tsiong1
+漳	tsiong1	10
+障	tsiong1
+樟	tsiong1
+漿	tsiong1
+獎	tsiong2
+掌	tsiong2	10
+將	tsiong3
+爵	tsiok4
+狀	tsiong7
+嚼	tsiok8
+昌	tshiong1
+娼	tshiong1
+猖	tshiong1
+搶	tshiong2	0%
+惝	tshiong2
+唱	tshiong3
+倡	tshiong3
+雀	tshiok4
+鵲	tshiok4
+綽	tshiok4
+牆	tshiong5
+嬙	tshiong5
+踔	tshiok8
 嚷	jiong2
 壤	jiong2
 瓤	jiong5
@@ -2206,22 +2204,22 @@ import_tables:
 話	hua7	1%
 畫	hua7	0%
 伐	huah8
-紙	cua2
-泏	cuah4	5%
-蛇	cua5
-誰	cua5	5%
-誓	cua7	1%
-逝	cua7	1%
-縒	cuah8
-蚻	cuah8
-蔡	chua3
-漈	chua3
-掣	chuah4
-疶	chuah4
-娶	chua7
-𤆬	chua7
-泄	chua7
-斜	chuah8
+紙	tsua2
+泏	tsuah4	5%
+蛇	tsua5
+誰	tsua5	5%
+誓	tsua7	1%
+逝	tsua7	1%
+縒	tsuah8
+蚻	tsuah8
+蔡	tshua3
+漈	tshua3
+掣	tshuah4
+疶	tshuah4
+娶	tshua7
+𤆬	tshua7
+泄	tshua7
+斜	tshuah8
 偌	jua6
 熱	juah8
 沙	sua1	10
@@ -2299,15 +2297,15 @@ import_tables:
 扞	huann7
 焊	huann7
 旱	huann7
-煎	cuann1	1%
-怎	cuann2	10
-盞	cuann2
-榨	cuann3	1%
-殘	cuann5	1%
-泉	cuann5
-濺	cuann6
-䉔	chuann1
-閂	chuann3
+煎	tsuann1	1%
+怎	tsuann2	10
+盞	tsuann2
+榨	tsuann3	1%
+殘	tsuann5	1%
+泉	tsuann5
+濺	tsuann6
+䉔	tshuann1
+閂	tshuann3
 山	suann1
 散	suann2
 線	suann3
@@ -2523,31 +2521,31 @@ import_tables:
 活	huat8	0%
 伐	huat8
 閥	huat8
-專	cuan1	10
-磚	cuan1	0%
-顓	cuan1
-賺	cuan2	1%
-轉	cuan2	10
-纂	cuan2
-拙	cuat4
-泏	cuat4
-泉	cuan5
-全	cuan5	10
-撰	cuan6
-饌	cuan6
-雋	cuan6
-絕	cuat8
-川	chuan1
-穿	chuan1	5%
-詮	chuan1
-村	chuan1
-喘	chuan2
-串	chuan3
-竄	chuan3
-篡	chuan3
-闖	chuan3
-撮	chuat4
-攢	chuan5
+專	tsuan1	10
+磚	tsuan1	0%
+顓	tsuan1
+賺	tsuan2	1%
+轉	tsuan2	10
+纂	tsuan2
+拙	tsuat4
+泏	tsuat4
+泉	tsuan5
+全	tsuan5	10
+撰	tsuan6
+饌	tsuan6
+雋	tsuan6
+絕	tsuat8
+川	tshuan1
+穿	tshuan1	5%
+詮	tshuan1
+村	tshuan1
+喘	tshuan2
+串	tshuan3
+竄	tshuan3
+篡	tshuan3
+闖	tshuan3
+撮	tshuat4
+攢	tshuan5
 酸	suan1	1%
 宣	suan1	10
 拴	suan1
@@ -2626,15 +2624,15 @@ import_tables:
 下	he6	5%
 暇	he6
 夏	he7	5%
-渣	ce1
-債	ce3
-仄	ceh4
-叔	ceh4	1%
-寨	ce7
-差	che1
-叉	che1
-廁	che3
-冊	cheh4
+渣	tse1
+債	tse3
+仄	tseh4
+叔	tseh4	1%
+寨	tse7
+差	tshe1
+叉	tshe1
+廁	tshe3
+冊	tsheh4
 砂	se1
 紗	se1
 裟	se1
@@ -2732,24 +2730,24 @@ import_tables:
 系	he7
 係	he7
 繫	he7
-這	ce1	10
-劑	ce1
-齋	ce1	0%
-濟	ce3
-制	ce3	10
-祭	ce3
-製	ce3
-際	ce3
-齊	ce5	1%
-蠐	ce5
-臍	ce5
-淒	che1
-悽	che1
-妻	che1
-棲	che1
-扯	che2
-切	che3
-尺	che6
+這	tse1	10
+劑	tse1
+齋	tse1	0%
+濟	tse3
+制	tse3	10
+祭	tse3
+製	tse3
+際	tse3
+齊	tse5	1%
+蠐	tse5
+臍	tse5
+淒	tshe1
+悽	tshe1
+妻	tshe1
+棲	tshe1
+扯	tshe2
+切	tshe3
+尺	tshe6
 西	se1	10
 犀	se1
 洗	se2	5%
@@ -2809,18 +2807,18 @@ import_tables:
 坑	khenn1
 硬	nge6
 哼	henn1
-精	cenn1	5%
-爭	cenn1	5%
-井	cenn2
-阱	cenn2
-諍	cenn3
-靜	cenn6	1%
-青	chenn1
-生	chenn1
-星	chenn1
-腥	chenn1
-清	chenn1	1%
-醒	chenn2
+精	tsenn1	5%
+爭	tsenn1	5%
+井	tsenn2
+阱	tsenn2
+諍	tsenn3
+靜	tsenn6	1%
+青	tshenn1
+生	tshenn1
+星	tshenn1
+腥	tshenn1
+清	tshenn1	1%
+醒	tshenn2
 生	senn1
 牲	senn1	1%
 省	senn2
@@ -2889,10 +2887,10 @@ import_tables:
 匯	hue7	10
 繪	hue7
 潰	hue7
-做	cue3	10
-最	cue3
-贅	cue3
-罪	cue6
+做	tsue3	10
+最	tsue3
+贅	tsue3
+罪	tsue6
 睿	jue7
 叡	jue7
 銳	jue7
@@ -3156,55 +3154,55 @@ import_tables:
 戲	hi3	10
 耳	hi6	10
 耳	hinn6	10
-之	ci1
-枝	ci1	0%
-支	ci1
-脂	ci1
-芝	ci1
-膣	ci1
-只	ci2	10
-姊	ci2	10
-紫	ci2	10
-子	ci2	5%
-止	ci2	10
-址	ci2
-指	ci2	10
-紙	ci2	0%
-旨	ci2
-咫	ci2
-芷	ci2
-趾	ci2
-祉	ci2
-誌	ci3
-志	ci3	10
-至	ci3
-摯	ci3
-幟	ci3
-接	cih4
-摺	cih4
-糍	ci5
-舐	ci6
-舌	cih8
-折	cih8
-痴	chi1
-嗤	chi1
-癡	chi1
-鰓	chi1
-鴟	chi1
-侈	chi2
-齒	chi2	0%
-試	chi3	10
-刺	chi3	10
-熾	chi3
-翅	chi3
-𩑾	chih4
-爍	chih4
-持	chi5
-溡	chi5
-市	chi6	10
-飼	chi7	10
-揤	chih8
-蠘	chih8
+之	tsi1
+枝	tsi1	0%
+支	tsi1
+脂	tsi1
+芝	tsi1
+膣	tsi1
+只	tsi2	10
+姊	tsi2	10
+紫	tsi2	10
+子	tsi2	5%
+止	tsi2	10
+址	tsi2
+指	tsi2	10
+紙	tsi2	0%
+旨	tsi2
+咫	tsi2
+芷	tsi2
+趾	tsi2
+祉	tsi2
+誌	tsi3
+志	tsi3	10
+至	tsi3
+摯	tsi3
+幟	tsi3
+接	tsih4
+摺	tsih4
+糍	tsi5
+舐	tsi6
+舌	tsih8
+折	tsih8
+痴	tshi1
+嗤	tshi1
+癡	tshi1
+鰓	tshi1
+鴟	tshi1
+侈	tshi2
+齒	tshi2	0%
+試	tshi3	10
+刺	tshi3	10
+熾	tshi3
+翅	tshi3
+𩑾	tshih4
+爍	tshih4
+持	tshi5
+溡	tshi5
+市	tshi6	10
+飼	tshi7	10
+揤	tshih8
+蠘	tshih8
 子	ji2
 而	ji5
 兒	ji5
@@ -3296,17 +3294,17 @@ import_tables:
 拑	khinn5
 挕	hinn3
 硯	hinn7
-櫼	cinn1
-晶	cinn1
-茈	cinn2
-箭	cinn3
-糋	cinn3
-錢	cinn5
-簷	cinn5
-舐	cinn6
-鮮	chinn1
-親	chinn1	1%
-瀳	chinn5
+櫼	tsinn1
+晶	tsinn1
+茈	tsinn2
+箭	tsinn3
+糋	tsinn3
+錢	tsinn5
+簷	tsinn5
+舐	tsinn6
+鮮	tshinn1
+親	tshinn1	1%
+瀳	tshinn5
 扇	sinn3
 鹽	sinn5	1%
 鹽	sinn7	5%
@@ -3375,30 +3373,30 @@ import_tables:
 翕	hip4
 熻	hip4
 熊	him5
-斟	cim1
-唚	cim1	10
-箴	cim1
-針	cim1	0%
-枕	cim2	10
-嬸	cim2	10
-怎	cim2
-浸	cim3	10
-執	cip4
-唼	cip4
-緝	cip4	5%
-蟳	cim5	10
-集	cip8
-輯	cip8
-深	chim1
-侵	chim1
-寢	chim2
-沁	chim3
-葺	chip4
-咠	chip4
-緝	chip4
-輯	chip4
-楫	chip4
-岑	chim5
+斟	tsim1
+唚	tsim1	10
+箴	tsim1
+針	tsim1	0%
+枕	tsim2	10
+嬸	tsim2	10
+怎	tsim2
+浸	tsim3	10
+執	tsip4
+唼	tsip4
+緝	tsip4	5%
+蟳	tsim5	10
+集	tsip8
+輯	tsip8
+深	tshim1
+侵	tshim1
+寢	tshim2
+沁	tshim3
+葺	tship4
+咠	tship4
+緝	tship4
+輯	tship4
+楫	tship4
+岑	tshim5
 忍	jim2	10
 緝	jip4	5%
 壬	jim5
@@ -3547,51 +3545,51 @@ import_tables:
 彼	hit4
 眩	hin5
 掝	hit8
-真	cin1	10
-升	cin1	1%
-津	cin1	0%
-蓁	cin1
-榛	cin1
-甄	cin1
-臻	cin1
-振	cin2
-拯	cin2
-診	cin2
-賑	cin2
-縝	cin2
-疹	cin2
-進	cin3	10
-震	cin3	10
-晉	cin3
-這	cit4	10
-職	cit4
-質	cit4
-這	cit4
-績	cit4
-積	cit4
-脊	cit4	1%
-織	cit4
-鯽	cit4
-桎	cit4
-繩	cin5	10
-秦	cin5
-盡	cin6	10
-儘	cin6
-贐	cin6
-一	cit8	10
-疾	cit8
-嫉	cit8
-親	chin1	10
-嗔	chin1
-瞋	chin1
-秤	chin3	10
-凊	chin3	10
-襯	chin3
-七	chit4
-拭	chit4
-𨑨	chit4
-姼	chit4
-漆	chit4	0%
+真	tsin1	10
+升	tsin1	1%
+津	tsin1	0%
+蓁	tsin1
+榛	tsin1
+甄	tsin1
+臻	tsin1
+振	tsin2
+拯	tsin2
+診	tsin2
+賑	tsin2
+縝	tsin2
+疹	tsin2
+進	tsin3	10
+震	tsin3	10
+晉	tsin3
+這	tsit4	10
+職	tsit4
+質	tsit4
+這	tsit4
+績	tsit4
+積	tsit4
+脊	tsit4	1%
+織	tsit4
+鯽	tsit4
+桎	tsit4
+繩	tsin5	10
+秦	tsin5
+盡	tsin6	10
+儘	tsin6
+贐	tsin6
+一	tsit8	10
+疾	tsit8
+嫉	tsit8
+親	tshin1	10
+嗔	tshin1
+瞋	tshin1
+秤	tshin3	10
+凊	tshin3	10
+襯	tshin3
+七	tshit4
+拭	tshit4
+𨑨	tshit4
+姼	tshit4
+漆	tshit4	0%
 人	jin5
 仁	jin5
 認	jin7
@@ -3982,92 +3980,92 @@ import_tables:
 劾	hik8
 劃	hik8
 浴	hik8	1%
-精	cing1	10
-鐘	cing1	10
-舂	cing1	10
-征	cing1
-佂	cing1
-偵	cing1
-怔	cing1
-旌	cing1
-晶	cing1
-正	cing1	10
-漳	cing1
-眐	cing1
-睛	cing1
-菁	cing1
-蒸	cing1	10
-貞	cing1
-箏	cing1
-整	cing2	10
-腫	cing2	10
-種	cing2
-指	cing2
-井	cing2
-阱	cing2
-拯	cing2	0%
-症	cing3	10
-種	cing3	10
-證	cing3
-正	cing3
-眾	cing3	10
-政	cing3	10
-証	cing3	10
-叔	cik4
-燭	cik4
-擠	cik4
-責	cik4
-積	cik4
-績	cik4
-即	cik4
-蹟	cik4
-跡	cik4
-稷	cik4
-隻	cik4
-脊	cik4
-窄	cik4
-情	cing5	10
-從	cing5
-層	cing5	0%
-晴	cing5
-榕	cing5
-松	cing5
-靜	cing6	10
-淨	cing7
-贈	cing7
-靖	cing7
-靚	cing7
-寂	cik8
-籍	cik8
-藉	cik8
-清	ching1
-稱	ching1
-青	ching1
-蜻	ching1
-琤	ching1
-請	ching2	5%
-銃	ching3	10
-衝	ching3
-熗	ching3
-稱	ching3
-凊	ching3	0%
-測	chik4
-策	chik4
-粟	chik4
-斥	chik4
-側	chik4
-促	chik4
-惻	chik4
-慼	chik4
-尺	chik4
-赤	chik4
-戚	chik4
-叱	chik4
-膝	chik4
-冊	chik4	0%
-松	ching5
-穿	ching7
-摵	chik8
+精	tsing1	10
+鐘	tsing1	10
+舂	tsing1	10
+征	tsing1
+佂	tsing1
+偵	tsing1
+怔	tsing1
+旌	tsing1
+晶	tsing1
+正	tsing1	10
+漳	tsing1
+眐	tsing1
+睛	tsing1
+菁	tsing1
+蒸	tsing1	10
+貞	tsing1
+箏	tsing1
+整	tsing2	10
+腫	tsing2	10
+種	tsing2
+指	tsing2
+井	tsing2
+阱	tsing2
+拯	tsing2	0%
+症	tsing3	10
+種	tsing3	10
+證	tsing3
+正	tsing3
+眾	tsing3	10
+政	tsing3	10
+証	tsing3	10
+叔	tsik4
+燭	tsik4
+擠	tsik4
+責	tsik4
+積	tsik4
+績	tsik4
+即	tsik4
+蹟	tsik4
+跡	tsik4
+稷	tsik4
+隻	tsik4
+脊	tsik4
+窄	tsik4
+情	tsing5	10
+從	tsing5
+層	tsing5	0%
+晴	tsing5
+榕	tsing5
+松	tsing5
+靜	tsing6	10
+淨	tsing7
+贈	tsing7
+靖	tsing7
+靚	tsing7
+寂	tsik8
+籍	tsik8
+藉	tsik8
+清	tshing1
+稱	tshing1
+青	tshing1
+蜻	tshing1
+琤	tshing1
+請	tshing2	5%
+銃	tshing3	10
+衝	tshing3
+熗	tshing3
+稱	tshing3
+凊	tshing3	0%
+測	tshik4
+策	tshik4
+粟	tshik4
+斥	tshik4
+側	tshik4
+促	tshik4
+惻	tshik4
+慼	tshik4
+尺	tshik4
+赤	tshik4
+戚	tshik4
+叱	tshik4
+膝	tshik4
+冊	tshik4	0%
+松	tshing5
+穿	tshing7
+摵	tshik8
 仍	jing5
 生	sing1
 星	sing1
@@ -4272,28 +4270,28 @@ import_tables:
 蕙	hui7
 彗	hui7
 吠	hui7
-錐	cui1
-椎	cui1
-水	cui2	10
-嘴	cui2
-醉	cui3	10
-𠞩	cui5
-悴	cui7
-萃	cui7
-誰	cui7
-瘁	cui7
-摧	chui1
-催	chui1
-吹	chui1
-推	chui1
-崔	chui1
-喙	chui3	10
-碎	chui3
-翠	chui3
-脆	chui3
-粹	chui3
-淬	chui3
-焠	chui3
+錐	tsui1
+椎	tsui1
+水	tsui2	10
+嘴	tsui2
+醉	tsui3	10
+𠞩	tsui5
+悴	tsui7
+萃	tsui7
+誰	tsui7
+瘁	tsui7
+摧	tshui1
+催	tshui1
+吹	tshui1
+推	tshui1
+崔	tshui1
+喙	tshui3	10
+碎	tshui3
+翠	tshui3
+脆	tshui3
+粹	tshui3
+淬	tshui3
+焠	tshui3
 雖	sui1	10
 蓑	sui1
 荽	sui1
@@ -4352,16 +4350,16 @@ import_tables:
 荒	hUInn1
 園	hUInn5
 遠	hUInn6
-磚	cUInn1
-鑽	cUInn3
-全	cUInn5	1%
-旋	cUInn7	1%
-村	chUInn1
-川	chUInn1	1%
-穿	chUInn1	5%
-吮	chUInn2
-串	chUInn3
-竄	chUInn3	0%
+磚	tsUInn1
+鑽	tsUInn3
+全	tsUInn5	1%
+旋	tsUInn7	1%
+村	tshUInn1
+川	tshUInn1	1%
+穿	tshUInn1	5%
+吮	tshUInn2
+串	tshUInn3
+竄	tshUInn3	0%
 酸	sUInn1	10
 孫	sUInn1	1%
 栓	sUInn1
@@ -4428,22 +4426,22 @@ import_tables:
 墟	hi1
 噓	hi1
 許	hi2
-書	ci1
-諸	ci1
-煮	ci2	10
-咀	ci2
-薯	ci5
-蜍	ci5
-沮	ci6
-蛆	chi1
-舒	chi1
-狙	chi1
-苴	chi1
-趄	chi1
-鼠	chi2	10
-處	chi2
-處	chi3	10
-𩑾	chih4
+書	tsi1
+諸	tsi1
+煮	tsi2	10
+咀	tsi2
+薯	tsi5
+蜍	tsi5
+沮	tsi6
+蛆	tshi1
+舒	tshi1
+狙	tshi1
+苴	tshi1
+趄	tshi1
+鼠	tshi2	10
+處	tshi2
+處	tshi3	10
+𩑾	tshih4
 汝	ji2	0%
 挐	ji5
 如	ji5	10
@@ -4465,29 +4463,29 @@ import_tables:
 敘	si6
 曙	si7
 ##	u/uh
-資	cu1	10
-滋	cu1
-茲	cu1
-姿	cu1
-諮	cu1
-咨	cu1
-孜	cu1
-錙	cu1
-淄	cu1
-子	cu2	10
-梓	cu2
-仔	cu2	5%
-恣	cu3
-慈	cu5
-磁	cu5
-鶿	cu5
-自	cu7	10
-字	cu7
-差	chu1
-雌	chu1
-疵	chu1
-此	chu2	10
-次	chu3	10
+資	tsu1	10
+滋	tsu1
+茲	tsu1
+姿	tsu1
+諮	tsu1
+咨	tsu1
+孜	tsu1
+錙	tsu1
+淄	tsu1
+子	tsu2	10
+梓	tsu2
+仔	tsu2	5%
+恣	tsu3
+慈	tsu5
+磁	tsu5
+鶿	tsu5
+自	tsu7	10
+字	tsu7
+差	tshu1
+雌	tshu1
+疵	tshu1
+此	tshu2	10
+次	tshu3	10
 司	su1
 師	su1
 思	su1	10
@@ -4541,13 +4539,13 @@ import_tables:
 螺	le5
 腡	le5
 㤉	ge5
-災	ce1
-晬	ce3
-嘖	ceh4
-作	ceh4	1%
-坐	ce6
-絕	ceh8
-脆	che3
+災	tse1
+晬	tse3
+嘖	tseh4
+作	tseh4	1%
+坐	tse6
+絕	tseh8
+脆	tshe3
 雪	seh4
 踅	seh8
 ##	ue/ueh
@@ -4604,13 +4602,13 @@ import_tables:
 和	hue5
 回	hue5
 會	hue7
-罪	cue6
-睡	cue7
-吹	chue1
-炊	chue1
-髓	chue2
-箠	chue5
-揣	chue7	10
+罪	tsue6
+睡	tsue7
+吹	tshue1
+炊	tshue1
+髓	tshue2
+箠	tshue5
+揣	tshue7	10
 挼	jue5
 稅	sue3
 說	sueh4
@@ -4675,14 +4673,14 @@ import_tables:
 挾	ngeh8
 挾	ngeh8
 蟹	he6
-節	ceh4	5%
-齊	ce5
-濟	ce7
-截	ceh8
-初	che1	1%
-粞	che3
-慼	cheh4
-䠡	che5
+節	tseh4	5%
+齊	tse5
+濟	tse7
+截	tseh8
+初	tshe1	1%
+粞	tshe3
+慼	tsheh4
+䠡	tshe5
 梳	se1
 蔬	se1
 疏	se1
@@ -4734,17 +4732,17 @@ import_tables:
 更	king1
 更	king3	10
 肯	khing2	10
-增	cing1	10
-崢	cing1
-曾	cing1	10
-僧	cing1
-掙	cing1
-爭	cing1
-諍	cing3	5%
-則	cik4
-曾	cing5	1%
-賊	cik8
-蹭	ching3
+增	tsing1	10
+崢	tsing1
+曾	tsing1	10
+僧	tsing1
+掙	tsing1
+爭	tsing1
+諍	tsing3	5%
+則	tsik4
+曾	tsing5	1%
+賊	tsik8
+蹭	tshing3
 生	sing1
 牲	sing1
 甥	sing1
@@ -4933,19 +4931,19 @@ import_tables:
 予	hoo7	10
 互	hoo7	10
 護	hoo7	10
-租	coo1	10
-組	coo2	10
-祖	coo2
-阻	coo2
-俎	coo2
-詛	coo3
-雛	coo5
-助	coo7	10
-粗	choo1
-初	choo1
-楚	choo2
-醋	choo3
-措	choo3
+租	tsoo1	10
+組	tsoo2	10
+祖	tsoo2
+阻	tsoo2
+俎	tsoo2
+詛	tsoo3
+雛	tsoo5
+助	tsoo7	10
+粗	tshoo1
+初	tshoo1
+楚	tshoo2
+醋	tshoo3
+措	tshoo3
 穌	soo1
 梳	soo1
 蘇	soo1
@@ -5172,39 +5170,39 @@ import_tables:
 顥	ho6
 賀	ho7
 鶴	hoh8
-遭	co1
-慒	co1
-棗	co2
-藻	co2
-澡	co2
-早	co2
-做	co3	10
-灶	co3
-佐	co3
-作	coh4
-槽	co5
-曹	co5
-嘈	co5
-艚	co5
-造	co6	10
-座	co6
-坐	co6
-皂	co6
-昨	coh8
-踖	coh8
-臊	cho1
-操	cho1
-搓	cho1
-蹉	cho1
-草	cho2	5%
-錯	cho3	10
-剉	cho3	10
-操	cho3
-噪	cho3
-挫	cho3
-糙	cho3
-銼	cho3
-𧮙	choh4
+遭	tso1
+慒	tso1
+棗	tso2
+藻	tso2
+澡	tso2
+早	tso2
+做	tso3	10
+灶	tso3
+佐	tso3
+作	tsoh4
+槽	tso5
+曹	tso5
+嘈	tso5
+艚	tso5
+造	tso6	10
+座	tso6
+坐	tso6
+皂	tso6
+昨	tsoh8
+踖	tsoh8
+臊	tsho1
+操	tsho1
+搓	tsho1
+蹉	tsho1
+草	tsho2	5%
+錯	tsho3	10
+剉	tsho3	10
+操	tsho3
+噪	tsho3
+挫	tsho3
+糙	tsho3
+銼	tsho3
+𧮙	tshoh4
 挲	so1	10
 梭	so1
 唆	so1
@@ -5251,7 +5249,7 @@ import_tables:
 過	ko3	5%
 靠	kho3	10
 號	ho7	10
-左	co2	10
+左	tso2	10
 ##	ong/ok
 汪	ong1
 翁	ong1	5%
@@ -5570,45 +5568,45 @@ import_tables:
 馥	hok8
 穫	hok8
 匐	hok8
-宗	cong1	10
-裝	cong1	10
-莊	cong1
-妝	cong1	10
-蹤	cong1
-贓	cong1
-臧	cong1
-樁	cong1
-總	cong2
-葬	cong3
-壯	cong3	10
-綜	cong3	10
-粽	cong3	0%
-作	cok4
-叢	cong5
-藏	cong5
-崇	cong5
-琮	cong5
-奘	cong6
-藏	cong7	5%
-狀	cong7	10
-臟	cong7
-族	cok8
-昨	cok8
-聰	chong1
-窗	chong1	1%
-倉	chong1
-蒼	chong1
-瘡	chong1	0%
-匆	chong1
-滄	chong1
-囪	chong1
-艙	chong1	0%
-創	chong3	10
-愴	chong3
-簇	chok4
-錯	chok4	1%
-床	chong5	0%
-鑿	chok8	0%
+宗	tsong1	10
+裝	tsong1	10
+莊	tsong1
+妝	tsong1	10
+蹤	tsong1
+贓	tsong1
+臧	tsong1
+樁	tsong1
+總	tsong2
+葬	tsong3
+壯	tsong3	10
+綜	tsong3	10
+粽	tsong3	0%
+作	tsok4
+叢	tsong5
+藏	tsong5
+崇	tsong5
+琮	tsong5
+奘	tsong6
+藏	tsong7	5%
+狀	tsong7	10
+臟	tsong7
+族	tsok8
+昨	tsok8
+聰	tshong1
+窗	tshong1	1%
+倉	tshong1
+蒼	tshong1
+瘡	tshong1	0%
+匆	tshong1
+滄	tshong1
+囪	tshong1
+艙	tshong1	0%
+創	tshong3	10
+愴	tshong3
+簇	tshok4
+錯	tshok4	1%
+床	tshong5	0%
+鑿	tshok8	0%
 桑	song1	1%
 霜	song1	1%
 雙	song1	1%
@@ -5682,25 +5680,25 @@ import_tables:
 歇	hioh4
 葉	hioh8
 鴞	hioh8
-招	cio1
-蕉	cio1
-椒	cio1
-少	cio2	10
-照	cio3	10
-醮	cio3
-借	cioh4
-襀	cioh4
-灼	cioh4
-石	cioh8
-𪁎	chio1
-笑	chio3	10
-俏	chio3
-尺	chioh4
-螫	chioh4
-沢	chioh4
-蹠	chioh4
-耀	chio7
-蓆	chioh8
+招	tsio1
+蕉	tsio1
+椒	tsio1
+少	tsio2	10
+照	tsio3	10
+醮	tsio3
+借	tsioh4
+襀	tsioh4
+灼	tsioh4
+石	tsioh8
+𪁎	tshio1
+笑	tshio3	10
+俏	tshio3
+尺	tshioh4
+螫	tshioh4
+沢	tshioh4
+蹠	tshioh4
+耀	tshio7
+蓆	tshioh8
 尿	jio7
 燒	sio1
 相	sio1
@@ -5765,13 +5763,13 @@ import_tables:
 厚	hIo6
 候	hIo7
 逅	hIo7
-鄒	cIo1
-走	cIo2	0%
-奏	cIo3
-皺	cIo3
-縐	cIo3
-驟	cIo7
-湊	chIo3
+鄒	tsIo1
+走	tsIo2	0%
+奏	tsIo3
+皺	tsIo3
+縐	tsIo3
+驟	tsIo7
+湊	tshIo3
 搜	sIo1
 叟	sIo2
 瘦	sIo3
@@ -5866,35 +5864,35 @@ import_tables:
 謔	hiok4
 頊	hiok4
 雄	hiong5	10
-終	ciong1	10
-鐘	ciong1	0%
-盅	ciong1
-縱	ciong1
-種	ciong2	10
-踵	ciong2
-眾	ciong3
-種	ciong3
-足	ciok4	10
-祝	ciok4
-酌	ciok4
-燭	ciok4
-粥	ciok4
-灼	ciok4
-芍	ciok4
-囑	ciok4
-矚	ciok4
-從	ciong5	10
-崇	ciong5	10
-充	chiong1
-衝	chiong1
-沖	chiong1
-憧	chiong1
-縱	chiong3
-促	chiok4
-觸	chiok4
-捉	chiok4
-蹴	chiok4
-戕	chiong5
+終	tsiong1	10
+鐘	tsiong1	0%
+盅	tsiong1
+縱	tsiong1
+種	tsiong2	10
+踵	tsiong2
+眾	tsiong3
+種	tsiong3
+足	tsiok4	10
+祝	tsiok4
+酌	tsiok4
+燭	tsiok4
+粥	tsiok4
+灼	tsiok4
+芍	tsiok4
+囑	tsiok4
+矚	tsiok4
+從	tsiong5	10
+崇	tsiong5	10
+充	tshiong1
+衝	tshiong1
+沖	tshiong1
+憧	tshiong1
+縱	tshiong3
+促	tshiok4
+觸	tshiok4
+捉	tshiok4
+蹴	tshiok4
+戕	tshiong5
 逐	jiok4	5%
 絨	jiong5
 茸	jiong5
@@ -6038,26 +6036,26 @@ import_tables:
 負	hu6	10
 阜	hu6
 腐	hu7
-珠	cu1
-朱	cu1
-硃	cu1
-茱	cu1
-主	cu2	10
-注	cu3
-註	cu3
-蛀	cu3
-駐	cu3
-鑄	cu3
-柱	cu6
-住	cu7
-苴	cu7
-趨	chu1
-樞	chu1
-厝	chu3
-趣	chu3
-焠	chuh4
-澍	chu6
-跙	chu6
+珠	tsu1
+朱	tsu1
+硃	tsu1
+茱	tsu1
+主	tsu2	10
+注	tsu3
+註	tsu3
+蛀	tsu3
+駐	tsu3
+鑄	tsu3
+柱	tsu6
+住	tsu7
+苴	tsu7
+趨	tshu1
+樞	tshu1
+厝	tshu3
+趣	tshu3
+焠	tshuh4
+澍	tshu6
+跙	tshu6
 愈	ju2	10
 愈	ji2	#漳音文讀
 裕	ju7
@@ -6106,10 +6104,10 @@ import_tables:
 吁	hu1
 栩	hu2
 詡	hu2
-聚	cu6
-趨	chu1
-取	chu2
-娶	chu2
+聚	tsu6
+趨	tshu1
+取	tshu2
+娶	tshu2
 乳	ju2
 庾	ju2
 儒	ju5
@@ -6338,43 +6336,43 @@ import_tables:
 分	hun7
 份	hun7
 佛	hut8
-尊	cun1	10
-遵	cun1	10
-諄	cun1
-樽	cun1
-準	cun2	10
-准	cun2	10
-撙	cun2
-俊	cun3
-圳	cun3
-駿	cun3
-顫	cun3
-峻	cun3
-竣	cun3
-浚	cun3
-濬	cun3
-卒	cut4
-船	cun5	10
-存	cun5	10
-前	cun5
-蹲	cun5
-捘	cun6	10
-陣	cun7	5%
-朮	cut8
-秫	cut8
-捽	cut8
-春	chun1
-村	chun1
-伸	chun1
-忖	chun2
-蠢	chun2
-寸	chun3
-吋	chun3
-出	chut4
-齣	chut4
-猝	chut4
-存	chun5
-賰	chun6	10
+尊	tsun1	10
+遵	tsun1	10
+諄	tsun1
+樽	tsun1
+準	tsun2	10
+准	tsun2	10
+撙	tsun2
+俊	tsun3
+圳	tsun3
+駿	tsun3
+顫	tsun3
+峻	tsun3
+竣	tsun3
+浚	tsun3
+濬	tsun3
+卒	tsut4
+船	tsun5	10
+存	tsun5	10
+前	tsun5
+蹲	tsun5
+捘	tsun6	10
+陣	tsun7	5%
+朮	tsut8
+秫	tsut8
+捽	tsut8
+春	tshun1
+村	tshun1
+伸	tshun1
+忖	tshun2
+蠢	tshun2
+寸	tshun3
+吋	tshun3
+出	tshut4
+齣	tshut4
+猝	tshut4
+存	tshun5
+賰	tshun6	10
 潤	7-jun
 韌	7-jun
 閏	7-jun
@@ -6520,33 +6518,33 @@ import_tables:
 嗅	hiu3
 𫝺	hiu3
 裘	hiu5
-州	ciu1
-睭	ciu1
-洲	ciu1
-周	ciu1
-啾	ciu1
-舟	ciu1
-酒	ciu2	10
-守	ciu2	10
-帚	ciu2
-咒	ciu3	10
-蛀	ciu3	10
-喌	ciuh4
-就	ciu7	20
-鷲	ciu7
-秋	chiu1
-鬚	chiu1
-羞	chiu1
-鶖	chiu1
-鞦	chiu1
-萩	chiu1
-手	chiu2	10
-帚	chiu2
-醜	chiu2
-臭	chiu3	5%
-愁	chiu5	10
-揫	chiu5
-樹	chiu7	10
+州	tsiu1
+睭	tsiu1
+洲	tsiu1
+周	tsiu1
+啾	tsiu1
+舟	tsiu1
+酒	tsiu2	10
+守	tsiu2	10
+帚	tsiu2
+咒	tsiu3	10
+蛀	tsiu3	10
+喌	tsiuh4
+就	tsiu7	20
+鷲	tsiu7
+秋	tshiu1
+鬚	tshiu1
+羞	tshiu1
+鶖	tshiu1
+鞦	tshiu1
+萩	tshiu1
+手	tshiu2	10
+帚	tshiu2
+醜	tshiu2
+臭	tshiu3	5%
+愁	tshiu5	10
+揫	tshiu5
+樹	tshiu7	10
 柔	jiu5
 揉	jiu5
 鰇	jiu5
@@ -6616,32 +6614,32 @@ import_tables:
 扭	ngiu2
 鄉	hiunn1
 香	hiunn1
-章	ciunn1	10
-樟	ciunn1
-漿	ciunn1
-螿	ciunn1
-漳	ciunn1	1%
-掌	ciunn2
-蔣	ciunn2
-槳	ciunn2
-醬	ciunn3
-障	ciunn3
-裳	ciunn5
-癢	ciunn6	10
-上	ciunn6	10
-槍	chiunn1
-鯧	chiunn1
-搶	chiunn2	10
-廠	chiunn2
-唱	chiunn3	10
-呛	chiunn3
-牆	chiunn5
-楊	chiunn5
-薔	chiunn5
-像	chiunn6	10
-上	chiunn6
-象	chiunn6	10
-匠	chiunn7
+章	tsiunn1	10
+樟	tsiunn1
+漿	tsiunn1
+螿	tsiunn1
+漳	tsiunn1	1%
+掌	tsiunn2
+蔣	tsiunn2
+槳	tsiunn2
+醬	tsiunn3
+障	tsiunn3
+裳	tsiunn5
+癢	tsiunn6	10
+上	tsiunn6	10
+槍	tshiunn1
+鯧	tshiunn1
+搶	tshiunn2	10
+廠	tshiunn2
+唱	tshiunn3	10
+呛	tshiunn3
+牆	tshiunn5
+楊	tshiunn5
+薔	tshiunn5
+像	tshiunn6	10
+上	tshiunn6
+象	tshiunn6	10
+匠	tshiunn7
 傷	siunn1	10
 相	siunn1	1%
 箱	siunn1
@@ -6712,22 +6710,22 @@ import_tables:
 方	hng1	1%
 坊	hng1
 哼	hngh4
-庄	cng1
-贓	cng1
-裝	cng1
-莊	cng1
-妝	cng1
-指	cng2
-從	cng5
-狀	cng7
-臟	cng7
-伸	chng1
-倉	chng1
-瘡	chng1
-艙	chng1
-滄	chng1	1%
-床	chng5
-擤	chngh8
+庄	tsng1
+贓	tsng1
+裝	tsng1
+莊	tsng1
+妝	tsng1
+指	tsng2
+從	tsng5
+狀	tsng7
+臟	tsng7
+伸	tshng1
+倉	tshng1
+瘡	tshng1
+艙	tshng1
+滄	tshng1	1%
+床	tshng5
+擤	tshngh8
 霜	sng1
 桑	sng1
 孀	sng1
