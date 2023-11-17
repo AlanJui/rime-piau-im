@@ -50,31 +50,267 @@ menu:
   alternative_select_keys: 'ABCDEFGHIJ'
 
 speller:
-  alphabet: '1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-43657'
+  alphabet: '1qa!z2wsxedcEgGyhnbrfvtgbByhnNuj8ikoOmM9l,<0p;/.-43657'
   delimiter: " '"
   algebra:
-    # 變調
-    # - derive/1/ /  # 1: 陰平，按鍵 [SP]
-    # - derive/2/4/  # 2: 上聲，按鍵 [4]
-    # - derive/3/3/  # 3: 陰去，按鍵 [3]
-    # - derive/5/6/  # 5: 陽平，按鍵 [6]
-    # - derive/7/5/  # 7: 陽去，按鍵 [5]
     # 拼音編碼與鍵盤按鈕對映
-    - xlit|bpMBdtnlgkhGwzcsjZCSJiuaoøemWIUYFLQKVHN|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|
+    # - xlit|bpMBdtnlgkhGwzcsjZCSJiuaoøemWIUYFLQKVHN|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|
+    # 鼻化韻處理
+    # - derive/([^u])enn/$1eenn/
+    # - xform/b(.+)nn/m$1/
+    # - xform/l(.+)nn/n$1/
+    # - xform/g(.+)nn/ng$1/
+    # - derive/([^blg])(.+)nn/$1$2/
+    # 聲母簡拼
+    - abbrev/^([lpktcjsqbghmn])([^hsg]).+$/$1/
+    - abbrev/^(ph).+$/$1/
+    - abbrev/^(th).+$/$1/
+    - abbrev/^(kh).+$/$1/
+    - abbrev/^(ng).+$/$1/
+    - abbrev/^(ts).+$/$1/
+    - abbrev/^(tsh).+$/$1/
+    # ===========================================
+    # 與【彙集雅俗通十五音】相容設定
+    # ===========================================
+    - derive/ou/oo/
+    - derive/ee/e/
+    - derive/ei/e/
+    # ===========================================
+    # 與白話字（POJ）相容設定
+    # ===========================================
+    - derive/e(ng|k)/i$1/
+    - derive/tsh/chh/
+    - derive/ts/ch/
+    - abbrev/^(ch).+$/$1/
+    - abbrev/^(chh).+$/$1/
+    # ===========================================
+    # 與TLPA改良式（TLPA+）相容設定
+    # ===========================================
+    - derive/ts/z/
+    - derive/tsh/c/
+    - abbrev/^(z).+$/$1/
+    - abbrev/^(c).+$/$1/
+    # ===========================================
+    # 調整
+    # ===========================================
 
 translator:
-  dictionary: piau_im.tps
+  # dictionary: piau_im.tps
+  dictionary: piau_im.tl
   prism: piau_im_tps
   spelling_hints: 5
   enable_user_dict: false
   comment_format:
-    - xform/^/\t→ /
-    - xform/'/ /
-    - xlit|bpMBdtnlgkhGwzcsjZCSJiuaoøemWIUYFLQKVHN|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㆬㆭㄞㄠㆰㆱㄢㄣㄤㄥㆲｎ|
-  preedit_format:
-    - xform/ /ˉ/
-    - xform/'/ /
-    - xlit|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㆣㄫㄗㄘㄙㆡㄐㄑㄒㆢㄧㄨㄚㆦㄜㆤㆬㆭㄞㄠㆰㆱㄢㄣㄤㄥㆲｎ|
+    - derive/^([aeiou])/ø$1/
+    - xform/^([a-zø]+\d)$/$1;$1/
+    #======================================================
+    # 聲母
+    #======================================================
+    - xform/^p(?!h)/ㄅ/
+    - xform/^ph/ㄆ/
+    - xform/^m/ㄇ/
+    - xform/^b/ㆠ/
+    #------------------------------------------------------
+    - xform/^t(?![hs])/ㄉ/
+    - xform/^th/ㄊ/
+    - xform/^nl/ㄋ/
+    - xform/^l/ㄌ/
+    #------------------------------------------------------
+    - xform/^k(?!h)/ㄍ/
+    - xform/^kh/ㄎ/
+    - xform/^h/ㄏ/
+    - xform/^g/ㆣ/
+    - xform/^ng/ㄫ/
+    #------------------------------------------------------
+    - xform/^ts(?!h)/ㄗ/
+    - xform/^tsh/ㄘ/
+    - xform/^s/ㄙ/
+    - xform/^j/ㆡ/
+    #------------------------------------------------------
+    - xform/^ch(?!h)/ㄗ/
+    - xform/^chh/ㄘ/
+    #------------------------------------------------------
+    - xform/^z/ㄗ/
+    - xform/^c/ㄘ/
+    #======================================================
+    # 韻母
+    #======================================================
+    # 元音: a i u e o oo
+    - xform/a/ㄚ/
+    - xform/i/ㄧ/
+    - xform/u/ㄨ/
+    - xform/e/ㆤ/
+    - xform/o/ㄜ/
+    - xform/oo/ㆦ/
+    - xform/O/ㆦ/
+    - xform/ㄜㄜ/ㆦ/
+    #======================================================
+    # 韻化輔音
+    #======================================================
+    - xform/m/ㆬ/
+    - xform/n(?!g)/ㄣ/
+    - xform/ng/ㆭ/
+    #======================================================
+    # 複合韻母: ai, au, ia, iu, io, ua, ui, ue, iau, uai
+    #======================================================
+    # a: ai, au 
+    - xform/ai/ㄞ/
+    - xform/au/ㄠ/
+    # - xform/an/ㄢ/
+    #------------------------------------------------------
+    # i: ia, iu, io
+    - xform/ia/ㄧㄚ/
+    - xform/iu/ㄧㄨ/
+    - xform/io/ㄧㄜ/
+    #------------------------------------------------------
+    # u: ua, ui, ue
+    - xform/ua/ㄨㄚ/
+    - xform/ui/ㄨㄧ/
+    - xform/ue/ㄨㆤ/
+    #------------------------------------------------------
+    # i: iau
+    - xform/iau/ㄧㄠ/
+    #------------------------------------------------------
+    # u: uai
+    - xform/uai/ㄨㄞ/
+    #------------------------------------------------------
+    # 合韻母
+    - xform/ㄚㆬ/ㆰ/
+    - xform/ㄚㄣ/ㄢ/
+    - xform/ㄚㆭ/ㄤ/
+    - xform/ㄚㄨ/ㄠ/
+    - xform/ㄚㄧ/ㄞ/
+    #------------------------------------------------------
+    # 鼻韻母: ann, inn, enn, onn, ainn, iann, iunn(ionn), uann uainn iaunn
+    # - xform/ann$/ㆩ/
+    - xform/ㄢㄣ/ㆩ/
+    - xform/inn$/ㆪ/
+    - xform/enn$/ㆥ/
+    #------------------------------------------------------
+    # - xform/onn$/ㆧ/
+    - xform/ㆦㄣ/ㆧ/
+    - xform/ainn/ㆮ/
+    #------------------------------------------------------
+    - xform/iann/ㄧㆩ/
+    - xform/iunn/ㄧㆫ/
+    - xform/ionn/ㄧㆧ/
+    - xform/uann/ㄨㆩ/
+    - xform/uainn/ㄨㆮ/
+    - xform/iaunn/ㄧㆩ/
+    #------------------------------------------------------
+    # 鼻音韻尾
+    #------------------------------------------------------
+    # a: am, an, ang
+    - xform/am/ㆰ/
+    - xform/an/ㄢ/
+    - xform/ang/ㄤ/
+    - xform/ㄚㄣ/ㄢ/
+    #------------------------------------------------------
+    # i: im, in, ing
+    - xform/im/ㄧㆬ/
+    - xform/in/ㄧㄣ/
+    # - xform/ing/ㄧㄥ/
+    - xform/ㄧㆭ/ㄧㄥ/
+    #------------------------------------------------------
+    # u: un
+    - xform/un/ㄨㄣ/
+    #------------------------------------------------------
+    # o: ong
+    - xform/om/ㆱ/
+    - xform/ㄜㆬ/ㆱ/
+    - xform/ong/ㆲ/
+    - xform/ㄜㆭ/ㆲ/
+    #------------------------------------------------------
+    # ia: iam, ian, iang
+    - xform/iam/ㄧㆰ/
+    - xform/ian/ㄧㄢ/
+    - xform/iang/ㄧㄤ/
+    - xform/ㄧㄚㄣ/ㄧㄢ/
+    #------------------------------------------------------
+    # i: iong
+    - xform/iong/ㄧㆲ/
+    #------------------------------------------------------
+    # u: uan, uang
+    - xform/uan/ㄨㄢ/
+    - xform/uang/ㄨㄤ/
+    #------------------------------------------------------
+    # 調整 ㄗ ㄘ ㄙ ㆡ 轉 ㄐ ㄑ ㄒ ㆢ
+    - xform/ㄗㄧ/ㄐㄧ/
+    - xform/ㄘㄧ/ㄑㄧ/
+    - xform/ㄙㄧ/ㄒㄧ/
+    - xform/ㆡㄧ/ㆢㄧ/
+    - xform/ㄧ ㆭ/ㄧㄥ/
+    - xform/([ㄐㄑㄒㆢ])ㄧ/$1ㄧ/
+    #------------------------------------------------------
+    # 入聲
+    - xform/p/ㆴ/
+    - xform/t/ㆵ/
+    - xform/k/ㆻ/
+    - xform/h/ㆷ/
+    # - xform/p8/ㆴ̇/
+    # - xform/t8/ㆵ̇/
+    # - xform/k8/ㆻ̇
+    # - xform/h8/ㆷ̇/
+    #------------------------------------------------------
+    - xform/ㆦㄍ/ㆦㆻ/
+    # - xform/ㄜㄍ/ㆦㆻ/
+    # - xform/ㄜ(?[ㆴㆵㆻ ㆷ])/ㆦ$1/
+    #------------------------------------------------------
+    # 聲調
+    - xlit|12357|ˉˋ˪ˊ˫|
+    - xform/4//
+    - xform/8/˙/
+  # preedit_format:
+  #   #======================================================
+  #   # 羅馬字轉寫
+  #   #======================================
+  #   # - xform/c/ts/
+  #   # 「更」韻
+  #   # - xform/([^u])enn/$1eenn/
+  #   # 「文」「柳」「語」鼻化韻
+  #   # - xform/b([aeiou]+)nn/m$1/
+  #   # - xform/l([aeiou]+)nn/n$1/
+  #   # - xform/g([aeiou]+)nn/ng$1/
+  #   # 標調
+  #   - xform/([aeiou])(m?n*h?g?p?t?k?)([1234578])/$1$3$2/
+  #   - xform/([aeo])([iueo])([1234578])/$1$3$2/
+  #   - 'xform a1 a'
+  #   - 'xform e1 e'
+  #   - 'xform i1 i'
+  #   - 'xform u1 u'
+  #   - 'xform o1 o'
+  #   - 'xform a2 á'
+  #   - 'xform e2 é'
+  #   - 'xform i2 í'
+  #   - 'xform u2 ú'
+  #   - 'xform o2 ó'
+  #   - 'xform a3 à'
+  #   - 'xform e3 è'
+  #   - 'xform i3 ì'
+  #   - 'xform u3 ù'
+  #   - 'xform o3 ò'
+  #   - 'xform a4 a'
+  #   - 'xform e4 e'
+  #   - 'xform i4 i'
+  #   - 'xform u4 u'
+  #   - 'xform o4 o'
+  #   - 'xform a5 â'
+  #   - 'xform e5 ê'
+  #   - 'xform i5 î'
+  #   - 'xform u5 û'
+  #   - 'xform o5 ô'
+  #   - 'xform a7 ā'
+  #   - 'xform e7 ē'
+  #   - 'xform i7 ī'
+  #   - 'xform u7 ū'
+  #   - 'xform o7 ō'
+  #   - 'xform a8 a̍'
+  #   - 'xform e8 e̍'
+  #   - 'xform i8 i̍'
+  #   - 'xform u8 u̍'
+  #   - 'xform o8 o̍'
+  #   #   鼻化符號顯示成上標
+  #   - xform/nn(h?)(\d|\>)/ⁿ$1$2/
 
 punctuator:
   import_preset: default
