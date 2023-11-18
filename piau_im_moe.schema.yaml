@@ -24,6 +24,9 @@ switches:
     reset: 0
     states: [ 半形, 全形 ]
 
+menu:
+  alternative_select_keys: 'ABCDEFGHIJ'
+
 engine:
   processors:
     - ascii_composer
@@ -34,7 +37,6 @@ engine:
     - selector
     - navigator
     - fluency_editor
-    # - express_editor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -44,12 +46,9 @@ engine:
   translators:
     - punct_translator
     - table_translator@custom_phrase
-    - r10n_translator
+    - script_translator
   filters:
     - uniquifier
-
-menu:
-  alternative_select_keys: 'ABCDEFGHIJ'
 
 speller:
   alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
@@ -57,66 +56,67 @@ speller:
   finals: ' 43567'
   delimiter: "'"
   use_space: true
+  # use_space: false
   algebra:
-    #======================================================
-    # ㄐㄑㄒㆢ 和 ㄗㄘㄙㆡ
-    #======================================================
-    # 將字典中的「台羅拚音」，轉換成輸入法使用的「注音碼」。
-    - xform/tsh(?=i)/Ji/     # ㄑ
-    - xform/ts(?=i)/ji/      # ㄐ
-    - xform/s(?=i)/S/        # ㄒ
-    - xform/tsh/C/           # ㄘ
-    - xform/ts/c/            # ㄗ
-    - xform/j(?=i)/g/        # ㆢ
-    # 方音符號會分 ㆢㄐㄑㄒ 和 ㆡㄗㄘㄙ
-    # - xform/c(N?i)/j$1/  # ㄐㄧ
-    # - xform/C(N?i)/J$1/  # ㄑㄧ
-    # - xform/s(N?i)/S$1/  # ㄒㄧ
-    - xform/j/z/             # ㆢ
-    #======================================================
-    # ㄅ(p)  ㄆ(P)  ㄇ(m)  ㆠ(b)
-    #======================================================
-    - xform/ph/P/            # ㄆ
-    - xform/kh/K/            # ㄎ
-    #======================================================
-    # ㄉ(t)  ㄊ(th)  ㄋ(n)  ㄌ(l)
-    #======================================================
-    - xform/th/T/            # ㄊ
-    - xform/l/d/             # ㄌ
-    #======================================================
-    # ㄍ(k)  ㄎ(kh)  ㄏ(h)  ㆣ(g)  ㄫ(ng)
-    #======================================================
-    - xform/kh/K/            # ㄎ
-    - xform/^ng/ㄫ/          # ㄫ
-    #======================================================
-    # ㄧ(i)  ㄨ(u)
-    # ㄚ(a)  ㆦ(oo)  ㄜ(o)  ㆤ(e)
-    #======================================================
-    - xform/oo/ø/            # ㆦ
-
-    # - xform/onn/No/          # ㆧ
-    # - xform/enn/E/           # ㆥ
-    # - xform/inn/I/           # ㆪ
-    # - xform/unn/U/           # ㆫ
-    # - xform/ainn/NI/         # ㆮ
-    # - xform/aunn/NU/         # ㆯ
-    # - xform/ann/Na/          # ㆩ
-    # - xform/onn/Q/           # ㆧ
-    # - xform/enn/E/           # ㆥ
-    # - xform/inn/I/           # ㆪ
-    # - xform/unn/U/           # ㆫ
-    # # 鼻音
-    # - xform/N([iu]?[iuaoeIU])/$1N/  # 鼻音拍佇後壁
-    # - derive/([iuaoeIU])N/$1$1/     # 拍兩擺韻母來拍鼻音
-    #======================================================
-    # ㄞㄠㆰㄢㄣㄤㆬㆭ
-    #======================================================
-    - xform/m/B/             # ㄌ
-    #======================================================
-    # 方音符號會分 ㄇㄋㄫ 和 ㆠㄌㆣ
-    #======================================================
     # 拼音編碼與鍵盤按鈕對映
-    - xlit|pPmbtTndkKhjJSgqzcCsiuBaøoMIeUYLDQGN123570|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657|
+    - xlit|pPmbtTndkKhjJSgqzcCsiuBaoøMIeUYLDQGN123570|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657|
+    # #======================================================
+    # # ㄐㄑㄒㆢ 和 ㄗㄘㄙㆡ
+    # #======================================================
+    # # 將字典中的「台羅拚音」，轉換成輸入法使用的「注音碼」。
+    # - xform/tsh(?=i)/Ji/     # ㄑ
+    # - xform/ts(?=i)/ji/      # ㄐ
+    # - xform/s(?=i)/S/        # ㄒ
+    # - xform/tsh/C/           # ㄘ
+    # - xform/ts/c/            # ㄗ
+    # - xform/j(?=i)/g/        # ㆢ
+    # # 方音符號會分 ㆢㄐㄑㄒ 和 ㆡㄗㄘㄙ
+    # # - xform/c(N?i)/j$1/  # ㄐㄧ
+    # # - xform/C(N?i)/J$1/  # ㄑㄧ
+    # # - xform/s(N?i)/S$1/  # ㄒㄧ
+    # - xform/j/z/             # ㆢ
+    # #======================================================
+    # # ㄅ(p)  ㄆ(P)  ㄇ(m)  ㆠ(b)
+    # #======================================================
+    # - xform/ph/P/            # ㄆ
+    # - xform/kh/K/            # ㄎ
+    # #======================================================
+    # # ㄉ(t)  ㄊ(th)  ㄋ(n)  ㄌ(l)
+    # #======================================================
+    # - xform/th/T/            # ㄊ
+    # - xform/l/d/             # ㄌ
+    # #======================================================
+    # # ㄍ(k)  ㄎ(kh)  ㄏ(h)  ㆣ(g)  ㄫ(ng)
+    # #======================================================
+    # - xform/kh/K/            # ㄎ
+    # - xform/^ng/ㄫ/          # ㄫ
+    # #======================================================
+    # # ㄧ(i)  ㄨ(u)
+    # # ㄚ(a)  ㆦ(oo)  ㄜ(o)  ㆤ(e)
+    # #======================================================
+    # - xform/oo/ø/            # ㆦ
+    #
+    # # - xform/onn/No/          # ㆧ
+    # # - xform/enn/E/           # ㆥ
+    # # - xform/inn/I/           # ㆪ
+    # # - xform/unn/U/           # ㆫ
+    # # - xform/ainn/NI/         # ㆮ
+    # # - xform/aunn/NU/         # ㆯ
+    # # - xform/ann/Na/          # ㆩ
+    # # - xform/onn/Q/           # ㆧ
+    # # - xform/enn/E/           # ㆥ
+    # # - xform/inn/I/           # ㆪ
+    # # - xform/unn/U/           # ㆫ
+    # # # 鼻音
+    # # - xform/N([iu]?[iuaoeIU])/$1N/  # 鼻音拍佇後壁
+    # # - derive/([iuaoeIU])N/$1$1/     # 拍兩擺韻母來拍鼻音
+    # #======================================================
+    # # ㄞㄠㆰㄢㄣㄤㆬㆭ
+    # #======================================================
+    # - xform/m/B/             # ㄌ
+    # #======================================================
+    # # 方音符號會分 ㄇㄋㄫ 和 ㆠㄌㆣ
+    # #======================================================
 
 translator:
   # dictionary: taigi_yu
@@ -127,12 +127,12 @@ translator:
   comment_format:
     - xform/^/\t→ /
     - xform/'/ /
-    - xlit|pPbtTdkKgcCzshiuaøoeIUBDGN|ㄅㄆㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
-    # 方音符號會分 ㆢㄐㄑㄒ 和 ㆡㄗㄘㄙ
-    - xform/ㄗ((ｎ)?ㄧ)/ㄐ$1/
-    - xform/ㄘ((ｎ)?ㄧ)/ㄑ$1/
-    - xform/ㆡ((ｎ)?ㄧ)/ㆢ$1/
-    - xform/ㄙ((ｎ)?ㄧ)/ㄒ$1/
+    - xlit|pPbtTdkKgcCzshiuaoøeIUBDGN|ㄅㄆㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
+    # # 方音符號會分 ㆢㄐㄑㄒ 和 ㆡㄗㄘㄙ
+    # - xform/ㄗ((ｎ)?ㄧ)/ㄐ$1/
+    # - xform/ㄘ((ｎ)?ㄧ)/ㄑ$1/
+    # - xform/ㆡ((ｎ)?ㄧ)/ㆢ$1/
+    # - xform/ㄙ((ｎ)?ㄧ)/ㄒ$1/
     # # 方音符號會分 ㄇㄋㄫ 和 ㆠㄌㆣ
     # - xform/ㆠｎ/ㄇ/
     # - xform/ㄌｎ/ㄋ/
@@ -208,10 +208,16 @@ custom_phrase:
   initial_quality: 1
 
 punctuator:
-  import_preset: default
+  import_preset: symbols_yu_alpha
 
 key_binder:
   import_preset: default
+  bindings:
+    - { when: has_menu, accept: comma, send: comma }      # ㆤ
+    - { when: has_menu, accept: period, send: period }    # ㆲ
+    - { when: has_menu, accept: minus, send: minus }      # ｎ
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
 
 recognizer:
   patterns:
