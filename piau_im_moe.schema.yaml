@@ -8,7 +8,9 @@ schema:
   author: 
     - 居正中 Alan Jui <AlanJui.1960@gmail.com>
   description: |
-    輸入河洛話注音符號
+    屬「方音符號」輸入法；使用源自 taigi_yu ，
+    採「台羅拚音」為基典之《漢字典》。
+    以「白話音」為主；「文讀音」為輔。
     
     鍵盤對應：
       ㄅ ㄉ ３ ２ ７ ５ ． ㄚ ㄞ ㄢ ｎ
@@ -36,7 +38,7 @@ engine:
     - punctuator
     - selector
     - navigator
-    - fluency_editor
+    - express_editor
   segmentors:
     - ascii_segmentor
     - matcher
