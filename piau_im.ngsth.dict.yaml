@@ -2,12 +2,14 @@
 # encoding: utf-8
 # 彙集雅俗通（文言音）漢字典（使用台羅拼音注音）
 ---
-# name: piau_im.ngee_siok_thong
 name: piau_im.ngsth
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
+import_tables:
+  - piau_im.hanji
 ...
+軾	sik4
 一	it4	
 丨	khun2	
 丶	tshu2	

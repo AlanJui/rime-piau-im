@@ -216,12 +216,6 @@ translator:
     #======================================================
     # 自「雅俗通十五音」轉化而得的韻母
     #======================================================
-    - xform/un/ㄨㄣ/  # 君
-    - xform/ut/ㄨㆵ/  # 君
-    - xform/a/ㄚ/  # 膠
-    - xform/ah/ㄚㆷ/  # 膠
-    - xform/ann/ㆩ/  # 監
-    - xform/annh/ㆩㆷ/  # 監
     - xform/ai/ㄞ/  # 皆
     - xform/ainn/ㆮ/  # 閒
     - xform/am/ㆰ/  # 甘
@@ -233,6 +227,64 @@ translator:
     - xform/au/ㄠ/  # 交
     - xform/auh/ㄠㆷ/  # 交
     - xform/aunn/ㆯ/  # 爻
+    #------------------------------------------------------
+    - xform/iang/ㄧㄤ/  # 姜
+    - xform/iak/ㄧㄚㆻ/  # 姜
+    - xform/iong/ㄧㆲ/  # 恭
+    - xform/iok/ㄧㆦㆻ/  # 恭
+    - xform/ing/ㄧㄥ/  # 經
+    - xform/ik/ㄧㆻ/  # 經
+    - xform/iam/ㄧㆰ/  # 兼
+    - xform/iap/ㄧㄚㆴ/  # 兼
+    - xform/ian/ㄧㄢ/  # 堅
+    - xform/iat/ㄧㄚㆵ/  # 堅
+    - xform/iann/ㄧㆩ/  # 驚
+    - xform/iau/ㄧㄠ/  # 嬌
+    - xform/iauh/ㄧㄠㆷ/  # 嬌
+    - xform/iaunn/ㄧㆯ/  # 嘄
+    - xform/iaunnh/ㄧㆯㆷ/  # 嘄
+    - xform/ia/ㄧㄚ/  # 迦
+    - xform/iah/ㄧㄚㆷ/  # 迦
+    - xform/im/ㄧㆬ/  # 金
+    - xform/ip/一ㆴ/  # 金
+    - xform/in/ㄧㄣ/  # 巾
+    - xform/it/ㄧㆵ/  # 巾
+    - xform/io/ㄧㄜ/  # 茄
+    - xform/ioh/ㄧㄜㆷ/  # 茄
+    - xform/ionn/ㄧㆧ/  # 薑
+    - xform/iu/ㄧㄨ/  # 丩
+    - xform/iunn/ㄧㆫ/  # 牛
+    #------------------------------------------------------
+    - xform/ong/ㆲ/  # 公
+    - xform/ok/ㆦㆻ/  # 公
+    - xform/om/ㆱ/  # 箴
+    - xform/op/ㆦㆴ/  # 箴
+    #------------------------------------------------------
+    - xform/uang/ㄨㄤ/  # 光
+    - xform/uak/ㄨㄚㆻ/  # 光
+    - xform/uai/ㄨㄞ/  # 乖
+    - xform/uaih/ㄨㄞㆷ/  # 乖
+    - xform/ua/ㄨㄚ/  # 瓜
+    - xform/uah/ㄨㄚㆷ/  # 瓜
+    - xform/uan/ㄨㄢ/  # 觀
+    - xform/uat/ㄨㄚㆵ/  # 觀
+    - xform/uann/ㄨㆩ/  # 官
+    - xform/uainn/ㄨㆮ/  # 閂
+    - xform/uainnh/ㄨㆮㆷ/  # 閂
+    #------------------------------------------------------
+    - xform/ue/ㄨㆤ/  # 檜
+    - xform/ueh/ㄨㆤㆷ/  # 檜
+    - xform/uenn/ㄨㆥ/  # 糜
+    - xform/ui/ㄨㄧ/  # 規
+    - xform/uinn/ㄨㆪ/  # 褌
+    - xform/un/ㄨㄣ/  # 君
+    - xform/ut/ㄨㆵ/  # 君
+    #------------------------------------------------------
+    - xform/a/ㄚ/  # 膠
+    - xform/ah/ㄚㆷ/  # 膠
+    - xform/ann/ㆩ/  # 監
+    - xform/annh/ㆩㆷ/  # 監
+
     - xform/e/ㆤ/  # 伽
     - xform/eh/ㆤㆷ/  # 伽
     - xform/enn/ㆥ/  # 更
@@ -240,89 +292,31 @@ translator:
     - xform/ee/ㄝ/  # 嘉
     - xform/eeh/ㄝㆷ/  # 嘉
     - xform/ei/ㄟ/  # 稽
+
     - xform/i/ㄧ/  # 居
     - xform/ih/ㄧㆷ/  # 居
     - xform/inn/ㆪ/  # 梔
     - xform/innh/ㆪㆷ/  # 梔
-    - xform/ia/ㄧㄚ/  # 迦
-    - xform/iah/ㄧㄚㆷ/  # 迦
-    - xform/iam/ㄧㆰ/  # 兼
-    - xform/iap/ㄧㄚㆴ/  # 兼
-    - xform/ian/ㄧㄢ/  # 堅
-    - xform/iat/ㄧㄚㆵ/  # 堅
-    - xform/iann/ㄧㆩ/  # 驚
-    - xform/iang/ㄧㄤ/  # 姜
-    - xform/iak/ㄧㄚㆻ/  # 姜
-    - xform/iau/ㄧㄠ/  # 嬌
-    - xform/iauh/ㄧㄠㆷ/  # 嬌
-    - xform/iaunn/ㄧㆯ/  # 嘄
-    - xform/iaunnh/ㄧㆯㆷ/  # 嘄
-    - xform/im/ㄧㆬ/  # 金
-    - xform/ip/一ㆴ/  # 金
-    - xform/in/ㄧㄣ/  # 巾
-    - xform/it/ㄧㆵ/  # 巾
-    - xform/ing/ㄧㄥ/  # 經
-    - xform/ik/ㄧㆻ/  # 經
-    - xform/io/ㄧㄜ/  # 茄
-    - xform/ioh/ㄧㄜㆷ/  # 茄
-    - xform/ionn/ㄧㆧ/  # 薑
-    - xform/iong/ㄧㆲ/  # 恭
-    - xform/iok/ㄧㆦㆻ/  # 恭
-    - xform/iu/ㄧㄨ/  # 丩
-    - xform/iunn/ㄧㆫ/  # 牛
-    - xform/m/ㆬ/  # 姆
-    - xform/ng/ㆭ/  # 鋼
-    - xform/o/ㄜ/  # 高
-    - xform/oh/ㄜㆷ/  # 高
-    - xform/onn/ㆧ/  # 扛
-    - xform/onnh/ㆧㆷ/  # 扛
-    - xform/oo/ㆦ/  # 沽
-    - xform/oonn/ㆧ/  # 姑
-    - xform/om/ㆱ/  # 箴
-    - xform/op/ㆦㆴ/  # 箴
-    - xform/ong/ㆲ/  # 公
-    - xform/ok/ㆦㆻ/  # 公
-    - xform/u/ㄨ/  # 艍
-    - xform/uh/ㄨㆷ/  # 艍
-    - xform/ua/ㄨㄚ/  # 瓜
-    - xform/uah/ㄨㄚㆷ/  # 瓜
-    - xform/uann/ㄨㆩ/  # 官
-    - xform/uai/ㄨㄞ/  # 乖
-    - xform/uaih/ㄨㄞㆷ/  # 乖
-    - xform/uainn/ㄨㆮ/  # 閂
-    - xform/uainnh/ㄨㆮㆷ/  # 閂
-    - xform/uan/ㄨㄢ/  # 觀
-    - xform/uat/ㄨㄚㆵ/  # 觀
-    - xform/uang/ㄨㄤ/  # 光
-    - xform/uak/ㄨㄚㆻ/  # 光
-    - xform/ue/ㄨㆤ/  # 檜
-    - xform/ueh/ㄨㆤㆷ/  # 檜
-    - xform/uenn/ㄨㆥ/  # 糜
-    - xform/ui/ㄨㄧ/  # 規
-    - xform/uinn/ㄨㆪ/  # 褌
 
-    - xform/a/ㄚ/  # 膠
-    - xform/ah/ㄚㆷ/  # 膠
-    - xform/e/ㆤ/  # 伽
-    - xform/eh/ㆤㆷ/  # 伽
-    - xform/i/ㄧ/  # 居
-    - xform/ih/ㄧㆷ/  # 居
     - xform/u/ㄨ/  # 艍
     - xform/uh/ㄨㆷ/  # 艍
+
     - xform/oo/ㆦ/  # 沽
     - xform/ou/ㆦ/  # 沽
     - xform/ounn/ㆧ/  # 姑
     - xform/oonn/ㆧ/  # 姑
     - xform/onn/ㆧ/  # 姑
+
     - xform/o/ㄜ/  # 高
     - xform/oh/ㄜㆷ/  # 高
     # - xform/onn/ㆧ/  # 扛
+    # - xform/onnh/ㆧㆷ/  # 扛
     #======================================================
     # 韻化輔音
     #======================================================
     - xform/m/ㆬ/  # 姆
-    - xform/n(?!h)/ㄣ/
     - xform/ng/ㆭ/  # 鋼
+    - xform/n(?!h)/ㄣ/
     #======================================================
     # 鼻音
     #======================================================
