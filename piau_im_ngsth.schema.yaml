@@ -211,23 +211,13 @@ translator:
     #------------------------------------------------------
     # - xform/^ts(?!h)/ㄗ/
     # - xform/^tsh/ㄘ/
-    - xform/^s/ㄙ/
-    - xform/^j/ㆡ/
+    # - xform/^s/ㄙ/
+    # - xform/^j/ㆡ/
+    - xform/s/ㄙ/
+    - xform/j/ㆡ/
     #======================================================
     # 自「雅俗通十五音」轉化而得的韻母
     #======================================================
-    - xform/ai/ㄞ/  # 皆
-    - xform/ainn/ㆮ/  # 閒
-    - xform/am/ㆰ/  # 甘
-    - xform/ap/ㄚㆴ/  # 甘
-    - xform/an/ㄢ/  # 干
-    - xform/at/ㄚㆵ/  # 干
-    - xform/ang/ㄤ/  # 江
-    - xform/ak/ㄚㆻ/  # 江
-    - xform/au/ㄠ/  # 交
-    - xform/auh/ㄠㆷ/  # 交
-    - xform/aunn/ㆯ/  # 爻
-    #------------------------------------------------------
     - xform/iang/ㄧㄤ/  # 姜
     - xform/iak/ㄧㄚㆻ/  # 姜
     - xform/iong/ㄧㆲ/  # 恭
@@ -255,6 +245,18 @@ translator:
     - xform/iu/ㄧㄨ/  # 丩
     - xform/iunn/ㄧㆫ/  # 牛
     #------------------------------------------------------
+    - xform/ai/ㄞ/  # 皆
+    - xform/ainn/ㆮ/  # 閒
+    - xform/am/ㆰ/  # 甘
+    - xform/ap/ㄚㆴ/  # 甘
+    - xform/an(?!g)/ㄢ/  # 干
+    - xform/at/ㄚㆵ/  # 干
+    - xform/ang/ㄤ/  # 江
+    - xform/ak/ㄚㆻ/  # 江
+    - xform/au/ㄠ/  # 交
+    - xform/auh/ㄠㆷ/  # 交
+    - xform/aunn/ㆯ/  # 爻
+    #------------------------------------------------------
     - xform/ong/ㆲ/  # 公
     - xform/ok/ㆦㆻ/  # 公
     - xform/om/ㆱ/  # 箴
@@ -264,13 +266,13 @@ translator:
     - xform/uak/ㄨㄚㆻ/  # 光
     - xform/uai/ㄨㄞ/  # 乖
     - xform/uaih/ㄨㄞㆷ/  # 乖
-    - xform/ua/ㄨㄚ/  # 瓜
-    - xform/uah/ㄨㄚㆷ/  # 瓜
-    - xform/uan/ㄨㄢ/  # 觀
-    - xform/uat/ㄨㄚㆵ/  # 觀
     - xform/uann/ㄨㆩ/  # 官
     - xform/uainn/ㄨㆮ/  # 閂
     - xform/uainnh/ㄨㆮㆷ/  # 閂
+    - xform/uan/ㄨㄢ/  # 觀
+    - xform/uat/ㄨㄚㆵ/  # 觀
+    - xform/ua/ㄨㄚ/  # 瓜
+    - xform/uah/ㄨㄚㆷ/  # 瓜
     #------------------------------------------------------
     - xform/ue/ㄨㆤ/  # 檜
     - xform/ueh/ㄨㆤㆷ/  # 檜
@@ -363,7 +365,7 @@ translator:
     - 'xform 3 ˪'    #3
     - 'xform 4  '    #4
     - 'xform 5 ˊ'    #5
-    - 'xform 6 ◌̌'    #6
+    # - 'xform 6  ̌'    #6
     - 'xform 7 ˫'    #7
     - 'xform 8 ˙'    #8
   preedit_format:
