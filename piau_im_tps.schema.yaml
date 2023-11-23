@@ -8,7 +8,20 @@ schema:
   author:
     - Alan Jui <AlanJui.1960@gmail.com>
   description: |
-    可用「羅馬拼音字母」輸入「方音符號」
+    用「羅馬拼音字母」輸入「方音符號」
+    
+    方音符號：
+      ㄅ ㄆ ㄇ       ㆠ
+      ㄉ ㄊ ㄋ ㄌ
+      ㄍ ㄎ ㄏ ㄫ    ㆣ
+      ㄗ ㄘ ㄙ       ㆡ
+      ㄐ ㄑ ㄒ       ㆢ
+
+      ㄧ ㄨ          ㆪ ㆫ
+      ㄚ ㆦ ㄜ ㆤ    ㆧ ㆩ ㆥ
+      ㄞ ㄠ          ㆮ ㆯ
+      ㆰ ㆱ ㆬ
+      ㄢ ㄣ ㄤ ㆲ ㄥ ㆭ
     
     鍵盤對應：
       ㄅ ㄉ ３ ２ ７ ５ ． ㄚ ㄞ ㄢ ｎ
@@ -46,283 +59,274 @@ engine:
   filters:
     - uniquifier
 
-menu:
-  alternative_select_keys: 'ABCDEFGHIJ'
-
 speller:
-  alphabet: '1qa!z2wsxedcEgGyhnbrfvtgbByhnNuj8ikoOmM9l,<0p;/.-43657'
-  delimiter: " '"
+  alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
+  initials: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-7'
+  finals: ' 43567'
+  # delimiter: "'"
+  delimiter: ""
+  use_space: true
   algebra:
+    #======================================================
+    # 聲母校調：ㄐ ㄑ ㄒ ㆢ
+    #======================================================
+    - xform/c(N?i)/j$1/  # ㄐㄧ
+    - xform/C(N?i)/J$1/  # ㄑㄧ
+    - xform/s(N?i)/S$1/  # ㄒㄧ
+    #- xform/z(N?i)/Z$1/  # ㆢ 和 ㆡ 使用同按鍵
+    #======================================================
+    # 輸入鼻音、濁音聲母：ㄇㄋㄫ 和 ㆠㆣ
+    #======================================================
+    # 鼻音
+    - derive/bN/m/  # ㄇ
+    - derive/dN/n/  # ㄋ
+    - derive/gN/q/  # ㄫ
+    # 濁音
+    - derive/bG/mG/  # ㄇㆭ
+    - derive/dG/nG/  # ㄋㆭ
+    #======================================================
+    # 輸入鼻音韻母
+    #======================================================
+    # 以「鼻音」鍵：n 輸入
+    - xform/N([iu]?[iuaoeIU])/$1N/
+    # 以「重韻母」輸入（韻母重複輸入兩次）
+    - derive/([iuaoeIU])N/$1$1/
+    #======================================================
+    # 組合韻母「替代輸入方式」
+    #======================================================
+    # ㄥ(ong) = ㄜ(o) + ㆭ(ng)
+    - derive/øG/G/ 
+    # ㆲ(ong) ：用 ㄨㆭ 替代（注音符號按鍵：ㄨㄥ）
+    - derive/(?<!i)oG/uG/  
+    # ㄧㆲ(iong) ：用 ㆬㆭ 替代（注音符號按鍵：ㄩㄥ）
+    - derive/ioG/BG/
+    #======================================================
+    # 入聲調
+    #======================================================
+    - xform/[48]/0/  # 入聲調（第四調、第八調）合併
+    - derive/([iao])B0/$1p0/   # 用 ㄚㄅ． 來拍 ㄚㆴ
+    - derive/([iuae])D0/$1t0/  # 用 ㄚㄉ． 來拍 ㄚㆵ
+    - derive/([iaoø])G0/$1k0/  # 用 ㄚㄍ． 來拍 ㄚㆻ
+    #======================================================
+    # 組合韻母
+    #======================================================
+    - derive/oB/aB/  # ㆱ（ㆦㆬ）與ㆰ（ㄚㆬ）共用同一鍵
+    - derive/aB/M/   # ㆰ（ㄚㆬ）使用按鍵【M】輸入
+    - xform/aD/L/    # ㄢ
+    - xform/aG/Q/    # ㄤ
+    - derive/oG/Y/   # ㆦㆭ、ㆲ
+    #======================================================
+    # 設定「簡拚」
+    #======================================================
+    # 用 ｎ 代表所有的鼻音母音
+    - abbrev/[iu]?[iuaoeIU]N/N/
+    # 可用「入聲調按鍵」：【．】 代表所有的入聲韻母
+    - abbrev/[iuaoøeIUMLQYBDG]+0/0/
+    # 允許字典的「拚音碼」，僅輸入聲母，略去：韻母及調號
+    - abbrev/^([pPbmtTdnkKgqcCzsjJSh]).+$/$1/
+    # 允許字典的「拚音碼」，略去：調號 4 與 8（入聲調可不標注）
+    - abbrev/^(\D+)([123579])$/$1/
+    # 允許字典的「拚音碼」僅有：聲母＋調號
+    - abbrev/^([pPbmtTdnkKgqcCzsjJSh]).+(\d)$/$1$2/  
     # 拼音編碼與鍵盤按鈕對映
-    # - xlit|bpMBdtnlgkhGwzcsjZCSJiuaoøemWIUYFLQKVHN|1qa!2wsxedcEgyhnbrfvBuj8ikomM9l,<0p;/.-|
-    # 鼻化韻處理
-    # - derive/([^u])enn/$1eenn/
-    # - xform/b(.+)nn/m$1/
-    # - xform/l(.+)nn/n$1/
-    # - xform/g(.+)nn/ng$1/
-    # - derive/([^blg])(.+)nn/$1$2/
-    # 聲母簡拼
-    - abbrev/^([lpktcjsqbghmn])([^hsg]).+$/$1/
-    - abbrev/^(ph).+$/$1/
-    - abbrev/^(th).+$/$1/
-    - abbrev/^(kh).+$/$1/
-    - abbrev/^(ng).+$/$1/
-    - abbrev/^(ts).+$/$1/
-    - abbrev/^(tsh).+$/$1/
-    # ===========================================
-    # 與【彙集雅俗通十五音】相容設定
-    # ===========================================
-    - derive/ou/oo/
-    - derive/ee/e/
-    - derive/ei/e/
-    # ===========================================
-    # 與白話字（POJ）相容設定
-    # ===========================================
-    - derive/e(ng|k)/i$1/
-    - derive/tsh/chh/
-    - derive/ts/ch/
-    - abbrev/^(ch).+$/$1/
-    - abbrev/^(chh).+$/$1/
-    # ===========================================
-    # 與TLPA改良式（TLPA+）相容設定
-    # ===========================================
-    - derive/ts/z/
-    - derive/tsh/c/
-    - abbrev/^(z).+$/$1/
-    - abbrev/^(c).+$/$1/
-    # ===========================================
-    # 調整
-    # ===========================================
+    - xlit|pPmbtTndkKhjJSgqzcCsiuBaoøMIeUYLDQGN123570|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657|
 
 translator:
   # dictionary: piau_im.tps
-  dictionary: piau_im.tl
+  dictionary: piau_im.taigi
   prism: piau_im_tps
   spelling_hints: 5
   enable_user_dict: false
   comment_format:
     - derive/^([aeiou])/ø$1/
-    - xform/^([a-zø]+\d)$/$1;$1/
+    - xform/^([a-zø]+\d)$/$1/
+    # - xform/^/\t→ /
+    # - xform/'/ /
+    - xform/'//
+    - xlit|pPbtTdkKgcCzshiuaoøeIUBDGN|ㄅㄆㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
     #======================================================
-    # 聲母
+    # 聲母校調：ㄐㄑㄒㆢ 自 ㄗㄧ ㄘㄧ ㄙㄧ ㆡㄧ 推導而得
     #======================================================
-    - xform/^p(?!h)/ㄅ/
-    - xform/^ph/ㄆ/
-    - xform/^m/ㄇ/
-    - xform/^b/ㆠ/
-    #------------------------------------------------------
-    - xform/^t(?![hs])/ㄉ/
-    - xform/^th/ㄊ/
-    - xform/^nl/ㄋ/
-    - xform/^l/ㄌ/
-    #------------------------------------------------------
-    - xform/^k(?!h)/ㄍ/
-    - xform/^kh/ㄎ/
-    - xform/^h/ㄏ/
-    - xform/^g/ㆣ/
-    - xform/^ng/ㄫ/
-    #------------------------------------------------------
-    - xform/^ts(?!h)/ㄗ/
-    - xform/^tsh/ㄘ/
-    - xform/^s/ㄙ/
-    - xform/^j/ㆡ/
-    #------------------------------------------------------
-    - xform/^ch(?!h)/ㄗ/
-    - xform/^chh/ㄘ/
-    #------------------------------------------------------
-    - xform/^z/ㄗ/
-    - xform/^c/ㄘ/
+    - xform/ㄗ((ｎ)?ㄧ)/ㄐ$1/
+    - xform/ㄘ((ｎ)?ㄧ)/ㄑ$1/
+    - xform/ㆡ((ｎ)?ㄧ)/ㆢ$1/
+    - xform/ㄙ((ｎ)?ㄧ)/ㄒ$1/
+    #======================================================
+    # 使用：濁音聲母＋鼻音鍵，推導出：「鼻音聲母」
+    # ㄇㄋㄫ 和 ㆠㄌㆣ
+    #======================================================
+    - xform/ㆠｎ/ㄇ/
+    - xform/ㄌｎ/ㄋ/
+    - xform/ㆣｎ/ㄫ/
+    - xform/ㆠㆭ/ㄇㆭ/
+    - xform/ㄌㆭ/ㄋㆭ/
+    #======================================================
+    # 入聲調：使用「舒聲韻母」，推導「入聲韻母」
+    #======================================================
+    # im ==> ip; am ==> ap; om ==> op
+    - xform/(?<=ㄧ|ㄚ|ㆦ)ㆬ([48])/ㆴ$1/
+    # in ==> it; un ==> ut; an ==> at
+    - xform/(?<=ㄧ|ㄨ|ㄚ)ㄣ([48])/ㆵ$1/
+    # ang ==> ak; ong ==> ok; eng ==> ek
+    - xform/(?<=ㄚ|ㆦ|ㄜ)ㆭ([48])/ㆻ$1/
+    # 入聲韻尾若非ㆴ|ㆵ|ㆻ ，則使用 ㆷ
+    - xform/(?<!ㆴ|ㆵ|ㆻ)([48])/ㆷ$1/
+    #======================================================
+    # 鼻音
+    #======================================================
+    - xform/ｎ((ㄧ|ㄨ)?(ㄧ|ㄨ|ㄚ|ㆦ|ㆤ|ㄞ|ㄠ))/$1ｎ/
+    - xform/ㄧｎ/ㆪ/
+    - xform/ㄨｎ/ㆫ/
+    - xform/ㄚｎ/ㆩ/
+    - xform/ㆦｎ/ㆧ/
+    - xform/ㆤｎ/ㆥ/
+    - xform/ㄞｎ/ㆮ/
+    - xform/ㄠｎ/ㆯ/
     #======================================================
     # 韻母
     #======================================================
-    # 元音: a i u e o oo
-    - xform/a/ㄚ/
-    - xform/i/ㄧ/
-    - xform/u/ㄨ/
-    - xform/e/ㆤ/
-    - xform/o/ㄜ/
-    - xform/oo/ㆦ/
-    - xform/O/ㆦ/
-    - xform/ㄜㄜ/ㆦ/
+    - xform/ㄚㆬ/ㆰ/    # am
+    - xform/ㆦㆬ/ㆱ/    # om
+    - xform/ㄚㄣ/ㄢ/    # an
+    - xform/ㄚㆭ/ㄤ/    # ang
+    - xform/ㆦㆭ/ㆲ/    # ong
+    - xform/ㄜㆭ/ㄥ/    # ong
     #======================================================
-    # 韻化輔音
-    #======================================================
-    - xform/m/ㆬ/
-    - xform/n(?!g)/ㄣ/
-    - xform/ng/ㆭ/
-    #======================================================
-    # 複合韻母: ai, au, ia, iu, io, ua, ui, ue, iau, uai
-    #======================================================
-    # a: ai, au 
-    - xform/ai/ㄞ/
-    - xform/au/ㄠ/
-    # - xform/an/ㄢ/
-    #------------------------------------------------------
-    # i: ia, iu, io
-    - xform/ia/ㄧㄚ/
-    - xform/iu/ㄧㄨ/
-    - xform/io/ㄧㄜ/
-    #------------------------------------------------------
-    # u: ua, ui, ue
-    - xform/ua/ㄨㄚ/
-    - xform/ui/ㄨㄧ/
-    - xform/ue/ㄨㆤ/
-    #------------------------------------------------------
-    # i: iau
-    - xform/iau/ㄧㄠ/
-    #------------------------------------------------------
-    # u: uai
-    - xform/uai/ㄨㄞ/
-    #------------------------------------------------------
-    # 合韻母
-    - xform/ㄚㆬ/ㆰ/
-    - xform/ㄚㄣ/ㄢ/
-    - xform/ㄚㆭ/ㄤ/
-    - xform/ㄚㄨ/ㄠ/
-    - xform/ㄚㄧ/ㄞ/
-    #------------------------------------------------------
-    # 鼻韻母: ann, inn, enn, onn, ainn, iann, iunn(ionn), uann uainn iaunn
-    # - xform/ann$/ㆩ/
-    - xform/ㄢㄣ/ㆩ/
-    - xform/inn$/ㆪ/
-    - xform/enn$/ㆥ/
-    #------------------------------------------------------
-    # - xform/onn$/ㆧ/
-    - xform/ㆦㄣ/ㆧ/
-    - xform/ainn/ㆮ/
-    #------------------------------------------------------
-    - xform/iann/ㄧㆩ/
-    - xform/iunn/ㄧㆫ/
-    - xform/ionn/ㄧㆧ/
-    - xform/uann/ㄨㆩ/
-    - xform/uainn/ㄨㆮ/
-    - xform/iaunn/ㄧㆩ/
-    #------------------------------------------------------
-    # 鼻音韻尾
-    #------------------------------------------------------
-    # a: am, an, ang
-    - xform/am/ㆰ/
-    - xform/an/ㄢ/
-    - xform/ang/ㄤ/
-    - xform/ㄚㄣ/ㄢ/
-    #------------------------------------------------------
-    # i: im, in, ing
-    - xform/im/ㄧㆬ/
-    - xform/in/ㄧㄣ/
-    # - xform/ing/ㄧㄥ/
-    - xform/ㄧㆭ/ㄧㄥ/
-    #------------------------------------------------------
-    # u: un
-    - xform/un/ㄨㄣ/
-    #------------------------------------------------------
-    # o: ong
-    - xform/om/ㆱ/
-    - xform/ㄜㆬ/ㆱ/
-    - xform/ong/ㆲ/
-    - xform/ㄜㆭ/ㆲ/
-    #------------------------------------------------------
-    # ia: iam, ian, iang
-    - xform/iam/ㄧㆰ/
-    - xform/ian/ㄧㄢ/
-    - xform/iang/ㄧㄤ/
-    - xform/ㄧㄚㄣ/ㄧㄢ/
-    #------------------------------------------------------
-    # i: iong
-    - xform/iong/ㄧㆲ/
-    #------------------------------------------------------
-    # u: uan, uang
-    - xform/uan/ㄨㄢ/
-    - xform/uang/ㄨㄤ/
-    #------------------------------------------------------
-    # 調整 ㄗ ㄘ ㄙ ㆡ 轉 ㄐ ㄑ ㄒ ㆢ
-    - xform/ㄗㄧ/ㄐㄧ/
-    - xform/ㄘㄧ/ㄑㄧ/
-    - xform/ㄙㄧ/ㄒㄧ/
-    - xform/ㆡㄧ/ㆢㄧ/
-    - xform/ㄧ ㆭ/ㄧㄥ/
-    - xform/([ㄐㄑㄒㆢ])ㄧ/$1ㄧ/
-    #------------------------------------------------------
-    # 入聲
-    - xform/p/ㆴ/
-    - xform/t/ㆵ/
-    - xform/k/ㆻ/
-    - xform/h/ㆷ/
-    # - xform/p8/ㆴ̇/
-    # - xform/t8/ㆵ̇/
-    # - xform/k8/ㆻ̇
-    # - xform/h8/ㆷ̇/
-    #------------------------------------------------------
-    - xform/ㆦㄍ/ㆦㆻ/
-    # - xform/ㄜㄍ/ㆦㆻ/
-    # - xform/ㄜ(?[ㆴㆵㆻ ㆷ])/ㆦ$1/
-    #------------------------------------------------------
     # 聲調
-    - xlit|12357|ˉˋ˪ˊ˫|
-    - xform/4//
-    - xform/8/˙/
-  # preedit_format:
-  #   #======================================================
-  #   # 羅馬字轉寫
-  #   #======================================
-  #   # - xform/c/ts/
-  #   # 「更」韻
-  #   # - xform/([^u])enn/$1eenn/
-  #   # 「文」「柳」「語」鼻化韻
-  #   # - xform/b([aeiou]+)nn/m$1/
-  #   # - xform/l([aeiou]+)nn/n$1/
-  #   # - xform/g([aeiou]+)nn/ng$1/
-  #   # 標調
-  #   - xform/([aeiou])(m?n*h?g?p?t?k?)([1234578])/$1$3$2/
-  #   - xform/([aeo])([iueo])([1234578])/$1$3$2/
-  #   - 'xform a1 a'
-  #   - 'xform e1 e'
-  #   - 'xform i1 i'
-  #   - 'xform u1 u'
-  #   - 'xform o1 o'
-  #   - 'xform a2 á'
-  #   - 'xform e2 é'
-  #   - 'xform i2 í'
-  #   - 'xform u2 ú'
-  #   - 'xform o2 ó'
-  #   - 'xform a3 à'
-  #   - 'xform e3 è'
-  #   - 'xform i3 ì'
-  #   - 'xform u3 ù'
-  #   - 'xform o3 ò'
-  #   - 'xform a4 a'
-  #   - 'xform e4 e'
-  #   - 'xform i4 i'
-  #   - 'xform u4 u'
-  #   - 'xform o4 o'
-  #   - 'xform a5 â'
-  #   - 'xform e5 ê'
-  #   - 'xform i5 î'
-  #   - 'xform u5 û'
-  #   - 'xform o5 ô'
-  #   - 'xform a7 ā'
-  #   - 'xform e7 ē'
-  #   - 'xform i7 ī'
-  #   - 'xform u7 ū'
-  #   - 'xform o7 ō'
-  #   - 'xform a8 a̍'
-  #   - 'xform e8 e̍'
-  #   - 'xform i8 i̍'
-  #   - 'xform u8 u̍'
-  #   - 'xform o8 o̍'
-  #   #   鼻化符號顯示成上標
-  #   - xform/nn(h?)(\d|\>)/ⁿ$1$2/
+    #======================================================
+    # - xlit|12357|ˉˋ˪ˊ˫|
+    # - xform/4//
+    # - xform/8/˙/
+    - xlit|1234567890|¹²³⁴⁵⁶⁷⁸⁹⁰|
+    #======================================================
+    # 方音符號轉台羅拚音
+    #======================================================
+    - xform/;ㄅ/p/
+    - xform/;ㄆ/ph/
+    - xform/;ㄇ/m/
+    - xform/;ㆠ/b/
+    - xform/;ㄉ/t/
+    - xform/;ㄊ/th/
+    - xform/;ㄋ/n/
+    - xform/;ㄌ/l/
+    - xform/;ㄍ/k/
+    - xform/;ㄎ/kh/
+    - xform/;ㄏ/h/
+    - xform/;ㆣ/g/
+    - xform/;ㄫ/ng/
+    - xform/;ㄗ/ts/
+    - xform/;ㄘ/tsh/
+    - xform/;ㄙ/s/
+    - xform/;ㆡ/j/
+    - xform/;ㄐ/tsi/
+    - xform/;ㄑ/tshi/
+    - xform/;ㄒ/si/
+    - xform/;ㆢ/ji/
+    - xform/;ㄧ/i/
+    - xform/;ㄨ/u/
+    - xform/;ㄚ/a/
+    - xform/;ㆦ/oo/
+    - xform/;ㄜ/o/
+    - xform/;ㆤ/e/
+    - xform/;ㆬ/m/;
+    - xform/;ㆭ/ng/
+    - xform/;ㄞ/ai/
+    - xform/;ㄠ/au/
+    - xform/;ㆰ/am/
+    - xform/;ㆱ/om/
+    - xform/;ㄢ/an/
+    - xform/;ㄣ/n/
+    - xform/;ㄤ/ang/
+    - xform/;ㄥ/ong/
+    - xform/;ㆲ/ong/
+    - xform/;ｎ/nn/
+  preedit_format:
+    # - xform/'//
+    # 設定【按鍵】與「方音符號」的對映規則
+    - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657*|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．8|
+    #------------------------------------------------------
 
-punctuator:
-  import_preset: default
+custom_phrase:
+  dictionary: ''
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+menu:
+  alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨ ]  # 修改候選標籤
+  alternative_select_keys: ABCDEFGHI #如編碼字符佔用數字鍵則須另設選字鍵
+  page_size: 5  # 每頁選單顯示之項目數
 
 key_binder:
   import_preset: default
+  bindings:
+    - { accept: comma, send: Up, when: has_menu } # 選下一個字 
+    - { accept: period, send: Down, when: has_menu }  # 選上一個字
+    - { accept: minus, send: Page_Up, when: has_menu } # 換上一個選單 
+    - { accept: equal, send: Page_Down, when: has_menu }  # 換下一個選單
+    - { accept: "Control+p", send: Up, when: composing }
+    - { accept: "Control+n", send: Down, when: composing }
+    - { accept: "Control+g", send: space, when: composing }
+    #---------------------------------------------------
+    - { when: has_menu, accept: "Control+h", send: Page_Up }
+    - { when: has_menu, accept: "Control+l", send: Page_Down }
+    - { when: has_menu, accept: "Control+k", send: Up }
+    - { when: has_menu, accept: "Control+j", send: Down }
+    - { when: has_menu, accept: "Control+2", send: "B" }
+    - { when: has_menu, accept: "Control+3", send: "C" }
+    - { when: has_menu, accept: "Control+4", send: "D" }
+    - { when: has_menu, accept: "Control+5", send: "E" }
+    #---------------------------------------------------
+    - { when: composing, accept: "Control+1", send: "1" }
+    - { when: composing, accept: "Control+2", send: "2" }
+    - { when: composing, accept: "Control+3", send: "3" }
+    - { when: composing, accept: "Control+4", send: "4" }
+    - { when: composing, accept: "Control+5", send: "5" }
+    - { when: composing, accept: "Control+6", send: "6" }
+    - { when: composing, accept: "Control+7", send: "7" }
+    - { when: composing, accept: "Control+8", send: "8" }
+    #---------------------------------------------------
+    # - { when: has_menu, accept: ";", send: 2 }
+
+editor:
+  bindings:
+    # space: commit
+    space: commit_script_text
+    Return: commit_raw_input            # 上屏原始的輸入：lau5
+    Control+Return: commit_script_text  # 上屏顯示的輸入：lâu
+    Shift+Return: commit_comment        # 上屏候選項備注：ㄉㄚ˪〖柳交五〗
+
+punctuator:
+  # import_preset: piau_im_utl_symbols
+  half_shape:
+    '?': [¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸,  ⁹, ⁰]
 
 recognizer:
-  # import_preset: default
+  import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
     email: ^[a-z][-_.0-9a-z]*@.*$
     uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
     url: ^(www[.]|https?:|ftp:|mailto:).*$
     punct: '`[^\s]$'
+
+style:
+  display_tray_icon: false
+  font_face: "Noto Sans TC, 思源黑體, Noto Serif TC, tshiuthau-oo-taigi, Fira-Sans"
+  font_point: 24
+  fullscreen: false
+  horizontal: false
+  # horizontal: true
+  inline_preedit: false
+  layout:
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 6
+    min_height: 0
+    min_width: 160
+    round_corner: 4

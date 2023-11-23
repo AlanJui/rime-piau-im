@@ -1,0 +1,107 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: piau_im.tps
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  # - piau_im.hanji    # 使用台羅拚音編碼
+...
+ㄅ	bø1
+ㄆ	pø1
+ㆠ	Bø1
+ㄇ	mø1
+ㄇ	bNø1
+
+ㄉ	dø1
+ㄊ	tø1
+ㄋ	nø1
+ㄌ	lø1
+ㄋ	dNø1
+
+ㄍ	gø1
+ㄎ	kø1
+ㄏ	hø1
+ㆣ	Gø1
+ㄫ	gNø1
+
+ㄗ	zø1	90%
+ㄘ	cø1	90%
+ㄙ	sø1	90%
+ㆡ	jø1	90%
+
+ㄐ	Zø1
+ㄑ	Cø1
+ㄒ	Sø1
+ㆢ	Jø1
+
+ㄐㄧ	zi1	80%
+ㄑㄧ	ci1	80%
+ㄒㄧ	si1	80%
+ㆢㄧ	ji1	80%
+
+ㄚ	a1
+ㆦ	o1
+ㄜ	ø1
+ㆤ	e1
+ㄧ	i1
+ㄨ	u1
+
+ㆩ	Na1
+ㆥ	Ne1
+ㆧ	No1
+ㆪ	Ni1
+ㆫ	Nu1
+ㆪㆷ	Ni4
+ㆫㆷ	Nu4
+
+ㄞ	I1
+ㄠ	U1
+
+ㆮ	NI1
+ㆯ	NU1
+
+ㆰ	Y1
+ㆱ	F1
+ㄢ	L1
+ㄣ	Q1
+ㄤ	K1
+ㆲ	H1
+ㄥ	V1
+
+ㆬ	m1
+
+ㆭ	W1
+
+ㄞㆷ	I4
+ㄠㆷ	U4
+ㆩㆷ	Na4
+ㆥㆷ	Ne4
+ㆧㆷ	No4
+ㆮㆷ	NI4
+ㆯㆷ	NU4
+ㄚㆴ	aB4
+ㆦㆴ	oB4
+ㄚㆵ	aD4
+ㄚㆻ	aG4
+ㆦㆻ	oG4
+ㄜㆻ	øG4
+ㆬㆷ	m4
+ㆭㆷ	W4
+
+# 春	tshun1
+# 春	CuD1
+# 冬	tang1
+# 星	tshinn1
+# 正	tsiann3
+# 午	ngoo2
+# 早	tsa2
+# 在	tsai7
+# 前	tsing5
+# 始	khi2
+# 頭	thau5
+# 月	geh8
+# 二	zi7
+# 人	ziD5
+# 憑	piD6

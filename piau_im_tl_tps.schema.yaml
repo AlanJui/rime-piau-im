@@ -1,0 +1,393 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: piau_im_tl_tps
+  name: 台羅標方音符號
+  version: '0.1'
+  author:
+    - Alan Jui <AlanJui.1960@gmail.com>
+  description: |
+    用「羅馬拼音字母」輸入「方音符號」
+    
+    方音符號：
+      ㄅ ㄆ ㄇ       ㆠ
+      ㄉ ㄊ ㄋ ㄌ
+      ㄍ ㄎ ㄏ ㄫ    ㆣ
+
+      ㄗ ㄘ ㄙ       ㆡ
+      ㄐ ㄑ ㄒ       ㆢ
+
+      ㄧ ㄨ          ㆪ ㆫ
+      ㄚ ㆦ ㄜ ㆤ    ㆧ ㆩ ㆥ
+
+      ㄞ ㄠ          ㆮ ㆯ
+      ㆰ ㆱ ㆬ
+      ㄢ ㄣ ㄤ ㆲ ㄥ ㆭ
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 漢文, ABC ]
+  - name: full_shape
+    reset: 0
+    states: [ 半形, 全形 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: '1qa!z2wsxedcEgGyhnbrfvtgbByhnNuj8ikoOmM9l,<0p;/.-43657'
+  delimiter: " '"
+  algebra:
+    # ===========================================
+    # 與【彙集雅俗通十五音】相容設定
+    # ===========================================
+    - derive/ou/oo/
+    - derive/ee/e/
+    - derive/ei/e/
+    # ===========================================
+    # 與白話字（POJ）相容設定
+    # ===========================================
+    - derive/e(ng|k)/i$1/
+    # - derive/ch/ts/
+    # ===========================================
+    # 與TLPA改良式（TLPA+）相容設定
+    # ===========================================
+    - derive/z/ts/
+    - derive/c/tsh/
+    # - abbrev/^(z).+$/$1/
+    # - abbrev/^(c).+$/$1/
+    # ===========================================
+    # 簡拼
+    # ===========================================
+    - abbrev/^([lpktcjsqbghmn])([^hsg]).+$/$1/
+    - abbrev/^(ph).+$/$1/
+    - abbrev/^(th).+$/$1/
+    - abbrev/^(kh).+$/$1/
+    - abbrev/^(ng).+$/$1/
+    - abbrev/^(ts).+$/$1/
+    - abbrev/^(tsh).+$/$1/
+
+translator:
+  dictionary: piau_im.tl
+  prism: piau_im_tps
+  spelling_hints: 5
+  enable_user_dict: false
+  comment_format:
+    #======================================
+    # 羅馬拼音字母轉寫
+    #======================================
+    - xform/^([a-zø]+\d)$/〔$1〕/
+    #------------------------------------------------------
+    - xform/([aeiou])(m?n*h?g?p?t?k?)([1234578])/〔$1$3$2〕/
+    - xform/([aeo])([iueo])([1234578])/〔$1$3$2〕/
+    #------------------------------------------------------
+    - xform/ø//
+    - xform/q//
+    # - xform/tshh/tsh/
+    # - xform/chh/tsh/
+    # - xform/z/tsh/
+    # - xform/c/ts/
+    #------------------------------------------------------
+    # 一聲調：陰平調
+    - 'xform a1 a'
+    - 'xform e1 e'
+    - 'xform i1 i'
+    - 'xform o1 o'
+    - 'xform u1 u'
+    - 'xform m1 m'
+    - 'xform ng1 ng'
+    # 二聲調：陰上調
+    - 'xform a2 á'
+    - 'xform e2 é'
+    - 'xform i2 í'
+    - 'xform o2 ó'
+    - 'xform u2 ú'
+    - 'xform m2 ḿ'
+    - 'xform ng2 ńg'
+    # 三聲調：陰去調
+    - 'xform a3 à'
+    - 'xform e3 è'
+    - 'xform i3 ì'
+    - 'xform o3 ò'
+    - 'xform u3 ù'
+    - 'xform m3 m̀'
+    - 'xform ng3 ǹg'
+    # 五聲調：陽平調
+    - 'xform a5 â'
+    - 'xform e5 ê'
+    - 'xform i5 î'
+    - 'xform o5 ô'
+    - 'xform u5 û'
+    - 'xform m5 m̂'
+    - 'xform ng5 n̂g'
+    # 六聲調：陽上調
+    - 'xform a6 ǎ'
+    - 'xform e6 ě'
+    - 'xform i6 ǐ'
+    - 'xform o6 ǒ'
+    - 'xform u6 ǔ'
+    - 'xform m6 m̌'
+    - 'xform ng6 ňg'
+    # 七聲調：陽去調
+    - 'xform a7 ā'
+    - 'xform e7 ē'
+    - 'xform i7 ī'
+    - 'xform o7 ō'
+    - 'xform u7 ū'
+    - 'xform m7 m̄'
+    - 'xform ng7 n̄g'
+    # 四聲調：陰入調
+    - 'xform a4 a'
+    - 'xform e4 e'
+    - 'xform i4 i'
+    - 'xform u4 u'
+    - 'xform o4 o'
+    - 'xform m4 m'
+    - 'xform ng4 ng'
+    # 八聲調：陽入調
+    - 'xform a8 a̍'
+    - 'xform e8 e̍'
+    - 'xform i8 i̍'
+    - 'xform u8 u̍'
+    - 'xform o8 o̍'
+    - 'xform m8 m̍'
+    - 'xform ng8 n̍g'
+    # 鼻化符號顯示成上標
+    - xform/nn(h?)(\d|\>)/ⁿ$1$2/
+    #------------------------------------------------------
+    # #   鼻化符號顯示成上標
+    # - xform/nn(h?)(\d|\>)/ⁿ$1$2/
+    # - derive/^([aeiou])/ø$1/
+    # - xform/^([a-zø]+\d)$/$1;$1/
+    # #======================================================
+    # # 聲母
+    # #======================================================
+    # - xform/^p(?!h)/ㄅ/
+    # - xform/^ph/ㄆ/
+    # - xform/^m/ㄇ/
+    # - xform/^b/ㆠ/
+    # #------------------------------------------------------
+    # - xform/^t(?![hs])/ㄉ/
+    # - xform/^th/ㄊ/
+    # - xform/^nl/ㄋ/
+    # - xform/^l/ㄌ/
+    # #------------------------------------------------------
+    # - xform/^k(?!h)/ㄍ/
+    # - xform/^kh/ㄎ/
+    # - xform/^h/ㄏ/
+    # - xform/^g/ㆣ/
+    # - xform/^ng/ㄫ/
+    # #------------------------------------------------------
+    # - xform/^ts(?!h)/ㄗ/
+    # - xform/^tsh/ㄘ/
+    # - xform/^s/ㄙ/
+    # - xform/^j/ㆡ/
+    # #------------------------------------------------------
+    # - xform/^ch(?!h)/ㄗ/
+    # - xform/^chh/ㄘ/
+    # #------------------------------------------------------
+    # - xform/^z/ㄗ/
+    # - xform/^c/ㄘ/
+    # #======================================================
+    # # 韻母
+    # #======================================================
+    # # 元音: a i u e o oo
+    # - xform/a/ㄚ/
+    # - xform/i/ㄧ/
+    # - xform/u/ㄨ/
+    # - xform/e/ㆤ/
+    # - xform/o/ㄜ/
+    # - xform/oo/ㆦ/
+    # - xform/O/ㆦ/
+    # - xform/ㄜㄜ/ㆦ/
+    # #======================================================
+    # # 韻化輔音
+    # #======================================================
+    # - xform/m/ㆬ/
+    # - xform/n(?!g)/ㄣ/
+    # - xform/ng/ㆭ/
+    # #======================================================
+    # # 複合韻母: ai, au, ia, iu, io, ua, ui, ue, iau, uai
+    # #======================================================
+    # # a: ai, au 
+    # - xform/ai/ㄞ/
+    # - xform/au/ㄠ/
+    # # - xform/an/ㄢ/
+    # #------------------------------------------------------
+    # # i: ia, iu, io
+    # - xform/ia/ㄧㄚ/
+    # - xform/iu/ㄧㄨ/
+    # - xform/io/ㄧㄜ/
+    # #------------------------------------------------------
+    # # u: ua, ui, ue
+    # - xform/ua/ㄨㄚ/
+    # - xform/ui/ㄨㄧ/
+    # - xform/ue/ㄨㆤ/
+    # #------------------------------------------------------
+    # # i: iau
+    # - xform/iau/ㄧㄠ/
+    # #------------------------------------------------------
+    # # u: uai
+    # - xform/uai/ㄨㄞ/
+    # #------------------------------------------------------
+    # # 合韻母
+    # - xform/ㄚㆬ/ㆰ/
+    # - xform/ㄚㄣ/ㄢ/
+    # - xform/ㄚㆭ/ㄤ/
+    # - xform/ㄚㄨ/ㄠ/
+    # - xform/ㄚㄧ/ㄞ/
+    # #------------------------------------------------------
+    # # 鼻韻母: ann, inn, enn, onn, ainn, iann, iunn(ionn), uann uainn iaunn
+    # # - xform/ann$/ㆩ/
+    # - xform/ㄢㄣ/ㆩ/
+    # - xform/inn$/ㆪ/
+    # - xform/enn$/ㆥ/
+    # #------------------------------------------------------
+    # # - xform/onn$/ㆧ/
+    # - xform/ㆦㄣ/ㆧ/
+    # - xform/ainn/ㆮ/
+    # #------------------------------------------------------
+    # - xform/iann/ㄧㆩ/
+    # - xform/iunn/ㄧㆫ/
+    # - xform/ionn/ㄧㆧ/
+    # - xform/uann/ㄨㆩ/
+    # - xform/uainn/ㄨㆮ/
+    # - xform/iaunn/ㄧㆩ/
+    # #------------------------------------------------------
+    # # 鼻音韻尾
+    # #------------------------------------------------------
+    # # a: am, an, ang
+    # - xform/am/ㆰ/
+    # - xform/an/ㄢ/
+    # - xform/ang/ㄤ/
+    # - xform/ㄚㄣ/ㄢ/
+    # #------------------------------------------------------
+    # # i: im, in, ing
+    # - xform/im/ㄧㆬ/
+    # - xform/in/ㄧㄣ/
+    # # - xform/ing/ㄧㄥ/
+    # - xform/ㄧㆭ/ㄧㄥ/
+    # #------------------------------------------------------
+    # # u: un
+    # - xform/un/ㄨㄣ/
+    # #------------------------------------------------------
+    # # o: ong
+    # - xform/om/ㆱ/
+    # - xform/ㄜㆬ/ㆱ/
+    # - xform/ong/ㆲ/
+    # - xform/ㄜㆭ/ㆲ/
+    # #------------------------------------------------------
+    # # ia: iam, ian, iang
+    # - xform/iam/ㄧㆰ/
+    # - xform/ian/ㄧㄢ/
+    # - xform/iang/ㄧㄤ/
+    # - xform/ㄧㄚㄣ/ㄧㄢ/
+    # #------------------------------------------------------
+    # # i: iong
+    # - xform/iong/ㄧㆲ/
+    # #------------------------------------------------------
+    # # u: uan, uang
+    # - xform/uan/ㄨㄢ/
+    # - xform/uang/ㄨㄤ/
+    # #------------------------------------------------------
+    # # 調整 
+    # - xform/ㆦㄍ/ㆦㆻ/
+    # # ㄗ ㄘ ㄙ ㆡ 轉 ㄐ ㄑ ㄒ ㆢ
+    # - xform/ㄗㄧ/ㄐㄧ/
+    # - xform/ㄘㄧ/ㄑㄧ/
+    # - xform/ㄙㄧ/ㄒㄧ/
+    # - xform/ㆡㄧ/ㆢㄧ/
+    # - xform/ㄧ ㆭ/ㄧㄥ/
+    # - xform/([ㄐㄑㄒㆢ])ㄧ/$1ㄧ/
+    # #------------------------------------------------------
+    # # 入聲
+    # - xform/p/ㆴ/
+    # - xform/t/ㆵ/
+    # - xform/k/ㆻ/
+    # - xform/h/ㆷ/
+    # # - xform/p8/ㆴ̇/
+    # # - xform/t8/ㆵ̇/
+    # # - xform/k8/ㆻ̇
+    # # - xform/h8/ㆷ̇/
+    # #------------------------------------------------------
+    # # 聲調
+    # - xlit|12357|ˉˋ˪ˊ˫|
+    # - xform/4//
+    # - xform/8/˙/
+
+menu:
+  alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨ ]  # 修改候選標籤
+  # alternative_select_keys: ABCDEFGHI #如編碼字符佔用數字鍵則須另設選字鍵
+  page_size: 5  # 每頁選單顯示之項目數
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { accept: comma, send: Up, when: has_menu} # 選下一個字 
+    - { accept: period, send: Down, when: has_menu}  # 選上一個字
+    - { accept: minus, send: Page_Up, when: has_menu} # 換上一個選單 
+    - { accept: equal, send: Page_Down, when: has_menu}  # 換下一個選單
+    - { when: has_menu, accept: "Control+h", send: Page_Up }
+    - { when: has_menu, accept: "Control+l", send: Page_Down }
+    - { when: has_menu, accept: "Control+k", send: Up }
+    - { when: has_menu, accept: "Control+j", send: Down }
+
+editor:
+  bindings:
+    Return: commit_raw_input            # 上屏原始的輸入：lau5
+    Control+Return: commit_script_text  # 上屏顯示的輸入：lâu
+    Shift+Return: commit_comment        # 上屏候選項備注：ㄉㄚ˪〖柳交五〗
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    email: ^[a-z][-_.0-9a-z]*@.*$
+    uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
+    url: ^(www[.]|https?:|ftp:|mailto:).*$
+    # punct: '`[^\s]$'
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+
+style:
+  display_tray_icon: false
+  font_face: "Noto Sans TC, 思源黑體, Noto Serif TC, tshiuthau-oo-taigi, Fira-Sans"
+  font_point: 24
+  fullscreen: false
+  # horizontal: true
+  horizontal: false
+  inline_preedit: false
+  layout:
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 6
+    min_height: 0
+    min_width: 160
+    round_corner: 4
+    t Signs:q    spacing: 10

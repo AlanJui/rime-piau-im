@@ -12,14 +12,18 @@ import_tables:
 ㄆ	Pø1
 ㆠ	bø1
 ㄇ	bNø1
+
 ㄉ	tø1
 ㄊ	Tø1
 ㄌ	dø1
 ㄋ	dNø1
+
 ㄍ	kø1
 ㄎ	Kø1
 ㆣ	gø1
 ㄫ	gNø1
+ㄏ	hø1
+
 ㄐ	ci1
 ㄑ	Ci1
 ㆢ	zi1
@@ -28,13 +32,15 @@ import_tables:
 ㄘ	Cø1
 ㆡ	zø1
 ㄙ	sø1
-ㄏ	hø1
+
 ㄚ	a1
 ㆤ	e1
 ㄜ	ø1
 ㆦ	o1
+
 ㄧ	i1
 ㄨ	u1
+
 ㄞ	I1
 ㄠ	U1
 ㆩ	Na1
@@ -53,6 +59,7 @@ import_tables:
 ㄥ	øG1
 ㆬ	B1
 ㆭ	G1
+
 ㄚㆷ	a4
 ㆤㆷ	e4
 ㄜㆷ	ø4

@@ -65,7 +65,7 @@ speller:
     - derive/e(ng|k)/i$1/
     - derive/ei/e/
     # 鼻化韻處理
-    - derive/([^u])enn/$1eenn/
+    - derive/([^u])enn/$1een
     - xform/b(.+)nn/m$1/
     - xform/l(.+)nn/n$1/
     - xform/g(.+)nn/ng$1/
@@ -599,7 +599,7 @@ reverse_lookup:
 menu:
   alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨ ]  # 修改候選標籤
   # alternative_select_keys: ABCDEFGHI #如編碼字符佔用數字鍵則須另設選字鍵
-  page_size: 5 #選單每䈎顯示個數
+  page_size: 5  # 每頁選單顯示之項目數
 
 key_binder:
   import_preset: default

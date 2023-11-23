@@ -6,97 +6,112 @@ version: "0.1"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
+  - piau_im.taigi
   # - piau_im.hanji    # 使用台羅拚音編碼
 ...
-ㄅ	bø1
-ㄆ	pø1
-ㆠ	Bø1
-ㄇ	mø1
+ㄅ	pø1
+ㄆ	Pø1
+ㆠ	bø1
 ㄇ	bNø1
 
-ㄉ	dø1
-ㄊ	tø1
-ㄋ	nø1
-ㄌ	lø1
+ㄉ	tø1
+ㄊ	Tø1
+ㄌ	dø1
 ㄋ	dNø1
 
-ㄍ	gø1
-ㄎ	kø1
-ㄏ	hø1
-ㆣ	Gø1
+ㄍ	kø1
+ㄎ	Kø1
+ㆣ	gø1
 ㄫ	gNø1
+ㄏ	hø1
 
-ㄗ	zø1
-ㄘ	cø1
-ㄙ	sø1
-ㆡ	jø1
+ㄗ	cø1	90%
+ㄘ	Cø1	90%
+ㆡ	zø1	90%
+ㄙ	sø1	90%
 
-ㄐ	Zø1
-ㄑ	Cø1
-ㄒ	Sø1
-ㆢ	Jø1
+ㄐ	ci1	80%	  # j
+ㄑ	Ci1	80%	  # J
+ㆢ	zi1	80%	  # Z
+ㄒ	si1	80%	  # S
+
+# ㄐㄧ	zi1	70%
+# ㄑㄧ	ci1	70%
+# ㄒㄧ	si1	70%
+# ㆢㄧ	ji1	70%
+
+ㄧ	i1
+ㆪ	Ni1
+ㄨ	u1
+ㆫ	Nu1
 
 ㄚ	a1
-ㆦ	o1
-ㄜ	ø1
-ㆤ	e1
-ㄧ	i1
-ㄨ	u1
-
 ㆩ	Na1
-ㆥ	Ne1
+
+ㆦ	o1
 ㆧ	No1
-ㆪ	Ni1
-ㆫ	Nu1
-ㆪㆷ	Ni4
-ㆫㆷ	Nu4
+
+ㄜ	ø1
+
+ㆤ	e1
+ㆥ	Ne1
 
 ㄞ	I1
-ㄠ	U1
-
 ㆮ	NI1
+
+ㄠ	U1
 ㆯ	NU1
 
-ㆰ	Y1
-ㆱ	F1
-ㄢ	L1
-ㄣ	Q1
-ㄤ	K1
-ㆲ	H1
-ㄥ	V1
+ㆰ	aB1	99%
+ㆱ	oB1>99%
+ㄢ	aD1	90%
+ㄣ	D1	90%
+ㆲ	oG1	90%
+ㄤ	aG1	90%
+ㄥ	øG1	90%
 
-ㆬ	m1
+ㆬ	B1	90%
+ㆭ	G1
+# ㆭ	G1	90%
 
-ㆭ	W1
+ㄧㆷ	i4
+ㆪㆷ	Ni4
 
-ㄞㆷ	I4
-ㄠㆷ	U4
-ㆩㆷ	Na4
-ㆥㆷ	Ne4
-ㆧㆷ	No4
-ㆮㆷ	NI4
-ㆯㆷ	NU4
+ㄨㆷ	u4
+ㆫㆷ	Nu4
+
+ㄚㆷ	a4
 ㄚㆴ	aB4
-ㆦㆴ	oB4
 ㄚㆵ	aD4
 ㄚㆻ	aG4
-ㆦㆻ	oG4
-ㄜㆻ	øG4
-ㆬㆷ	m4
-ㆭㆷ	W4
+ㆩㆷ	Na4
 
-# 春	tshun1
-# 春	CuD1
-# 冬	tang1
-# 星	tshinn1
-# 正	tsiann3
-# 午	ngoo2
-# 早	tsa2
-# 在	tsai7
-# 前	tsing5
-# 始	khi2
-# 頭	thau5
-# 月	geh8
-# 二	zi7
-# 人	ziD5
-# 憑	piD6
+ㆦㆷ	o4
+ㆦㆴ	oB4
+ㆦㆻ	oG4
+
+ㄜㆻ	øG4
+ㄜㆷ	ø4
+ㆧㆷ	No4
+
+ㆤㆷ	e4
+ㆥㆷ	Ne4
+
+ㄞㆷ	I4
+ㆮㆷ	NI4
+
+ㄠㆷ	U4
+ㆯㆷ	NU4
+
+ㆬㆷ	B4
+ㆭㆷ	G4
+
+1	=	90%
+2	=	90%
+3	=	90%
+4	=	90%
+5	=	90%
+6	=	90%
+7	=	90%
+8	=	90%
+
