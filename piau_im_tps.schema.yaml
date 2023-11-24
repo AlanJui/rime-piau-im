@@ -63,8 +63,7 @@ speller:
   alphabet: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/- 43657'
   initials: '1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-7'
   finals: ' 43567'
-  # delimiter: "'"
-  delimiter: ""
+  delimiter: "'"
   use_space: true
   algebra:
     #======================================================
