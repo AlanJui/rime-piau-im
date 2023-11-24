@@ -262,9 +262,9 @@ menu:
 key_binder:
   import_preset: default
   bindings:
-    - { accept: comma, send: Up, when: has_menu } # 選下一個字 
-    - { accept: period, send: Down, when: has_menu }  # 選上一個字
-    - { accept: minus, send: Page_Up, when: has_menu } # 換上一個選單 
+    - { accept: comma, send: Up, when: has_menu }         # 選下一個字 
+    - { accept: period, send: Down, when: has_menu }      # 選上一個字
+    - { accept: minus, send: Page_Up, when: has_menu }    # 換上一個選單 
     - { accept: equal, send: Page_Down, when: has_menu }  # 換下一個選單
     - { accept: "Control+p", send: Up, when: composing }
     - { accept: "Control+n", send: Down, when: composing }
@@ -288,20 +288,22 @@ key_binder:
     - { when: composing, accept: "Control+7", send: "7" }
     - { when: composing, accept: "Control+8", send: "8" }
     #---------------------------------------------------
-    # - { when: has_menu, accept: ";", send: 2 }
 
 editor:
   bindings:
-    # space: commit
-    space: commit_script_text
-    Return: commit_raw_input            # 上屏原始的輸入：lau5
-    Control+Return: commit_script_text  # 上屏顯示的輸入：lâu
+    space: commit                       # 選擇「備選漢字」
+    Return: commit_script_text          # 上屏顯示的輸入：lau⁵ / lâu
+    Control+Return: commit_raw_input    # 上屏原始的輸入：lau5
     Shift+Return: commit_comment        # 上屏候選項備注：ㄉㄚ˪〖柳交五〗
 
 punctuator:
-  # import_preset: piau_im_utl_symbols
-  half_shape:
-    '?': [¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸,  ⁹, ⁰]
+  import_preset: piau_im_utl_symbols
+  # import_preset: symbols
+  # half_shape:
+  #   '?': [¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸,  ⁹, ⁰]
+  #   "'": {pair: ["「", "」"]} #第一次按是「，第二次是」
+  #   "(": ["〔", "［"] #彈出選單
+  #   .: {commit: "。"} #無選單，直接上屛。優先級最高
 
 recognizer:
   import_preset: default
@@ -315,7 +317,7 @@ recognizer:
 style:
   display_tray_icon: false
   font_face: "Noto Sans TC, 思源黑體, Noto Serif TC, tshiuthau-oo-taigi, Fira-Sans"
-  font_point: 24
+  font_point: 28
   fullscreen: false
   horizontal: false
   # horizontal: true
