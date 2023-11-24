@@ -67,6 +67,13 @@ speller:
     - derive/ou/oo/
     - derive/e(ng|k)/i$1/
     - derive/ei/e/
+    # ===========================================
+    # 我增加的變更
+    # ===========================================
+    # - derive/tsh/c/
+    # - derive/ts/z/
+    # - derive/tsh/chh/
+    # - derive/ts/ch/
     # 鼻化韻處理
     - derive/([^u])enn/$1eenn/
     - xform/b(.+)nn/m$1/
@@ -79,23 +86,16 @@ speller:
     - abbrev/^(th).+$/$1/
     - abbrev/^(kh).+$/$1/
     - abbrev/^(ng).+$/$1/
-    - abbrev/^(ch).+$/$1/
+    # - abbrev/^(ch).+$/$1/
     - abbrev/^(ts).+$/$1/
     - abbrev/^(tsh).+$/$1/
-    # ===========================================
-    # 我增加的變更
-    # ===========================================
-    - derive/tsh/c/
-    - derive/ts/z/
-    - derive/tsh/chh/
-    - derive/ts/ch/
     #------------------------------------------------------
-    - abbrev/^(ts).+$/$1/
-    - abbrev/^(tsh).+$/$1/
-    - abbrev/^(z).+$/$1/
-    - abbrev/^(c).+$/$1/
-    - abbrev/^(ch).+$/$1/
-    - abbrev/^(chh).+$/$1/
+    # - abbrev/^(ts).+$/$1/
+    # - abbrev/^(tsh).+$/$1/
+    # - abbrev/^(z).+$/$1/
+    # - abbrev/^(c).+$/$1/
+    # - abbrev/^(ch).+$/$1/
+    # - abbrev/^(chh).+$/$1/
     
 translator:
   dictionary: piau_im
@@ -372,82 +372,16 @@ translator:
     - 'xform 7 ˫'    #7
     - 'xform 8 ˙'    #8
   preedit_format:
-    - xlit|1234567890|¹²³⁴⁵⁶⁷⁸⁹⁰|
-    - xform/([aeiou])(r?m?n*h?g?p?t?k?)([12345678])/$1$3$2/
-    - xform/([aeo])([iueo])([12345678])/$1$3$2/
-    # 鼻化符號顯示成上標
-    - xform/nn(h?)(\d|\>)/ⁿ$1$2/
     #======================================================
     # 對於已輸入（韻母）（調號）之拼音，需在韻母標「聲調符號」
     #======================================================
-    # - xform/([aeiou])(m?n*h?g?p?t?k?)([1234578])/$1$3$2/
-    # - xform/([aeo])([iueo])([1234578])/$1$3$2/
-    # # 一聲調：陰平調
-    # - 'xform a1 a'
-    # - 'xform e1 e'
-    # - 'xform i1 i'
-    # - 'xform o1 o'
-    # - 'xform u1 u'
-    # - 'xform m1 m'
-    # - 'xform ng1 ng'
-    # # 二聲調：陰上調
-    # - 'xform a2 á'
-    # - 'xform e2 é'
-    # - 'xform i2 í'
-    # - 'xform o2 ó'
-    # - 'xform u2 ú'
-    # - 'xform m2 ḿ'
-    # - 'xform ng2 ńg'
-    # # 三聲調：陰去調
-    # - 'xform a3 à'
-    # - 'xform e3 è'
-    # - 'xform i3 ì'
-    # - 'xform o3 ò'
-    # - 'xform u3 ù'
-    # - 'xform m3 m̀'
-    # - 'xform ng3 ǹg'
-    # # 五聲調：陽平調
-    # - 'xform a5 â'
-    # - 'xform e5 ê'
-    # - 'xform i5 î'
-    # - 'xform o5 ô'
-    # - 'xform u5 û'
-    # - 'xform m5 m̂'
-    # - 'xform ng5 n̂g'
-    # # 六聲調：陽上調
-    # - 'xform a6 ǎ'
-    # - 'xform e6 ě'
-    # - 'xform i6 ǐ'
-    # - 'xform o6 ǒ'
-    # - 'xform u6 ǔ'
-    # - 'xform m6 m̌'
-    # - 'xform ng6 ňg'
-    # # 七聲調：陽去調
-    # - 'xform a7 ā'
-    # - 'xform e7 ē'
-    # - 'xform i7 ī'
-    # - 'xform o7 ō'
-    # - 'xform u7 ū'
-    # - 'xform m7 m̄'
-    # - 'xform ng7 n̄g'
-    # # 四聲調：陰入調
-    # - 'xform a4 a'
-    # - 'xform e4 e'
-    # - 'xform i4 i'
-    # - 'xform u4 u'
-    # - 'xform o4 o'
-    # - 'xform m4 m'
-    # - 'xform ng4 ng'
-    # # 八聲調：陽入調
-    # - 'xform a8 a̍'
-    # - 'xform e8 e̍'
-    # - 'xform i8 i̍'
-    # - 'xform u8 u̍'
-    # - 'xform o8 o̍'
-    # - 'xform m8 m̍'
-    # - 'xform ng8 n̍g'
-    # # 鼻化符號顯示成上標
-    # - xform/nn(h?)(\d|\>)/ⁿ$1$2/
+    - xlit|1234567890|¹²³⁴⁵⁶⁷⁸⁹⁰|
+    - xform/([aeiou])(r?m?n*h?g?p?t?k?)([12345678])/$1$3$2/
+    - xform/([aeo])([iueo])([12345678])/$1$3$2/
+    #======================================================
+    # 鼻化符號顯示成上標
+    #======================================================
+    - xform/nn(h?)(\d|\>)/ⁿ$1$2/
 
 reverse_lookup:
   dictionary: luna_pinyin
@@ -641,10 +575,9 @@ key_binder:
 
 editor:
   bindings:
-    space: commit_script_text	          # 選擇 "preedit_format" 所見輸入：lau⁵
     space: commit                       # 選擇「備選漢字」
-    Return: commit_raw_input            # 上屏原始的輸入：lau5
-    Control+Return: commit_script_text  # 上屏顯示的輸入：lâu
+    Return: commit_script_text          # 上屏顯示的輸入：lau⁵ / lâu
+    Control+Return: commit_raw_input    # 上屏原始的輸入：lau5
     Shift+Return: commit_comment        # 上屏候選項備注：ㄉㄚ˪〖柳交五〗
 
 punctuator:

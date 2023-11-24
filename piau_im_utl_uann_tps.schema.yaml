@@ -1,0 +1,137 @@
+#==========================================================
+# 將「台羅拼音」轉換成「方音符號」
+#==========================================================
+
+    #======================================================
+    # 聲母
+    #======================================================
+    - xform/^p(?!h)/ㄅ/
+    - xform/^ph/ㄆ/
+    - xform/^m/ㄇ/
+    - xform/^b/ㆠ/
+
+    # - xform/^t(?![hs])/ㄉ/
+    - xform/^t(?!h)/ㄉ/
+    - xform/^th/ㄊ/
+    - xform/^n/ㄋ/
+    - xform/^l/ㄌ/
+
+    - xform/^k(?!h)/ㄍ/
+    - xform/^kh/ㄎ/
+    - xform/^h/ㄏ/
+    - xform/^g/ㆣ/
+    - xform/^ng/ㄫ/
+
+    - xform/^ts(?!h)/ㄗ/
+    - xform/^tsh/ㄘ/
+    - xform/^s/ㄙ/
+    - xform/^j/ㆡ/
+
+    - xform/^z/ㄗ/
+    - xform/^c/ㄘ/
+
+    - xform/^tsh/ㄘ/
+    #======================================================
+    # 韻母
+    #======================================================
+
+    # 元音: a i u e o oo
+    - xform/a/ㄚ/
+    - xform/i/ㄧ/
+    - xform/u/ㄨ/
+    - xform/e/ㆤ/
+    - xform/o/ㄜ/
+    # - xform/oo/ㆦ/
+    - xform/ㄜㄜ/ㆦ/
+
+    # 韻化輔音
+    - xform/m/ㆬ/
+    - xform/n(?!g)/ㄣ/
+    - xform/ng/ㆭ/
+
+    # 複合韻母: ai, au, ia, iu, io, ua, ui, ue, iau, uai
+
+    # a: ai, au 
+    - xform/ai/ㄞ/
+    - xform/au/ㄠ/
+    # - xform/an/ㄢ/
+    # i: ia, iu, io
+    - xform/ia/ㄧㄚ/
+    - xform/iu/ㄧㄨ/
+    - xform/io/ㄧㄜ/
+    # u: ua, ui, ue
+    - xform/ua/ㄨㄚ/
+    - xform/ui/ㄨㄧ/
+    - xform/ue/ㄨㆤ/
+    # i: iau
+    - xform/iau/ㄧㄠ/
+    # u: uai
+    - xform/uai/ㄨㄞ/
+
+    # 合韻母
+    - xform/ㄚㆬ/ㆰ/
+    - xform/ㄚㄣ/ㄢ/
+    - xform/ㄚㆭ/ㄤ/
+    - xform/ㄚㄨ/ㄠ/
+    - xform/ㄚㄧ/ㄞ/
+
+    # 鼻韻母: ann, inn, enn, onn, ainn, iann, 
+    #         iunn(ionn), uann uainn iaunn
+    # - xform/ann$/ㆩ/
+    - xform/ㄢㄣ/ㆩ/
+    - xform/inn$/ㆪ/
+    - xform/enn$/ㆥ/
+    # - xform/onn$/ㆧ/
+    - xform/ㆦㄣ/ㆧ/
+    - xform/ainn/ㆮ/
+
+    - xform/iann/ㄧㆩ/
+    - xform/iunn/ㄧㆫ/
+    - xform/ionn/ㄧㆧ/
+    - xform/uann/ㄨㆩ/
+    - xform/uainn/ㄨㆮ/
+    - xform/iaunn/ㄧㆩ/
+
+    # 鼻音韻尾
+    # a: am, an, ang
+    - xform/am/ㆰ/
+    - xform/an/ㄢ/
+    - xform/ang/ㄤ/
+    # i: im, in, ing
+    # - xform/im/ㄧㆬ/
+    # - xform/in/ㄧㄣ/
+    # - xform/ing/ㄧㄥ/
+    - xform/ㄧㆭ/ㄧㄥ/
+    # u: un
+    # - xform/un/ㄨㄣ/
+    # o: ong
+    # - xform/om/ㆱ/
+    - xform/ㄜㆬ/ㆱ/
+    # - xform/ong/ㆲ/
+    - xform/ㄜㆭ/ㆲ/
+    # ia: iam, ian, iang
+    # - xform/iam/ㄧㆰ/
+    # - xform/ian/ㄧㄢ/
+    # - xform/iang/ㄧㄤ/
+    # i: iong
+    # - xform/iong/ㄧㆲ/
+    # u: uan, uang
+    # - xform/uan/ㄨㄢ/
+    # - xform/uang/ㄨㄤ/
+
+    # 調整 ㄗ ㄘ ㄙ ㆡ 轉 ㄐ ㄑ ㄒ ㆢ
+    - xform/ㄗㄧ/ㄐㄧ/
+    - xform/ㄘㄧ/ㄑㄧ/
+    - xform/ㄙㄧ/ㄒㄧ/
+    - xform/ㆡㄧ/ㆢㄧ/
+
+    # 入聲
+    - xform/p/ㆴ/
+    - xform/t/ㆵ/
+    - xform/k/ㆻ/
+    - xform/h/ㆷ/
+    # - xform/p8/ㆴ̇/
+    # - xform/t8/ㆵ̇/
+    # - xform/k8/ㆻ̇
+    # - xform/h8/ㆷ̇/
+    - xform/ㄜ([ ㆴ ㆵ ㆻ ㆷ])/ㆦ$1/
