@@ -222,14 +222,14 @@ translator:
     #======================================================
     # 拆韻母
     #======================================================
-    - xform/ㆰ/ㄚㆬ/
-    - xform/ㄢ/ㄚㄣ/
-    - xform/ㄤ/ㄚㆭ/
-    - xform/ㆲ/ㆦㆭ/
-    - xform/ㄨㆭ/ㆦㆭ/
+    - xform/ㆰ/ㄚㆬ/	    # am
+    - xform/ㄢ/ㄚㄣ/	    # an
+    - xform/ㄤ/ㄚㆭ/	    # ang
+    - xform/ㆲ/ㆦㆭ/	    # ong
+    - xform/ㄨㆭ/ㆦㆭ/	  
     - xform/ㆬㆭ/ㄧㆦㆭ/
     - xform/ㄧㆭ/ㄧㄜㆭ/
-    #======================================================
+    #======================================================:
     # 聲母校調：ㆢㄧ ==> ㆡ 
     #======================================================
     - xform/ㆡㄧ/ㆢㄧ/
@@ -266,6 +266,13 @@ translator:
     - xform/ㄚㆭ/ㄤ/
     - xform/ㆦㆭ/ㆲ/
     - xform/ㄜㆭ/ㄥ/
+    #======================================================
+    # 入聲調：使用「舒聲韻母」，推導「入聲韻母」
+    #======================================================
+    - xform/ㄅ．/ㆴ/
+    - xform/ㄉ．/ㆵ/
+    - xform/ㄍ．/ㆻ/
+    - xform/ㄏ．/ㆷ/
 
 custom_phrase:
   dictionary: ''
@@ -276,16 +283,45 @@ custom_phrase:
   initial_quality: 1
 
 punctuator:
-  import_preset: symbols_yu_alpha
+  # import_preset: symbols_yu_alpha
+  import_preset: piau_im_utl_symbols
 
 key_binder:
   import_preset: default
   bindings:
-    - { when: has_menu, accept: comma, send: comma }      # ㆤ
-    - { when: has_menu, accept: period, send: period }    # ㆲ
-    - { when: has_menu, accept: minus, send: minus }      # ｎ
-    - { when: paging, accept: minus, send: Page_Up }
-    - { when: has_menu, accept: equal, send: Page_Down }
+    - { accept: comma, send: Up, when: has_menu }         # 選下一個字 
+    - { accept: period, send: Down, when: has_menu }      # 選上一個字
+    - { accept: minus, send: Page_Up, when: has_menu }    # 換上一個選單 
+    - { accept: equal, send: Page_Down, when: has_menu }  # 換下一個選單
+    - { accept: "Control+p", send: Up, when: composing }
+    - { accept: "Control+n", send: Down, when: composing }
+    - { accept: "Control+g", send: space, when: composing }
+    #---------------------------------------------------
+    - { when: has_menu, accept: "Control+h", send: Page_Up }
+    - { when: has_menu, accept: "Control+l", send: Page_Down }
+    - { when: has_menu, accept: "Control+k", send: Up }
+    - { when: has_menu, accept: "Control+j", send: Down }
+    - { when: has_menu, accept: "Control+2", send: "B" }
+    - { when: has_menu, accept: "Control+3", send: "C" }
+    - { when: has_menu, accept: "Control+4", send: "D" }
+    - { when: has_menu, accept: "Control+5", send: "E" }
+    #---------------------------------------------------
+    - { when: composing, accept: "Control+1", send: "1" }
+    - { when: composing, accept: "Control+2", send: "2" }
+    - { when: composing, accept: "Control+3", send: "3" }
+    - { when: composing, accept: "Control+4", send: "4" }
+    - { when: composing, accept: "Control+5", send: "5" }
+    - { when: composing, accept: "Control+6", send: "6" }
+    - { when: composing, accept: "Control+7", send: "7" }
+    - { when: composing, accept: "Control+8", send: "8" }
+    #---------------------------------------------------
+
+editor:
+  bindings:
+    space: commit                       # 選擇「備選漢字」
+    Return: commit_script_text          # 上屏顯示的輸入：lau⁵ / lâu
+    Control+Return: commit_raw_input    # 上屏原始的輸入：lau5
+    Shift+Return: commit_comment        # 上屏候選項備注：ㄉㄚ˪〖柳交五〗
 
 recognizer:
   patterns:
@@ -293,3 +329,21 @@ recognizer:
     uppercase: ^[A-Z][-_+.'0-9A-Za-z]*$
     url: ^(www[.]|https?:|ftp:|mailto:).*$
     punct: '`[^\s]$'
+
+style:
+  display_tray_icon: false
+  font_face: "Noto Serif TC, Noto Sans TC, 思源黑體, tshiuthau-oo-taigi, Fira-Sans"
+  font_point: 28
+  # fullscreen: false
+  # horizontal: false
+  # inline_preedit: false
+  # layout:
+  #   border_width: 3
+  #   candidate_spacing: 5
+  #   hilite_padding: 2
+  #   hilite_spacing: 4
+  #   margin_x: 12
+  #   margin_y: 6
+  #   min_height: 0
+  #   min_width: 160
+  #   round_corner: 4
