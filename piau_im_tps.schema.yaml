@@ -137,11 +137,8 @@ translator:
   spelling_hints: 5
   enable_user_dict: false
   comment_format:
-    - derive/^([aeiou])/ø$1/
-    - xform/^([a-zø]+\d)$/$1/
-    # - xform/^/\t→ /
-    # - xform/'/ /
-    - xform/'//
+    - xform/^/\t→ /
+    - xform/'/ /
     - xlit|pPbtTdkKgcCzshiuaoøeIUBDGN|ㄅㄆㆠㄉㄊㄌㄍㄎㆣㄗㄘㆡㄙㄏㄧㄨㄚㆦㄜㆤㄞㄠㆬㄣㆭｎ|
     #======================================================
     # 聲母校調：ㄐㄑㄒㆢ 自 ㄗㄧ ㄘㄧ ㄙㄧ ㆡㄧ 推導而得
@@ -193,57 +190,73 @@ translator:
     #======================================================
     # 聲調
     #======================================================
-    # - xlit|12357|ˉˋ˪ˊ˫|
-    # - xform/4//
-    # - xform/8/˙/
-    - xlit|1234567890|¹²³⁴⁵⁶⁷⁸⁹⁰|
-    #======================================================
-    # 方音符號轉台羅拚音
-    #======================================================
-    - xform/;ㄅ/p/
-    - xform/;ㄆ/ph/
-    - xform/;ㄇ/m/
-    - xform/;ㆠ/b/
-    - xform/;ㄉ/t/
-    - xform/;ㄊ/th/
-    - xform/;ㄋ/n/
-    - xform/;ㄌ/l/
-    - xform/;ㄍ/k/
-    - xform/;ㄎ/kh/
-    - xform/;ㄏ/h/
-    - xform/;ㆣ/g/
-    - xform/;ㄫ/ng/
-    - xform/;ㄗ/ts/
-    - xform/;ㄘ/tsh/
-    - xform/;ㄙ/s/
-    - xform/;ㆡ/j/
-    - xform/;ㄐ/tsi/
-    - xform/;ㄑ/tshi/
-    - xform/;ㄒ/si/
-    - xform/;ㆢ/ji/
-    - xform/;ㄧ/i/
-    - xform/;ㄨ/u/
-    - xform/;ㄚ/a/
-    - xform/;ㆦ/oo/
-    - xform/;ㄜ/o/
-    - xform/;ㆤ/e/
-    - xform/;ㆬ/m/;
-    - xform/;ㆭ/ng/
-    - xform/;ㄞ/ai/
-    - xform/;ㄠ/au/
-    - xform/;ㆰ/am/
-    - xform/;ㆱ/om/
-    - xform/;ㄢ/an/
-    - xform/;ㄣ/n/
-    - xform/;ㄤ/ang/
-    - xform/;ㄥ/ong/
-    - xform/;ㆲ/ong/
-    - xform/;ｎ/nn/
+    # - xlit|1234567890|¹²³⁴⁵⁶⁷⁸⁹⁰|
+    - xlit|12357|ˉˋ˪ˊ˫|
+    - xform/4//
+    - xform/8/˙/
   preedit_format:
-    # - xform/'//
-    # 設定【按鍵】與「方音符號」的對映規則
-    - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657*|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．8|
     #------------------------------------------------------
+    # 【空白鍵】表輸入：聲調的調號為一（即：陰平調）
+    - xform/ /ˉ/
+    - xform/'/ /
+    #------------------------------------------------------
+    # 設定【按鍵】與「方音符號」的對映規則
+    - xlit|1qaz2wsxedcrfvtgbyhnujm8ik,9ol.0p;/-43657|ㄅㄆㄇㆠㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㆣㄫㆡㄗㄘㄙㄧㄨㆬㄚㆦㄜㆰㄞㆤㄠㆲㄢㄣㄤㆭｎˋ˪ˊ˫．|
+    #======================================================
+    # 拆韻母
+    #======================================================
+    - xform/ㆰ/ㄚㆬ/	    # am
+    - xform/ㄢ/ㄚㄣ/	    # an
+    - xform/ㄤ/ㄚㆭ/	    # ang
+    - xform/ㆲ/ㆦㆭ/	    # ong
+    - xform/ㄨㆭ/ㆦㆭ/	  
+    - xform/ㆬㆭ/ㄧㆦㆭ/
+    - xform/ㄧㆭ/ㄧㄜㆭ/
+    #======================================================:
+    # 聲母校調：ㆢㄧ ==> ㆡ 
+    #======================================================
+    - xform/ㆡㄧ/ㆢㄧ/
+    #======================================================
+    # 鼻音韻母
+    #======================================================
+    - xform/ㄧ(ㄧ|ｎ)/ㆪ/
+    - xform/ㄨ(ㄨ|ｎ)/ㆫ/
+    - xform/ㄚ(ㄚ|ｎ)/ㆩ/
+    - xform/ㆦ(ㆦ|ｎ)/ㆧ/
+    - xform/ㆤ(ㆤ|ｎ)/ㆥ/
+    - xform/ㄞ(ㄞ|ｎ)/ㆮ/
+    - xform/ㄠ(ㄠ|ｎ)/ㆯ/
+    #======================================================
+    # 韻母在「舒聲調」與「入聲調」的轉換規則
+    #======================================================
+    # 舒聲韻母尾 m 轉入聲 p ，使用方音符號ㆴ
+    # im ==> ip; am ==> ap; om ==> op
+    - xform/(ㄧ|ㄚ|ㆦ)(ㄅ|ㆬ)．/$1ㆴ/
+    # 舒聲韻母尾 n 轉入聲 t ，使用方音符號ㆵ
+    # in ==> it; un ==> ut; an ==> at; en ==> et
+    - xform/(ㄧ|ㄨ|ㄚ|ㆤ)(ㄉ|ㄣ)．/$1ㆵ/
+    # 舒聲韻母尾 ng 轉入聲 k ，使用方音符號ㆻ
+    # ang ==> ak; ong ==> ok; eng ==> ek
+    - xform/(ㄚ|ㆦ|ㄜ)(ㄍ|ㆭ)．/$1ㆻ/
+    # 韻母尾非為：p / t / k 其中之一 ，使用方音符號ㆷ
+    - xform/(ㄧ|ㄨ|ㄚ|ㆦ|ㄜ|ㆤ|ㄞ|ㄠ|ㆬ|ㆭ)．/$1ㆷ/
+    #======================================================
+    # 合韻母
+    #======================================================
+    - xform/ㄚㆬ/ㆰ/  # am
+    - xform/ㆦㆬ/ㆱ/	# om
+    - xform/ㄚㄣ/ㄢ/	# an
+    - xform/ㄚㆭ/ㄤ/	# ang
+    - xform/ㆦㆭ/ㆲ/	# ong
+    - xform/ㄜㆭ/ㄥ/  # eng
+    #======================================================
+    # 入聲調：使用「舒聲韻母」，推導「入聲韻母」
+    #======================================================
+    - xform/ㄅ．/ㆴ/
+    - xform/ㄉ．/ㆵ/
+    - xform/ㄍ．/ㆻ/
+    - xform/ㄏ．/ㆷ/
+    - xlit|1234567890|¹²³⁴⁵⁶⁷⁸⁹⁰|
 
 custom_phrase:
   dictionary: ''
@@ -315,19 +328,19 @@ recognizer:
 
 style:
   display_tray_icon: false
-  font_face: "Noto Sans TC, 思源黑體, Noto Serif TC, tshiuthau-oo-taigi, Fira-Sans"
-  font_point: 28
+  font_face: "Noto Serif TC, Noto Sans TC, 思源黑體, tshiuthau-oo-taigi, Fira-Sans"
+  font_point: 36
   fullscreen: false
   horizontal: false
   # horizontal: true
-  inline_preedit: false
-  layout:
-    border_width: 3
-    candidate_spacing: 5
-    hilite_padding: 2
-    hilite_spacing: 4
-    margin_x: 12
-    margin_y: 6
-    min_height: 0
-    min_width: 160
-    round_corner: 4
+  # inline_preedit: false
+  # layout:
+  #   border_width: 3
+  #   candidate_spacing: 5
+  #   hilite_padding: 2
+  #   hilite_spacing: 4
+  #   margin_x: 12
+  #   margin_y: 6
+  #   min_height: 0
+  #   min_width: 160
+  #   round_corner: 4
